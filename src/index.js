@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './css/index.css';
+import './fonts/LemonMilk/LemonMilk.otf';
+import './fonts/LemonMilk/LemonMilkbold.otf';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
