@@ -4,16 +4,13 @@
   transform: scale(0.25);
   cursor: pointer;
 }
-.animateit{
-  
-}
 
 .span1 {
   display: block;
   width: 100%;
   border-radius: 3px;
   height: 8px;
-  background: rgb(183, 185, 36);
+  background: rgb(245, 196, 112);
   transition: all 0.3s;
   position: relative;
 }

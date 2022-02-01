@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/elannvision.png";
-import styles from "../css/Header.module.css";
-import style from "../css/Hamburger.module.css";
+import Logo from "../../images/elannvision.png";
+import styles from "../../css/Header.module.css";
+import style from "../../css/Hamburger.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function Header() {
@@ -23,9 +23,9 @@ function Header() {
   ];
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-100">
+      <div className="fixed top-0 left-0 right-0 z-50">
         <div className="hidden lg:flex justify-between">
-          <div className="bg-gradient-to-b from-blue-100 to-transparent h-auto">
+          <div className="bg-gradient-to-b from-startblue to-transparent h-auto">
             <div className="imgsrc pl-4 inline-block py-2">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
@@ -33,14 +33,14 @@ function Header() {
             </div>
           </div>
           <span
-            className={`bg-gradient-to-b from-blue-100 to-transparent ${styles.stylit}`}
+            className={`bg-gradient-to-b from-startblue to-transparent ${styles.stylit}`}
           ></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className="hidden flex-row-reverse justify-between text-white list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5 bg-gradient-to-b from-blue-100 to-transparent">
+          <div className="hidden flex-row-reverse justify-between list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5 bg-gradient-to-b from-startblue to-transparent">
             {routes.reverse().map((route) => (
               <Link
                 to={route[1]}
-                className="cursor-pointer font-heading my-auto"
+                className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
               >
                 {route[0].toUpperCase()}
               </Link>
@@ -49,8 +49,8 @@ function Header() {
         </div>
         {/* Mobile part begins now */}
         <div className="w-full lg:hidden">
-          <div className="bg-gradient-to-b from-blue-100 to-transparent h-auto">
-            <div className="imgsrc pl-4 inline-block py-4">
+          <div className="bg-gradient-to-b from-startblue to-transparent h-auto">
+            <div className="imgsrc pl-4 inline-block py-2">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
               </Link>
@@ -73,23 +73,23 @@ function Header() {
         </div>
         {hamburger ? (
           <div
-            className={`fixed right-0 top-0 flex flex-col top-0 text-white right-0 lg:hidden z-2 content-end m-2 pt-7  ${style.animateit}`}
+            className={`fixed right-0 top-0 flex flex-col top-0 text-white right-0 lg:hidden z-2 content-end m-2 pt-8  ${style.animateit}`}
             style={{
               borderBottomLeftRadius: 10,
               borderTopLeftRadius: 10,
               borderTopRightRadius: 10,
               borderBottomRightRadius: 10,
-              border: "2px solid yellow",
-              background: "yellow",
+              border: "2px solid rgb(166,76,104)",
+              background: "rgb(166,76,104)",
             }}
             data-aos="fade-left"
             data-aos-duration="400"
           >
-            <div className="flex flex-col list-none mr-5 ml-2 w-200 mb-2">
+            <div className="flex flex-col list-none mr-3 ml-9 w-200 mb-3">
               {routes.reverse().map((route) => (
                 <Link
                   to={route[1]}
-                  className="cursor-pointer font-heading my-auto inline-block z-0 p-0.5"
+                  className="cursor-pointer font-heading font-light tracking-wider my-auto inline-block z-0 p-1.5 flex flex-row-reverse text-xs" 
                 >
                   {route[0].toUpperCase()}
                 </Link>
