@@ -1,0 +1,96 @@
+.img {
+  width: 15vw;
+  opacity: 0.8;
+}
+.active1 {
+  animation: flexit 0.8s ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.active2 {
+  animation: showit 0.8s ease-in-out;
+  animation-iteration-count: 1;
+  width: 5rem;
+  height: 1.25rem;
+  background: white;
+  animation-fill-mode: forwards;
+  /* z-index: 50; */
+}
+.chakra{
+  width: 140px;
+  opacity: 1;
+}
+.themeimg{
+  width: 100%;
+  z-index: 100;
+}
+.zorae{
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right:15vw;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.nonactive1 {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  /* z-index: 50; */
+}
+.nonactive2 {
+  width: 5rem;
+  height: 1.25rem;
+  background: white;
+  /* z-index: 50; */
+  margin: auto;
+  opacity: 0;
+}
+@keyframes flexit {
+  30% {
+    bottom: 10vh;
+    width: 100%;
+  }
+  60% {
+    z-index: 50;
+    position: absolute;
+    bottom: 30vh;
+    width: 100%;
+  }
+  90% {
+    position: absolute;
+    bottom: 35vh;
+    width: 100%;
+    z-index: 50;
+  }
+  100% {
+    position: absolute;
+    right: 0vw;
+    bottom: 46vh;
+    width: 100%;
+    z-index: 50;
+  }
+}
+@keyframes showit {
+  30% {
+    opacity: 0.2;
+    transform: rotate(30deg);
+    margin-left: 53vw;
+  }
+  60% {
+    opacity: 0.35;
+    transform: rotate(45deg);
+    margin-left: 63vw;
+  }
+  90% {
+    opacity: 0.6;
+    transform: rotate(60deg);
+    margin-left: 72vw;
+  }
+  100% {
+    opacity: 0.8;
+    transform: rotate(90deg);
+    margin-left: 92vw;
+    cursor: pointer;
+  }
+}

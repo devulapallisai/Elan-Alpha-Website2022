@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/elannvision.png";
+import Logo from "../../images/elannvision_wide.png";
 import styles from "../../css/Header.module.css";
 import style from "../../css/Hamburger.module.css";
 import AOS from "aos";
@@ -26,7 +26,7 @@ function Header() {
       <div className="fixed top-0 left-0 right-0 z-50">
         <div className="hidden lg:flex justify-between">
           <div className="bg-gradient-to-b from-startblue to-transparent h-auto">
-            <div className="imgsrc pl-4 inline-block py-2">
+            <div className="imgsrc pl-4 inline-block py-3">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
               </Link>
