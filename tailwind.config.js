@@ -11,6 +11,7 @@ module.exports = {
         startblue:'rgb(21,5,37)',
         gold:'#F5C470',
         headerwhite:'rgb(242,239,225)',
+        team:'rgb(53,15,62)',
       }
     },
   },

@@ -21,22 +21,24 @@ function Header() {
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
+  const path=window.location.pathname.split('/')[1];
+  const [color,setcolor]=useState('startblue');
   return (
     <>
       <div className="fixed top-0 left-0 right-0 z-50">
         <div className="hidden lg:flex justify-between">
-          <div className="bg-gradient-to-b from-startblue to-transparent h-auto">
-            <div className="imgsrc pl-4 inline-block py-3">
+          <div className={`bg-gradient-to-b from-${color} to-transparent h-auto`}>
+            <div className="imgsrc pl-6 inline-block py-3">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
               </Link>
             </div>
           </div>
           <span
-            className={`bg-gradient-to-b from-startblue to-transparent ${styles.stylit}`}
+            className={`bg-gradient-to-b from-${color} to-transparent ${styles.stylit}`}
           ></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className="hidden flex-row-reverse justify-between list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5 bg-gradient-to-b from-startblue to-transparent">
+          <div className={`hidden flex-row-reverse justify-between list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5 bg-gradient-to-b from-${color} to-transparent`}>
             {routes.reverse().map((route) => (
               <Link
                 to={route[1]}
@@ -49,7 +51,7 @@ function Header() {
         </div>
         {/* Mobile part begins now */}
         <div className="w-full lg:hidden">
-          <div className="bg-gradient-to-b from-startblue to-transparent h-auto">
+          <div className={`bg-gradient-to-b from-${color} to-transparent h-auto`}>
             <div className="imgsrc pl-4 inline-block py-2">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />

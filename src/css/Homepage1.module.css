@@ -3,12 +3,12 @@
   opacity: 0.8;
 }
 .active1 {
-  animation: flexit 0.8s ease-in-out;
+  animation: flexit 0.5s ease-in-out;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .active2 {
-  animation: showit 0.8s ease-in-out;
+  animation: showit 0.5s ease-in-out;
   animation-iteration-count: 1;
   width: 5rem;
   height: 1.25rem;

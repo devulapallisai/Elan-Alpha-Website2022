@@ -1,0 +1,37 @@
+.padit{
+    margin-top: 10vh;
+}
+@media screen and (max-height:900px) and (min-height:700px) {
+    .padit{
+        margin-top: 6.8vh;
+    }
+}
+@media screen and (max-height:700px) and (min-height:400px) {
+    .padit{
+        margin-top: 7.8vh;
+    }
+}
+@media screen and (min-width:900px) {
+    .padit{
+        margin-top: 12vh;
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    overflow: hidden;
+}
+.lanterns{
+
+}
+.lanterns img{
+    width: 70px;
+    height: 200px;
+}
+@media screen and (max-width:768px) {
+    .leftit{
+        transform: scale(0.5);
+    }
+}

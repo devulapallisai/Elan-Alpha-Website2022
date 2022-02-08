@@ -20,7 +20,7 @@ function Firstslide() {
       }}
     >
       {!chakra ? (
-        <div className="first">
+        <div className="first transition duration-800 ease-in-out">
           <div className="absolute bottom-0 w-full">
             <img
               src={Chakra}
@@ -29,16 +29,16 @@ function Firstslide() {
               onClick={() => setchakra((prev) => !prev)}
             />
           </div>
-          <div className="absolute top-12 left-0">
+          <div className="absolute top-12 left-0 fade-right-down">
             <img src={RightTop} alt="Image" className={styles.img} />
           </div>
-          <div className="absolute bottom-0 left-0">
+          <div className="absolute bottom-0 left-0 fade-right-up">
             <img src={LeftBot} alt="Image" className={styles.img} />
           </div>
-          <div className="absolute top-12 right-0">
+          <div className="absolute top-12 right-0 fade-left-down">
             <img src={LeftTop} alt="Image" className={styles.img} />
           </div>
-          <div className="absolute bottom-0 right-0">
+          <div className="absolute bottom-0 right-0 fade-left-up">
             <img src={RightBot} alt="Image" className={styles.img} />
           </div>
           <div className="absolute">
@@ -82,7 +82,7 @@ function Firstslide() {
         </>
       )}
       <div className={`${chakra ? styles.active1 : styles.nonactive1}`}>
-        <div className={`${chakra ? styles.active2 : styles.nonactive2}`}></div>
+        <div className={`${chakra ? styles.active2 : styles.nonactive2}`} onClick={()=>{setchakra(false)}}></div>
       </div>
     </div>
   );
