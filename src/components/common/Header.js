@@ -7,10 +7,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function Header() {
   const [hamburger, sethamburger] = useState(false);
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   const routes = [
     ["Schedule", "/"],
     ["Events", "/events"],
@@ -21,11 +17,26 @@ function Header() {
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
-  const path=window.location.pathname.split('/')[1];
-  const [color,setcolor]=useState('startblue');
+  const [color,setcolor]=useState('rgb(21,5,37)');
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  const path=window.location.pathname.split('/')[1].toString();
+  useEffect(()=>{
+    if(path=='team'){
+      setcolor('rgb(53,15,62)')
+    }
+    if(path=='contact'){
+      setcolor('red')
+    }
+    else{
+      setcolor('rgb(21,5,37)')
+    }
+  },[])
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-50">
+      <div className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`} style={{background:`linear-gradient(to bottom,${color} 45%,transparent)`}}>
         <div className="hidden lg:flex justify-between">
           <div className={`bg-gradient-to-b from-${color} to-transparent h-auto`}>
             <div className="imgsrc pl-6 inline-block py-3">

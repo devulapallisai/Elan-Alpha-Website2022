@@ -1,19 +1,19 @@
 .padit{
-    margin-top: 10vh;
+    padding-top: 4vh;
 }
 @media screen and (max-height:900px) and (min-height:700px) {
     .padit{
-        margin-top: 6.8vh;
+        padding-top: 4.8vh;
     }
 }
 @media screen and (max-height:700px) and (min-height:400px) {
     .padit{
-        margin-top: 7.8vh;
+        padding-top: 2.8vh;
     }
 }
 @media screen and (min-width:900px) {
     .padit{
-        margin-top: 12vh;
+        padding-top: 5.8vh;
     }
 }
 .box{
@@ -34,4 +34,17 @@
     .leftit{
         transform: scale(0.5);
     }
+}
+.borderitim{
+    padding: 15px;
+    border: 3.5px solid transparent;
+    border-image: url('../images/Goldenbox.png') 30 stretch;
+}
+.rightcard{
+    transform: scale(0.5);
+    transform-origin: top right;
+}
+.lefttcard{
+    transform: scale(0.5);
+    transform-origin: top left;
 }

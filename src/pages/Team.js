@@ -3,11 +3,12 @@ import styles from "../css/team.module.css";
 import Card from "../components/common/Card";
 import Man from "../images/man.jpg";
 import Lantern from "../images/Homepage/Lantern.png";
+import Goldenbox from "../images/Goldenbox.png";
 function Team() {
   return (
-    <div style={{ background: "#350F3E" }}>
+    <div className="bg-team">
       <div className={styles.padit}>
-        <h1 className="font-heading text-white text-5xl text-center p-3">
+        <h1 className="font-heading text-white text-5xl text-center pt-11">
           Team
         </h1>
         <br />
@@ -22,8 +23,8 @@ function Team() {
               <Card name="Krati Arela" position="Overall Head" image={Man} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
               <Card name="Krati Arela" position="Overall Head" image={Man} />
@@ -31,35 +32,50 @@ function Team() {
               <Card name="Krati Arela" position="Overall Head" image={Man} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
             </div>
             <br />
           </div>
-          <div className="md:hidden">
+          {/* Mobile Part begins */}
+          <div className="md:hidden overflow-hidden">
             <div className="grid grid-cols-1 mx-auto">
               <Card name="Krati Arela" position="Overall Head" image={Man} />
             </div>
-            <div className="flex flex-row justify-center" style={{transform:'scale(0.6)',padding:0,height:"inherit"}}>
-              <Card name="Krati Arela" position="Overall Head" image={Man}/>
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+            <div
+              className="flex flex-row justify-center overflow-x-hidden h-auto"
+              
+            >
+              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              </div>
+              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              </div>
             </div>
-            <div className="flex flex-row justify-center" style={{transform:'scale(0.6)',padding:0}}>
-              <Card name="Krati Arela" position="Overall Head" image={Man}/>
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+            <div
+              className="flex flex-row justify-center overflow-x-hidden h-auto"
+            >
+              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
+              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
             </div>
-            <div className="flex flex-row justify-center" style={{transform:'scale(0.6)',padding:0}}>
-              <Card name="Krati Arela" position="Overall Head" image={Man}/>
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+            <div
+              className="flex flex-row justify-center overflow-x-hidden h-auto"
+            >
+              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
+              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
             </div>
-            <div className="flex flex-row justify-center" style={{transform:'scale(0.6)',padding:0}}>
-              <Card name="Krati Arela" position="Overall Head" image={Man}/>
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+            <div
+              className="flex flex-row justify-center overflow-x-hidden h-auto"
+            >
+              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
+              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
             </div>
             <br />
           </div>
         </div>
-        <div className="ml-5 mr-5 md:ml-40 md:mr-40  border-2">
+        <br />
+        <div
+          className={`ml-5 mr-5 md:ml-40 md:mr-40 ${styles.borderitim}`}
+        >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
           deserunt adipisci facere eos, id incidunt voluptate cupiditate dolor
           officia laboriosam voluptas repellat mollitia repellendus explicabo
