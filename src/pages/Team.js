@@ -43,8 +43,7 @@ function Team() {
               <Card name="Krati Arela" position="Overall Head" image={Man} />
             </div>
             <div
-              className="flex flex-row justify-center overflow-x-hidden h-auto"
-              
+              className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
               </div>
@@ -52,19 +51,19 @@ function Team() {
               </div>
             </div>
             <div
-              className="flex flex-row justify-center overflow-x-hidden h-auto"
+              className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
               <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
             </div>
             <div
-              className="flex flex-row justify-center overflow-x-hidden h-auto"
+              className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
               <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
             </div>
             <div
-              className="flex flex-row justify-center overflow-x-hidden h-auto"
+              className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
               <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>

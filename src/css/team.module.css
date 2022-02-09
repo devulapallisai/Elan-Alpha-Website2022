@@ -16,6 +16,9 @@
         padding-top: 5.8vh;
     }
 }
+.heightfix{
+    height: 160px;
+}
 .box{
     width: 200px;
     height: 200px;

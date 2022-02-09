@@ -5,7 +5,7 @@ import styles from "../../css/team.module.css";
 import Goldenbox from '../../images/Goldenbox.png'
 function Card({name,position,image,type}) {
   return (
-    <div className={`m-4`}>
+    <div className={`m-6`}>
       <div className={styles.card} data-aos="flip-up">
         <div className={`${styles.box} d-flex justify-center mx-auto relative ${type}`}>
           <img src={image} alt="Image Here" />
