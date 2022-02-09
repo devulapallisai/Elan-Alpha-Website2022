@@ -5,7 +5,7 @@ import styles from "../../css/Header.module.css";
 import style from "../../css/Hamburger.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function Header() {
+function Header({path}) {
   const [hamburger, sethamburger] = useState(false);
   const routes = [
     ["Schedule", "/"],
@@ -17,28 +17,22 @@ function Header() {
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
-  const [color,setcolor]=useState('rgb(21,5,37)');
+  const [color,setcolor]=useState('');
+  const colors={
+    "team":"#350F3E",
+    "":"rgb(21,5,37)",
+    "contact":"red"
+  }
   useEffect(() => {
     AOS.init();
     AOS.refresh();
+    setcolor(colors[path])
   }, []);
-  const path=window.location.pathname.split('/')[1].toString();
-  useEffect(()=>{
-    if(path=='team'){
-      setcolor('rgb(53,15,62)')
-    }
-    if(path=='contact'){
-      setcolor('red')
-    }
-    else{
-      setcolor('rgb(21,5,37)')
-    }
-  },[])
   return (
     <>
-      <div className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`} style={{background:`linear-gradient(to bottom,${color} 45%,transparent)`}}>
+      <div className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`} style={{background:`linear-gradient(to bottom,${colors[`${path}`]} 45%,transparent)`}}>
         <div className="hidden lg:flex justify-between">
-          <div className={`bg-gradient-to-b from-${color} to-transparent h-auto`}>
+          <div className={`h-auto`}>
             <div className="imgsrc pl-6 inline-block py-3">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
@@ -46,10 +40,10 @@ function Header() {
             </div>
           </div>
           <span
-            className={`bg-gradient-to-b from-${color} to-transparent ${styles.stylit}`}
+            className={`${styles.stylit}`}
           ></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className={`hidden flex-row-reverse justify-between list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5 bg-gradient-to-b from-${color} to-transparent`}>
+          <div className={`hidden flex-row-reverse justify-between list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5`}>
             {routes.reverse().map((route) => (
               <Link
                 to={route[1]}
@@ -62,7 +56,7 @@ function Header() {
         </div>
         {/* Mobile part begins now */}
         <div className="w-full lg:hidden">
-          <div className={`bg-gradient-to-b from-${color} to-transparent h-auto`}>
+          <div className={`h-auto`}>
             <div className="imgsrc pl-4 inline-block py-2">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
@@ -86,7 +80,7 @@ function Header() {
         </div>
         {hamburger ? (
           <div
-            className={`fixed right-0 top-0 flex flex-col top-0 text-white right-0 lg:hidden z-2 content-end m-2 pt-8  ${style.animateit}`}
+            className={`fixed right-0 top-0 flex flex-col text-white lg:hidden z-2 content-end m-2 pt-8  ${style.animateit}`}
             style={{
               borderBottomLeftRadius: 10,
               borderTopLeftRadius: 10,
@@ -98,11 +92,11 @@ function Header() {
             data-aos="fade-left"
             data-aos-duration="400"
           >
-            <div className="flex flex-col list-none mr-3 ml-9 w-200 mb-3">
+            <div className="flex flex-col list-none mr-3 mt-2 ml-16 w-200 mb-3">
               {routes.reverse().map((route) => (
                 <Link
                   to={route[1]}
-                  className="cursor-pointer font-heading font-light tracking-wider my-auto inline-block z-0 p-1.5 flex flex-row-reverse text-xs" 
+                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse" 
                 >
                   {route[0].toUpperCase()}
                 </Link>

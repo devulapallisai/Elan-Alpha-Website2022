@@ -4,6 +4,7 @@ import Card from "../components/common/Card";
 import Man from "../images/man.jpg";
 import Lantern from "../images/Homepage/Lantern.png";
 import Goldenbox from "../images/Goldenbox.png";
+import Footer from "../components/common/Footer";
 function Team() {
   return (
     <div className="bg-team">
@@ -90,6 +91,7 @@ function Team() {
         </div>
         <br />
       </div>
+      <Footer/>
     </div>
   );
 }
