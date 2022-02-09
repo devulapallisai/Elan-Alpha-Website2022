@@ -1,53 +1,61 @@
-.padit{
-    padding-top: 4vh;
+.padit {
+  padding-top: 4vh;
 }
-@media screen and (max-height:900px) and (min-height:700px) {
-    .padit{
-        padding-top: 4.8vh;
-    }
+@media screen and (max-height: 900px) and (min-height: 700px) {
+  .padit {
+    padding-top: 4.8vh;
+  }
 }
-@media screen and (max-height:700px) and (min-height:400px) {
-    .padit{
-        padding-top: 2.8vh;
-    }
+@media screen and (max-height: 700px) and (min-height: 400px) {
+  .padit {
+    padding-top: 2.8vh;
+  }
 }
-@media screen and (min-width:900px) {
-    .padit{
-        padding-top: 5.8vh;
-    }
+@media screen and (min-width: 900px) {
+  .padit {
+    padding-top: 7.8vh;
+  }
 }
-.heightfix{
-    height: 160px;
+.heightfix {
+  height: 110px;
 }
-.box{
-    width: 200px;
-    height: 200px;
+.box {
+  width: 200px;
+  height: 200px;
 }
-.card{
-    overflow: hidden;
+.card {
+  overflow: hidden;
 }
-.lanterns{
+.lanterns {
+}
+/* .line {
+  position: absolute;
+  width: 485.49px;
+  height: 1.76px;
+  left: 99.14px;
+  top: 619.5px;
 
+  transform: rotate(-90.21deg);
+} */
+.lanterns img {
+  width: 70px;
+  height: 200px;
 }
-.lanterns img{
-    width: 70px;
-    height: 200px;
-}
-@media screen and (max-width:768px) {
-    .leftit{
-        transform: scale(0.5);
-    }
-}
-.borderitim{
-    padding: 15px;
-    border: 3.5px solid transparent;
-    border-image: url('../images/Goldenbox.png') 30 stretch;
-}
-.rightcard{
+@media screen and (max-width: 768px) {
+  .leftit {
     transform: scale(0.5);
-    transform-origin: top right;
+  }
 }
-.lefttcard{
-    transform: scale(0.5);
-    transform-origin: top left;
+.borderitim {
+  padding: 15px;
+  border: 3.5px solid transparent;
+  border-image: url("../images/Goldenbox.png") 30 stretch;
+}
+.rightcard {
+  transform: scale(0.35);
+  transform-origin: top right;
+}
+.lefttcard {
+  transform: scale(0.35);
+  transform-origin: top left;
 }

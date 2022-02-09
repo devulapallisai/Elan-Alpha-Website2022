@@ -17,11 +17,12 @@ function Header({path}) {
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
-  const [color,setcolor]=useState('');
+  const [color,setcolor]=useState('rgb(21,5,37)');
   const colors={
     "team":"#350F3E",
     "":"rgb(21,5,37)",
-    "contact":"red"
+    "contact":"red",
+    "events":"#80295D",
   }
   useEffect(() => {
     AOS.init();

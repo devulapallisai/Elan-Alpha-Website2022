@@ -8,8 +8,10 @@ import Footer from "../components/common/Footer";
 function Team() {
   return (
     <div className="bg-team">
+      {/* <div className={styles.line}>
+      </div> */}
       <div className={styles.padit}>
-        <h1 className="font-heading text-white text-5xl text-center pt-11">
+        <h1 className="font-heading text-white text-4xl md:text-6xl text-center pt-20">
           Team
         </h1>
         <br />
@@ -24,8 +26,18 @@ function Team() {
               <Card name="Krati Arela" position="Overall Head" image={Man} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
-              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
-              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              <Card
+                name="Krati Arela"
+                position="Overall Head"
+                image={Man}
+                type="mr-2"
+              />
+              <Card
+                name="Krati Arela"
+                position="Overall Head"
+                image={Man}
+                type="mr-2"
+              />
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
               <Card name="Krati Arela" position="Overall Head" image={Man} />
@@ -33,49 +45,111 @@ function Team() {
               <Card name="Krati Arela" position="Overall Head" image={Man} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
-              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
-              <Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              <Card
+                name="Krati Arela"
+                position="Overall Head"
+                image={Man}
+                type="mr-2"
+              />
+              <Card
+                name="Krati Arela"
+                position="Overall Head"
+                image={Man}
+                type="mr-2"
+              />
             </div>
             <br />
           </div>
           {/* Mobile Part begins */}
           <div className="md:hidden overflow-hidden">
-            <div className="grid grid-cols-1 mx-auto">
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+            <div className="grid grid-cols-1 mx-auto transform">
+              <Card name="Krati Arela" position="Overall Head" image={Man}/>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
-              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              <div className={styles.rightcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
               </div>
-              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/>
+              <div className={styles.lefttcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
-              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
-              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
+              <div className={styles.rightcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
+              </div>
+              <div className={styles.lefttcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
+              </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
-              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
-              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
+              <div className={styles.rightcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
+              </div>
+              <div className={styles.lefttcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
+              </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
-              <div className={styles.rightcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
-              <div className={styles.lefttcard}><Card name="Krati Arela" position="Overall Head" image={Man} type="mr-2"/></div>
+              <div className={styles.rightcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
+              </div>
+              <div className={styles.lefttcard}>
+                <Card
+                  name="Krati Arela"
+                  position="Overall Head"
+                  image={Man}
+                  type="mr-2"
+                />
+              </div>
             </div>
             <br />
           </div>
         </div>
         <br />
-        <div
-          className={`ml-5 mr-5 md:ml-40 md:mr-40 ${styles.borderitim}`}
-        >
+        <div className={`ml-5 mr-5 md:ml-40 md:mr-40 ${styles.borderitim}`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
           deserunt adipisci facere eos, id incidunt voluptate cupiditate dolor
           officia laboriosam voluptas repellat mollitia repellendus explicabo
@@ -91,7 +165,9 @@ function Team() {
         </div>
         <br />
       </div>
-      <Footer/>
+      <div className="container mx-auto">
+        <Footer />
+      </div>
     </div>
   );
 }
