@@ -1,17 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../css/team.module.css";
 import Card from "../components/common/Card";
 import Man from "../images/man.jpg";
 import Lantern from "../images/Homepage/Lantern.png";
-import Goldenbox from "../images/Goldenbox.png";
+// import Goldenbox from "../images/Goldenbox.png";
 import Footer from "../components/common/Footer";
 function Team() {
+  const [scroll,setscroll]=useState(false);
+  useEffect(()=>{
+    window.addEventListener("scroll",()=>{
+      if(window.scrollY>window.innerHeight/15){
+        setscroll(true)
+      }
+      else{
+        setscroll(false)
+      }
+    })
+  },[])
   return (
     <div className="bg-team">
-      {/* <div className={styles.line}>
-      </div> */}
+      <div className={ `fixed top-28 md:top-36 left-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+        <img src={Lantern} alt="Img" className={styles.widthis}/>
+      </div>
+      <div className={`fixed top-14 md:top-24 left-8 md:left-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+        <img src={Lantern} alt="Img" className={styles.widthis}/>
+      </div>
+      <div className={ `fixed top-28 md:top-36 right-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+        <img src={Lantern} alt="Img" className={styles.widthis}/>
+      </div>
+      <div className={`fixed top-14 md:top-24 right-8 md:right-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+        <img src={Lantern} alt="Img" className={styles.widthis}/>
+      </div>
       <div className={styles.padit}>
-        <h1 className="font-heading text-white text-4xl md:text-6xl text-center pt-20">
+        <h1 className="font-heading text-white text-4xl md:text-6xl text-center pt-12">
           Team
         </h1>
         <br />
@@ -63,7 +84,9 @@ function Team() {
           {/* Mobile Part begins */}
           <div className="md:hidden overflow-hidden">
             <div className="grid grid-cols-1 mx-auto transform">
+              <div className={styles.initialcardop}>
               <Card name="Krati Arela" position="Overall Head" image={Man}/>
+              </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
