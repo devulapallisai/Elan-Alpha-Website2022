@@ -46,12 +46,20 @@
 }
 .widthis {
   width: 50px;
-  height: 200px;
+  height: 360px;
+}
+.leftmost{
+  top:-5.5rem;
+}
+@media screen and (max-height:1000px) and (max-width:768px) {
+  .leftmost{
+    top:-2rem;
+  }
 }
 @media screen and (max-width: 540px) {
   .widthis {
     width: 20px;
-    height: 100px;
+    height: 160px;
   }
 }
 .initialcardop {

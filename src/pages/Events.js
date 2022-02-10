@@ -15,7 +15,7 @@ function Events() {
         </h1>
         <br />
         <div className="hidden md:block">
-        <div className="container mx-auto grid md:grid-cols-11 mx-auto  ">
+        <div className="container mx-auto grid md:grid-cols-11">
           
             <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" button={true} image={Zakir} buttonText="PROSHOWS" />
             <img src={line} alt="image" className='my-auto mx-auto col-span-1 hidden md:block' ></img>

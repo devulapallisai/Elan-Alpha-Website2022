@@ -13,7 +13,7 @@ module.exports = {
         headerwhite:'rgb(242,239,225)',
         team:'rgb(53,15,62)',
         events: '#80295D',
-      }
+      },
     },
   },
   plugins: [],

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "../css/team.module.css";
 import Card from "../components/common/Card";
 import Man from "../images/man.jpg";
-import Lantern from "../images/Homepage/Lantern.png";
+import Lantern from "../images/Homepage/Lanterntop.png";
 // import Goldenbox from "../images/Goldenbox.png";
 import Footer from "../components/common/Footer";
 function Team() {
@@ -19,16 +19,16 @@ function Team() {
   },[])
   return (
     <div className="bg-team">
-      <div className={ `fixed top-28 md:top-36 left-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+      <div className={ `fixed top-8 left-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
-      <div className={`fixed top-14 md:top-24 left-8 md:left-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+      <div className={`fixed left-8 md:left-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75 ${styles.leftmost}`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
-      <div className={ `fixed top-28 md:top-36 right-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+      <div className={ `fixed top-8 right-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
-      <div className={`fixed top-14 md:top-24 right-8 md:right-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
+      <div className={`fixed right-8 md:right-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75 ${styles.leftmost}`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
       <div className={styles.padit}>
