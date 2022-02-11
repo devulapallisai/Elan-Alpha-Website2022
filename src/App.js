@@ -13,6 +13,7 @@ import Nomatch from './pages/Nomatch';
 import Layout from './components/Layout/Layout';
 import Competitions from './pages/Competitions';
 import Events from './pages/Events';
+import ProshowList from './pages/ProshowList'
 library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         <Route path="/socialcause" element={<SocialCause/>}/>
         <Route path="/competitions" element={<Competitions/>}/>
         <Route path="/events" element={<Events/>}/>
+        <Route path="/proshowlist" element={<ProshowList />}/>
+        <Route path="/schedule" element={<Schedule />}/>
         <Route path="*" element={<Nomatch/>}/>
       </Routes>
     </Router>

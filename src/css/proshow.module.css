@@ -1,0 +1,18 @@
+*{
+    color: white;
+}
+
+.border{
+    border: 40px solid transparent;
+    border-image: url('../images/proshows/GoldenBox.png') 100 ;
+}
+.imageBox{
+    max-height: 300px;
+    width: 300px;
+}
+.textBox{
+    display: flex;
+    color : white;
+    justify-content: center;
+    align-items: center;
+}
