@@ -13,11 +13,11 @@ function Card({ image, text, type, button,buttonText }) {
                   
                     <img className={styles.imageBox} src={image} alt= "image"></img>
                
-                    <div className={styles.textBox}>    
+                    <div className={`text-white ${styles.textBox}`}>    
                     {text}
                     </div>
 
-                    <button className={`${styles.button} font-text mt-3`}>{buttonText}</button>
+                    <button className={`${styles.button} font-text mt-3 text-white`}>{buttonText}</button>
                 </div>
                 
             </div>
