@@ -1,6 +1,3 @@
-/* *{
-    color: white;
-} */
 .padit{
     padding-top: 4vh;
 }
@@ -35,7 +32,7 @@
    
 }
 .imageBox{
-    max-height: 300px;
+    min-height: 300px;
     width: 100%;
 }
 .textBox{

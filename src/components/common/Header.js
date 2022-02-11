@@ -35,7 +35,7 @@ function Header({ path }) {
       <div className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`} style={{ background: `linear-gradient(to bottom,${colors[`${path}`]} 45%,transparent)` }}>
         <div className="hidden lg:flex justify-between">
           <div className={`h-auto`}>
-            <div className="imgsrc pl-6 inline-block py-3">
+            <div className="imgsrc pl-6 inline-block py-2">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
               </Link>
@@ -45,7 +45,7 @@ function Header({ path }) {
             className={`${styles.stylit}`}
           ></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className={`hidden flex-row-reverse justify-between list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5`}>
+          <div className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex pr-5`}>
             {routes.reverse().map((route) => (
               <Link
                 to={route[1]}
