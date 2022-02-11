@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -14,6 +15,9 @@ module.exports = {
         team:'rgb(53,15,62)',
         events: '#80295D',
         gold : '#FFD700',
+      },
+      screens: {
+        ...defaultTheme.screens,
       },
     },
   },

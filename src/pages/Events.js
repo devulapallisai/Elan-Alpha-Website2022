@@ -8,7 +8,7 @@ import Footer from "../components/common/Footer";
 
 function Events() {
   return (
-    <div className="Events  bg-events" >
+    <div className="Events  bg-events text-white" >
       <div className={styles.padit}>
         <h1 className="font-heading text-white text-5xl text-center pt-11">
           Events

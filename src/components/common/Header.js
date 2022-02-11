@@ -5,7 +5,7 @@ import styles from "../../css/Header.module.css";
 import style from "../../css/Hamburger.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function Header({path}) {
+function Header({ path }) {
   const [hamburger, sethamburger] = useState(false);
   const routes = [
     ["Schedule", "/"],
@@ -17,12 +17,13 @@ function Header({path}) {
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
-  const [color,setcolor]=useState('rgb(21,5,37)');
-  const colors={
-    "team":"#350F3E",
-    "":"rgb(21,5,37)",
-    "contact":"red",
-    "events":"#80295D",
+  const [color, setcolor] = useState('rgb(21,5,37)');
+  const colors = {
+    "team": "#350F3E",
+    "": "rgb(21,5,37)",
+    "contact": "red",
+    "events": "#80295D",
+    "sponsors": "#CD846C",
   }
   useEffect(() => {
     AOS.init();
@@ -31,10 +32,10 @@ function Header({path}) {
   }, []);
   return (
     <>
-      <div className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`} style={{background:`linear-gradient(to bottom,${colors[`${path}`]} 45%,transparent)`}}>
+      <div className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`} style={{ background: `linear-gradient(to bottom,${colors[`${path}`]} 45%,transparent)` }}>
         <div className="hidden lg:flex justify-between">
           <div className={`h-auto`}>
-            <div className="imgsrc pl-6 inline-block py-3">
+            <div className="imgsrc pl-6 inline-block py-2">
               <Link to="/">
                 <img src={Logo} className={`${styles.logo}`} alt="Logo" />
               </Link>
@@ -44,7 +45,7 @@ function Header({path}) {
             className={`${styles.stylit}`}
           ></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className={`hidden flex-row-reverse justify-between list-none lg:w-5/6 xl:w-3/4 lg:flex pr-5`}>
+          <div className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex pr-5`}>
             {routes.reverse().map((route) => (
               <Link
                 to={route[1]}
@@ -97,7 +98,7 @@ function Header({path}) {
               {routes.reverse().map((route) => (
                 <Link
                   to={route[1]}
-                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse" 
+                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
                 >
                   {route[0].toUpperCase()}
                 </Link>
