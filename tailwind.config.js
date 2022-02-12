@@ -15,6 +15,8 @@ module.exports = {
         team:'rgb(53,15,62)',
         events: '#80295D',
         gold : '#FFD700',
+        proshows : '#622980',
+        competitions : '#1E0735'
       },
       screens: {
         ...defaultTheme.screens,

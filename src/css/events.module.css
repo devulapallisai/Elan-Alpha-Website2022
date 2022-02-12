@@ -42,3 +42,10 @@
     display: flex;
     margin-top: 2%;
 }
+#Culti{
+    font-size: xx-large;
+    background:  rgba(196, 196, 196, 0.22);
+}
+#Techy{
+    font-size: xx-large;
+}

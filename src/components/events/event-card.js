@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from "../../css/events.module.css";
 
 

@@ -6,7 +6,7 @@ function ProshowList() {
   return (
     <div className="relative Proshow flex justify-center items-center h-screen bg-events">
         <div className=" relative container mx-auto flex justify-center items-center ">
-            <Card image= {Zakir} description="dsndkjvh jfknefvk erenkvsdflnfkajnfjsdnvkdjsnvkjdvnkjdfvnjkdfsvkdfnvkjdfnvjkdfnvkjdfbnvjkdfj djfkvdkfvhdfkvhdfkvhdkvhdjv dkfhv dkjfv hdkjfhvkdfhv jkdf hvdkfh vdf vdf hvjkdfh vdf v hdfv df vdfv khdfvh dfkvhdkfvh dfkv hdkf vhdkf vhkdfhvkdfhvdkfhvkdfh vdkf vkdf hvkdf vhkdfhvkjdhvdjkvhs "  />
+            <Card image= {Zakir} description="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image.  "  />
         </div>
         
     </div>

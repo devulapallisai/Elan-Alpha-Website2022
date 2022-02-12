@@ -24,6 +24,7 @@ function Header({ path }) {
     "contact": "red",
     "events": "#80295D",
     "sponsors": "#CD846C",
+    "competitions" : '#1E0735',
   }
   useEffect(() => {
     AOS.init();
