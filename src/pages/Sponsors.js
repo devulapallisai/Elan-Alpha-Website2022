@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../css/sponsors.module.css";
-import Halfchakra from '../images/Homepage/Halfchakra.png'
+import Halfchakra from '../images/SocialCause/Halfchakra.png'
 import useWindowDimensions from '../hooks/useWindowDimensions'
 function Sponsors() {
   let {width,height}=useWindowDimensions()

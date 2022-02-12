@@ -21,12 +21,11 @@ function Header({ path }) {
   const colors = {
     "team": "#350F3E",
     "": "rgb(21,5,37)",
-    "contact": "red",
     "events": "#80295D",
     "sponsors": "#CD846C",
-    "competitions" : '#1E0735',
-    "contact" : '#F5C470',
-    "socialcause" : '#A64C68',
+    "competitions": '#1E0735',
+    "contact": '#F5C470',
+    "socialcause": '#A64C68',
   }
   useEffect(() => {
     AOS.init();

@@ -10,10 +10,10 @@ function Competitions() {
   return (
     <div id="Comp" className="Competitions text-white" style={{ background: "#1E0735" }} >
       <div className={styles.padit}>
-        <h1 className="font-heading text-white text-5xl text-center pt-11">
+        <h1 className="font-heading text-white text-4xl md:text-5xl text-center pt-11">
           COMPETITIONS
         </h1>
-        <div class="flex justify-center align-center m-5">
+        <div className="flex justify-center align-center m-5">
           <button id="Culti" className={`border-4 border-white py-3 px-5 font-text `} style={{ background: "rgba(196, 196, 196, 0.22)" }} onClick={myFunction1}>Culti</button>
           <button id="Techy" className={`border-4 border-white py-3 px-5 font-text `} style={{ background: "none" }} onClick={myFunction2}>Techy</button>
         </div>

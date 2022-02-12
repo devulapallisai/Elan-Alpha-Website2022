@@ -2,6 +2,6 @@
     background: #CD846C;
 }
 .flipimageit{
-    transform: scaleY(-1);
+    /* transform: scaleY(-1); */
     margin: auto;
 }
