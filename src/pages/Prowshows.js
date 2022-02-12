@@ -18,7 +18,7 @@ function Proshows() {
                     <div className="container mx-auto grid md:grid-cols-11">
 
                         <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="PROSHOWS" />
-                        <img src={line} alt="image" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
+                        <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
 
                         <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="INFORMAL EVENTS" />
 
@@ -26,7 +26,7 @@ function Proshows() {
                     <div className="container mx-auto grid md:grid-cols-11">
 
                         <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="PROSHOWS" />
-                        <img src={line} alt="image" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
+                        <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
 
                         <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="INFORMAL EVENTS" />
 
@@ -37,16 +37,16 @@ function Proshows() {
                     <div className="grid grid-cols-1 mx-auto">
                         <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="PROSHOW" />
                     </div>
-                    <img src={lineHz} alt="image" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                    <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
                     <div className="grid grid-cols-1 mx-auto">
                         <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="INFORMAL EVENTS" />
                     </div>
-                    <img src={lineHz} alt="image" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                    <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
                     <div className="grid grid-cols-1 mx-auto">
                         <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="WORKSHOPS" />
 
                     </div>
-                    <img src={lineHz} alt="image" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                    <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
                     <div className="grid grid-cols-1 mx-auto">
                         <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="WORKSHOPS" />
 

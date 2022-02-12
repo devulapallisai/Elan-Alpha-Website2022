@@ -25,6 +25,8 @@ function Header({ path }) {
     "events": "#80295D",
     "sponsors": "#CD846C",
     "competitions" : '#1E0735',
+    "contact" : '#F5C470',
+    "socialcause" : '#A64C68',
   }
   useEffect(() => {
     AOS.init();
