@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../images/elannvision_wide.png";
 import styles from "../../css/Header.module.css";
 import style from "../../css/Hamburger.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function Header({ path }) {
+function Header({ path,block }) {
   const [hamburger, sethamburger] = useState(false);
   const routes = [
     ["Schedule", "/"],
@@ -23,7 +23,7 @@ function Header({ path }) {
     "": "rgb(21,5,37)",
     "events": "#80295D",
     "sponsors": "#CD846C",
-    "competitions": '#1E0735',
+    "competitions": block==='culti'?'#1E0735':'#943066',
     "contact": '#F5C470',
     "socialcause": '#A64C68',
   }

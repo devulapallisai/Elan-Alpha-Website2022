@@ -1,7 +1,7 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Schedule from './components/Schedule';
 import Team from './pages/Team';
@@ -19,16 +19,17 @@ import Proshows from './pages/Prowshows';
 library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
+  const [block,setblock]=useState('culti');
   return (
     <Router>
-      <Layout/>
+      <Layout block={block}/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/team" element={<Team/>}/>
         <Route path="/sponsors" element={<Sponsors/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/socialcause" element={<SocialCause/>}/>
-        <Route path="/competitions" element={<Competitions/>}/>
+        <Route path="/competitions" element={<Competitions block={block} setblock={setblock}/>}/>
         <Route path="/events" element={<Events/>}/>
         <Route path="/proshowlist" element={<ProshowList />}/>
         <Route path="/proshows" element={<Proshows />}/>
