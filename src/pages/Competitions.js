@@ -15,8 +15,8 @@ function Competitions({block,setblock}) {
           </h1>
           <br />
           <div className="flex justify-center align-center m-5">
-            <button id="Culti" className={`border-2 border-white py-3 px-5 font-text text-xl md:text-3xl ${block === 'culti' ? 'bg-compButton' : 'none'}`} style={{ background: "rgba(196, 196, 196, 0.22)" }} onClick={() => setblock('culti')}>Culti</button>
-            <button id="Techy" className={`border-2 border-white py-3 text-xl md:text-3xl px-5 font-text ${block === 'techy' ? 'bg-compButton' : 'none'}`} style={{ background: "none" }} onClick={() => setblock('techy')}>Techy</button>
+            <button id="Culti" className={`border-2 border-white py-3 px-5 font-text text-xl md:text-3xl ${block === 'culti' ? 'bg-compButton' : 'none'}`} onClick={() => setblock('culti')}>Culti</button>
+              <button id="Techy" className={`border-2 border-white py-3 text-xl md:text-3xl px-5 font-text none  ${block === 'techy' ? 'bg-compButton' : 'none'}`}  onClick={() => setblock('techy')}>Techy</button>
           </div>
           {block === 'culti' ? (
             <div id="CultiBlocks">
