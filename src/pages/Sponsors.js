@@ -6,7 +6,7 @@ import Contactsection from "../components/sponsors/contactsection";
 function Sponsors() {
   let {width,height}=useWindowDimensions()
   return (
-    <div className={`${styles.colorit}`}>
+    <div className={`${styles.colorit} overflow-x-hidden`}>
       <div className={`relative ${styles.colorit}`}>
         <div className={`container z-10 mx-auto w-5/6 lg:w-3/4  ${styles.resizeit}`} style={{width:width<300?"100vw":''}}>
           <img src={Halfchakra} alt="" className={styles.flipimageit} style={{filter:'brightness(150%)'}} />
