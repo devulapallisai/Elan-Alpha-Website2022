@@ -5,14 +5,14 @@ import styles from "../../css/events.module.css";
 
 
 function Card({ image, text, type, button,buttonText }) {
-    if (button == true) {
+    if (button === true) {
 
         return (
             <div className={` ${type}`}>
 
-                <div className={`${styles.box}   ${styles.border}`}>
+                <div className={` ${styles.border}`}>
                   
-                    <img className={styles.imageBox} src={image} alt= "image"></img>
+                    <img className={styles.imageBox} src={image} alt= "imag"/>
                
                     <div className={`text-white ${styles.textBox}`}>    
                     {text}
@@ -28,9 +28,9 @@ function Card({ image, text, type, button,buttonText }) {
         return (
             <div className={` ${type}`}>
 
-            <div className={`${styles.box}   ${styles.border}`}>
+            <div className={` ${styles.border}`}>
               
-                <img className={styles.imageBox} src={image} alt= "image"></img>
+                <img className={styles.imageBox} src={image} alt= "imag"/>
            
                 <div className={styles.textBox}>    
                 {text}
