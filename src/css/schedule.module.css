@@ -1,6 +1,6 @@
 .border{
   border-radius: 25px;
-  border: 80px solid transparent;
+  border: 70px solid transparent;
   border-image: url("../images/Schedule.png") 400;
 }
 .borderM{
