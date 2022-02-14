@@ -12,7 +12,7 @@ function Layout({block}) {
       <Outlet />
       {sched?(
         <div className="w-screen h-screen z-50 text-white fixed">
-          <Schedule/>
+          <Schedule setsched={usesched}/>
         </div>
       ):''}
     </>

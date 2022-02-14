@@ -1,16 +1,24 @@
 import React from 'react';
 import styles from '../css/schedule.module.css';
-function Schedule() {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUnlink } from '@fortawesome/free-solid-svg-icons'
+function Schedule({setsched}) {
   return (
-  <div className='h-screen items-center justify-center flex'>
-    <div className={`grid grid-cols-4 grid-rows-5  gap-x-7 p-5 pt-0 rounded-xl gap-y-2 bg-[#F2EFE1] ${styles.border}`}>
+    <>
+  <div className=' h-screen items-center justify-center flex'>
+    <div className={`grid grid-cols-4 cursor-pointer font-heading grid-rows-5  gap-x-7 p-5 pt-0 rounded-xl gap-y-2 bg-[#F2EFE1] ${styles.border}`}>
       <h3 className='text-black text-center col-span-4'>SCHEDULE</h3>
       <h4 className='text-black col-span-1'>XX MARCH</h4>
       <h4 className='text-black col-span-1'>XX MARCH</h4>
       <h4 className='text-black col-span-1'>XX MARCH</h4>
       <h4 className='text-black col-span-1'>XX MARCH</h4>
     </div>
+    <div className=' text-black' onClick={()=>setsched(false)}> 
+  <FontAwesomeIcon icon={faUnlink} className='bg-black'></FontAwesomeIcon>
   </div>
+  </div>
+  
+ </>
   );
 }
 
