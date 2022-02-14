@@ -34,7 +34,6 @@ function App() {
         <Route path="/proshowlist" element={<ProshowList />}/>
         <Route path="/proshows" element={<Proshows />}/>
         <Route path="/infi" element={<Infi />}/>
-        <Route path="/schedule" element={<Schedule />}/>
         <Route path="*" element={<Nomatch/>}/>
       </Routes>
     </Router>

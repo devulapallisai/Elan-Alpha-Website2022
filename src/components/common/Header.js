@@ -5,10 +5,10 @@ import styles from "../../css/Header.module.css";
 import style from "../../css/Hamburger.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function Header({ path,block }) {
+function Header({ path, block, sched, setsched }) {
   const [hamburger, sethamburger] = useState(false);
   const routes = [
-    ["Schedule", "/"],
+    // ["Schedule", "/"],
     ["Events", "/events"],
     ["Competitions", "/competitions"],
     ["CA portal", "http://ca.elan.org.in"],
@@ -23,7 +23,7 @@ function Header({ path,block }) {
     "": "rgb(21,5,37)",
     "events": "#80295D",
     "sponsors": "#CD846C",
-    "competitions": block==='culti'?'#1E0735':'#943066',
+    "competitions": block === 'culti' ? '#1E0735' : '#943066',
     "contact": '#F5C470',
     "socialcause": '#A64C68',
   }
@@ -47,7 +47,7 @@ function Header({ path,block }) {
             className={`${styles.stylit}`}
           ></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex pr-5`}>
+          <div className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex pr-5`}>   
             {routes.reverse().map((route) => (
               <Link
                 to={route[1]}
@@ -56,6 +56,10 @@ function Header({ path,block }) {
                 {route[0].toUpperCase()}
               </Link>
             ))}
+            <span
+              className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`} onClick={()=>setsched(true)}
+            >Schedule
+            </span>
           </div>
         </div>
         {/* Mobile part begins now */}
