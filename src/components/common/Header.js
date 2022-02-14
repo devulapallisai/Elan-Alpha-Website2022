@@ -101,10 +101,16 @@ function Header({ path, block, sched, setsched }) {
             data-aos-duration="400"
           >
             <div className="flex flex-col list-none mr-3 mt-2 ml-16 w-200 mb-3">
+            <div
+                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse" onClick={()=>
+                    {setsched(true);sethamburger(false)}}
+                >
+                  Schedule
+                </div>
               {routes.reverse().map((route) => (
                 <Link
                   to={route[1]}
-                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
+                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse" onClick={()=>sethamburger(false)}
                 >
                   {route[0].toUpperCase()}
                 </Link>
