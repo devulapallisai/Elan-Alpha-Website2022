@@ -8,10 +8,10 @@ function SocialCause() {
   return ( 
   <div className={`${styles.colorit}`}>
   <div className={`relative flex flex-col ${styles.colorit}`}>
-    <div className={`absolute mx-5 lg:mx-40 container z-1 w-5/6 lg:w-3/4  ${styles.resizeit}`}>
+    <div className={`absolute mx-5  lg:mx-40 container z-1 w-5/6 lg:w-3/4  ${styles.resizeit}`}>
       <img src={Halfchakra} alt="" className={styles.flipimageit} />
     </div>
-    <div className='relative w-1/2 z-3 mx-auto '>
+    <div className='relative w-1/2 z-3 mx-auto mt-12 '>
       <img  src = {Hausla} alt=""/>
     </div>
     <p className=' my-10 mx-auto text-[0.1em] md:text-sm w-2/3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
