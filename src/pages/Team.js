@@ -22,13 +22,13 @@ function Team() {
       <div className={ `fixed top-8 left-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
-      <div className={`fixed left-8 md:left-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75 ${styles.leftmost}`}>
+      <div className={`fixed left-8 xs:left-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75 ${styles.leftmost}`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
       <div className={ `fixed top-8 right-2 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
-      <div className={`fixed right-8 md:right-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75 ${styles.leftmost}`}>
+      <div className={`fixed right-8 xs:right-16 ${scroll?'opacity-100':'opacity-50'} transition-opacity duration-500 ease-in-out delay-75 ${styles.leftmost}`}>
         <img src={Lantern} alt="Img" className={styles.widthis}/>
       </div>
       <div className={styles.padit}>
