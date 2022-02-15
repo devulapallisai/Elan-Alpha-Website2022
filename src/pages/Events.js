@@ -49,7 +49,9 @@ function Events() {
           </div>
         </div>
       </div>
+      <div  className='container mx-auto'>
       <Footer />
+      </div>
     </div >
 
 

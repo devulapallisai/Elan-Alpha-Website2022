@@ -32,7 +32,7 @@ function Footer() {
           {routes.reverse().map((route) => (
             <Link
               to={route[1]}
-              className={`cursor-pointer font-bold text-2xl font-text text-headerwhite my-auto mx-4`}
+              className={`cursor-pointer font-bold text-2xl font-text text-headerwhite my-auto mx-2 lg:mx-4`}
             >
               {route[0]}
             </Link>
