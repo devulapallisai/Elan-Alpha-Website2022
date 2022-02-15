@@ -1,0 +1,8 @@
+.border{
+    border-radius: 25px;
+    border: 50px solid transparent;
+    border-image: url("../images/Box.png") 250;
+  }
+  .bg{
+      background-image: url("../images/pattern1.png");
+  }

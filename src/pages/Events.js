@@ -10,12 +10,12 @@ function Events() {
   return (
     <div className="Events  bg-events text-white" >
       <div className={styles.padit}>
-        <h1 className="font-heading text-white text-5xl text-center pt-11">
+      <h1 className="font-heading text-white text-4xl md:text-6xl text-center pt-11">
           EVENTS
         </h1>
         <br />
         <div className="hidden md:block">
-          <div className="container mx-auto grid md:grid-cols-11">
+        <div className={`container mx-auto grid md:grid-cols-11 mt-10`}>
 
             <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" button={true} image={Zakir} buttonText="PROSHOWS" />
             <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
@@ -38,11 +38,11 @@ function Events() {
           <div className="grid grid-cols-1 mx-auto">
             <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" button={true} image={Zakir} buttonText="PROSHOW" />
           </div>
-          <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+          <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
           <div className="grid grid-cols-1 mx-auto">
             <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" button={true} image={Zakir} buttonText="INFORMAL EVENTS" />
           </div>
-          <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+          <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
           <div className="grid grid-cols-1 mx-auto">
             <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" button={true} image={Zakir} buttonText="WORKSHOPS" />
 

@@ -21,7 +21,7 @@ function Competitions({block,setblock}) {
           {block === 'culti' ? (
             <div id="CultiBlocks">
               <div className="hidden md:block ">
-                <div className="container mx-auto grid md:grid-cols-11">
+                <div className={`container mx-auto grid md:grid-cols-11 ${styles.gridcont}`}>
 
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                   <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
@@ -38,7 +38,7 @@ function Competitions({block,setblock}) {
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
 
                 </div>
-                <div className="container mx-auto grid md:grid-cols-11">
+                <div className={`container mx-auto grid md:grid-cols-11 ${styles.gridcont}`}>
 
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                   <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
@@ -55,7 +55,7 @@ function Competitions({block,setblock}) {
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
 
                 </div>
-                <div className="container mx-auto grid md:grid-cols-11">
+                <div className={`container mx-auto grid md:grid-cols-11 ${styles.gridcont}`}>
 
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                   <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
@@ -78,36 +78,36 @@ function Competitions({block,setblock}) {
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
 
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className=' my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className=' my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className=' my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
@@ -116,7 +116,7 @@ function Competitions({block,setblock}) {
           ) : (
             <div id="TechyBlocks">
               <div className="hidden md:block ">
-                <div className="container mx-auto grid md:grid-cols-11">
+              <div className={`container mx-auto grid md:grid-cols-11 ${styles.gridcont}`}>
 
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                   <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
@@ -133,7 +133,7 @@ function Competitions({block,setblock}) {
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
 
                 </div>
-                <div className="container mx-auto grid md:grid-cols-11">
+                <div className={`container mx-auto grid md:grid-cols-11 ${styles.gridcont}`}>
 
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                   <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
@@ -157,24 +157,24 @@ function Competitions({block,setblock}) {
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
 
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>
-                <img src={lineHz} alt="imagehere" className='my-auto mx-auto col-span-1  md:hidden' ></img>
+                <img src={lineHz} alt="imagehere" className='my-3 mx-auto col-span-1  md:hidden' ></img>
                 <div className="grid grid-cols-1 mx-auto">
                   <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie" image={Zakir} />
                 </div>

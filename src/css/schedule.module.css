@@ -1,5 +1,10 @@
 .border{
   border-radius: 25px;
-  border: 60px solid transparent;
-  border-image: url("../images/Schedule.png") 360;
+  border: 70px solid transparent;
+  border-image: url("../images/Schedule.png") 400;
+}
+.borderM{
+  border-radius: 25px;
+  border: 35px solid transparent;
+  border-image: url("../images/ScheduleM.png") 60;
 }
