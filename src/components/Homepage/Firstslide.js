@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import RightTop from "../../images/Homepage/corners_copy.png";
@@ -12,6 +12,10 @@ import Logo from "../../images/elannvision.png";
 import Chakra from "../../images/Homepage/Halfchakra.png";
 function Firstslide() {
   const [chakra, setchakra] = useState(false);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div
       className="w-screen h-screen"
@@ -25,50 +29,61 @@ function Firstslide() {
             <img
               src={Chakra}
               className={`mx-auto cursor-pointer z-50 ${styles.chakra}`}
-              alt="Image"
+              alt="Imae"
               onClick={() => setchakra((prev) => !prev)}
             />
           </div>
-          <div className="absolute top-12 left-0 fade-right-down">
-            <img src={RightTop} alt="Image" className={styles.img} />
+          <div
+            className={`absolute top-12 left-1 fade-right-down ${
+              chakra ? "fade-left-up" : "fade-right-down"
+            }`}
+          >
+            <img src={RightTop} alt="Imag" className={styles.img} />
           </div>
-          <div className="absolute bottom-0 left-0 fade-right-up">
-            <img src={LeftBot} alt="Image" className={styles.img} />
+          <div
+            className={`absolute bottom-1 left-1 ${
+              chakra ? "fade-left-down" : "fade-right-up"
+            }`}
+          >
+            <img src={LeftBot} alt="Imag" className={styles.img} />
           </div>
-          <div className="absolute top-12 right-0 fade-left-down">
-            <img src={LeftTop} alt="Image" className={styles.img} />
+          <div
+            className={`absolute top-12 right-1 ${
+              chakra ? "fade-right-up" : "fade-left-down"
+            }`}
+          >
+            <img src={LeftTop} alt="Imag" className={styles.img} />
           </div>
-          <div className="absolute bottom-0 right-0 fade-left-up">
-            <img src={RightBot} alt="Image" className={styles.img} />
+          <div
+            className={`absolute bottom-1 right-1 ${
+              chakra ? "fade-right-down" : "fade-left-up"
+            }`}
+          >
+            <img src={RightBot} alt="Imag" className={styles.img} />
           </div>
           <div className="absolute">
             <div
-              className="backgr flex justify-content-center"
-              style={{
-                width: "70vw",
-                height: "60vh",
-                marginLeft: "15vw",
-                marginTop: "20vh",
-                background: `url(${Box})`,
-                backgroundSize: "100% 100%",
-                backgroundRepeat: "no-repeat",
-              }}
+              className={`${styles.backgr} flex justify-content-center`}
             >
               <img
                 src={Logo}
                 alt="Logo"
                 className="my-auto"
-                style={{ height: "60%", display: "flex", margin: "auto" }}
+                style={{ maxHeight: "60%",maxWidth:'60%', display: "flex", margin: "auto" }}
               />
             </div>
           </div>
         </div>
       ) : (
         <>
-          <div className={`absolute top-0 ${styles.zorae}`} data-aos="zoom-in" data-aos-duration="1000">
+          <div
+            className={`absolute top-0 ${styles.zorae}`}
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             <img
               src={Themeimg}
-              alt="Theme Image"
+              alt="Theme Imag"
               className={`${styles.themeimg}`}
             />
           </div>
@@ -76,13 +91,18 @@ function Firstslide() {
             <img
               src={Chakra}
               className={`mx-auto cursor-pointer z-50 ${styles.chakra}`}
-              alt="Image"
+              alt="Imag"
             />
           </div>
         </>
       )}
-      <div className={`${chakra ? styles.active1 : styles.nonactive1}`}>
-        <div className={`${chakra ? styles.active2 : styles.nonactive2}`} onClick={()=>{setchakra(false)}}></div>
+      <div className={`hidden md:block ${chakra ? styles.active1 : styles.nonactive1}`}>
+        <div
+          className={`${chakra ? styles.active2 : styles.nonactive2}`}
+          onClick={() => {
+            setchakra(false);
+          }}
+        ></div>
       </div>
     </div>
   );

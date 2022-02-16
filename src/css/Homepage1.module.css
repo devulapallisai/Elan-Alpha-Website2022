@@ -3,12 +3,21 @@
   opacity: 0.8;
 }
 .active1 {
-  animation: flexit 0.5s ease-in-out;
+  animation: flexit 0.8s ease-in-out;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+.backgr {
+  width: 70vw;
+  height: 60vh;
+  margin-left: 15vw;
+  margin-top:20vh;
+  background: url('../images/Homepage/box_copy.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .active2 {
-  animation: showit 0.5s ease-in-out;
+  animation: showit 0.8s ease-in-out;
   animation-iteration-count: 1;
   width: 5rem;
   height: 1.25rem;
@@ -16,18 +25,19 @@
   animation-fill-mode: forwards;
   /* z-index: 50; */
 }
-.chakra{
+.chakra {
   width: 140px;
   opacity: 1;
 }
-.themeimg{
+.themeimg {
   width: 100%;
   z-index: 100;
 }
-.zorae{
+.zorae {
   width: 70vw;
   margin-left: 15vw;
-  margin-right:15vw;
+  margin-right: 15vw;
+  
   max-height: 100vh;
   display: flex;
   justify-content: center;
@@ -92,5 +102,20 @@
     transform: rotate(90deg);
     margin-left: 92vw;
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img {
+    width: 25vw;
+  }
+  .backgr {
+    /* width: 70vw; */
+    height: 80vh;
+    display: flex;
+    margin:8vh 12vw;
+    width: auto;
+    background: url('../images/Homepage/mobile_box.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   }
 }
