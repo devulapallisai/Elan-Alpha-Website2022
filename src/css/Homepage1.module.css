@@ -132,4 +132,10 @@
     display: flex;
     justify-content: center;
   }
+  .zorae img{
+    height: 70vh;
+    width: auto;
+    margin: auto;
+    max-width: 100vw;
+  }
 }

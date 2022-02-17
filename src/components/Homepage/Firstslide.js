@@ -5,7 +5,6 @@ import RightTop from "../../images/Homepage/corners_copy.png";
 import RightBot from "../../images/Homepage/corners_copyrightbot.png";
 import LeftBot from "../../images/Homepage/corners_copyleftbot.png";
 import LeftTop from "../../images/Homepage/corners_copyrighttop.png";
-import Box from "../../images/Homepage/box_copy.png";
 import styles from "../../css/Homepage1.module.css";
 import Themeimg from "../../images/Homepage/Theme_final.png";
 import Logo from "../../images/elannvision.png";
@@ -79,7 +78,7 @@ function Firstslide() {
       ) : (
         <>
           <div
-            className={`absolute top-0 ${styles.zorae}`}
+            className={`absolute top-0 ${styles.zorae} flex justify-center h-screen`}
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
