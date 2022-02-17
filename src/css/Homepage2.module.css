@@ -1,0 +1,49 @@
+.imagebackgr{
+    /* background: url('../images/Homepage/window_webcopy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 20; */
+    background: linear-gradient(180deg, #170735 -10.41%, #943066 65.44%, #F5C470 122.95%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 20;
+    width: 100vw;
+    height: 100vh;
+}
+.img {
+    width: 4vw;
+    max-height: 80vh;
+    filter: contrast(4);
+    min-height: 300px;
+}
+.img1 {
+    width: 4vw;
+    filter: contrast(4);
+    transform: scale(0.9);
+    min-height: 300px;
+}
+.img2 {
+    width: 4vw;
+    filter: contrast(4);
+    min-height: 300px;
+}.img3 {
+    width: 4vw;
+    filter: contrast(4);
+    transform: scale(0.85);
+    min-height: 300px;
+}
+.img4 {
+    width: 4vw;
+    filter: contrast(3);
+    transform: scale(0.75);
+    min-height: 300px;
+}
+.zoomimg{
+    z-index: 3;
+    width: 100vw;
+    transform: scale(0.8);
+    transform-origin: bottom center;
+}
+.zInde{
+    z-index: -1;
+}

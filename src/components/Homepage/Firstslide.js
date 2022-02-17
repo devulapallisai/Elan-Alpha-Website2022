@@ -9,8 +9,7 @@ import styles from "../../css/Homepage1.module.css";
 import Themeimg from "../../images/Homepage/Theme_final.png";
 import Logo from "../../images/elannvision.png";
 import Chakra from "../../images/Homepage/Halfchakra.png";
-function Firstslide() {
-  const [chakra, setchakra] = useState(false);
+function Firstslide({chakra,setchakra}) {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
