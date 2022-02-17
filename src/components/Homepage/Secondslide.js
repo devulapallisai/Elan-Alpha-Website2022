@@ -1,4 +1,5 @@
 import React from "react";
+import { gsap } from "gsap";
 import styles from "../../css/Homepage2.module.css";
 import Lanterntop from "../../images/Lantern1.png";
 import Lant from "../../images/Homepage/Lanterntop.png";
@@ -34,6 +35,18 @@ function Secondslide() {
         </div>
         <div className={`${styles.zInde} w-screen absolute bottom-0`}>
           <img src={Skyline} alt="Imag" className={styles.zoomimg} />
+        </div>
+        <div className="flex justify-center">
+          <div
+            className={`absolute top-40 xl:top-48 text-sm flex justify-center ${styles.texthere}`}
+          >
+            <div className="flex flex-col">
+              <div className="font-heading text-3xl 2xl:text-5xl text-center pb-2">Heading</div>
+              <div className="text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo libero commodi voluptatem ad tenetur aspernatur, molestiae veritatis maxime, iure earum est. Eligendi explicabo beatae, doloribus tenetur ea velit rem magnam laborum laboriosam sit sapiente alias nihil aliquid eveniet, tempora a officiis dolore ullam rerum quam commodi labore vero! Magnam modi non eos, ipsa sed omnis laboriosam numquam iure architecto aperiam voluptatum laborum atque dolor aliquid ad quae quaerat. Consequuntur molestiae deserunt ipsam porro quas laboriosam sed unde placeat. Odit earum accusamus, recusandae exercitationem, dolorem aliquam, dolor similique harum dolores dignissimos aspernatur mollitia ab sint. Dignissimos, facilis nemo. Magnam, quam ut!
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

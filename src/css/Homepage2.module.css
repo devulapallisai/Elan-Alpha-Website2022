@@ -55,3 +55,12 @@
 .zInde {
   z-index: -1;
 }
+.texthere{
+    max-width:300px;
+    z-index: -1;
+}
+@media screen and (min-width:1360px) {
+    .texthere{
+        max-width: 350px;
+    }
+}
