@@ -47,7 +47,7 @@ function Header({ path, block, sched, setsched }) {
             className={`${styles.stylit}`}
           ></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex pr-5`}>   
+          <div className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex px-5`}>   
             {routes.reverse().map((route) => (
               <Link
                 to={route[1]}
