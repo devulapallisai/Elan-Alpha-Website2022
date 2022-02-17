@@ -1,7 +1,7 @@
 .border{
   border-radius: 25px;
-  border: 70px solid transparent;
-  border-image: url("../images/Schedule.png") 400;
+  border: 90px solid transparent;
+  border-image: url("../images/Schedule1.png") 400;
 }
 .borderM{
   border-radius: 25px;
