@@ -30,7 +30,9 @@ function Firstslide() {
               src={Chakra}
               className={`mx-auto cursor-pointer z-50 ${styles.chakra}`}
               alt="Imae"
-              onClick={() => setchakra((prev) => !prev)}
+              onClick={() => setTimeout(() => {
+                setchakra((prev) => !prev)
+              }, 1000)}
             />
           </div>
           <div
@@ -100,7 +102,11 @@ function Firstslide() {
         <div
           className={`${chakra ? styles.active2 : styles.nonactive2}`}
           onClick={() => {
-            setchakra(false);
+            setTimeout(() => {
+              setTimeout(() => {
+                setchakra(false)
+              }, 1000);
+            }, 1000);
           }}
         ></div>
       </div>
