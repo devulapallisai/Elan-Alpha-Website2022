@@ -16,7 +16,7 @@ function Firstslide({chakra,setchakra}) {
   }, []);
   return (
     <div
-      className="w-screen h-screen"
+      className="w-screen h-screen z-40"
       style={{
         background: "linear-gradient(180deg, #1E0735 76.65%, #943066 166.99%)",
       }}
