@@ -3,7 +3,7 @@ import styles from "../css/events.module.css";
 import Card from "../components/events/event-card";
 import line from "../images/events/line gols 9.png";
 import lineHz from "../images/events/line gols 8.png";
-import Zakir from "../images/events/zakir.jpeg";
+import Zakir from "../images/events/elan_logo_w.jpeg";
 import Footer from "../components/common/Footer";
 function Competitions({ block, setblock }) {
   return (
@@ -46,7 +46,7 @@ function Competitions({ block, setblock }) {
               >
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -57,7 +57,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -68,7 +68,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -77,7 +77,7 @@ function Competitions({ block, setblock }) {
               >
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -88,7 +88,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -99,7 +99,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -108,7 +108,7 @@ function Competitions({ block, setblock }) {
               >
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -119,7 +119,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -130,7 +130,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -140,7 +140,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -152,7 +152,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -164,7 +164,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -176,7 +176,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -188,7 +188,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -200,7 +200,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -212,7 +212,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -224,7 +224,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -236,7 +236,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -250,7 +250,7 @@ function Competitions({ block, setblock }) {
               >
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -261,7 +261,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -272,7 +272,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -281,7 +281,7 @@ function Competitions({ block, setblock }) {
               >
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -292,7 +292,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
                 <img
@@ -303,7 +303,7 @@ function Competitions({ block, setblock }) {
 
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -313,7 +313,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -325,7 +325,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -337,7 +337,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -349,7 +349,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -361,7 +361,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
@@ -373,7 +373,7 @@ function Competitions({ block, setblock }) {
               <div className="grid grid-cols-1 mx-auto">
                 <Card
                   type="col-span-3 mx-0"
-                  text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
+                  text="To be Announced....."
                   image={Zakir}
                 />
               </div>
