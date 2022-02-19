@@ -87,13 +87,13 @@ function Firstslide({chakra,setchakra}) {
               className={`${styles.themeimg}`}
             />
           </div>
-          <div className="absolute bottom-0 w-full">
+          {/* <div className="absolute bottom-0 w-full">
             <img
               src={Chakra}
               className={`mx-auto cursor-pointer z-50 ${styles.chakra}`}
               alt="Imag"
             />
-          </div>
+          </div> */}
         </>
       )}
       <div className={`hidden md:block ${chakra ? styles.active1 : styles.nonactive1}`}>

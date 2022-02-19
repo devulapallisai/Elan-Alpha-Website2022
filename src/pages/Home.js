@@ -9,11 +9,9 @@ function Home() {
   // Text moving from up to bottom animation
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
-      if(window.scrollY<=window.innerHeight){
+      // if(window.scrollY<=window.innerHeight){
         setinitialVal(1.15*window.scrollY/(window.innerHeight));
-      }else{
-        setinitialVal(0)
-      }
+      // }
     })
   })
   // text moving animation end

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import Chakra from "../../images/Homepage/chakra.png";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import styles from "../../css/Homepage2.module.css";
 import Lanterntop from "../../images/Lantern1.png";
 import Lant from "../../images/Homepage/Lanterntop.png";
@@ -9,8 +10,10 @@ import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import style from "../../css/Homepage1.module.css";
 function Secondslide({ initialVal, scrollDirection }) {
   const textref = useRef();
+  const { width, height } = useWindowDimensions();
   return (
     <>
+    {/* Text Part */}
       <div
         className={`flex justify-center`}
         style={{
@@ -19,7 +22,9 @@ function Secondslide({ initialVal, scrollDirection }) {
         }}
       >
         <div
-          className={`fixed top-40 2xl:top-54 xl:top-48 text-sm flex justify-center ${styles.texthere}`}
+          className={`fixed top-44 2xl:top-84 xl:top-72 text-sm flex justify-center ${
+            styles.texthere
+          } ${height > 1200 ? "top-54" : ""}`}
           ref={textref}
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -40,39 +45,14 @@ function Secondslide({ initialVal, scrollDirection }) {
           </div>
         </div>
       </div>
+      {/* Window Part */}
       <div
-        className="flex justify-center"
-        style={{
-          height: "auto",
-          zIndex: scrollDirection === "down" ? 21 : 21,
-          opacity: 1,
-        }}
-      >
-        <img
-          src={Chakra}
-          alt="chakra"
-          style={{
-            zIndex: scrollDirection === "down" ? 21 : 21,
-            marginLeft: initialVal <= 1.4 ? initialVal * 35 : 0,
-          }}
-          className={`fixed bottom-0 ${style.chakra} ${
-            scrollDirection === "down"
-              ? initialVal <= 0.97
-                ? `${styles.rotateclock}`
-                : ""
-              : initialVal >= 0.01
-              ? `${styles.rotateanti}`
-              : ""
-          }`}
-        />
-      </div>
-      <div
-        className={`${styles.Slide} relative h-screen w-screen hidden md:block z-20`}
+        className={`${styles.Slide} relative h-screen w-screen hidden lg:block z-0`}
       >
         <img
           src={BackgroundI}
           className={`${styles.imagebackgr}`}
-          style={{zIndex: 46}}
+          style={{ zIndex: 46 }}
           alt="Imag"
           width="100vw"
           height="100vh"
@@ -95,6 +75,33 @@ function Secondslide({ initialVal, scrollDirection }) {
         <div className={`${styles.zInde} w-screen absolute bottom-0`}>
           <img src={Skyline} alt="Imag" className={styles.zoomimg} />
         </div>
+      </div>
+      <div
+        className="flex justify-center"
+        style={{
+          height: "auto",
+          zIndex: scrollDirection === "down" ? 11 : 11,
+          opacity: 1,
+        }}
+      >
+        <img
+          src={Chakra}
+          alt="chakra"
+          style={{
+            zIndex: scrollDirection === "down" ? 11 : 11,
+            marginLeft: initialVal <= 1.4 ? initialVal *40 : 0,
+            bottom: initialVal >= 0.01 ? 0 : -70,
+          }}
+          className={`fixed ${style.chakra} ${
+            scrollDirection === "down"
+              ? initialVal <= 0.97
+                ? `${styles.rotateclock}`
+                : ""
+              : initialVal >= 0.01
+              ? `${styles.rotateanti}`
+              : ""
+          }`}
+        />
       </div>
     </>
   );
