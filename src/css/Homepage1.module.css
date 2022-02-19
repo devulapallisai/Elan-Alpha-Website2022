@@ -13,6 +13,7 @@
   margin-left: 15vw;
   margin-top:20vh;
   background: url('../images/Homepage/box_copy.png');
+  opacity: 0.8;
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -27,7 +28,6 @@
 }
 .chakra {
   width: 150px;
-  opacity: 1;
 }
 .themeimg {
   width: 100%;
@@ -115,6 +115,7 @@
     margin:8vh 12vw;
     width: auto;
     background: url('../images/Homepage/mobile_box.png');
+    opacity: 0.8;
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }

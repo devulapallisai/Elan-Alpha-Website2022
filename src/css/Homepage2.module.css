@@ -64,3 +64,55 @@
         max-width: 380px;
     }
 }
+.rotateclock{
+  animation: rotateclock 0.8s ease-in-out 0.1s infinite;
+}
+.rotateanti{
+  animation: rotateanti 0.8s ease-in-out 0.1s infinite;
+}
+@keyframes rotateclock {
+  0%{
+    transform: rotate(0deg);
+  }
+  10%{
+    transform: rotate(5deg);
+  }
+  30%{
+    transform: rotate(15deg);
+  }
+  50%{
+    transform: rotate(20deg);
+  }
+  70%{
+    transform: rotate(25deg);
+  }
+  90%{
+      transform: rotate(35deg);
+  }
+  100%{
+    transform: rotate(40deg);
+  }
+}
+@keyframes rotateanti {
+  0%{
+    transform: rotate(-0deg);
+  }
+  10%{
+    transform: rotate(-5deg);
+  }
+  30%{
+    transform: rotate(-15deg);
+  }
+  50%{
+    transform: rotate(-20deg);
+  }
+  70%{
+    transform: rotate(-25deg);
+  }
+  90%{
+      transform: rotate(-35deg);
+  }
+  100%{
+    transform: rotate(-40deg);
+  }
+}

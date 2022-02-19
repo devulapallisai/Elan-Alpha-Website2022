@@ -7,11 +7,17 @@ import Lant from "../../images/Homepage/Lanterntop.png";
 import Skyline from "../../images/Homepage/Skyline3copy.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import style from "../../css/Homepage1.module.css";
-function Secondslide({ initialVal }) {
+function Secondslide({ initialVal, scrollDirection }) {
   const textref = useRef();
   return (
     <>
-      <div className={`flex justify-center`} style={{ opacity: initialVal }}>
+      <div
+        className={`flex justify-center`}
+        style={{
+          opacity: initialVal,
+          display: `${initialVal === 0 ? "hidden" : "flex"}`,
+        }}
+      >
         <div
           className={`fixed top-40 2xl:top-54 xl:top-48 text-sm flex justify-center ${styles.texthere}`}
           ref={textref}
@@ -35,28 +41,38 @@ function Secondslide({ initialVal }) {
         </div>
       </div>
       <div
-          className="flex justify-center"
-          style={{ height: "auto", zIndex: 40,opacity:initialVal*1.1 }}
-        >
-          <div
-            className="fixed bottom-4"
-            data-aos="fade-down"
-            data-aos-duration="400"
-          >
-            <img
-              src={Chakra}
-              alt="chakra"
-              style={{ height: "auto", zIndex: 40 }}
-              className={`z-100 ${style.chakra}`}
-            />
-          </div>
-        </div>
+        className="flex justify-center"
+        style={{
+          height: "auto",
+          zIndex: scrollDirection === "down" ? 21 : 21,
+          opacity: 1,
+        }}
+      >
+        <img
+          src={Chakra}
+          alt="chakra"
+          style={{
+            zIndex: scrollDirection === "down" ? 21 : 21,
+            marginLeft: initialVal <= 1.4 ? initialVal * 35 : 0,
+          }}
+          className={`fixed bottom-0 ${style.chakra} ${
+            scrollDirection === "down"
+              ? initialVal <= 0.97
+                ? `${styles.rotateclock}`
+                : ""
+              : initialVal >= 0.01
+              ? `${styles.rotateanti}`
+              : ""
+          }`}
+        />
+      </div>
       <div
         className={`${styles.Slide} relative h-screen w-screen hidden md:block z-20`}
       >
         <img
           src={BackgroundI}
-          className={`${styles.imagebackgr} z-40`}
+          className={`${styles.imagebackgr}`}
+          style={{zIndex: 46}}
           alt="Imag"
           width="100vw"
           height="100vh"
