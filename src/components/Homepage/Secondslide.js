@@ -13,7 +13,7 @@ function Secondslide({ initialVal }) {
     <>
       <div className={`flex justify-center`} style={{ opacity: initialVal }}>
         <div
-          className={`fixed top-40 xl:top-48 text-sm flex justify-center ${styles.texthere}`}
+          className={`fixed top-40 2xl:top-54 xl:top-48 text-sm flex justify-center ${styles.texthere}`}
           ref={textref}
           data-aos="fade-down"
           data-aos-duration="1000"
