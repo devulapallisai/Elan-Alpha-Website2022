@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { gsap } from "gsap";
 import Chakra from "../../images/Homepage/chakra.png";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 import styles from "../../css/Homepage2.module.css";

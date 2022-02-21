@@ -26,7 +26,7 @@ function Contact() {
       <input className='col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]' type="text" placeholder='Email' />
       <input className='col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]' type="text" placeholder='Phone Number' />
       <input className='col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]' type="text" placeholder='Public Relation' />
-      <textarea className='col-span-1 row-span-4 rounded-lg p-2 bg-[#F2EFE1] resize-none' placeholder='Your message'  name = "description">
+      <textarea className='col-span-1 row-span-4  rounded-lg p-2 bg-[#F2EFE1] resize-none' placeholder='Your message'  name = "description">
          </textarea>
     </form>
     </div>
