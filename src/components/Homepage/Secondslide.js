@@ -21,7 +21,7 @@ function Secondslide({ initialVal, scrollDirection }) {
         }}
       >
         <div
-          className={`fixed top-44 2xl:top-84 xl:top-72 text-sm flex justify-center ${
+          className={`fixed top-40 2xl:top-84 text-sm flex justify-center ${
             styles.texthere
           } ${height > 1200 ? "top-54" : ""}`}
           ref={textref}
