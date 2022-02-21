@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Firstslide from "../components/Homepage/Firstslide";
 import Secondslide from "../components/Homepage/Secondslide";
+import ThirdSlide from "../components/Homepage/ThirdSlide";
 import useScrolldirection from "../hooks/useScrolldirection";
 function Home() {
   const [chakra, setchakra] = useState(false);
@@ -19,6 +20,7 @@ function Home() {
     <div className="text-heading">
       <Firstslide chakra={chakra} setchakra={setchakra}  />
       {chakra ? <Secondslide initialVal={initialVal} scrollDirection={scrollDirection}/> : ""}
+      {/* <ThirdSlide></ThirdSlide> */}
     </div>
   );
 }
