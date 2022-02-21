@@ -23,7 +23,7 @@ function Secondslide({ initialVal, scrollDirection }) {
         <div
           className={`fixed top-40 2xl:top-84 text-sm flex justify-center ${
             styles.texthere
-          } ${height > 1200 ? "top-54" : ""}`}
+          }`}
           ref={textref}
           data-aos="fade-down"
           data-aos-duration="1000"
