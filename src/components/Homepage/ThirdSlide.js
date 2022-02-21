@@ -48,7 +48,7 @@ function ThirdSlide() {
             <img src={Skyline1} className='w-screen' alt='img'></img>
         </div>
         <div className='chakra absolute w-[120px] left-16 top-20'>
-            <img src={Chakra}></img>
+            <img src={Chakra} alt='absolute'/>
         </div>
     </div>
   )
