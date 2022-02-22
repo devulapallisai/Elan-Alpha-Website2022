@@ -14,7 +14,6 @@
     #943066 65.44%,
     #f5c470 122.95%
   );
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 .img {
   width: 4vw;
@@ -56,7 +55,7 @@
 }
 .texthere {
   max-width: 300px;
-  z-index: 30;
+  /* z-index: 30; */
 }
 @media screen and (min-width: 1360px) {
   .texthere {

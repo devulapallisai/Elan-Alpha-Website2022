@@ -61,7 +61,7 @@ function FourthSlide() {
 
   },[])
   return (
-    <div className={`Back relative flex justify-center h-screen w-screen overflow-hidden ${styles.bgit}`}>
+    <div className={`Back relative flex justify-center h-screen w-screen overflow-hidden ${styles.bgit}`} id="fourthslide">
         <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
             <h1 className='text-black font-heading'>Heading</h1>
             <p className='text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
