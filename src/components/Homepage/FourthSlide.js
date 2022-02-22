@@ -46,6 +46,7 @@ function FourthSlide() {
             left : "17.5vw",
             opacity:0.5  ,
             margin: "auto",
+            transform : "rotate(170deg)",
         },
         duration:3,
         rotation:150,
