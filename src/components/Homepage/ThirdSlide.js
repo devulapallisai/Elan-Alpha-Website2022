@@ -47,7 +47,7 @@ function ThirdSlide() {
   },[])
   return (
     <div className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`}>
-        <div className="Para absolute w-2/3 mx-auto top-[15vh]">
+        <div className="z-[100000] Para absolute w-2/3 mx-auto top-[15vh]">
             <h1 className='font-heading text-white text-4xl z-[10000]'>Heading</h1>
             <br />
             <p className='text-white text-lg z-[10000]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
