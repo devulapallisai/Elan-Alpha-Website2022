@@ -5,6 +5,7 @@ import {gsap} from 'gsap'
 import Chakra from '../../images/Homepage/chakra.png'
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import styles from '../../css/Homepage3.module.css'
+
 function ThirdSlide() {
   useEffect(()=>{
     gsap.from('.chakra',{
@@ -37,6 +38,9 @@ function ThirdSlide() {
   },[])
   return (
     <div className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`}>
+        <div className='Guha absolute z-[1000] h-screen'>
+        <img src={BackgroundI} style={{width:'100vw',height:'100vh'}}></img>
+        </div>
         <div className="Para absolute w-2/3 mx-auto top-[15vh]">
             <h1 className='text-black font-heading'>Heading</h1>
             <p className='text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -48,7 +52,7 @@ function ThirdSlide() {
             <img src={Skyline1} className='w-screen' alt='img'></img>
         </div>
         <div className='chakra absolute w-[120px] left-16 top-20'>
-            <img src={Chakra}></img>
+            <img src={Chakra} alt='absolute'/>
         </div>
     </div>
   )

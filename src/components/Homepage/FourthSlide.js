@@ -4,7 +4,8 @@ import Skyline3 from '../../images/Homepage/Skyline 3.png'
 import {gsap} from 'gsap'
 import Chakra from '../../images/Homepage/chakra.png'
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
-import styles from '../../css/Homepage4.module.css'
+import styles from '../../css/Homepage4.module.css';
+import Footer from '../common/Footer.js'
 function FourthSlide() {
   useEffect(()=>{
     gsap.from('.chakra',{
@@ -75,9 +76,11 @@ function FourthSlide() {
         <div className='skyline1 absolute bottom-0 overflow-hidden' >
             <img src={Skyline1} className='w-screen' alt='img'></img>
         </div>
-
-        <div className='chakra1 absolute w-[120px] -z-4 left-16 top-20 mx-auto '>
-            <img src={Chakra}></img>
+        <div className='chakra1 absolute w-[120px] -z-4 left-16 top-20 mx-auto'>
+            <img src={Chakra} alt='img'/>
+        </div>
+        <div className="absolute footer container bottom-4 mx-auto">
+            <Footer/>
         </div>
     </div>
   )

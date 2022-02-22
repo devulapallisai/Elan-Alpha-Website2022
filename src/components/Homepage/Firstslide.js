@@ -9,11 +9,20 @@ import styles from "../../css/Homepage1.module.css";
 import Themeimg from "../../images/Homepage/Theme_final.png";
 import Logo from "../../images/elannvision.png";
 import Chakra from "../../images/Homepage/Halfchakra.png";
-function Firstslide({chakra,setchakra}) {
+function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+  // useEffect(()=>{
+  //   window.addEventListener('scroll',(event)=>{
+  //     if(chakra){
+  //       if(scrollDirection==='down'){
+  //         document.getElementById('secondslide').scrollIntoView();
+  //       }
+  //     }
+  //   })
+  // },[chakra,scrollDirection])
   return (
     <div
       className="w-screen h-screen z-40"
