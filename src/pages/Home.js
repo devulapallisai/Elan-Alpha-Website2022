@@ -1,7 +1,6 @@
 import React, { useState, useEffect,useRef } from "react";
 import Firstslide from "../components/Homepage/Firstslide";
 import Secondslide from "../components/Homepage/Secondslide";
-import ThirdSlide from "../components/Homepage/ThirdSlide";
 import useScrolldirection from "../hooks/useScrolldirection";
 function Home() {
   const [chakra, setchakra] = useState(false);
