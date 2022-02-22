@@ -45,7 +45,7 @@ function Secondslide({ initialVal, scrollDirection }) {
         </div>
       </div>
       {/* Window Part */}
-      <div
+      <div id="secondslide"
         className={`${styles.Slide} relative h-screen w-screen hidden lg:block z-0`}
       >
         <img
