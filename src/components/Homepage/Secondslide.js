@@ -7,8 +7,9 @@ import Lant from "../../images/Homepage/Lanterntop.png";
 import Skyline from "../../images/Homepage/Skyline3copy.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import style from "../../css/Homepage1.module.css";
-function Secondslide({ initialVal, scrollDirection }) {
+function Secondslide({ initialVal, scrollDirection,secondslideref }) {
   const textref = useRef();
+  
   const { width, height } = useWindowDimensions();
   return (
     <>
@@ -45,8 +46,11 @@ function Secondslide({ initialVal, scrollDirection }) {
         </div>
       </div>
       {/* Window Part */}
-      <div id="secondslide"
-        className={`${styles.Slide} relative h-screen w-screen hidden lg:block z-0`}
+        <div className={`absolute top-[100vh] w-screen-h-screen -z-[111]`}>
+          <div className={`${styles.Slide} h-screen w-screen -z-[11111]`}></div>
+        </div>
+      <div id="secondslide" ref={secondslideref}
+        className={` relative h-screen w-screen hidden lg:block -z-[1]`}
       >
         <img
           src={BackgroundI}
@@ -79,7 +83,7 @@ function Secondslide({ initialVal, scrollDirection }) {
         className="flex justify-center"
         style={{
           height: "auto",
-          zIndex: scrollDirection === "down" ? 11 : 11,
+          zIndex: initialVal>0?-1:0,
           opacity: 1,
         }}
       >
@@ -87,7 +91,7 @@ function Secondslide({ initialVal, scrollDirection }) {
           src={Chakra}
           alt="chakra"
           style={{
-            zIndex: scrollDirection === "down" ? 11 : 11,
+            zIndex: initialVal>0?-11:0,
             marginLeft: initialVal <= 1.4 ? initialVal *40 : 0,
             bottom: initialVal >= 0.01 ? 0 : -70,
           }}
