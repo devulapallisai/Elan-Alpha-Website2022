@@ -38,11 +38,7 @@ function FourthSlide() {
         y: 200,
         duration : 3
     })
-    gsap.from('.Back',{
-        backgroundImage:BackgroundI ,
-        duration:3,
 
-    })
     gsap.to('.chakra1',{
         css:{
             width : "65%",
@@ -50,11 +46,15 @@ function FourthSlide() {
             left : "17.5vw",
             opacity:0.5  ,
             margin: "auto",
-
-
         },
         duration:3,
-        rotation:180,
+        rotation:150,
+    })
+    gsap.from('.Back',{
+        css:{
+            background:" linear-gradient(180deg, #943066 -7.97%, #943166 -7.94%, #F5C470 108.26%);",
+        },
+        duration:3,
     })
 
   },[])
