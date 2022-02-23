@@ -11,7 +11,7 @@ function Home() {
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
       // if(window.scrollY<=window.innerHeight){
-        setinitialVal(1.15*window.scrollY/(window.innerHeight));
+        setinitialVal(window.scrollY/(window.innerHeight));
       // }
     })
   })
