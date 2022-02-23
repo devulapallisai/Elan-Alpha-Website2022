@@ -40,19 +40,20 @@ function ThirdSlide() {
     });
   }, []);
   useEffect(() => {
-    window.addEventListener("keydown", () => {
+    window.addEventListener("keydown", (event) => {
       // window.location.href = "/fourth";
-      setdispf(true);
+      if(event.keyCode ===34||event.key==='ArrowDown'||event.key==='PageDown'){
+        setdispf(true);
+      }
     });
   });
   return (
-    <>
+    <div id="thirdslide">
       {dispf ? (
         <FourthSlide/>
       ) : (
         <div
           className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`}
-          ref={thirdslide}
         >
           <div className="z-[100000] Para absolute w-2/3 mx-auto top-[15vh]">
             <h1 className="font-heading text-white text-4xl z-[10000]">
@@ -80,7 +81,7 @@ function ThirdSlide() {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }
 
