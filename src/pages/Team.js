@@ -3,6 +3,18 @@ import styles from "../css/team.module.css";
 import Card from "../components/common/Card";
 import Man from "../images/man.jpg";
 import Lantern from "../images/Homepage/Lanterntop.png";
+import techy from "../images/teams/Amogh Bedarakota_Techy,Workshops.webp";
+import finance from "../images/teams/Ashish Chakravarthi_Finanace,Infra.webp";
+import sponsorship from "../images/teams/Chirag Jain_Sponsorship.webp";
+import publicity from "../images/teams/Eshwar Yadav_Publicity.webp";
+import overallhead from "../images/teams/Krati Arela_Overall Head.webp";
+import multimedia from "../images/teams/Nishanth Kannan_Creatives _ Multimedia.webp";
+import hospitality from "../images/teams/Prashanth Naik_Hospitality, Transport.webp";
+import culti from "../images/teams/Sachi Kavitake_Culti_Biggies, EML, Litr, Social Cause.webp"
+import creative from "../images/teams/Sidhardha Grandhi_Creatives _ Multimedia.webp"
+import web from "../images/teams/Smaran Kulkarni_Public Relations, Informals, Web.webp"
+import pronites from "../images/teams/Swapnish Sahare_Production, Pronites, Security.webp"
+
 // import Goldenbox from "../images/Goldenbox.png";
 import Footer from "../components/common/Footer";
 function Team() {
@@ -39,43 +51,43 @@ function Team() {
         <div className="container lg:w-3/4 md:4/5 mx-auto">
           <div className="hidden md:block">
             <div className="grid grid-cols-1 mx-auto">
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+              <Card name="Krati Arela" position="Overall Head" image={overallhead} />
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+              <Card name="Smaran Kulkarni" position="Web Head" image={web} />
+              <Card name="Chirag Jain" position="sponsorship Head" image={sponsorship} />
+              <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
               <Card
-                name="Krati Arela"
-                position="Overall Head"
-                image={Man}
+                name="Prashant Naik"
+                position="hospitality Head"
+                image={hospitality}
                 type="mr-2"
               />
               <Card
-                name="Krati Arela"
-                position="Overall Head"
-                image={Man}
+                name="Sidhardha Grandhi"
+                position="Creatives Head"
+                image={creative}
                 type="mr-2"
               />
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
-              <Card name="Krati Arela" position="Overall Head" image={Man} />
+              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} />
+              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} />
+              <Card name="Nishant Kannan" position="Multimedia Head" image={multimedia} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
               <Card
-                name="Krati Arela"
-                position="Overall Head"
-                image={Man}
+                name="Sachi Kavitake"
+                position="Culti Head"
+                image={culti}
                 type="mr-2"
               />
               <Card
-                name="Krati Arela"
-                position="Overall Head"
-                image={Man}
+                name="Eshwar Yadav"
+                position="Publicity Head"
+                image={publicity}
                 type="mr-2"
               />
             </div>
@@ -85,87 +97,77 @@ function Team() {
           <div className="md:hidden overflow-hidden">
             <div className="grid grid-cols-1 mx-auto transform">
               <div className={styles.initialcardop}>
-              <Card name="Krati Arela" position="Overall Head" image={Man}/>
+              <Card name="Krati Arela" position="Overall Head" image={overallhead} />
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card name="Smaran Kulkarni" position="Web Head" image={web} type="mr-2"/>
               </div>
               <div className={styles.lefttcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card name="Chirag Jain" position="sponsorship Head" image={sponsorship}  type="mr-2"/>
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} type="mr-2"/>
               </div>
               <div className={styles.lefttcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card
+                name="Prashant Naik"
+                position="hospitality Head"
+                image={hospitality}
+                type="mr-2"
+              />
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card
+                name="Sidhardha Grandhi"
+                position="Creatives Head"
+                image={creative}
+                type="mr-2"
+              />
               </div>
               <div className={styles.lefttcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} type="mr-2"/>
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} type="mr-2"/>
               </div>
               <div className={styles.lefttcard}>
-                <Card
-                  name="Krati Arela"
-                  position="Overall Head"
-                  image={Man}
-                  type="mr-2"
-                />
+              <Card name="Nishant Kannan" position="Multimedia Head" image={multimedia} type="mr-2"/>
+              </div>
+            </div>
+            <div
+              className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
+            >
+              <div className={styles.rightcard}>
+              <Card
+                name="Sachi Kavitake"
+                position="Culti Head"
+                image={culti}
+                type="mr-2"
+              />
+              </div>
+              <div className={styles.lefttcard}>
+              <Card
+                name="Eshwar Yadav"
+                position="Publicity Head"
+                image={publicity}
+                type="mr-2"
+              />
               </div>
             </div>
             <br />
