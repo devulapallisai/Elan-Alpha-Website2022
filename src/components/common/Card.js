@@ -8,7 +8,7 @@ function Card({name,position,image,type}) {
     <div className={`m-4`}>
       <div className={styles.card} data-aos="flip-up">
         <div className={`${styles.box} d-flex justify-center mx-auto relative ${type}`}>
-          <img src={image} alt="Image Here" />
+          <img src={image} className={`${styles.box}`} alt="Image Here" />
           <div className={`absolute top-2 left-2 ${styles.box}`}>
             <img src={Goldenbox} alt="Image" />
           </div>
