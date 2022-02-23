@@ -66,4 +66,4 @@ function ThirdSlide() {
   );
 }
 
-export default ThirdSlide;g
+export default ThirdSlide;
