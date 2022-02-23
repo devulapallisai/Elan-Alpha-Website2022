@@ -17,24 +17,31 @@ function Header({ path, block, sched, setsched }) {
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
-  const [color, setcolor] = useState('rgb(21,5,37)');
+  const [color, setcolor] = useState("rgb(21,5,37)");
   const colors = {
-    "team": "#350F3E",
+    team: "#350F3E",
     "": "rgb(21,5,37)",
-    "events": "#80295D",
-    "sponsors": "#CD846C",
-    "competitions": block === 'culti' ? '#1E0735' : '#943066',
-    "contact": '#F5C470',
-    "socialcause": '#A64C68',
-  }
+    events: "#80295D",
+    sponsors: "#CD846C",
+    competitions: block === "culti" ? "#1E0735" : "#943066",
+    contact: "#F5C470",
+    socialcause: "#A64C68",
+  };
   useEffect(() => {
     AOS.init();
     AOS.refresh();
-    setcolor(colors[path])
+    setcolor(colors[path]);
   }, []);
   return (
     <>
-      <div className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`} style={{ background: `linear-gradient(to bottom,${colors[`${path}`]} 45%,transparent)` }}>
+      <div
+        className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`}
+        style={{
+          background: `linear-gradient(to bottom,${
+            colors[`${path}`]
+          } 45%,transparent)`,
+        }}
+      >
         <div className="hidden lg:flex justify-between">
           <div className={`h-auto`}>
             <div className="imgsrc pl-6 inline-block py-2">
@@ -43,22 +50,32 @@ function Header({ path, block, sched, setsched }) {
               </Link>
             </div>
           </div>
-          <span
-            className={`${styles.stylit}`}
-          ></span>
+          <span className={`${styles.stylit}`}></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
-          <div className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex px-5`}>   
-            {routes.reverse().map((route) => (
-              <Link
-                to={route[1]}
-                className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
-              >
-                {route[0].toUpperCase()}
-              </Link>
-            ))}
+          <div
+            className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex px-5`}
+          >
+            {routes.reverse().map((route) =>
+              route[0] === "CA portal" ? (
+                <a href="http://ca.elan.org.in/"  target="_blank" rel="noopener noreferrer"
+                  className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
+                >g
+                  {route[0].toUpperCase()}
+                </a>
+              ) : (
+                <Link
+                  to={route[1]}
+                  className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
+                >
+                  {route[0].toUpperCase()}
+                </Link>
+              )
+            )}
             <span
-              className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`} onClick={()=>setsched(true)}
-            >Schedule
+              className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
+              onClick={() => setsched(true)}
+            >
+              Schedule
             </span>
           </div>
         </div>
@@ -101,16 +118,20 @@ function Header({ path, block, sched, setsched }) {
             data-aos-duration="400"
           >
             <div className="flex flex-col list-none mr-3 mt-2 ml-16 w-200 mb-3">
-            <div
-                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse" onClick={()=>
-                    {setsched(true);sethamburger(false)}}
-                >
-                  Schedule
-                </div>
+              <div
+                className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
+                onClick={() => {
+                  setsched(true);
+                  sethamburger(false);
+                }}
+              >
+                Schedule
+              </div>
               {routes.reverse().map((route) => (
                 <Link
                   to={route[1]}
-                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse" onClick={()=>sethamburger(false)}
+                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
+                  onClick={() => sethamburger(false)}
                 >
                   {route[0].toUpperCase()}
                 </Link>

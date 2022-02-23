@@ -66,8 +66,8 @@ function FourthSlide() {
             <h1 className='text-black font-heading'>Heading</h1>
             <p className='text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div className="Para2 absolute w-2/3 justify-center mx-auto top-[30vh]">
-            <h1 className='Para2h text-black text-center text-3xl font-heading'>Heading</h1>
+        <div className="Para2 absolute w-2/3 justify-center mx-auto top-[25vh]">
+            <h1 className='Para2h text-black text-center text-5xl font-heading'>Heading</h1>
             <p className='Para2f text-black text-lg text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div className='bottom-0  skyline3 absolute overflow-hidden' >

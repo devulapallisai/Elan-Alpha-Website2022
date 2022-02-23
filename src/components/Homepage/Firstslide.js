@@ -14,15 +14,6 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
     AOS.init();
     AOS.refresh();
   }, []);
-  // useEffect(()=>{
-  //   window.addEventListener('scroll',(event)=>{
-  //     if(chakra){
-  //       if(scrollDirection==='down'){
-  //         document.getElementById('secondslide').scrollIntoView();
-  //       }
-  //     }
-  //   })
-  // },[chakra,scrollDirection])
   return (
     <div
       className="w-screen h-screen z-40"
@@ -96,13 +87,6 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
               className={`${styles.themeimg}`}
             />
           </div>
-          {/* <div className="absolute bottom-0 w-full">
-            <img
-              src={Chakra}
-              className={`mx-auto cursor-pointer z-50 ${styles.chakra}`}
-              alt="Imag"
-            />
-          </div> */}
         </>
       )}
       <div className={`hidden md:block ${chakra ? styles.active1 : styles.nonactive1}`}>
