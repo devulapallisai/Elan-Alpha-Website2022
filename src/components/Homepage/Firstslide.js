@@ -14,15 +14,6 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
     AOS.init();
     AOS.refresh();
   }, []);
-  // useEffect(()=>{
-  //   window.addEventListener('scroll',(event)=>{
-  //     if(chakra){
-  //       if(scrollDirection==='down'){
-  //         document.getElementById('secondslide').scrollIntoView();
-  //       }
-  //     }
-  //   })
-  // },[chakra,scrollDirection])
   return (
     <div
       className="w-screen h-screen z-40"
