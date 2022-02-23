@@ -7,9 +7,22 @@ import Lant from "../../images/Homepage/Lanterntop.png";
 import Skyline from "../../images/Homepage/Skyline3copy.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import style from "../../css/Homepage1.module.css";
+import ThirdSlide from "./ThirdSlide";
 function Secondslide({ initialVal, scrollDirection,secondslideref }) {
   const textref = useRef();
-  
+  const [thirdslide,setthirdslide]=useState(false);
+  useEffect(() => {
+      document.getElementById('secondslide').addEventListener('keydown',(event)=>{
+        // if (
+        //   event.keyCode === 34 ||
+        //   event.key === "ArrowDown" ||
+        //   event.key === "PageDown"
+        // ) {
+        //   setthirdslide(true);
+        // } 
+        console.log('first')
+      })
+  })
   const { width, height } = useWindowDimensions();
   return (
     <>
@@ -50,7 +63,7 @@ function Secondslide({ initialVal, scrollDirection,secondslideref }) {
           <div className={`${styles.Slide} h-screen w-screen -z-[11111]`}></div>
         </div>
       <div id="secondslide" ref={secondslideref}
-        className={` relative h-screen w-screen hidden lg:block -z-[1]`}
+        className={`relative h-screen w-screen hidden lg:block -z-[1]`} 
       >
         <img
           src={BackgroundI}
@@ -106,6 +119,7 @@ function Secondslide({ initialVal, scrollDirection,secondslideref }) {
           }`}
         />
       </div>
+      
     </>
   );
 }

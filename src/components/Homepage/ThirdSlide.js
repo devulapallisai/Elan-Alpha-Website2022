@@ -42,7 +42,18 @@ function ThirdSlide() {
   useEffect(() => {
     window.addEventListener("keydown", (event) => {
       // window.location.href = "/fourth";
-      if(event.keyCode ===34||event.key==='ArrowDown'||event.key==='PageDown'){
+      if (
+        event.keyCode === 34 ||
+        event.key === "ArrowDown" ||
+        event.key === "PageDown"
+      ) {
+        setdispf(true);
+      }
+    });
+    window.addEventListener("wheel", (event) => {
+      // window.location.href = "/fourth";
+
+      if (event.deltaY > 0) {
         setdispf(true);
       }
     });
@@ -50,7 +61,7 @@ function ThirdSlide() {
   return (
     <div id="thirdslide">
       {dispf ? (
-        <FourthSlide/>
+        <FourthSlide />
       ) : (
         <div
           className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`}
