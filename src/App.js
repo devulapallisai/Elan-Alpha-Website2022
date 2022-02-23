@@ -18,6 +18,7 @@ import Infi from './pages/Infi';
 import Proshows from './pages/Prowshows';
 import Third from './components/Homepage/ThirdSlide'
 import Fourth from './components/Homepage/FourthSlide'
+import BThirdSlide from'./components/Homepage/BThirdSlide'
 library.add(fab, faCheckSquare, faCoffee)
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/third" element={<Third/>}/>
         <Route path="/team" element={<Team/>}/>
+        <Route path="/bthird" element={<BThirdSlide/>}/>
         <Route path="/sponsors" element={<Sponsors/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/socialcause" element={<SocialCause/>}/>
