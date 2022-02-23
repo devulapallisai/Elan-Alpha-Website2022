@@ -5,7 +5,8 @@ import {gsap} from 'gsap'
 import Chakra from '../../images/Homepage/chakra.png'
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import styles from '../../css/Homepage4.module.css';
-import Footer from '../common/Footer.js'
+import Footer from '../common/Footer.js';
+import style from '../../css/Homepage1.module.css'
 function FourthSlide() {
   useEffect(()=>{
     gsap.from('.chakra',{
@@ -65,12 +66,13 @@ function FourthSlide() {
   return (
     <div className={`Back relative flex justify-center h-screen w-screen overflow-hidden ${styles.bgit}`} id="fourthslide">
         <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
-            <h1 className='text-black font-heading'>Heading</h1>
-            <p className='text-black'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1 className='text-white font-heading text-4xl z-[10000]'>Heading</h1>
+            <br />
+            <p className='text-white text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div className="Para2 absolute w-2/3 justify-center mx-auto top-[25vh]">
-            <h1 className='Para2h text-black text-center text-5xl font-heading'>Heading</h1>
-            <p className='Para2f text-black text-lg text-center'>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1 className='Para2h text-white text-center text-5xl font-heading'>Heading</h1>
+            <p className='Para2f text-white text-lg text-center'>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div className='bottom-0  skyline3 absolute overflow-hidden' >
             <img src={Skyline3} className=' w-screen' alt='img'></img>
@@ -81,9 +83,9 @@ function FourthSlide() {
         <div className='chakra1 absolute w-[150px] -z-4 left-16 top-20 mx-auto'>
             <img src={Chakra} alt='img'/>
         </div>
-        <div className="absolute footer container bottom-4 mx-auto">
+        {/* <div className="absolute footer container bottom-4 mx-auto">
             <Footer/>
-        </div>
+        </div> */}
     </div>
   )
 }
