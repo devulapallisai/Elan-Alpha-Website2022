@@ -57,9 +57,12 @@ function Header({ path, block, sched, setsched }) {
           >
             {routes.reverse().map((route) =>
               route[0] === "CA portal" ? (
-                <a href="http://ca.elan.org.in/"  target="_blank" rel="noopener noreferrer"
+                <a
+                  href="http://ca.elan.org.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
-                >g
+                >
                   {route[0].toUpperCase()}
                 </a>
               ) : (
@@ -127,15 +130,25 @@ function Header({ path, block, sched, setsched }) {
               >
                 Schedule
               </div>
-              {routes.reverse().map((route) => (
-                <Link
-                  to={route[1]}
-                  className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
-                  onClick={() => sethamburger(false)}
-                >
-                  {route[0].toUpperCase()}
-                </Link>
-              ))}
+              {routes.reverse().map((route) =>
+                route[0] === "CA portal" ? (
+                  <a
+                    href="http://ca.elan.org.in/"
+                    className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
+                    onClick={() => sethamburger(false)}
+                  >
+                    {route[0].toUpperCase()}
+                  </a>
+                ) : (
+                  <Link
+                    to={route[1]}
+                    className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
+                    onClick={() => sethamburger(false)}
+                  >
+                    {route[0].toUpperCase()}
+                  </Link>
+                )
+              )}
             </div>
           </div>
         ) : (
