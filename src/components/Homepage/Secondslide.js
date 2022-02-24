@@ -35,7 +35,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
         }}
       >
         <div
-          className={`fixed top-[10rem] 2xl:top-84 text-sm flex justify-center ${styles.texthere
+          className={`fixed top-[25vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere
             }`}
           ref={textref}
           data-aos="fade-down"
@@ -46,10 +46,10 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               OUR THEME
             </div>
             <div className="text-justify font-text">
-              <p className="m-1">They ask me, <br/>"How are you so sure you'll enjoy tomorrow?" <br/>"Sunrise."</p>
+              <p className="m-1">They ask me, <br/>"How are you so sure you'll enjoy tomorrow?" <br/><p className="text-center">"Sunrise"</p></p>
 
 
-              <p className="m-1">We present you this year's theme: Zora-e-Sukoon.
+              <p className="m-1">We present you this year's theme: <p className="text-center">Zora-e-Sukoon</p>
               Zora-e-Sukoon translates to the peaceful feeling we get at the rise of dawn. It depicts the joyful feeling we get after overcoming adversity in our lives. No matter how dark your life may seem, Elan & ηVision will be your break of dawn, your Sunrise, your Sukoon.</p>
             </div>
           </div>
