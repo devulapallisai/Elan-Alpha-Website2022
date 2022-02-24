@@ -14,7 +14,7 @@ function Header({ path, block, sched, setsched }) {
     ["CA portal", "http://ca.elan.org.in"],
     ["Team", "/team"],
     ["Social Cause", "/socialcause"],
-    ["Sponsors", "/sponsors"],
+    // ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
   const [color, setcolor] = useState("rgb(21,5,37)");
@@ -74,12 +74,12 @@ function Header({ path, block, sched, setsched }) {
                 </Link>
               )
             )}
-            <span
+            {/* <span
               className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
               onClick={() => setsched(true)}
             >
               Schedule
-            </span>
+            </span> */}
           </div>
         </div>
         {/* Mobile part begins now */}
@@ -121,7 +121,7 @@ function Header({ path, block, sched, setsched }) {
             data-aos-duration="400"
           >
             <div className="flex flex-col list-none mr-3 mt-2 ml-16 w-200 mb-3">
-              <div
+              {/* <div
                 className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
                 onClick={() => {
                   setsched(true);
@@ -129,7 +129,7 @@ function Header({ path, block, sched, setsched }) {
                 }}
               >
                 Schedule
-              </div>
+              </div> */}
               {routes.reverse().map((route) =>
                 route[0] === "CA portal" ? (
                   <a
