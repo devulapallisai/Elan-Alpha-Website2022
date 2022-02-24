@@ -8,25 +8,25 @@ import Skyline from "../../images/Homepage/Skyline3copy.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import style from "../../css/Homepage1.module.css";
 import ThirdSlide from "./ThirdSlide";
-function Secondslide({ initialVal, scrollDirection,secondslideref }) {
+function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const textref = useRef();
-  const [thirdslide,setthirdslide]=useState(false);
+  const [thirdslide, setthirdslide] = useState(false);
   useEffect(() => {
-      document.getElementById('secondslide').addEventListener('keydown',(event)=>{
-        // if (
-        //   event.keyCode === 34 ||
-        //   event.key === "ArrowDown" ||
-        //   event.key === "PageDown"
-        // ) {
-        //   setthirdslide(true);
-        // } 
-        console.log('first')
-      })
+    document.getElementById('secondslide').addEventListener('keydown', (event) => {
+      // if (
+      //   event.keyCode === 34 ||
+      //   event.key === "ArrowDown" ||
+      //   event.key === "PageDown"
+      // ) {
+      //   setthirdslide(true);
+      // } 
+      console.log('first')
+    })
   })
   const { width, height } = useWindowDimensions();
   return (
     <>
-    {/* Text Part */}
+      {/* Text Part */}
       <div
         className={`flex justify-center`}
         style={{
@@ -35,9 +35,8 @@ function Secondslide({ initialVal, scrollDirection,secondslideref }) {
         }}
       >
         <div
-          className={`fixed top-40 2xl:top-84 text-sm flex justify-center ${
-            styles.texthere
-          }`}
+          className={`fixed top-40 2xl:top-84 text-sm flex justify-center ${styles.texthere
+            }`}
           ref={textref}
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -47,23 +46,21 @@ function Secondslide({ initialVal, scrollDirection,secondslideref }) {
               OUR THEME
             </div>
             <div className="text-center font-text">
-              This year Elan and ηvision celebrates childhood - the most
-              important phase, capable of shaping and moulding lives. While most
-              of us are in our late teens or early twenties, we help you to
-              relax a bit to take a jog down your memory lane. Fables of a
-              Moppet, our theme will help you to rejoice those times when we hid
-              Roald Dahl's books in textbooks, when a popsicle could make us
-              happy and when stress was just a physics term.
+              <p className="m-2">They ask me, "How are you so sure you'll enjoy tomorrow?" "Sunrise."</p>
+
+
+              <p className="m-2">Elan & ηVision presents to you this year's theme; Zora-e-Sukoon.
+              Zora-e-Sukoon translates to the peaceful feeling we get at the rise of dawn. This year's theme depicts the joyful feeling we get after overcoming adversity in our lives. No matter how dark your life may seem, Elan & ηVision will be your break of dawn, your Sunrise, your Sukoon.</p>
             </div>
           </div>
         </div>
       </div>
       {/* Window Part */}
-        <div className={`absolute top-[100vh] w-screen-h-screen -z-[111]`}>
-          <div className={`${styles.Slide} h-screen w-screen -z-[11111]`}></div>
-        </div>
+      <div className={`absolute top-[100vh] w-screen-h-screen -z-[111]`}>
+        <div className={`${styles.Slide} h-screen w-screen -z-[11111]`}></div>
+      </div>
       <div id="secondslide" ref={secondslideref}
-        className={`relative h-screen w-screen hidden lg:block -z-[1]`} 
+        className={`relative h-screen w-screen hidden lg:block -z-[1]`}
       >
         <img
           src={BackgroundI}
@@ -96,7 +93,7 @@ function Secondslide({ initialVal, scrollDirection,secondslideref }) {
         className="flex justify-center"
         style={{
           height: "auto",
-          zIndex: initialVal>0?-1:0,
+          zIndex: initialVal > 0 ? -1 : 0,
           opacity: 1,
         }}
       >
@@ -104,22 +101,21 @@ function Secondslide({ initialVal, scrollDirection,secondslideref }) {
           src={Chakra}
           alt="chakra"
           style={{
-            zIndex: initialVal>0?-11:0,
-            marginLeft: initialVal <= 1.4 ? initialVal *40 : 0,
+            zIndex: initialVal > 0 ? -11 : 0,
+            marginLeft: initialVal <= 1.4 ? initialVal * 40 : 0,
             bottom: initialVal >= 0.01 ? 0 : -70,
           }}
-          className={`fixed ${style.chakra} ${
-            scrollDirection === "down"
+          className={`fixed ${style.chakra} ${scrollDirection === "down"
               ? initialVal <= 0.97
                 ? `${styles.rotateclock}`
                 : ""
               : initialVal >= 0.01
-              ? `${styles.rotateanti}`
-              : ""
-          }`}
+                ? `${styles.rotateanti}`
+                : ""
+            }`}
         />
       </div>
-      
+
     </>
   );
 }

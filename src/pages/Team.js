@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "../css/team.module.css";
 import Card from "../components/common/Card";
-import Man from "../images/man.jpg";
+// import Man from "../images/man.jpg";
 import Lantern from "../images/Homepage/Lanterntop.png";
 import techy from "../images/teams/Amogh Bedarakota_Techy,Workshops.webp";
 import finance from "../images/teams/Ashish Chakravarthi_Finanace,Infra.webp";
@@ -12,7 +12,7 @@ import multimedia from "../images/teams/Nishanth Kannan_Creatives _ Multimedia.w
 import hospitality from "../images/teams/Prashanth Naik_Hospitality, Transport.webp";
 import culti from "../images/teams/Sachi Kavitake_Culti_Biggies, EML, Litr, Social Cause.webp"
 import creative from "../images/teams/Sidhardha Grandhi_Creatives _ Multimedia.webp"
-import web from "../images/teams/Smaran Kulkarni_Public Relations, Informals, Web.webp"
+import PR from "../images/teams/Smaran Kulkarni_Public Relations, Informals, Web.webp"
 import pronites from "../images/teams/Swapnish Sahare_Production, Pronites, Security.webp"
 
 // import Goldenbox from "../images/Goldenbox.png";
@@ -54,15 +54,15 @@ function Team() {
               <Card name="Krati Arela" position="Overall Head" image={overallhead} />
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
-              <Card name="Smaran Kulkarni" position="Web Head" image={web} />
-              <Card name="Chirag Jain" position="sponsorship Head" image={sponsorship} />
+              <Card name="Smaran Kulkarni" position="PR Head" image={PR} />
+              <Card name="Chirag Jain" position="Sponsorship Head" image={sponsorship} />
               <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
               <Card
-                name="Prashant Naik"
-                position="hospitality Head"
-                image={hospitality}
+                name="Nishant Kannan"
+                position="Creatives Head"
+                image={multimedia}
                 type="mr-2"
               />
               <Card
@@ -75,12 +75,12 @@ function Team() {
             <div className="grid md:grid-cols-3 mx-auto">
               <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} />
               <Card name="Amogh Bedarakota" position="Techy Head" image={techy} />
-              <Card name="Nishant Kannan" position="Multimedia Head" image={multimedia} />
+              <Card name="Prashanth Naik" position="Hospitality Head" image={hospitality} />
             </div>
             <div className="flex flex-col md:flex-row justify-center">
               <Card
                 name="Sachi Kavitake"
-                position="Culti Head"
+                position="Culti & Biggies Head"
                 image={culti}
                 type="mr-2"
               />
@@ -104,7 +104,7 @@ function Team() {
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-              <Card name="Smaran Kulkarni" position="Web Head" image={web} type="mr-2"/>
+              <Card name="Smaran Kulkarni" position="PR Head" image={PR} type="mr-2"/>
               </div>
               <div className={styles.lefttcard}>
               <Card name="Chirag Jain" position="sponsorship Head" image={sponsorship}  type="mr-2"/>
@@ -137,17 +137,19 @@ function Team() {
               />
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} type="mr-2"/>
+              <Card name="Nishant Kannan" position="Creatives Head" image={multimedia} type="mr-2"/>
+              
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} type="mr-2"/>
+              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} type="mr-2"/>
+             
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Nishant Kannan" position="Multimedia Head" image={multimedia} type="mr-2"/>
+              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} type="mr-2"/>
               </div>
             </div>
             <div
@@ -156,7 +158,7 @@ function Team() {
               <div className={styles.rightcard}>
               <Card
                 name="Sachi Kavitake"
-                position="Culti Head"
+                position="Culti & Biggies Head"
                 image={culti}
                 type="mr-2"
               />

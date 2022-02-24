@@ -8,8 +8,8 @@ import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   const routes = [
-    ["FAQ", "/"],
-    ["Register", "/"],
+    // ["FAQ", "/"],
+    // ["Register", "/"],
     ["Contact us", "/contact"],
   ];
   return (
