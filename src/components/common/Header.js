@@ -20,7 +20,7 @@ function Header({ path, block, sched, setsched }) {
   const [color, setcolor] = useState("rgb(21,5,37)");
   const colors = {
     team: "#350F3E",
-    "": "rgb(21,5,37)",
+    "": "transparent",
     events: "#80295D",
     sponsors: "#CD846C",
     competitions: block === "culti" ? "#1E0735" : "#943066",
