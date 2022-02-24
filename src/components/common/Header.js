@@ -65,6 +65,15 @@ function Header({ path, block, sched, setsched }) {
                 >
                   {route[0].toUpperCase()}
                 </a>
+              ) : route[0] === "Social Cause" ? (
+                <a
+                  href="https://social-cause-elan22.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
+                >
+                  {route[0].toUpperCase()}
+                </a>
               ) : (
                 <Link
                   to={route[1]}
