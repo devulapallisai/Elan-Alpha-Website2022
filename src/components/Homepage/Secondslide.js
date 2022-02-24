@@ -46,10 +46,10 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               OUR THEME
             </div>
             <div className="text-justify font-text">
-              <p className="m-1">They ask me, <br/>"How are you so sure you'll enjoy tomorrow?" <br/><p className="text-center">"Sunrise"</p></p>
+              <p className="m-1">They ask me, <br/>"How are you so sure you'll enjoy tomorrow?" <br/><p className="text-center font-bold text-[18gpx]">"Sunrise"</p></p>
 
 
-              <p className="m-1">We present you this year's theme: <p className="text-center">Zora-e-Sukoon</p>
+              <p className="m-1">We present you this year's theme: <p className="text-center font-bold text-[18gpx]">Zora-e-Sukoon</p>
               Zora-e-Sukoon translates to the peaceful feeling we get at the rise of dawn. It depicts the joyful feeling we get after overcoming adversity in our lives. No matter how dark your life may seem, Elan & ηVision will be your break of dawn, your Sunrise, your Sukoon.</p>
             </div>
           </div>
