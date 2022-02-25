@@ -25,12 +25,12 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
     AOS.refresh();
   }, []);
   useEffect(() => {
-    gsap.from(".chakra", {
-      x: 550,
-      y: 500,
-      duration: 3,
-      rotation: 180,
-    });
+    // gsap.from(".chakra", {
+    //   x: 550,
+    //   y: 500,
+    //   duration: 3,
+    //   rotation: 180,
+    // });
     gsap.to(".Para1", {
       opacity: 0,
       x: -100,
@@ -122,7 +122,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           13th Edition of Elan & ηVision
         </h1>
         <p className="mt-10 Para2f text-white text-lg text-center">
-          <div class="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-4 gap-4">
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img

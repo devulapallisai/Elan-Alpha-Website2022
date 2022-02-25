@@ -68,7 +68,7 @@ function FourthSlide() {
         <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
             <h1 className='text-white font-heading text-4xl z-[10000]'>About Us</h1>
             <br />
-            <p className='text-white text-lg'>Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad and is one of the largest fests in South India. It is entirely organized by IITH students. Elan refers to the cultural part and ηVision cites the technological part of the fest. This festival features several professional and semi-professional crowd-pulling events and promises to be a grand event showcasing the best of cultural performances, technical solutions, and student community advances</p>
+            <p className='text-white text-lg z-[100000]'>Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad and is one of the largest fests in South India. It is entirely organized by IITH students. Elan refers to the cultural part and ηVision cites the technological part of the fest. This festival features several professional and semi-professional crowd-pulling events and promises to be a grand event showcasing the best of cultural performances, technical solutions, and student community advances</p>
         </div>
         <div className="Para2 absolute w-2/3 justify-center mx-auto top-[25vh]">
             <h1 className='Para2h text-white text-center text-5xl font-heading'>About Us</h1>

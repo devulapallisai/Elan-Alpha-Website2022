@@ -11,21 +11,26 @@ import ThirdSlide from "./ThirdSlide";
 function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const textref = useRef();
   const [thirdslide, setthirdslide] = useState(false);
-  useEffect(() => {
-    document.getElementById('secondslide').addEventListener('keydown', (event) => {
-      // if (
-      //   event.keyCode === 34 ||
-      //   event.key === "ArrowDown" ||
-      //   event.key === "PageDown"
-      // ) {
-      //   setthirdslide(true);
-      // } 
-      console.log('first')
-    })
-  })
+  const keyev = (event) => {
+    if (
+      (event.keyCode === 34 ||
+        event.key === "ArrowDown" ||
+        event.key === "PageDown") &&
+      initialVal >= 0.98
+    ) {
+      // setthirdslide(true);
+      window.location.href = "/third";
+    }
+  };
+  const wheelused = (event) => {
+    console.log("Hello");
+    if (event.deltaY < 0) {
+      window.location.href = "/third";
+    }
+  };
   const { width, height } = useWindowDimensions();
   return (
-    <>
+    <div>
       {/* Text Part */}
       <div
         className={`flex justify-center`}
@@ -35,8 +40,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
         }}
       >
         <div
-          className={`fixed top-[25vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere
-            }`}
+          className={`fixed top-[25vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere}`}
           ref={textref}
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -46,11 +50,23 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               OUR THEME
             </div>
             <div className="text-justify font-text">
-              <p className="m-1">They ask me, <br/>"How are you so sure you'll enjoy tomorrow?" <br/><p className="text-center font-bold text-[18px]">"Sunrise"</p></p>
+              <p className="m-1">
+                They ask me, <br />
+                "How are you so sure you'll enjoy tomorrow?" <br />
+                <p className="text-center font-bold text-[18px]">"Sunrise"</p>
+              </p>
 
-
-              <p className="m-1">We present you this year's theme: <p className="text-center font-bold text-[18px]">Zora-e-Sukoon</p>
-              Zora-e-Sukoon translates to the peaceful feeling we get at the rise of dawn. It depicts the joyful feeling we get after overcoming adversity in our lives. No matter how dark your life may seem, Elan & ηVision will be your break of dawn, your Sunrise, your Sukoon.</p>
+              <p className="m-1">
+                We present you this year's theme:{" "}
+                <p className="text-center font-bold text-[18px]">
+                  Zora-e-Sukoon
+                </p>
+                Zora-e-Sukoon translates to the peaceful feeling we get at the
+                rise of dawn. It depicts the joyful feeling we get after
+                overcoming adversity in our lives. No matter how dark your life
+                may seem, Elan & ηVision will be your break of dawn, your
+                Sunrise, your Sukoon.
+              </p>
             </div>
           </div>
         </div>
@@ -59,8 +75,13 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
       <div className={`absolute top-[100vh] w-screen-h-screen -z-[111]`}>
         <div className={`${styles.Slide} h-screen w-screen -z-[11111]`}></div>
       </div>
-      <div id="secondslide" ref={secondslideref}
-        className={`relative h-screen w-screen hidden lg:block -z-[1]`}
+      <div
+        id="secondslide"
+        ref={secondslideref}
+        onWheel={wheelused}
+        onKeyDown={keyev}
+        tabIndex={0}
+        className={`h-screen w-screen hidden lg:block -z-[1]`}
       >
         <img
           src={BackgroundI}
@@ -70,23 +91,25 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           width="100vw"
           height="100vh"
         />
-        <div className="absolute top-14 right-24">
-          <img src={Lanterntop} alt="Imag" className={styles.img} />
-        </div>
-        <div className="absolute top-0 right-40 2xl:right-48">
-          <img src={Lanterntop} alt="Imag" className={styles.img1} />
-        </div>
-        <div className="absolute left-16 top-40">
-          <img src={Lant} alt="Imag" className={styles.img2} />
-        </div>
-        <div className="absolute left-28 top-16 2xl:left-32">
-          <img src={Lant} alt="Imag" className={styles.img3} />
-        </div>
-        <div className="absolute left-48 top-28 2xl:left-52">
-          <img src={Lant} alt="Imag" className={styles.img4} />
-        </div>
-        <div className={`${styles.zInde} w-screen absolute bottom-0`}>
-          <img src={Skyline} alt="Imag" className={styles.zoomimg} />
+        <div className="absolute top-[100vh] w-screen h-screen">
+          <div className="absolute top-14 right-24">
+            <img src={Lanterntop} alt="Imag" className={styles.img} />
+          </div>
+          <div className="absolute top-0 right-40 2xl:right-48">
+            <img src={Lanterntop} alt="Imag" className={styles.img1} />
+          </div>
+          <div className="absolute left-16 top-40">
+            <img src={Lant} alt="Imag" className={styles.img2} />
+          </div>
+          <div className="absolute left-28 top-16 2xl:left-32">
+            <img src={Lant} alt="Imag" className={styles.img3} />
+          </div>
+          <div className="absolute left-48 top-28 2xl:left-52">
+            <img src={Lant} alt="Imag" className={styles.img4} />
+          </div>
+          <div className={`${styles.zInde} w-screen absolute bottom-0`}>
+            <img src={Skyline} alt="Imag" className={styles.zoomimg} />
+          </div>
         </div>
       </div>
       <div
@@ -105,18 +128,18 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             marginLeft: initialVal <= 1.4 ? initialVal * 40 : 0,
             bottom: initialVal >= 0.01 ? 0 : -70,
           }}
-          className={`fixed ${style.chakra} ${scrollDirection === "down"
+          className={`fixed ${style.chakra} ${
+            scrollDirection === "down"
               ? initialVal <= 0.97
                 ? `${styles.rotateclock}`
                 : ""
               : initialVal >= 0.01
-                ? `${styles.rotateanti}`
-                : ""
-            }`}
+              ? `${styles.rotateanti}`
+              : ""
+          }`}
         />
       </div>
-
-    </>
+    </div>
   );
 }
 

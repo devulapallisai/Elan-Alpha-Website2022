@@ -50,7 +50,8 @@ function ThirdSlide() {
         event.key === "PageDown"
       ) {
         setdispf(true);
-        setforward(true)
+        setforward(true);
+        console.log(document.getElementById('thirdslide'))
       }
     });
     window.addEventListener("wheel", (event) => {
@@ -63,14 +64,14 @@ function ThirdSlide() {
     });
   });
   return (
-    <div id="thirdslide">
+    <div>
       {dispf ? (
         <FourthSlide forward={forward} setforward={setforward} dispf={dispf}  setdispf={setdispf}/>
       ) : (
         <>
           {forward ? (
             <div
-              className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`}
+              className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`} id="thirdslide"
             >
               <div className="z-[100000] Para absolute w-2/3 mx-auto top-[15vh]">
                 <h1 className="font-heading text-white text-4xl z-[10000]">
