@@ -54,7 +54,7 @@ function Team() {
               <Card name="Krati Arela" position="Overall Head" image={overallhead} />
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
-              <Card name="Smaran Kulkarni" position="PR Head" image={PR} />
+              <Card name="Smaran Kulkarni" position="Public Relations Head" image={PR} />
               <Card name="Chirag Jain" position="Sponsorship Head" image={sponsorship} />
               <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} />
             </div>
@@ -104,10 +104,10 @@ function Team() {
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-              <Card name="Smaran Kulkarni" position="PR Head" image={PR} type="mr-2"/>
+              <Card name="Smaran Kulkarni" position="Public Relations Head" image={PR} type="mr-2"/>
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Chirag Jain" position="sponsorship Head" image={sponsorship}  type="mr-2"/>
+              <Card name="Chirag Jain" position="Sponsorship Head" image={sponsorship}  type="mr-2"/>
               </div>
             </div>
             <div
@@ -119,7 +119,7 @@ function Team() {
               <div className={styles.lefttcard}>
               <Card
                 name="Prashant Naik"
-                position="hospitality Head"
+                position="Hospitality Head"
                 image={hospitality}
                 type="mr-2"
               />
