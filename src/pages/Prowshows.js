@@ -10,25 +10,25 @@ function Proshows() {
     return (
         <div className="Proshows  bg-proshows text-white" >
             <div className={styles.padit}>
-                <h1 className="font-heading text-white text-5xl text-center pt-11">
+            <h1 className="font-heading text-white text-4xl md:text-6xl text-center pt-12">
                     PROSHOWS
                 </h1>
                 <br />
                 <div className="hidden md:block">
-                    <div className="container mx-auto grid md:grid-cols-11">
+                    <div className="container mx-auto grid md:grid-cols-7 flex items-center" style={{marginBottom:`80px`, marginTop:`20px`}}>
 
-                        <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="PROSHOWS" />
+                        <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="PROSHOWS" />
                         <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
 
-                        <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="INFORMAL EVENTS" />
+                        <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="INFORMAL EVENTS" />
 
                     </div>
-                    <div className="container mx-auto grid md:grid-cols-11">
+                    <div className="container mx-auto grid md:grid-cols-7 my-10">
 
-                        <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="PROSHOWS" />
+                        <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="PROSHOWS" />
                         <img src={line} alt="imagehere" className='my-auto mx-auto col-span-1 hidden md:block' ></img>
 
-                        <Card type='col-span-5 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="INFORMAL EVENTS" />
+                        <Card type='col-span-3 mx-0' text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"  image={Zakir} buttonText="INFORMAL EVENTS" />
 
                     </div>
                 </div>
