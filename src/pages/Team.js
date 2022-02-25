@@ -3,17 +3,17 @@ import styles from "../css/team.module.css";
 import Card from "../components/common/Card";
 // import Man from "../images/man.jpg";
 import Lantern from "../images/Homepage/Lanterntop.png";
-import techy from "../images/teams/Amogh Bedarakota_Techy,Workshops.webp";
-import finance from "../images/teams/Ashish Chakravarthi_Finanace,Infra.webp";
-import sponsorship from "../images/teams/Chirag Jain_Sponsorship.webp";
-import publicity from "../images/teams/Eshwar Yadav_Publicity.webp";
-import overallhead from "../images/teams/Krati Arela_Overall Head.webp";
-import multimedia from "../images/teams/Nishanth Kannan_Creatives _ Multimedia.webp";
-import hospitality from "../images/teams/Prashanth Naik_Hospitality, Transport.webp";
-import culti from "../images/teams/Sachi Kavitake_Culti_Biggies, EML, Litr, Social Cause.webp"
-import creative from "../images/teams/Sidhardha Grandhi_Creatives _ Multimedia.webp"
-import PR from "../images/teams/Smaran Kulkarni_Public Relations, Informals, Web.webp"
-import pronites from "../images/teams/Swapnish Sahare_Production, Pronites, Security.webp"
+import techy from "../images/teams/Amogh Bedarakota Techy _ Workshop.webp";
+import finance from "../images/teams/Ashish Chakravarthy_Finance.webp";
+import sponsorship from "../images/teams/Chirag Jain_Sponsorship (1).webp";
+import publicity from "../images/teams/Eshwar Yadav_Publicity-1.webp";
+import overallhead from "../images/teams/Krati Arela_Overall Head-1.webp";
+import multimedia from "../images/teams/Nishanth Kannan_Creatives _ Multimedia (1).webp";
+import hospitality from "../images/teams/Prashanth Naik_Hospitality _ Transport.webp";
+import culti from "../images/teams/Sachi Kavitake_Culti _ Biggies, Social Cause, Litr, EML.webp"
+import creative from "../images/teams/Sidhardha Grandhi_Creatives_Multimedia.webp"
+import PR from "../images/teams/Smaran_PR,Infi,Web.webp"
+import pronites from "../images/teams/Swapnish Sahare _ Production _ Pronites _ Security.webp"
 
 // import Goldenbox from "../images/Goldenbox.png";
 import Footer from "../components/common/Footer";
@@ -137,7 +137,7 @@ function Team() {
               />
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Nishant Kannan" position="Creatives Head" image={multimedia} type="mr-2"/>
+              <Card name="Nishanth Kannan" position="Creatives Head" image={multimedia} type="mr-2"/>
               
               </div>
             </div>
@@ -176,7 +176,7 @@ function Team() {
           </div>
         </div>
         <br />
-        <div className={`ml-5 mr-5 md:ml-40 md:mr-40 ${styles.borderitim}`}>
+        {/* <div className={`ml-5 mr-5 md:ml-40 md:mr-40 ${styles.borderitim}`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
           deserunt adipisci facere eos, id incidunt voluptate cupiditate dolor
           officia laboriosam voluptas repellat mollitia repellendus explicabo
@@ -189,7 +189,7 @@ function Team() {
           necessitatibus! Quod totam, veniam deleniti explicabo repellat
           officiis alias ipsam blanditiis sit quia numquam, provident tempora
           consequatur vero nostrum. A similique deserunt cumque illo!
-        </div>
+        </div> */}
         <br />
       </div>
       <div className="container mx-auto">

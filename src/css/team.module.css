@@ -17,11 +17,11 @@
   }
 }
 .heightfix {
-  height: 160px;
+  height: 210px;
 }
 .box {
   width: 200px;
-  height: 200px;
+  height: 270px;
 }
 .card {
   overflow: hidden;
@@ -34,7 +34,7 @@
 .borderitim {
   padding: 15px;
   border: 3.5px solid transparent;
-  border-image: url("../images/Goldenbox.png") 30 stretch;
+  border-image: url("../images/Golden Box.png") 30 stretch;
 }
 .rightcard {
   transform: scale(0.5);
