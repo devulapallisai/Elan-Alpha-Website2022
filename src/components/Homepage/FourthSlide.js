@@ -2,11 +2,28 @@ import React, { useEffect } from "react";
 import Skyline1 from "../../images/Homepage/Skyline 1.png";
 import Skyline3 from "../../images/Homepage/Skyline 3.png";
 import { gsap } from "gsap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import Chakra from "../../images/Homepage/chakra.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import styles from "../../css/Homepage4.module.css";
 import Footer from "../common/Footer.js";
+import Tag from "../../images/Homepage/Tag.png";
+import Hom from "../../images/Homepage/Hom.png";
+import Cal from "../../images/Homepage/Cal.png";
+import User from "../../images/Homepage/User.png";
 function FourthSlide({ forward, setforward, dispf, setdispf }) {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   useEffect(() => {
     gsap.from(".chakra", {
       x: 550,
@@ -89,28 +106,92 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
       <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
         <h1 className="text-black font-heading">Heading</h1>
         <p className="text-black">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad
+          and is one of the largest fests in South India. It is entirely
+          organized by IITH students. Elan refers to the cultural part and
+          ηVision cites the technological part of the fest. This festival
+          features several professional and semi-professional crowd-pulling
+          events and promises to be a grand event showcasing the best of
+          cultural performances, technical solutions, and student community
+          advances
         </p>
       </div>
-      <div className="Para2 absolute w-2/3 justify-center mx-auto top-[25vh]">
-        <h1 className="Para2h text-black text-center text-5xl font-heading">
-          Heading
+      <div className="Para2 absolute w-2/3 justify-center mx-auto top-[16vh]">
+        <h1 className="Para2h text-white font-black text-center text-5xl font-text">
+          13th Edition of Elan & ηVision
         </h1>
-        <p className="Para2f text-black text-lg text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <p className="mt-10 Para2f text-white text-lg text-center">
+          <div class="grid grid-cols-4 gap-4">
+            <div className="text-center text-lg font-text font-bold">
+              <div className="img mb-5">
+                <img
+                  src={Hom}
+                  alt="Im"
+                  style={{ width: 100, height: 100 }}
+                  className="mx-auto z-[120000]"
+                />
+              </div>
+              400+ colleges
+            </div>
+            <div className="text-center text-lg font-text font-bold">
+              <div className="img mb-5">
+                <img
+                  src={Tag}
+                  alt="Im"
+                  style={{ width: 120, height: 110 }}
+                  className="mx-auto z-[120000]"
+                />
+              </div>
+              40+ events
+            </div>
+            <div className="text-center text-lg font-text font-bold">
+              <div className="img mb-5">
+                <img
+                  src={Cal}
+                  alt="Im"
+                  style={{ width: 120, height: 100 }}
+                  className="mx-auto z-[120000]"
+                />
+              </div>
+              3 days
+            </div>
+            <div className="text-center text-lg font-text font-bold">
+              <div className="img mb-5">
+                <img
+                  src={User}
+                  alt="Im"
+                  style={{ width: 170, height: 110 }}
+                  className="mx-auto z-[120000]"
+                />
+              </div>
+              10k+ audience
+            </div>
+          </div>
         </p>
+        <div
+          className="mt-10 flex justify-between mx-auto"
+          style={{ maxWidth: 400 }}
+          data-aos="fade-up" data-aos-duration="2000"
+        >
+          <a href="/contact" target="_blank">
+            <FontAwesomeIcon
+              icon={faFacebookF}
+              className="text-white text-5xl"
+            />
+          </a>
+          <a href="/contact" target="_blank">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="text-white text-5xl"
+            />
+          </a>
+          <a href="/contact" target="_blank">
+            <FontAwesomeIcon icon={faYoutube} className="text-white text-5xl" />
+          </a>
+          <a href="/contact" target="_blank">
+            <FontAwesomeIcon icon={faTwitter} className="text-white text-5xl" />
+          </a>
+        </div>
       </div>
       <div className="bottom-0  skyline3 absolute overflow-hidden">
         <img src={Skyline3} className=" w-screen" alt="img"></img>
