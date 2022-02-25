@@ -137,7 +137,7 @@ function Team() {
               />
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Nishant Kannan" position="Creatives Head" image={multimedia} type="mr-2"/>
+              <Card name="Nishanth Kannan" position="Creatives Head" image={multimedia} type="mr-2"/>
               
               </div>
             </div>

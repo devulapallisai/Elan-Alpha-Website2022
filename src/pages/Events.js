@@ -3,7 +3,7 @@ import styles from "../css/events.module.css";
 import Card from "../components/events/event-card";
 import line from '../images/events/line gols 9.png';
 import lineHz from '../images/events/line gols 8.png';
-import Zakir from '../images/events/Coming soon.png';
+import Zakir from '../images/events/Coming Soon (1).png';
 import Footer from "../components/common/Footer";
 
 function Events() {
