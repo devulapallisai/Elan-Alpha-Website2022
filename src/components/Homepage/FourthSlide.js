@@ -104,8 +104,9 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
       id="fourthslide"
     >
       <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
-        <h1 className="text-black font-heading">Heading</h1>
-        <p className="text-black">
+        <h1 className="font-heading text-white text-4xl z-[10000]">About Us</h1>
+        <br />
+        <p className="text-white text-lg z-[10000]">
           Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad
           and is one of the largest fests in South India. It is entirely
           organized by IITH students. Elan refers to the cultural part and
@@ -116,7 +117,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           advances
         </p>
       </div>
-      <div className="Para2 absolute w-2/3 justify-center mx-auto top-[16vh]">
+      <div className="Para2 absolute w-2/3 justify-center mx-auto top-[16vh] z-[1222]">
         <h1 className="Para2h text-white font-black text-center text-5xl font-text">
           13th Edition of Elan & ηVision
         </h1>
@@ -170,8 +171,9 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
         </p>
         <div
           className="mt-10 flex justify-between mx-auto"
-          style={{ maxWidth: 400 }}
-          data-aos="fade-up" data-aos-duration="2000"
+          style={{ maxWidth: 400, zIndex: 10000, cursor: "pointer" }}
+          data-aos="fade-up"
+          data-aos-duration="2000"
         >
           <a href="/contact" target="_blank">
             <FontAwesomeIcon
@@ -199,7 +201,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
       <div className="skyline1 absolute bottom-0 overflow-hidden">
         <img src={Skyline1} className="w-screen" alt="img"></img>
       </div>
-      <div className="chakra1 absolute w-[120px] -z-4 left-16 top-20 mx-auto">
+      <div className="chakra1 absolute w-[120px] z-[11] left-16 top-20 mx-auto">
         <img src={Chakra} alt="img" />
       </div>
       <div className="absolute footer container bottom-4 mx-auto">

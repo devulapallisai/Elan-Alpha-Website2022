@@ -66,12 +66,12 @@ function FourthSlide() {
   return (
     <div className={`Back relative flex justify-center h-screen w-screen overflow-hidden ${styles.bgit}`} id="fourthslide">
         <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
-            <h1 className='text-white font-heading text-4xl z-[10000]'>Heading</h1>
+            <h1 className='text-white font-heading text-4xl z-[10000]'>About Us</h1>
             <br />
             <p className='text-white text-lg'>Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad and is one of the largest fests in South India. It is entirely organized by IITH students. Elan refers to the cultural part and ηVision cites the technological part of the fest. This festival features several professional and semi-professional crowd-pulling events and promises to be a grand event showcasing the best of cultural performances, technical solutions, and student community advances</p>
         </div>
         <div className="Para2 absolute w-2/3 justify-center mx-auto top-[25vh]">
-            <h1 className='Para2h text-white text-center text-5xl font-heading'>Heading</h1>
+            <h1 className='Para2h text-white text-center text-5xl font-heading'>About Us</h1>
             <p className='Para2f text-white text-lg text-center'>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div className='bottom-0  skyline3 absolute overflow-hidden' >

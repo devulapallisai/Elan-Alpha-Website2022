@@ -74,7 +74,7 @@ function ThirdSlide() {
             >
               <div className="z-[100000] Para absolute w-2/3 mx-auto top-[15vh]">
                 <h1 className="font-heading text-white text-4xl z-[10000]">
-                  Heading
+                  About Us
                 </h1>
                 <br />
                 <p className="text-white text-lg z-[10000]">
