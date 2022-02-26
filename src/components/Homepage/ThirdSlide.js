@@ -51,7 +51,6 @@ function ThirdSlide() {
       ) {
         setdispf(true);
         setforward(true);
-        console.log(document.getElementById('thirdslide'))
       }
     });
     window.addEventListener("wheel", (event) => {

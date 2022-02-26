@@ -171,28 +171,40 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
         </p>
         <div
           className="mt-10 flex justify-between mx-auto"
-          style={{ maxWidth: 400, zIndex: 10000, cursor: "pointer" }}
+          style={{ maxWidth: 500, zIndex: 10000, cursor: "pointer" }}
           data-aos="fade-up"
           data-aos-duration="2000"
         >
+          <div className="flex flex-col">
           <a href="/contact" target="_blank">
             <FontAwesomeIcon
               icon={faFacebookF}
               className="text-white text-5xl"
             />
           </a>
+          <p className="font-text text-center font-bold text-lg mt-4">41k+ likes</p>
+          </div>
+          <div className="flex flex-col">
           <a href="/contact" target="_blank">
             <FontAwesomeIcon
               icon={faInstagram}
               className="text-white text-5xl"
             />
           </a>
+          <p className="font-text text-center font-bold text-lg mt-4">3.1k+ likes</p>
+          </div>
+          <div className="flex flex-col">
           <a href="/contact" target="_blank">
             <FontAwesomeIcon icon={faYoutube} className="text-white text-5xl" />
           </a>
+          <p className="font-text text-center font-bold text-lg mt-4">77k+ views</p>
+          </div>
+          <div className="flex flex-col">
           <a href="/contact" target="_blank">
             <FontAwesomeIcon icon={faTwitter} className="text-white text-5xl" />
           </a>
+          <p className="font-text text-center font-bold text-lg mt-4">1.1k+ followers</p>
+          </div>
         </div>
       </div>
       <div className="bottom-0  skyline3 absolute overflow-hidden">
