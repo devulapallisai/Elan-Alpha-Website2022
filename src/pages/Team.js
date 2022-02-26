@@ -51,12 +51,12 @@ function Team() {
         <div className="container lg:w-3/4 md:4/5 mx-auto">
           <div className="hidden md:block">
             <div className="grid grid-cols-1 mx-auto">
-              <Card name="Krati Arela" position="Overall Head" image={overallhead} />
+              <Card name="Krati Arela" position="Overall Head" image={overallhead} phone="6265534713"/>
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
-              <Card name="Smaran Kulkarni" position="Public Relations Head" image={PR} />
-              <Card name="Chirag Jain" position="Sponsorship Head" image={sponsorship} />
-              <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} />
+              <Card name="Smaran Kulkarni" position="Public Relations Head" image={PR} phone="7995204145" />
+              <Card name="Chirag Jain" position="Sponsorship Head" image={sponsorship} phone="9326168076"/>
+              <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} phone="9247858685"/>
             </div>
             <div className="flex flex-col md:flex-row justify-center">
               <Card
@@ -64,18 +64,20 @@ function Team() {
                 position="Creatives Head"
                 image={multimedia}
                 type="mr-2"
+                phone="9550820916"
               />
               <Card
                 name="Sidhardha Grandhi"
                 position="Creatives Head"
                 image={creative}
                 type="mr-2"
+                phone="6300568214"
               />
             </div>
             <div className="grid md:grid-cols-3 mx-auto">
-              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} />
-              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} />
-              <Card name="Prashanth Naik" position="Hospitality Head" image={hospitality} />
+              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} phone="7030753158"/>
+              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} phone="9492608927"/>
+              <Card name="Prashanth Naik" position="Hospitality Head" image={hospitality} phone="9390234039"/>
             </div>
             <div className="flex flex-col md:flex-row justify-center">
               <Card
@@ -83,12 +85,14 @@ function Team() {
                 position="Culti & Biggies Head"
                 image={culti}
                 type="mr-2"
+                phone="9511631183"
               />
               <Card
                 name="Eshwar Yadav"
                 position="Publicity Head"
                 image={publicity}
                 type="mr-2"
+                phone="8688947336"
               />
             </div>
             <br />
@@ -97,24 +101,24 @@ function Team() {
           <div className="md:hidden overflow-hidden">
             <div className="grid grid-cols-1 mx-auto transform">
               <div className={styles.initialcardop}>
-              <Card name="Krati Arela" position="Overall Head" image={overallhead} />
+              <Card name="Krati Arela" position="Overall Head" image={overallhead} phone="6265534713"/>
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-              <Card name="Smaran Kulkarni" position="Public Relations Head" image={PR} type="mr-2"/>
+              <Card name="Smaran Kulkarni" position="Public Relations Head" image={PR} type="mr-2" phone="7995204145"/>
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Chirag Jain" position="Sponsorship Head" image={sponsorship}  type="mr-2"/>
+              <Card name="Chirag Jain" position="Sponsorship Head" image={sponsorship}  type="mr-2" phone="9326168076"/>
               </div>
             </div>
             <div
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-              <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} type="mr-2"/>
+              <Card name="Ashish Chakravarthi " position="Finance Head" image={finance} type="mr-2" phone="9247858685"/>
               </div>
               <div className={styles.lefttcard}>
               <Card
@@ -122,6 +126,7 @@ function Team() {
                 position="Hospitality Head"
                 image={hospitality}
                 type="mr-2"
+                phone="9390234039"
               />
               </div>
             </div>
@@ -134,10 +139,11 @@ function Team() {
                 position="Creatives Head"
                 image={creative}
                 type="mr-2"
+                phone="6300568214"
               />
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Nishanth Kannan" position="Creatives Head" image={multimedia} type="mr-2"/>
+              <Card name="Nishanth Kannan" position="Creatives Head" image={multimedia} type="mr-2" phone="9550820916"/>
               
               </div>
             </div>
@@ -145,11 +151,11 @@ function Team() {
               className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
             >
               <div className={styles.rightcard}>
-              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} type="mr-2"/>
+              <Card name="Swapnish Sahare" position="Pronites Head" image={pronites} type="mr-2" phone="7030753158"/>
              
               </div>
               <div className={styles.lefttcard}>
-              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} type="mr-2"/>
+              <Card name="Amogh Bedarakota" position="Techy Head" image={techy} type="mr-2" phone="9492608927"/>
               </div>
             </div>
             <div
@@ -161,6 +167,7 @@ function Team() {
                 position="Culti & Biggies Head"
                 image={culti}
                 type="mr-2"
+                phone="9511631183"
               />
               </div>
               <div className={styles.lefttcard}>
@@ -169,6 +176,7 @@ function Team() {
                 position="Publicity Head"
                 image={publicity}
                 type="mr-2"
+                phone="8688947336"
               />
               </div>
             </div>

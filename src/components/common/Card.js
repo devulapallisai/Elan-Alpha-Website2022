@@ -3,7 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import styles from "../../css/team.module.css";
 import Goldenbox from '../../images/Golden Box.png'
-function Card({name,position,image,type}) {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faPhoneSquare } from '@fortawesome/free-solid-svg-icons'
+function Card({name,position,image,type,phone}) {
   return (
     <div className={`m-4`}>
       <div className={`${styles.card}` } data-aos="flip-up">
@@ -18,6 +20,10 @@ function Card({name,position,image,type}) {
         </div>
         <div className="text-center font-text text-2xl  text-white">
           {position}
+        </div>
+        <div className="text-center font-text text-2xl  text-white">
+        <FontAwesomeIcon icon={faPhoneSquare} className="px-2 fa-rotate-90"/>
+          <a href={`tel:${phone}`}>{phone}</a>
         </div>
       </div>
     </div>
