@@ -1,23 +1,32 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import styles from "../css/contact.module.css";
 import Footer from "../components/common/Footer";
 import emailjs from "@emailjs/browser";
 function Contact() {
   const form = useRef();
-
+  const [name, statehandler1] = useState("");
+  const [msg, statehandler5] = useState("");
+  const [num, statehandler3] = useState("");
+  const [rel, statehandler4] = useState("");
+  const [email, statehandler2] = useState("");
   const sendEmail = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
 
     emailjs
       .sendForm(
-        "gmail",
-        "template_syqyduf",
+        "service_a9m83nj",
+        "template_x916u1a",
         form.current,
         "user_g8e7UyjabtYkZJBVSvW6J"
       )
       .then(
         (result) => {
           console.log(result.text);
+          statehandler2("");
+          statehandler1("");
+          statehandler3("");
+          statehandler4("");
+          statehandler5("");
         },
         (error) => {
           console.log(error.text);
@@ -27,7 +36,7 @@ function Contact() {
   return (
     <>
       <div className="hidden md:block">
-          {/* <h1 className="text-center font-heading text-3xl">Contact Us</h1> */}
+        {/* <h1 className="text-center font-heading text-3xl">Contact Us</h1> */}
         <div className=" h-screen flex items-center justify-center bg-[#F5C470] relative">
           <form
             ref={form}
@@ -37,27 +46,41 @@ function Contact() {
             <input
               className="col-span-8 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={name}
+              name="name"
               placeholder="First Name"
+              onChange={(e) => statehandler1(e.target.value)}
             />
             <input
               className="col-span-4 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={email}
+              name="email"
               placeholder="Email"
+              onChange={(e) => statehandler2(e.target.value)}
             />
             <input
               className="col-span-4 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={num}
+              name="num"
               placeholder="Phone Number"
+              onChange={(e) => statehandler3(e.target.value)}
             />
             <input
               className="col-span-8 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={rel}
               placeholder="Public Relation"
+              onChange={(e) => statehandler4(e.target.value)}
+              name="rel"
             />
             <textarea
               className="col-span-8 row-span-4 rounded-lg p-2 bg-[#F2EFE1] resize-none"
+              value={msg}
               placeholder="Your message"
-              name="description"
+              onChange={(e) => statehandler5(e.target.value)}
+              name="msg"
             />
             {/* <input
               type="submit"
@@ -66,7 +89,10 @@ function Contact() {
               SUBMIT
             </input> */}
             <div className="flex mt-4 justify-center mx-auto w-[50vw]">
-              <button type="submit" className="text-2xl justify-self-center font-heading">
+              <button
+                type="submit"
+                className="text-2xl justify-self-center font-heading"
+              >
                 Submit
               </button>
             </div>
@@ -90,29 +116,46 @@ function Contact() {
             <input
               className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={name}
+              name="name"
               placeholder="First Name"
+              onChange={(e) => statehandler1(e.target.value)}
             />
             <input
               className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={email}
+              name="email"
               placeholder="Email"
+              onChange={(e) => statehandler2(e.target.value)}
             />
             <input
               className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={num}
+              name="num"
               placeholder="Phone Number"
+              onChange={(e) => statehandler3(e.target.value)}
             />
             <input
               className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
+              value={rel}
+              name="rel"
               placeholder="Public Relation"
+              onChange={(e) => statehandler4(e.target.value)}
             />
             <textarea
               className="col-span-1 row-span-4  rounded-lg p-2 bg-[#F2EFE1] resize-none"
+              name="msg"
               placeholder="Your message"
-              name="description"
+              value={msg}
+              onChange={(e) => statehandler5(e.target.value)}
             />
-            <button type="submit" className="text-xl text-white font-bold col-span-2 font-heading p-2">
+            <button
+              type="submit"
+              className="text-xl text-white font-bold col-span-2 font-heading p-2"
+            >
               Submit
             </button>
           </form>
