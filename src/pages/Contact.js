@@ -1,4 +1,4 @@
-import React,{useRef} from "react";
+import React, { useRef } from "react";
 import styles from "../css/contact.module.css";
 import Footer from "../components/common/Footer";
 import emailjs from "@emailjs/browser";
@@ -27,6 +27,7 @@ function Contact() {
   return (
     <>
       <div className="hidden md:block">
+          {/* <h1 className="text-center font-heading text-3xl">Contact Us</h1> */}
         <div className=" h-screen flex items-center justify-center bg-[#F5C470] relative">
           <form
             ref={form}
@@ -64,7 +65,11 @@ function Contact() {
             >
               SUBMIT
             </input> */}
-            <button type="submit" className="col-span-2 font-heading p-2">Submit</button>
+            <div className="flex mt-4 justify-center mx-auto w-[45vw]">
+              <button type="submit" className="text-2xl justify-self-center font-heading">
+                Submit
+              </button>
+            </div>
           </form>
         </div>
       </div>
@@ -107,7 +112,9 @@ function Contact() {
               placeholder="Your message"
               name="description"
             />
-            <button type="submit" className="col-span-2 font-heading p-2">Submit</button>
+            <button type="submit" className="col-span-2 font-heading p-2">
+              Submit
+            </button>
           </form>
         </div>
       </div>
