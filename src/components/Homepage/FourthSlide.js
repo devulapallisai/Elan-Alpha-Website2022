@@ -119,7 +119,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
       </div>
       <div className="Para2 absolute w-2/3 justify-center mx-auto top-[16vh] z-[1222]">
         <h1 className="Para2h text-white font-black text-center text-5xl font-text">
-          13th Edition of Elan & ηVision
+          13th Edition of Elan & <span className="Para2h text-white font-light text-center">&eta;</span>Vision
         </h1>
         <p className="mt-10 Para2f text-white text-lg text-center">
           <div className="grid grid-cols-4 gap-4">
@@ -191,7 +191,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
               className="text-white text-5xl"
             />
           </a>
-          <p className="font-text text-center font-bold text-lg mt-4">3.1k+ likes</p>
+          <p className="font-text text-center font-bold text-lg mt-4">3.1k+ followers</p>
           </div>
           <div className="flex flex-col">
           <a href="/contact" target="_blank">

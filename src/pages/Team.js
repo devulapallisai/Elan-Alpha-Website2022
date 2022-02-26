@@ -60,7 +60,7 @@ function Team() {
             </div>
             <div className="flex flex-col md:flex-row justify-center">
               <Card
-                name="Nishant Kannan"
+                name="Nishanth Kannan"
                 position="Creatives Head"
                 image={multimedia}
                 type="mr-2"
