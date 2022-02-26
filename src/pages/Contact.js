@@ -10,10 +10,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "gmail",
+        "template_syqyduf",
         form.current,
-        "YOUR_USER_ID"
+        "user_g8e7UyjabtYkZJBVSvW6J"
       )
       .then(
         (result) => {
