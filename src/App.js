@@ -21,7 +21,7 @@ library.add(fab, faCheckSquare, faCoffee);
 function App() {
   const [block, setblock] = useState("culti");
   return (
-    <Router>
+    <Router basename="/">
       <Layout block={block} />
       <Routes>
         <Route path="/" element={<Home />} />
