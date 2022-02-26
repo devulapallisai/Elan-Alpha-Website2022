@@ -22,15 +22,17 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
       }}
     >
       {!chakra ? (
-        <div className="first transition duration-800 ease-in-out">
+        <div className="first transition duration-800 ease-in-out overflow-y-hidden">
           <div className="absolute bottom-0 w-full">
             <img
               src={Chakra}
               className={`mx-auto cursor-pointer z-50 ${styles.chakra} ${styles.transform}`}
               alt="Imae"
-              onClick={() => setTimeout(() => {
+              onClick={() => 
+                // setTimeout(() => {
                 setchakra((prev) => !prev)
-              }, 1000)}
+              // }, 1000)
+            }
             />
           </div>
           <div
@@ -93,11 +95,9 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
         <div
           className={`${chakra ? styles.active2 : styles.nonactive2}`}
           onClick={() => {
-            setTimeout(() => {
-              setTimeout(() => {
+              // setTimeout(() => {
                 setchakra(false)
-              }, 1000);
-            }, 1000);
+              // }, 1000);
           }}
         ></div>
       </div>
