@@ -6,7 +6,7 @@ function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
 
     emailjs
       .sendForm(
@@ -75,9 +75,9 @@ function Contact() {
       </div>
 
       {/* {mobile part begins} */}
-      <div className=" md:hidden">
+      <div className="block md:hidden">
         <div
-          className={` h-screen flex flex-col items-center justify-center gap-5 relative ${styles.bg}`}
+          className={` h-screen flex flex-col items-center justify-center gap-5 relative ${styles.bg} block`}
         >
           <div className="px-7 py-2 items-center justify-center font-heading text-lg bg-[#F5C470] rounded-lg ">
             CONTACT US
@@ -112,7 +112,7 @@ function Contact() {
               placeholder="Your message"
               name="description"
             />
-            <button type="submit" className="col-span-2 font-heading p-2">
+            <button type="submit" className="text-xl text-white font-bold col-span-2 font-heading p-2">
               Submit
             </button>
           </form>
