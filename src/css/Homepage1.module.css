@@ -2,6 +2,10 @@
   width: 15vw;
   opacity: 0.8;
 }
+.transform:hover{
+  transition:0.8s ease-in-out;
+  transform: scale(1.4);
+}
 .active1 {
   animation: flexit 0.8s ease-in-out;
   animation-iteration-count: 1;

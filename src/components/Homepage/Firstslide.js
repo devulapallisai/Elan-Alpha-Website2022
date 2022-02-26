@@ -26,7 +26,7 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
           <div className="absolute bottom-0 w-full">
             <img
               src={Chakra}
-              className={`mx-auto cursor-pointer z-50 ${styles.chakra}`}
+              className={`mx-auto cursor-pointer z-50 ${styles.chakra} ${styles.transform}`}
               alt="Imae"
               onClick={() => setTimeout(() => {
                 setchakra((prev) => !prev)

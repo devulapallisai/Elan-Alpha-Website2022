@@ -65,7 +65,7 @@ function Contact() {
             >
               SUBMIT
             </input> */}
-            <div className="flex mt-4 justify-center mx-auto w-[45vw]">
+            <div className="flex mt-4 justify-center mx-auto w-[38vw]">
               <button type="submit" className="text-2xl justify-self-center font-heading">
                 Submit
               </button>
