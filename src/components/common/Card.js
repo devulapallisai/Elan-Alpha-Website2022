@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import styles from "../../css/team.module.css";
 import Goldenbox from "../../images/Golden Box.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

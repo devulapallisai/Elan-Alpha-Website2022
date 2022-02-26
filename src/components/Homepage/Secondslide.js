@@ -1,16 +1,17 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {  useRef } from "react";
 import Chakra from "../../images/Homepage/chakra.png";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 import styles from "../../css/Homepage2.module.css";
 import Lanterntop from "../../images/Lantern1.png";
 import Lant from "../../images/Homepage/Lanterntop.png";
 import Skyline from "../../images/Homepage/Skyline3copy.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import style from "../../css/Homepage1.module.css";
-import ThirdSlide from "./ThirdSlide";
+// import ThirdSlide from "./ThirdSlide";
+import { useNavigate } from "react-router-dom";
 function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const textref = useRef();
-  const [thirdslide, setthirdslide] = useState(false);
+  const navigate = useNavigate();
+  // const [thirdslide, setthirdslide] = useState(false);
   const keyev = (event) => {
     if (
       (event.keyCode === 34 ||
@@ -19,16 +20,15 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
       initialVal >= 0.98
     ) {
       // setthirdslide(true);
-      window.location.href = "/third";
+      navigate("/third");
     }
   };
   const wheelused = (event) => {
     console.log("Hello");
     if (event.deltaY < 0) {
-      window.location.href = "/third";
+      navigate("/third");
     }
   };
-  const { width, height } = useWindowDimensions();
   return (
     <div>
       {/* Text Part */}

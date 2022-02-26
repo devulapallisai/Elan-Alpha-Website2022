@@ -1,19 +1,16 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Skyline1 from "../../images/Homepage/Skyline 1.png";
 import Skyline3 from "../../images/Homepage/Skyline 3.png";
 import { gsap } from "gsap";
 import Chakra from "../../images/Homepage/chakra.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import styles from "../../css/Homepage3.module.css";
-import useScrolldirection from "../../hooks/useScrolldirection";
 import style from "../../css/Homepage1.module.css";
 import FourthSlide from "./FourthSlide";
 import BThirdSlide from "./BThirdSlide";
 function ThirdSlide() {
-  const { scrollDirection, scrollPos } = useScrolldirection();
   const [dispf, setdispf] = useState(false);
   const [forward, setforward] = useState(true);
-  const thirdslide = useRef();
   useEffect(() => {
     gsap.from(".chakra", {
       x: 550,

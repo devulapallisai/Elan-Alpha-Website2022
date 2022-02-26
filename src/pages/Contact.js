@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import styles from "../css/contact.module.css";
-import Footer from "../components/common/Footer";
+// import Footer from "../components/common/Footer";
 import emailjs from "@emailjs/browser";
 function Contact() {
   const form = useRef();

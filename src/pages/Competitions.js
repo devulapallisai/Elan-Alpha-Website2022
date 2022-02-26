@@ -1,4 +1,4 @@
-import React, { useState, createContext, useContext } from "react";
+import React from "react";
 import styles from "../css/events.module.css";
 import Card from "../components/events/event-card";
 import line from "../images/events/line gols 9.png";

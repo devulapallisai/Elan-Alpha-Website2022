@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../components/proshows/Proshow-card'
 import Zakir from '../images/events/zakir.jpeg'
-import styles from '../css/proshow.module.css'
+// import styles from '../css/proshow.module.css'
 import MCard from '../components/proshows/Mobile-card'
 function ProshowList() {
   return (

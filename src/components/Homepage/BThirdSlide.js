@@ -3,10 +3,7 @@ import Skyline1 from '../../images/Homepage/Skyline 1.png'
 import Skyline3 from '../../images/Homepage/Skyline 3.png'
 import {gsap} from 'gsap'
 import Chakra from '../../images/Homepage/chakra.png'
-import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import styles from '../../css/Homepage4.module.css';
-import Footer from '../common/Footer.js';
-import style from '../../css/Homepage1.module.css'
 function FourthSlide() {
   useEffect(()=>{
     gsap.from('.chakra',{
