@@ -37,12 +37,17 @@ function Contact() {
     <>
       <div className="hidden md:block">
         {/* <h1 className="text-center font-heading text-3xl">Contact Us</h1> */}
-        <div className=" h-screen flex items-center justify-center bg-[#F5C470] relative">
+        <div className=" h-screen flex flex-col items-center justify-center bg-[#F5C470] relative">
+        
           <form
             ref={form}
             onSubmit={sendEmail}
             className={`w-2/3 container p-10 mx-auto grid grid-cols-8 grid-flow-row auto-rows-max gap-2 text-black grid-rows-5 ${styles.border}`}
           >
+            <div className="px-1 py-1 items-center h-[50px] w-[200px] align-center cursor-pointer justify-center font-heading text-lg bg-[#F5C470] rounded-lg ">
+            CONTACT US
+          </div>
+           
             <input
               className="col-span-8 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
@@ -103,7 +108,7 @@ function Contact() {
       {/* {mobile part begins} */}
       <div className="block md:hidden">
         <div
-          className={` h-screen flex flex-col items-center justify-center gap-5 relative ${styles.bg} block`}
+          className={` h-screen flex flex-col  items-center justify-center gap-5 relative ${styles.bg} block`}
         >
           <div className="px-7 py-2 items-center justify-center font-heading text-lg bg-[#F5C470] rounded-lg ">
             CONTACT US
@@ -111,10 +116,10 @@ function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className={`w-5/6 text-xs container p-7  mx-auto grid grid-cols-1 auto-rows-2fr grid-flow-row auto-rows-ma gap-2 text-black grid-rows-5 rounded-xl  bg-[#F5C470]`}
+            className={`grid grid-cols-1 w-5/6 text-xs container p-7  mx-auto   gap-2 text-black grid-rows-5 rounded-xl  bg-[#F5C470]`}
           >
             <input
-              className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
+              className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
               value={name}
               name="name"
@@ -122,7 +127,7 @@ function Contact() {
               onChange={(e) => statehandler1(e.target.value)}
             />
             <input
-              className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
+              className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
               value={email}
               name="email"
@@ -130,7 +135,7 @@ function Contact() {
               onChange={(e) => statehandler2(e.target.value)}
             />
             <input
-              className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
+              className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
               value={num}
               name="num"
@@ -138,7 +143,7 @@ function Contact() {
               onChange={(e) => statehandler3(e.target.value)}
             />
             <input
-              className="col-span-1 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
+              className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
               type="text"
               value={rel}
               name="rel"
@@ -146,7 +151,7 @@ function Contact() {
               onChange={(e) => statehandler4(e.target.value)}
             />
             <textarea
-              className="col-span-1 row-span-4  rounded-lg p-2 bg-[#F2EFE1] resize-none"
+              className="col-span-2 row-span-4  rounded-lg p-2 bg-[#F2EFE1] resize-none"
               name="msg"
               placeholder="Your message"
               value={msg}
