@@ -173,7 +173,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           data-aos-duration="2000"
         >
           <div className="flex flex-col">
-          <a href="/contact" target="_blank">
+          <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank">
             <FontAwesomeIcon
               icon={faFacebookF}
               className="text-white text-5xl"
@@ -182,7 +182,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           <p className="font-text text-center font-bold text-lg mt-4">41k+ likes</p>
           </div>
           <div className="flex flex-col">
-          <a href="/contact" target="_blank">
+          <a href="https://www.instagram.com/elan_nvision.iith/?hl=en" target="_blank">
             <FontAwesomeIcon
               icon={faInstagram}
               className="text-white text-5xl"
@@ -191,13 +191,13 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           <p className="font-text text-center font-bold text-lg mt-4">3.1k+ followers</p>
           </div>
           <div className="flex flex-col">
-          <a href="/contact" target="_blank">
+          <a href="https://www.youtube.com/channel/UC-D08t2esBoVTVOjlXUOxHA" target="_blank">
             <FontAwesomeIcon icon={faYoutube} className="text-white text-5xl" />
           </a>
           <p className="font-text text-center font-bold text-lg mt-4">77k+ views</p>
           </div>
           <div className="flex flex-col">
-          <a href="/contact" target="_blank">
+          <a href="https://twitter.com/elan_nvision?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
             <FontAwesomeIcon icon={faTwitter} className="text-white text-5xl" />
           </a>
           <p className="font-text text-center font-bold text-lg mt-4">1.1k+ followers</p>
