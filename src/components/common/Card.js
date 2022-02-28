@@ -21,10 +21,10 @@ function Card({ name, position, image, type, phone }) {
         <div className="text-center font-text text-2xl  text-white">
           {position}
         </div>
-        <div className="text-center font-text text-xl  text-white">
+        {/* <div className="text-center font-text text-xl  text-white">
           <FontAwesomeIcon icon={faPhoneSquare} className="mr-1" />
           <a href={`tel:${phone}`}>{phone}</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
