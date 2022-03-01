@@ -1,4 +1,4 @@
-import React, {  useEffect } from "react";
+import React, {  useEffect,useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import RightTop from "../../images/Homepage/corners_copy.png";
@@ -9,11 +9,18 @@ import styles from "../../css/Homepage1.module.css";
 import Themeimg from "../../images/Homepage/Theme_final.png";
 import Logo from "../../images/elannvision.png";
 import Chakra from "../../images/Homepage/Halfchakra.png";
+import Textbox from '../../images/Homepage/Textbox.png';
 function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+  const [dispnot,setdispnot]=useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setdispnot(false)
+    },2000)
+  },[])
   return (
     <div
       className="w-screen h-screen z-40"
@@ -35,6 +42,16 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
             }
             />
           </div>
+          {/* Display that textbox to indicate button clicking */}
+          {dispnot?(<div className="absolute bottom-6 w-full">
+            <img
+              src={Textbox}
+              className={`pl-10 cursor-pointer z-50`}
+              alt="Imae" data-aos="zoom-in-up" data-aos-duration="1400"
+              style={{height:120,marginLeft:'50vw'}}
+            />
+            
+          </div>):''}
           <div
             className={`absolute top-12 left-1 fade-right-down ${
               chakra ? "fade-left-up" : "fade-right-down"
