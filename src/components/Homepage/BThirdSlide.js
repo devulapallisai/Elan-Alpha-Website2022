@@ -62,7 +62,7 @@ function FourthSlide() {
   },[])
   return (
     <div className={`Back relative flex justify-center h-screen w-screen overflow-hidden ${styles.bgit}`} id="fourthslide">
-        <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
+        <div className="Para1 absolute w-2/3 mx-auto top-[15vh] z-[10000]">
             <h1 className='text-white font-heading text-4xl z-[10000]'>About Us</h1>
             <br />
             <p className='text-white text-lg z-[100000]'>Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad and is one of the largest fests in South India. It is entirely organized by IITH students. Elan refers to the cultural part and ηVision cites the technological part of the fest. This festival features several professional and semi-professional crowd-pulling events and promises to be a grand event showcasing the best of cultural performances, technical solutions, and student community advances</p>
