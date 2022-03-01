@@ -42,7 +42,7 @@ function Contact() {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className={`w-2/3 container p-10 mx-auto grid grid-cols-8 grid-flow-row auto-rows-max gap-2 text-black grid-rows-5 ${styles.border}`}
+            className={`w-2/3 container px-10 mx-auto grid grid-cols-8 grid-flow-row auto-rows-max gap-2 text-black grid-rows-5 ${styles.border}`}
           >
             <div className="px-1 py-1 items-center h-[50px] w-[200px] align-center cursor-pointer justify-center font-heading text-lg bg-[#F5C470] rounded-lg ">
             CONTACT US
