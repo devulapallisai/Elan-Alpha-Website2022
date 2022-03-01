@@ -1,10 +1,10 @@
-import React, {  useRef } from "react";
-import Chakra from "../../images/Homepage/chakra.png";
+import React, { useRef } from "react";
+// import Chakra from "../../images/Homepage/chakra.png";
 import styles from "../../css/Homepage2.module.css";
-import Lanterntop from "../../images/Lantern1.png";
-import Lant from "../../images/Homepage/Lanterntop.png";
-import Skyline from "../../images/Homepage/Skyline3copy.png";
-import BackgroundI from "../../images/Homepage/window_webcopy.png";
+// import Lanterntop from "../../images/Lantern1.png";
+// import Lant from "../../images/Homepage/Lanterntop.png";
+// import Skyline from "../../images/Homepage/Skyline3copy.png";
+// import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import style from "../../css/Homepage1.module.css";
 // import ThirdSlide from "./ThirdSlide";
 import { useNavigate } from "react-router-dom";
@@ -84,7 +84,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
         className={`h-screen w-screen hidden lg:block -z-[1]`}
       >
         <img
-          src={BackgroundI}
+          src="https://ik.imagekit.io/sai1975d/Homepage/window_webcopy_CmhsixF_NsfNU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357667"
           className={`${styles.imagebackgr}`}
           style={{ zIndex: 46 }}
           alt="Imag"
@@ -93,22 +93,46 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
         />
         <div className="absolute top-[100vh] w-screen h-screen">
           <div className="absolute top-14 right-24">
-            <img src={Lanterntop} alt="Imag" className={styles.img} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Lantern1_sHrLhheomo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162490003"
+              alt="Imag"
+              className={styles.img}
+            />
           </div>
           <div className="absolute top-0 right-40 2xl:right-48">
-            <img src={Lanterntop} alt="Imag" className={styles.img1} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Lantern1_sHrLhheomo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162490003"
+              alt="Imag"
+              className={styles.img1}
+            />
           </div>
           <div className="absolute left-16 top-40">
-            <img src={Lant} alt="Imag" className={styles.img2} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+              alt="Imag"
+              className={styles.img2}
+            />
           </div>
           <div className="absolute left-28 top-16 2xl:left-32">
-            <img src={Lant} alt="Imag" className={styles.img3} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+              alt="Imag"
+              className={styles.img3}
+            />
           </div>
           <div className="absolute left-48 top-28 2xl:left-52">
-            <img src={Lant} alt="Imag" className={styles.img4} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+              alt="Imag"
+              className={styles.img4}
+            />
           </div>
           <div className={`${styles.zInde} w-screen absolute bottom-0`}>
-            <img src={Skyline} alt="Imag" className={styles.zoomimg} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/Skyline3copy_1Gtxl7GfPnZGl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357682"
+              alt="Imag"
+              className={styles.zoomimg}
+            />
           </div>
         </div>
       </div>
@@ -121,7 +145,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
         }}
       >
         <img
-          src={Chakra}
+          src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910"
           alt="chakra"
           style={{
             zIndex: initialVal > 0 ? -11 : 0,

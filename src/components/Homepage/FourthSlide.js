@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Skyline1 from "../../images/Homepage/Skyline 1.png";
-import Skyline3 from "../../images/Homepage/Skyline 3.png";
+// import Skyline1 from "../../images/Homepage/Skyline 1.png";
+// import Skyline3 from "../../images/Homepage/Skyline 3.png";
 import { gsap } from "gsap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
@@ -9,13 +9,13 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import Chakra from "../../images/Homepage/chakra.png";
+// import Chakra from "../../images/Homepage/chakra.png";
 import styles from "../../css/Homepage4.module.css";
 import Footer from "../common/Footer.js";
-import Tag from "../../images/Homepage/Tag.png";
-import Hom from "../../images/Homepage/Hom.png";
-import Cal from "../../images/Homepage/Cal.png";
-import User from "../../images/Homepage/User.png";
+// import Tag from "../../images/Homepage/Tag.png";
+// import Hom from "../../images/Homepage/Hom.png";
+// import Cal from "../../images/Homepage/Cal.png";
+// import User from "../../images/Homepage/User.png";
 function FourthSlide({ forward, setforward, dispf, setdispf }) {
   useEffect(() => {
     AOS.init();
@@ -123,7 +123,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src={Hom}
+                  src="https://ik.imagekit.io/sai1975d/Homepage/Hom_frwlgM5pR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162342566"
                   alt="Im"
                   style={{ width: 100, height: 100 }}
                   className="mx-auto z-[120000]"
@@ -134,7 +134,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src={Tag}
+                  src="https://ik.imagekit.io/sai1975d/Homepage/Tag_0emHuttNblyd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357295"
                   alt="Im"
                   style={{ width: 120, height: 110 }}
                   className="mx-auto z-[120000]"
@@ -145,7 +145,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src={Cal}
+                  src="https://ik.imagekit.io/sai1975d/Homepage/Cal_M-xuJ4WtcdIn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162341371"
                   alt="Im"
                   style={{ width: 120, height: 100 }}
                   className="mx-auto z-[120000]"
@@ -156,7 +156,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src={User}
+                  src="https://ik.imagekit.io/sai1975d/Homepage/User_TxcUNWtbf4kcf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357316"
                   alt="Im"
                   style={{ width: 170, height: 110 }}
                   className="mx-auto z-[120000]"
@@ -173,7 +173,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           data-aos-duration="2000"
         >
           <div className="flex flex-col">
-          <a href="https://www.facebook.com/elan.iithyderabad/" target="_blank">
+          <a rel="noreferrer" href="https://www.facebook.com/elan.iithyderabad/" target="_blank">
             <FontAwesomeIcon
               icon={faFacebookF}
               className="text-white text-5xl"
@@ -182,7 +182,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           <p className="font-text text-center font-bold text-lg mt-4">41k+ likes</p>
           </div>
           <div className="flex flex-col">
-          <a href="https://www.instagram.com/elan_nvision.iith/?hl=en" target="_blank">
+          <a rel="noreferrer" href="https://www.instagram.com/elan_nvision.iith/?hl=en" target="_blank">
             <FontAwesomeIcon
               icon={faInstagram}
               className="text-white text-5xl"
@@ -191,13 +191,13 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           <p className="font-text text-center font-bold text-lg mt-4">3.1k+ followers</p>
           </div>
           <div className="flex flex-col">
-          <a href="https://www.youtube.com/channel/UC-D08t2esBoVTVOjlXUOxHA" target="_blank">
+          <a rel="noreferrer" href="https://www.youtube.com/channel/UC-D08t2esBoVTVOjlXUOxHA" target="_blank">
             <FontAwesomeIcon icon={faYoutube} className="text-white text-5xl" />
           </a>
           <p className="font-text text-center font-bold text-lg mt-4">77k+ views</p>
           </div>
           <div className="flex flex-col">
-          <a href="https://twitter.com/elan_nvision?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+          <a rel="noreferrer" href="https://twitter.com/elan_nvision?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
             <FontAwesomeIcon icon={faTwitter} className="text-white text-5xl" />
           </a>
           <p className="font-text text-center font-bold text-lg mt-4">1.1k+ followers</p>
@@ -205,13 +205,13 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
         </div>
       </div>
       <div className="bottom-0  skyline3 absolute overflow-hidden">
-        <img src={Skyline3} className=" w-screen" alt="img"></img>
+        <img src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286" className=" w-screen" alt="img"></img>
       </div>
       <div className="skyline1 absolute bottom-0 overflow-hidden">
-        <img src={Skyline1} className="w-screen" alt="img"></img>
+        <img src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910" className="w-screen" alt="img"></img>
       </div>
       <div className="chakra1 absolute w-[120px] z-[11] left-16 top-20 mx-auto">
-        <img src={Chakra} alt="img" />
+        <img src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910" alt="img" />
       </div>
       <div className="absolute footer container bottom-4 mx-auto">
         <Footer />

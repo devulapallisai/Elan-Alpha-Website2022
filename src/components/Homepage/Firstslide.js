@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import RightTop from "../../images/Homepage/corners_copy.png";
-import RightBot from "../../images/Homepage/corners_copyrightbot.png";
-import LeftBot from "../../images/Homepage/corners_copyleftbot.png";
-import LeftTop from "../../images/Homepage/corners_copyrighttop.png";
+import LazyLoadImage from 'react-lazy-load-image-component'
+// import RightBot from "../../images/Homepage/corners_copyrightbot.png";
+// import LeftTop from "../../images/Homepage/corners_copyrighttop.png";
 import styles from "../../css/Homepage1.module.css";
-import Themeimg from "../../images/Homepage/Theme_final.png";
-import Logo from "../../images/elannvision.png";
-import Chakra from "../../images/Homepage/Halfchakra.png";
-import Textbox from "../../images/Homepage/Textbox.png";
+// import Themeimg from "../../images/Homepage/Theme_final.png";
+// import Logo from "../../images/elannvision.png";
+// import Chakra from "../../images/Homepage/Halfchakra.png";
+// import Textbox from "../../images/Homepage/Textbox.png";
 function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
   useEffect(() => {
     AOS.init();
@@ -18,7 +17,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
   const [dispnot, setdispnot] = useState(true);
   useEffect(() => {
     setTimeout(() => {
-      setdispnot(false)
+      setdispnot(false);
     }, 2000);
   }, []);
   return (
@@ -32,7 +31,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
         <div className="first transition duration-800 ease-in-out overflow-y-hidden">
           <div className="absolute  z-[5000] bottom-0 w-full">
             <img
-              src={Chakra}
+              src="https://ik.imagekit.io/sai1975d/Homepage/Halfchakra_iC0BoQejKKVN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345351"
               className={`mx-auto cursor-pointer z-[5000] ${styles.chakra} ${styles.transform}`}
               alt="Imae"
               onClick={
@@ -48,7 +47,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             <div className="absolute top-0 z-[500] w-screen h-screen bg-[#000000b5] opacity-80">
               <div className="absolute bottom-6 w-full">
                 <img
-                  src={Textbox}
+                  src="https://ik.imagekit.io/sai1975d/Homepage/Textbox_e9P2os9EKP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357277"
                   className={`pl-10 cursor-pointer z-50`}
                   alt="Imae"
                   data-aos="zoom-in-up"
@@ -65,33 +64,37 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               chakra ? "fade-left-up" : "fade-right-down"
             }`}
           >
-            <img src={RightTop} alt="Imag" className={`${styles.img} z-[20]`} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copy_v4afQOlnB.png"
+              alt="Imag"
+              className={`${styles.img} z-[20]`}
+            />
           </div>
           <div
             className={`absolute bottom-1 left-1 ${
               chakra ? "fade-left-down" : "fade-right-up"
             }`}
           >
-            <img src={LeftBot} alt="Imag" className={`${styles.img}  z-[20]`} />
+            <img src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyleftbot_m1fUpUH2RCmdA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343848" alt="Imag" className={`${styles.img}  z-[20]`} />
           </div>
           <div
             className={`absolute top-12 right-1 ${
               chakra ? "fade-right-up" : "fade-left-down"
             }`}
           >
-            <img src={LeftTop} alt="Imag" className={`${styles.img}  z-[20]`} />
+            <img src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrighttop_-P71J84d1W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343861" alt="Imag" className={`${styles.img}  z-[20]`} />
           </div>
           <div
             className={`absolute bottom-1 right-1 ${
               chakra ? "fade-right-down" : "fade-left-up"
             }`}
           >
-            <img src={RightBot} alt="Imag" className={`${styles.img} z-[20]`} />
+            <img src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrightbot_Hb3DBSZQKkxG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343879" alt="Imag" className={`${styles.img} z-[20]`} />
           </div>
           <div className="absolute">
             <div className={`${styles.backgr} flex justify-content-center`}>
               <img
-                src={Logo}
+                src="https://ik.imagekit.io/sai1975d/elannvision_m-ZykeIdB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162487717"
                 alt="Logo"
                 className="my-auto"
                 style={{
@@ -112,7 +115,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             data-aos-duration="1000"
           >
             <img
-              src={Themeimg}
+              src="https://ik.imagekit.io/sai1975d/Homepage/Theme_final_VYd-YxKCK64x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162359270"
               alt="Theme Imag"
               className={`${styles.themeimg}`}
             />
