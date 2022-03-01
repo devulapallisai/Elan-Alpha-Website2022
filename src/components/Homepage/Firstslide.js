@@ -1,4 +1,4 @@
-import React, {  useEffect,useState } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import RightTop from "../../images/Homepage/corners_copy.png";
@@ -9,18 +9,18 @@ import styles from "../../css/Homepage1.module.css";
 import Themeimg from "../../images/Homepage/Theme_final.png";
 import Logo from "../../images/elannvision.png";
 import Chakra from "../../images/Homepage/Halfchakra.png";
-import Textbox from '../../images/Homepage/Textbox.png';
-function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
+import Textbox from "../../images/Homepage/Textbox.png";
+function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
-  const [dispnot,setdispnot]=useState(true);
+  const [dispnot, setdispnot] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setdispnot(false)
-    },2000)
-  },[])
+    }, 2000);
+  }, []);
   return (
     <div
       className="w-screen h-screen z-40"
@@ -30,65 +30,76 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
     >
       {!chakra ? (
         <div className="first transition duration-800 ease-in-out overflow-y-hidden">
-          <div className="absolute bottom-0 w-full">
+          <div className="absolute  z-[5000] bottom-0 w-full">
             <img
               src={Chakra}
-              className={`mx-auto cursor-pointer z-50 ${styles.chakra} ${styles.transform}`}
+              className={`mx-auto cursor-pointer z-[5000] ${styles.chakra} ${styles.transform}`}
               alt="Imae"
-              onClick={() => 
-                // setTimeout(() => {
-                setchakra((prev) => !prev)
-              // }, 1000)
-            }
+              onClick={
+                () =>
+                  // setTimeout(() => {
+                  setchakra((prev) => !prev)
+                // }, 1000)
+              }
             />
           </div>
           {/* Display that textbox to indicate button clicking */}
-          {dispnot?(<div className="absolute bottom-6 w-full">
-            <img
-              src={Textbox}
-              className={`pl-10 cursor-pointer z-50`}
-              alt="Imae" data-aos="zoom-in-up" data-aos-duration="1400"
-              style={{height:120,marginLeft:'50vw'}}
-            />
-            
-          </div>):''}
+          {dispnot ? (
+            <div className="absolute top-0 z-[500] w-screen h-screen bg-[#000000b5] opacity-80">
+              <div className="absolute bottom-6 w-full">
+                <img
+                  src={Textbox}
+                  className={`pl-10 cursor-pointer z-50`}
+                  alt="Imae"
+                  data-aos="zoom-in-up"
+                  data-aos-duration="1400"
+                  style={{ height: 120, marginLeft: "50vw" }}
+                />
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
           <div
             className={`absolute top-12 left-1 fade-right-down ${
               chakra ? "fade-left-up" : "fade-right-down"
             }`}
           >
-            <img src={RightTop} alt="Imag" className={styles.img} />
+            <img src={RightTop} alt="Imag" className={`${styles.img} z-[20]`} />
           </div>
           <div
             className={`absolute bottom-1 left-1 ${
               chakra ? "fade-left-down" : "fade-right-up"
             }`}
           >
-            <img src={LeftBot} alt="Imag" className={styles.img} />
+            <img src={LeftBot} alt="Imag" className={`${styles.img}  z-[20]`} />
           </div>
           <div
             className={`absolute top-12 right-1 ${
               chakra ? "fade-right-up" : "fade-left-down"
             }`}
           >
-            <img src={LeftTop} alt="Imag" className={styles.img} />
+            <img src={LeftTop} alt="Imag" className={`${styles.img}  z-[20]`} />
           </div>
           <div
             className={`absolute bottom-1 right-1 ${
               chakra ? "fade-right-down" : "fade-left-up"
             }`}
           >
-            <img src={RightBot} alt="Imag" className={styles.img} />
+            <img src={RightBot} alt="Imag" className={`${styles.img} z-[20]`} />
           </div>
           <div className="absolute">
-            <div
-              className={`${styles.backgr} flex justify-content-center`}
-            >
+            <div className={`${styles.backgr} flex justify-content-center`}>
               <img
                 src={Logo}
                 alt="Logo"
                 className="my-auto"
-                style={{ maxHeight: "60%",maxWidth:'60%', display: "flex", margin: "auto" }}
+                style={{
+                  maxHeight: "60%",
+                  maxWidth: "60%",
+                  display: "flex",
+                  margin: "auto",
+                }}
               />
             </div>
           </div>
@@ -96,7 +107,7 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
       ) : (
         <>
           <div
-            className={`absolute top-0 ${styles.zorae} flex justify-center h-screen`}
+            className={`absolute top-0 ${styles.zorae} flex justify-center h-screen overflow-y-hidden`}
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -108,7 +119,7 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
           </div>
         </>
       )}
-      <div className={`hidden md:block ${chakra ? styles.active1 : styles.nonactive1}`}>
+      {/* <div className={`hidden md:block ${chakra ? styles.active1 : styles.nonactive1}`}>
         <div
           className={`${chakra ? styles.active2 : styles.nonactive2}`}
           onClick={() => {
@@ -117,7 +128,7 @@ function Firstslide({chakra,setchakra,scrollDirection,secondslideref}) {
               // }, 1000);
           }}
         ></div>
-      </div>
+      </div> */}
     </div>
   );
 }

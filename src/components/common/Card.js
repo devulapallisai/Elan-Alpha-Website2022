@@ -3,6 +3,7 @@ import styles from "../../css/team.module.css";
 import Goldenbox from "../../images/Golden Box.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 function Card({ name, position, image, type, phone }) {
   return (
     <div className={`m-4`}>
@@ -10,7 +11,12 @@ function Card({ name, position, image, type, phone }) {
         <div
           className={`${styles.box} d-flex justify-center mx-auto relative ${type}`}
         >
-          <img src={image} className={`${styles.box}`} alt="ImageHere" />
+          <LazyLoadImage
+            src={image}
+            className={`${styles.box}`}
+            effect="blur"
+            alt="ImageHere"
+          />
           <div className={`absolute top-2 left-2 ${styles.box}`}>
             <img src={Goldenbox} alt="ImageHere" />
           </div>
