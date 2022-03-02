@@ -38,7 +38,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             }}
           >
             <div
-              className={`fixed md:top-[25vh] top-[28vh] xs:top-[35vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere}`}
+              className={`fixed top-[28vh] sm:top-[35vh] md:top-[25vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere}`}
               data-aos="fade-down"
               data-aos-duration="1000"
             >
@@ -82,6 +82,11 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               alt="Imag"
               style={{ width: "100vw", height: "100vh" }}
             />
+          </div>
+          <div className="block lg:hidden relative top-[100vh]">
+            <div className="absolute bottom-0">
+              <img src="" alt="Imag"/>
+            </div>
           </div>
           <div
             id="secondslide"
