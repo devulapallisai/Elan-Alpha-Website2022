@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 // import Chakra from "../../images/Homepage/chakra.png";
 import styles from "../../css/Homepage2.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 // import Lanterntop from "../../images/Lantern1.png";
 // import Lant from "../../images/Homepage/Lanterntop.png";
 // import Skyline from "../../images/Homepage/Skyline3copy.png";
@@ -12,23 +15,12 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const textref = useRef();
   const navigate = useNavigate();
   // const [thirdslide, setthirdslide] = useState(false);
-  const keyev = (event) => {
-    if (
-      (event.keyCode === 34 ||
-        event.key === "ArrowDown" ||
-        event.key === "PageDown") &&
-      initialVal >= 0.98
-    ) {
-      // setthirdslide(true);
-      navigate("/third");
-    }
-  };
-  const wheelused = (event) => {
-    console.log("Hello");
-    if (event.deltaY < 0) {
-      navigate("/third");
-    }
-  };
+  const scrollintoviewthird=(event)=>{
+    navigate("/third")
+  }
+  const setslidefirst=(event)=>{
+    document.getElementById('firstslide').scrollIntoView({behavior:'smooth'})
+  }
   return (
     <div>
       {/* Text Part */}
@@ -78,10 +70,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
       <div
         id="secondslide"
         ref={secondslideref}
-        onWheel={wheelused}
-        onKeyDown={keyev}
-        tabIndex={0}
-        className={`h-screen w-screen hidden lg:block -z-[1]`}
+        className={`h-screen w-screen hidden lg:block -z-[1] overflow-hidden`}
       >
         <img
           src="https://ik.imagekit.io/sai1975d/Homepage/window_webcopy_CmhsixF_NsfNU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357667"
@@ -105,6 +94,28 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               alt="Imag"
               className={styles.img1}
             />
+          </div>
+          <div className="absolute w-[50px] h-full right-2 flex items-center">
+            <div className="h-[100px] w-[50px]">
+              <div className="flex flex-col justify-around h-[100px]">
+                <div className="flex justify-center align-center items-center">
+                  <FontAwesomeIcon
+                    icon={faArrowCircleUp}
+                    onClick={setslidefirst}
+                    className="text-black text-3xl mx-auto"
+                    style={{ color: "black",cursor:'pointer' }}
+                  />
+                </div>
+                <div className="flex justify-center align-center items-center">
+                  <FontAwesomeIcon
+                    icon={faArrowCircleDown}
+                    onClick={scrollintoviewthird}
+                    className="text-black text-3xl mx-auto"
+                    style={{ color: "black",cursor:'pointer' }}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="absolute left-16 top-40">
             <img

@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 // import Skyline3 from "../../images/Homepage/Skyline 3.png";
 import { gsap } from "gsap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -74,32 +75,38 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
       duration: 3,
     });
   }, []);
-  useEffect(() => {
-    window.addEventListener("keydown", (event) => {
-      // window.location.href = "/fourth";
-      if (
-        event.keyCode === 38 ||
-        event.key === "ArrowUp" ||
-        event.key === "PageUp"
-      ) {
-        setforward(false);
-        setdispf(false);
-      }
-    });
-    window.addEventListener("wheel", (event) => {
-      // window.location.href = "/fourth";
-
-      if (event.deltaY < 0) {
-        setdispf(false);
-        setforward(false);
-      }
-    });
-  });
+  const settothird = (event) => {
+    setforward(false);
+    setdispf(false);
+  };
   return (
     <div
       className={`Back relative flex justify-center h-screen w-screen overflow-hidden ${styles.bgit}`}
       id="fourthslide"
     >
+      <div className="z-[120000] absolute w-[50px] h-full right-2 flex items-center">
+        <div className="h-[100px] w-[50px] z-[120000]">
+          <div className="flex flex-col justify-around h-[100px] z-[120000]">
+            <div className="flex justify-center align-center items-center">
+              <FontAwesomeIcon
+                icon={faArrowCircleUp}
+                // onClick={()=>setchakra(false)}
+                onClick={settothird}
+                className="text-black text-3xl mx-auto z-[120000]"
+                style={{ color: "black", cursor: "pointer" }}
+              />
+            </div>
+            {/* <div className="flex justify-center align-center items-center">
+              <FontAwesomeIcon
+                icon={faArrowCircleDown}
+                onClick={settofourth}
+                className="text-black text-3xl mx-auto  z-[120000]"
+                style={{ color: "black", cursor: "pointer" }}
+              />
+            </div> */}
+          </div>
+        </div>
+      </div>
       <div className="Para1 absolute w-2/3 mx-auto top-[15vh]">
         <h1 className="font-heading text-white text-4xl z-[10000]">About Us</h1>
         <br />
@@ -116,7 +123,11 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
       </div>
       <div className="Para2 absolute w-2/3 justify-center mx-auto top-[16vh] z-[1222]">
         <h1 className="Para2h text-white font-black text-center text-5xl font-text">
-          13th Edition of Elan & <span className="Para2h text-white font-light text-center">&eta;</span>Vision
+          13th Edition of Elan &{" "}
+          <span className="Para2h text-white font-light text-center">
+            &eta;
+          </span>
+          Vision
         </h1>
         <p className="mt-10 Para2f text-white text-lg text-center">
           <div className="grid grid-cols-4 gap-4">
@@ -173,45 +184,86 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           data-aos-duration="2000"
         >
           <div className="flex flex-col">
-          <a rel="noreferrer" href="https://www.facebook.com/elan.iithyderabad/" target="_blank">
-            <FontAwesomeIcon
-              icon={faFacebookF}
-              className="text-white text-5xl"
-            />
-          </a>
-          <p className="font-text text-center font-bold text-lg mt-4">41k+ likes</p>
+            <a
+              rel="noreferrer"
+              href="https://www.facebook.com/elan.iithyderabad/"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faFacebookF}
+                className="text-white text-5xl"
+              />
+            </a>
+            <p className="font-text text-center font-bold text-lg mt-4">
+              41k+ likes
+            </p>
           </div>
           <div className="flex flex-col">
-          <a rel="noreferrer" href="https://www.instagram.com/elan_nvision.iith/?hl=en" target="_blank">
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="text-white text-5xl"
-            />
-          </a>
-          <p className="font-text text-center font-bold text-lg mt-4">3.1k+ followers</p>
+            <a
+              rel="noreferrer"
+              href="https://www.instagram.com/elan_nvision.iith/?hl=en"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="text-white text-5xl"
+              />
+            </a>
+            <p className="font-text text-center font-bold text-lg mt-4">
+              3.1k+ followers
+            </p>
           </div>
           <div className="flex flex-col">
-          <a rel="noreferrer" href="https://www.youtube.com/channel/UC-D08t2esBoVTVOjlXUOxHA" target="_blank">
-            <FontAwesomeIcon icon={faYoutube} className="text-white text-5xl" />
-          </a>
-          <p className="font-text text-center font-bold text-lg mt-4">77k+ views</p>
+            <a
+              rel="noreferrer"
+              href="https://www.youtube.com/channel/UC-D08t2esBoVTVOjlXUOxHA"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faYoutube}
+                className="text-white text-5xl"
+              />
+            </a>
+            <p className="font-text text-center font-bold text-lg mt-4">
+              77k+ views
+            </p>
           </div>
           <div className="flex flex-col">
-          <a rel="noreferrer" href="https://twitter.com/elan_nvision?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-            <FontAwesomeIcon icon={faTwitter} className="text-white text-5xl" />
-          </a>
-          <p className="font-text text-center font-bold text-lg mt-4">1.1k+ followers</p>
+            <a
+              rel="noreferrer"
+              href="https://twitter.com/elan_nvision?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faTwitter}
+                className="text-white text-5xl"
+              />
+            </a>
+            <p className="font-text text-center font-bold text-lg mt-4">
+              1.1k+ followers
+            </p>
           </div>
         </div>
       </div>
       <div className="bottom-0  skyline3 absolute overflow-hidden">
-        <img src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286" className=" w-screen" alt="img"></img>
+        <img
+          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286"
+          className=" w-screen"
+          alt="img"
+        ></img>
       </div>
       <div className="skyline1 absolute bottom-0 overflow-hidden">
-        <img src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910" className="w-screen" alt="img"></img>
+        <img
+          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_1_VwK4ZUis_xoz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346061"
+          className="w-screen"
+          alt="img"
+        ></img>
       </div>
       <div className="chakra1 absolute w-[120px] z-[11] left-16 top-20 mx-auto">
-        <img src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910" alt="img" />
+        <img
+          src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910"
+          alt="img"
+        />
       </div>
       <div className="absolute footer container bottom-4 mx-auto">
         <Footer />

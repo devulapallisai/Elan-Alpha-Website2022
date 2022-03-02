@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import LazyLoadImage from 'react-lazy-load-image-component'
+// import LazyLoadImage from "react-lazy-load-image-component";
 // import RightBot from "../../images/Homepage/corners_copyrightbot.png";
 // import LeftTop from "../../images/Homepage/corners_copyrighttop.png";
 import styles from "../../css/Homepage1.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 // import Themeimg from "../../images/Homepage/Theme_final.png";
 // import Logo from "../../images/elannvision.png";
 // import Chakra from "../../images/Homepage/Halfchakra.png";
@@ -14,6 +17,9 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
     AOS.init();
     AOS.refresh();
   }, []);
+  const scrollintoviewsec=(event)=>{
+    document.getElementById('secondslide').scrollIntoView({behavior: 'smooth'})
+  }
   const [dispnot, setdispnot] = useState(true);
   useEffect(() => {
     setTimeout(() => {
@@ -26,6 +32,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
       style={{
         background: "linear-gradient(180deg, #1E0735 76.65%, #943066 166.99%)",
       }}
+      id="firstslide"
     >
       {!chakra ? (
         <div className="first transition duration-800 ease-in-out overflow-y-hidden">
@@ -75,21 +82,33 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               chakra ? "fade-left-down" : "fade-right-up"
             }`}
           >
-            <img src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyleftbot_m1fUpUH2RCmdA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343848" alt="Imag" className={`${styles.img}  z-[20]`} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyleftbot_m1fUpUH2RCmdA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343848"
+              alt="Imag"
+              className={`${styles.img}  z-[20]`}
+            />
           </div>
           <div
             className={`absolute top-12 right-1 ${
               chakra ? "fade-right-up" : "fade-left-down"
             }`}
           >
-            <img src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrighttop_-P71J84d1W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343861" alt="Imag" className={`${styles.img}  z-[20]`} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrighttop_-P71J84d1W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343861"
+              alt="Imag"
+              className={`${styles.img}  z-[20]`}
+            />
           </div>
           <div
             className={`absolute bottom-1 right-1 ${
               chakra ? "fade-right-down" : "fade-left-up"
             }`}
           >
-            <img src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrightbot_Hb3DBSZQKkxG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343879" alt="Imag" className={`${styles.img} z-[20]`} />
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrightbot_Hb3DBSZQKkxG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343879"
+              alt="Imag"
+              className={`${styles.img} z-[20]`}
+            />
           </div>
           <div className="absolute">
             <div className={`${styles.backgr} flex justify-content-center`}>
@@ -111,14 +130,36 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
         <>
           <div
             className={`absolute top-0 ${styles.zorae} flex justify-center h-screen overflow-y-hidden`}
-            data-aos="zoom-in"
-            data-aos-duration="1000"
           >
             <img
               src="https://ik.imagekit.io/sai1975d/Homepage/Theme_final_VYd-YxKCK64x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162359270"
               alt="Theme Imag"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
               className={`${styles.themeimg}`}
             />
+          </div>
+          <div className="absolute w-[50px] h-full right-2 flex items-center">
+            <div className="h-[100px] w-[50px]">
+              <div className="flex flex-col justify-around h-[100px]">
+                <div className="flex justify-center align-center items-center">
+                  <FontAwesomeIcon
+                    icon={faArrowCircleUp}
+                    onClick={()=>setchakra(false)}
+                    className="text-black text-3xl mx-auto"
+                    style={{ color: "black",cursor:'pointer' }}
+                  />
+                </div>
+                <div className="flex justify-center align-center items-center">
+                  <FontAwesomeIcon
+                    icon={faArrowCircleDown}
+                    onClick={scrollintoviewsec}
+                    className="text-black text-3xl mx-auto"
+                    style={{ color: "black",cursor:'pointer' }}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </>
       )}

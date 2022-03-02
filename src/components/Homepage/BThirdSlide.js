@@ -4,7 +4,10 @@ import React, { useEffect } from "react";
 import { gsap } from "gsap";
 // import Chakra from "../../images/Homepage/chakra.png";
 import styles from "../../css/Homepage4.module.css";
-function FourthSlide() {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
+function FourthSlide({ forward, setforward,dispf,setdispf}) {
   useEffect(() => {
     gsap.from(".chakra", {
       x: 550,
@@ -60,11 +63,41 @@ function FourthSlide() {
       duration: 3,
     });
   }, []);
+  const settosecond = (event) => {
+    document.getElementById("secondslide").scrollIntoView();
+  };
+  const settofourth = (event) => {
+    setdispf(true);
+    setforward(true);
+  };
   return (
     <div
       className={`Back relative flex justify-center h-screen w-screen overflow-hidden ${styles.bgit}`}
-      id="fourthslide"
+      id="invthirdslide"
     >
+      <div className="z-[120000] absolute w-[50px] h-full right-2 flex items-center">
+        <div className="h-[100px] w-[50px] z-[120000]">
+          <div className="flex flex-col justify-around h-[100px] z-[120000]">
+            <div className="flex justify-center align-center items-center">
+              <FontAwesomeIcon
+                icon={faArrowCircleUp}
+                // onClick={()=>setchakra(false)}
+                onClick={settosecond}
+                className="text-black text-3xl mx-auto z-[120000]"
+                style={{ color: "black", cursor: "pointer" }}
+              />
+            </div>
+            <div className="flex justify-center align-center items-center">
+              <FontAwesomeIcon
+                icon={faArrowCircleDown}
+                onClick={settofourth}
+                className="text-black text-3xl mx-auto  z-[120000]"
+                style={{ color: "black", cursor: "pointer" }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="Para1 absolute w-2/3 mx-auto top-[15vh] z-[10000]">
         <h1 className="text-white font-heading text-4xl z-[10000]">About Us</h1>
         <br />

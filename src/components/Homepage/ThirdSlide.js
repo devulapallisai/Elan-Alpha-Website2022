@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 // import Skyline1 from "../../images/Homepage/Skyline 1.png";
 // import Skyline3 from "../../images/Homepage/Skyline 3.png";
 import { gsap } from "gsap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
+import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 // import Chakra from "../../images/Homepage/chakra.png";
 import BackgroundI from "../../images/Homepage/window_webcopy.png";
 import styles from "../../css/Homepage3.module.css";
@@ -38,27 +41,13 @@ function ThirdSlide() {
       duration: 3,
     });
   }, []);
-  useEffect(() => {
-    window.addEventListener("keydown", (event) => {
-      // window.location.href = "/fourth";
-      if (
-        event.keyCode === 34 ||
-        event.key === "ArrowDown" ||
-        event.key === "PageDown"
-      ) {
-        setdispf(true);
-        setforward(true);
-      }
-    });
-    window.addEventListener("wheel", (event) => {
-      // window.location.href = "/fourth";
-
-      if (event.deltaY > 0) {
-        setdispf(true);
-        setforward(true);
-      }
-    });
-  });
+  const settosecond = (event) => {
+    document.getElementById("secondslide").scrollIntoView();
+  };
+  const settofourth = (event) => {
+    setdispf(true);
+    setforward(true);
+  };
   return (
     <div>
       {dispf ? (
@@ -75,6 +64,29 @@ function ThirdSlide() {
               className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`}
               id="thirdslide"
             >
+              <div className="z-[120000] absolute w-[50px] h-full right-2 flex items-center">
+                <div className="h-[100px] w-[50px] z-[120000]">
+                  <div className="flex flex-col justify-around h-[100px] z-[120000]">
+                    <div className="flex justify-center align-center items-center">
+                      <FontAwesomeIcon
+                        icon={faArrowCircleUp}
+                        // onClick={()=>setchakra(false)}
+                        onClick={settosecond}
+                        className="text-black text-3xl mx-auto z-[120000]"
+                        style={{ color: "black", cursor: "pointer" }}
+                      />
+                    </div>
+                    <div className="flex justify-center align-center items-center">
+                      <FontAwesomeIcon
+                        icon={faArrowCircleDown}
+                        onClick={settofourth}
+                        className="text-black text-3xl mx-auto  z-[120000]"
+                        style={{ color: "black", cursor: "pointer" }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="z-[100000] Para absolute w-2/3 mx-auto top-[15vh]">
                 <h1 className="font-heading text-white text-4xl z-[10000]">
                   About Us
@@ -114,7 +126,10 @@ function ThirdSlide() {
               </div>
             </div>
           ) : (
-            <BThirdSlide />
+            <BThirdSlide forward={forward}
+            setforward={setforward}
+            dispf={dispf}
+            setdispf={setdispf}/>
           )}
         </>
       )}
