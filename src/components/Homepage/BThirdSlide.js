@@ -7,7 +7,14 @@ import styles from "../../css/Homepage4.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
-function FourthSlide({ forward, setforward,dispf,setdispf}) {
+function FourthSlide({
+  forward,
+  setforward,
+  dispf,
+  setdispf,
+  thirdslide,
+  setthirdslide,
+}) {
   useEffect(() => {
     gsap.from(".chakra", {
       x: 550,
@@ -64,7 +71,7 @@ function FourthSlide({ forward, setforward,dispf,setdispf}) {
     });
   }, []);
   const settosecond = (event) => {
-    document.getElementById("secondslide").scrollIntoView();
+    setthirdslide(false);
   };
   const settofourth = (event) => {
     setdispf(true);
@@ -101,7 +108,7 @@ function FourthSlide({ forward, setforward,dispf,setdispf}) {
       <div className="Para1 absolute w-2/3 mx-auto top-[15vh] z-[10000]">
         <h1 className="text-white font-heading text-4xl z-[10000]">About Us</h1>
         <br />
-        <p className="text-white text-lg z-[100000]">
+        <p className="text-white text-lg z-[100000] font-text">
           Elan and ηVision is the annual techno-cultural fest of IIT Hyderabad
           and is one of the largest fests in South India. It is entirely
           organized by IITH students. Elan refers to the cultural part and

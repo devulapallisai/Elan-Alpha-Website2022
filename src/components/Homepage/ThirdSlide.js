@@ -11,7 +11,7 @@ import styles from "../../css/Homepage3.module.css";
 import style from "../../css/Homepage1.module.css";
 import FourthSlide from "./FourthSlide";
 import BThirdSlide from "./BThirdSlide";
-function ThirdSlide() {
+function ThirdSlide({thirdslide,setthirdslide}) {
   const [dispf, setdispf] = useState(false);
   const [forward, setforward] = useState(true);
   useEffect(() => {
@@ -42,7 +42,8 @@ function ThirdSlide() {
     });
   }, []);
   const settosecond = (event) => {
-    document.getElementById("secondslide").scrollIntoView();
+    // document.getElementById("secondslide").scrollIntoView();
+    setthirdslide(false)
   };
   const settofourth = (event) => {
     setdispf(true);
@@ -92,7 +93,7 @@ function ThirdSlide() {
                   About Us
                 </h1>
                 <br />
-                <p className="text-white text-lg z-[10000]">
+                <p className="text-white text-lg z-[10000] font-text">
                   Elan and ηVision is the annual techno-cultural fest of IIT
                   Hyderabad and is one of the largest fests in South India. It
                   is entirely organized by IITH students. Elan refers to the
@@ -126,10 +127,14 @@ function ThirdSlide() {
               </div>
             </div>
           ) : (
-            <BThirdSlide forward={forward}
-            setforward={setforward}
-            dispf={dispf}
-            setdispf={setdispf}/>
+            <BThirdSlide
+              forward={forward}
+              setforward={setforward}
+              dispf={dispf}
+              setdispf={setdispf}
+              thirdslide={thirdslide}
+              setthirdslide={setthirdslide}
+            />
           )}
         </>
       )}

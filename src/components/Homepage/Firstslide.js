@@ -129,7 +129,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
       ) : (
         <>
           <div
-            className={`absolute top-0 ${styles.zorae} flex justify-center h-screen overflow-y-hidden`}
+            className={`absolute top-0 ${styles.zorae} flex justify-center h-screen`}
           >
             <img
               src="https://ik.imagekit.io/sai1975d/Homepage/Theme_final_VYd-YxKCK64x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162359270"
