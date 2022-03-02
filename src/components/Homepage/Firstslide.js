@@ -139,7 +139,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               className={`${styles.themeimg}`}
             />
           </div>
-          <div className="absolute w-[50px] h-full right-2 flex items-center">
+          <div className="hidden lg:flex absolute w-[50px] h-full right-2 items-center">
             <div className="h-[100px] w-[50px]">
               <div className="flex flex-col justify-around h-[100px]">
                 <div className="flex justify-center align-center items-center">

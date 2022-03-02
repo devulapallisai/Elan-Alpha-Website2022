@@ -26,7 +26,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   return (
     <div>
       {thirdslide ? (
-        <ThirdSlide thirdslide={thirdslide} setthirdslide={setthirdslide}/>
+        <ThirdSlide thirdslide={thirdslide} setthirdslide={setthirdslide} />
       ) : (
         <>
           {/* Text Part */}
@@ -38,7 +38,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             }}
           >
             <div
-              className={`fixed top-[25vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere}`}
+              className={`fixed md:top-[25vh] top-[28vh] xs:top-[35vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere}`}
               data-aos="fade-down"
               data-aos-duration="1000"
             >
@@ -76,6 +76,13 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               className={`${styles.Slide} h-screen w-screen -z-[11111]`}
             ></div>
           </div>
+          <div className="block lg:hidden absolute top-[100vh] w-screen h-screen z-[10]">
+            <img
+              src="https://ik.imagekit.io/sai1975d/Homepage/window_with_lantern_mobile_copy_a04d9lgndbmE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646228366685"
+              alt="Imag"
+              style={{ width: "100vw", height: "100vh" }}
+            />
+          </div>
           <div
             id="secondslide"
             ref={secondslideref}
@@ -89,6 +96,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               width="100vw"
               height="100vh"
             />
+
             <div className="absolute top-[100vh] w-screen h-screen">
               <div className="absolute top-14 right-24">
                 <img
