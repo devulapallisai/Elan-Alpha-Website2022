@@ -85,7 +85,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           </div>
           <div className="block lg:hidden relative top-[100vh]">
             <div className="absolute bottom-0">
-              <img src="" alt="Imag"/>
+              <img src="https://ik.imagekit.io/sai1975d/Homepage/Skyline3copy_1Gtxl7GfPnZGl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357682" alt="Imag" style={{width:"100vw",minHeight:140}}/>
             </div>
           </div>
           <div
