@@ -15,7 +15,7 @@ import Events from "./pages/Events";
 import ProshowList from "./pages/ProshowList";
 import Infi from "./pages/Infi";
 import Proshows from "./pages/Prowshows";
-import Third from "./components/Homepage/ThirdSlide";
+// import Third from "./components/Homepage/ThirdSlide";
 library.add(fab, faCheckSquare, faCoffee);
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <Layout block={block} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/third" element={<Third />} />
+        {/* <Route path="/third" element={<Third />} /> */}
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/contact" element={<Contact />} />
