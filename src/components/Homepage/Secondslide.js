@@ -128,23 +128,27 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               </div>
               <div className="absolute w-[50px] h-full right-2 flex items-center">
                 <div className="h-[100px] w-[50px]">
-                  <div className="flex flex-col justify-around h-[100px]">
-                    <div className="flex justify-center align-center items-center">
-                      <FontAwesomeIcon
-                        icon={faArrowCircleUp}
-                        onClick={setslidefirst}
-                        className="text-black text-3xl mx-auto"
-                        style={{ color: "black", cursor: "pointer" }}
-                      />
-                    </div>
-                    <div className="flex justify-center align-center items-center">
-                      <FontAwesomeIcon
-                        icon={faArrowCircleDown}
-                        onClick={scrollintoviewthird}
-                        className="text-black text-3xl mx-auto"
-                        style={{ color: "black", cursor: "pointer" }}
-                      />
-                    </div>
+                  <div className="flex justify-center align-center items-center">
+                    <img
+                      src="https://ik.imagekit.io/sai1975d/Homepage/arrow_up_6vVwCQvCd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391413079"
+                      alt="Ima"
+                      width={40}
+                      onClick={() => setslidefirst(false)}
+                      style={{ color: "black", cursor: "pointer" }}
+                      className="text-black text-3xl mx-auto"
+                      height={40}
+                    />
+                  </div>
+                  <div className="flex justify-center align-center items-center">
+                    <img
+                      src="https://ik.imagekit.io/sai1975d/Homepage/arrow_down_tCfbfiNJI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391412714"
+                      alt="Ima"
+                      width={40}
+                      onClick={scrollintoviewthird}
+                      style={{ color: "black", cursor: "pointer" }}
+                      className="text-black text-3xl mx-auto"
+                      height={40}
+                    />
                   </div>
                 </div>
               </div>

@@ -17,9 +17,11 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
     AOS.init();
     AOS.refresh();
   }, []);
-  const scrollintoviewsec=(event)=>{
-    document.getElementById('secondslide').scrollIntoView({behavior: 'smooth'})
-  }
+  const scrollintoviewsec = (event) => {
+    document
+      .getElementById("secondslide")
+      .scrollIntoView({ behavior: "smooth" });
+  };
   const [dispnot, setdispnot] = useState(true);
   useEffect(() => {
     setTimeout(() => {
@@ -143,19 +145,25 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             <div className="h-[100px] w-[50px]">
               <div className="flex flex-col justify-around h-[100px]">
                 <div className="flex justify-center align-center items-center">
-                  <FontAwesomeIcon
-                    icon={faArrowCircleUp}
-                    onClick={()=>setchakra(false)}
+                  <img
+                    src="https://ik.imagekit.io/sai1975d/Homepage/arrow_up_6vVwCQvCd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391413079"
+                    alt="Ima"
+                    width={40}
+                    onClick={() => setchakra(false)}
+                    style={{ color: "black", cursor: "pointer" }}
                     className="text-black text-3xl mx-auto"
-                    style={{ color: "black",cursor:'pointer' }}
+                    height={40}
                   />
                 </div>
                 <div className="flex justify-center align-center items-center">
-                  <FontAwesomeIcon
-                    icon={faArrowCircleDown}
+                  <img
+                    src="https://ik.imagekit.io/sai1975d/Homepage/arrow_down_tCfbfiNJI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391412714"
+                    alt="Ima"
+                    width={40}
                     onClick={scrollintoviewsec}
+                    style={{ color: "black", cursor: "pointer" }}
                     className="text-black text-3xl mx-auto"
-                    style={{ color: "black",cursor:'pointer' }}
+                    height={40}
                   />
                 </div>
               </div>

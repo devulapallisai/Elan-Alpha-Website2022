@@ -88,22 +88,16 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
         <div className="h-[100px] w-[50px] z-[120000]">
           <div className="flex flex-col justify-around h-[100px] z-[120000]">
             <div className="flex justify-center align-center items-center">
-              <FontAwesomeIcon
-                icon={faArrowCircleUp}
-                // onClick={()=>setchakra(false)}
+              <img
+                src="https://ik.imagekit.io/sai1975d/Homepage/arrow_up_6vVwCQvCd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391413079"
+                alt="Ima"
+                width={40}
                 onClick={settothird}
-                className="text-black text-3xl mx-auto z-[120000]"
                 style={{ color: "black", cursor: "pointer" }}
+                className="text-black text-3xl mx-auto"
+                height={40}
               />
             </div>
-            {/* <div className="flex justify-center align-center items-center">
-              <FontAwesomeIcon
-                icon={faArrowCircleDown}
-                onClick={settofourth}
-                className="text-black text-3xl mx-auto  z-[120000]"
-                style={{ color: "black", cursor: "pointer" }}
-              />
-            </div> */}
           </div>
         </div>
       </div>
