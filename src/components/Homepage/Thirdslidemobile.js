@@ -13,7 +13,7 @@ function Thirdslidemobile({ initialVal, scrollDirection }) {
       className={`block lg:hidden absolute top-[200vh] text-black w-screen h-screen ${styles.bgit} z-[-111111]`}
     >
       <div
-        className="Para mt-[25vh] pl-[90px] z-[111]"
+        className="Para mt-[20vh] pl-[90px] z-[111]"
         data-aos="fade-up"
         data-aos-duration="1500"
       >
@@ -40,6 +40,27 @@ function Thirdslidemobile({ initialVal, scrollDirection }) {
           event showcasing the best of cultural performances, technical
           solutions, and student community advances
         </p>
+      </div>
+      <div
+        className="bottom-0 skyline3 absolute overflow-hidden"
+        data-aos="fade-up"
+      >
+        <img
+          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286"
+          className="min-h-[220px] w-screen"
+          alt="img"
+          style={{ transform: "scale(2.2)" }}
+        />
+      </div>
+      <div
+        className="skyline1 absolute bottom-0 overflow-hidden"
+        data-aos="fade-up"
+      >
+        <img
+          src="https://ik.imagekit.io/sai1975d/Homepage/skylinemobile_d9UXa9s2-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646389191469"
+          className="w-screen min-h-[160px]"
+          alt="img"
+        />
       </div>
     </div>
   );
