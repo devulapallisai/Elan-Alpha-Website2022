@@ -11,6 +11,7 @@ import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
 import style from "../../css/Homepage1.module.css";
 import ThirdSlide from "./ThirdSlide";
 import { useNavigate } from "react-router-dom";
+import Thirdslidemobile from "./Thirdslidemobile";
 function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const navigate = useNavigate();
   const [thirdslide, setthirdslide] = useState(false);
@@ -24,7 +25,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
       .scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div>
+    <div style={{ height: "100vh", overflow: "hidden" }}>
       {thirdslide ? (
         <ThirdSlide thirdslide={thirdslide} setthirdslide={setthirdslide} />
       ) : (
@@ -38,8 +39,12 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             }}
           >
             <div
-              className={`fixed top-[28vh] sm:top-[35vh] md:top-[25vh] 2xl:top-84 text-sm flex justify-center ${styles.texthere}`}
               data-aos="fade-down"
+              className={`${initialVal >= 0.98 ? "absolute" : "fixed"} ${
+                initialVal >= 0.98
+                  ? "top-[128vh] sm:top-[135vh] md:top-[125vh] 2xl:top-[184vh]"
+                  : "top-[28vh] sm:top-[35vh] md:top-[25vh] 2xl:top-84"
+              } text-sm flex justify-center ${styles.texthere}`}
               data-aos-duration="1000"
             >
               <div className="flex flex-col">
@@ -85,7 +90,11 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           </div>
           <div className="block lg:hidden relative top-[100vh]">
             <div className="absolute bottom-0">
-              <img src="https://ik.imagekit.io/sai1975d/Homepage/Skyline3copy_1Gtxl7GfPnZGl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357682" alt="Imag" style={{width:"100vw",minHeight:140}}/>
+              <img
+                src="https://ik.imagekit.io/sai1975d/Homepage/Skyline3copy_1Gtxl7GfPnZGl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357682"
+                alt="Imag"
+                style={{ width: "100vw", minHeight: 140 }}
+              />
             </div>
           </div>
           <div
@@ -94,7 +103,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             className={`h-screen w-screen hidden lg:block -z-[1] overflow-hidden`}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/window_webcopy_CmhsixF_NsfNU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357667"
+              src="https://ik.imagekit.io/sai1975d/Homepage/window_webcopy-min_ENqCFONYh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646330063505"
               className={`${styles.imagebackgr}`}
               style={{ zIndex: 46 }}
               alt="Imag"
@@ -182,10 +191,17 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               alt="chakra"
               style={{
                 zIndex: initialVal > 0 ? -11 : 0,
-                marginLeft: initialVal <= 1.4 ? initialVal * 40 : 0,
+                marginLeft:
+                  initialVal <= 1
+                    ? initialVal * 40
+                    : initialVal >= 1.1
+                    ? -initialVal * 80
+                    : 0,
                 bottom: initialVal >= 0.01 ? 0 : -70,
               }}
-              className={`fixed ${style.chakra} ${
+              className={`${
+                initialVal >= 1.6 ? `absolute top-[228vh]` : "fixed"
+              } ${style.chakra} ${
                 scrollDirection === "down"
                   ? initialVal <= 0.97
                     ? `${styles.rotateclock}`
@@ -198,6 +214,10 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           </div>
         </>
       )}
+      <Thirdslidemobile
+        initialVal={initialVal}
+        scrollDirection={scrollDirection}
+      />
     </div>
   );
 }

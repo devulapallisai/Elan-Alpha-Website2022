@@ -11,7 +11,7 @@ import styles from "../../css/Homepage3.module.css";
 import style from "../../css/Homepage1.module.css";
 import FourthSlide from "./FourthSlide";
 import BThirdSlide from "./BThirdSlide";
-function ThirdSlide({thirdslide,setthirdslide}) {
+function ThirdSlide({ thirdslide, setthirdslide }) {
   const [dispf, setdispf] = useState(false);
   const [forward, setforward] = useState(true);
   useEffect(() => {
@@ -43,7 +43,7 @@ function ThirdSlide({thirdslide,setthirdslide}) {
   }, []);
   const settosecond = (event) => {
     // document.getElementById("secondslide").scrollIntoView();
-    setthirdslide(false)
+    setthirdslide(false);
   };
   const settofourth = (event) => {
     setdispf(true);
