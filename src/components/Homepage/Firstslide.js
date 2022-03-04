@@ -26,7 +26,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
   useEffect(() => {
     setTimeout(() => {
       setdispnot(false);
-    }, 2000);
+    }, 5000);
   }, []);
   return (
     <div
@@ -56,12 +56,12 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             <div className="absolute top-0 z-[500] w-screen h-screen bg-[#000000b5] opacity-80">
               <div className="absolute bottom-6 w-full">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Textbox_e9P2os9EKP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357277"
-                  className={`pl-10 cursor-pointer z-50`}
+                  src="https://ik.imagekit.io/sai1975d/Homepage/Click_Here__iw82QbDdi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391411447"
+                  className={`pl-10 cursor-pointer z-50 md:ml-[50vw] ml-[2vw]`}
                   alt="Imae"
                   data-aos="zoom-in-up"
                   data-aos-duration="1400"
-                  style={{ height: 120, marginLeft: "50vw" }}
+                  style={{ height: 120 }}
                 />
               </div>
             </div>
