@@ -337,8 +337,8 @@ function Team() {
 
             </div>
             <div className="grid md:grid-cols-3 mx-auto mt-12">
-              <Coordcard domainname="Sponsorship" name1="Sai Prateek" name2="Sailesh Reddy" contact1="9703312055" contact2="9740834746" />
-              <Coordcard domainname="Sponsorship" name1="Satya Aditi" name2="Aman Panwar" contact1="9505695646" contact2="8527185970" />
+              <Coordcard domainname="Sponsorship" name1="Prakhar Patni" name2="Devang Sardal" contact1="9607048465" contact2="9136093007" />
+              <Coordcard domainname="Sponsorship"  name1="Sailesh Reddy"  contact1="9740834746" />
               <Coordcard domainname="Sponsorship" name1="Poorvika C" name2="Ekshan Raj Verma" contact1="9900810774" contact2="6266875616" />
             </div>
             <div className="grid md:grid-cols-2 mx-auto mt-12">
@@ -420,14 +420,14 @@ function Team() {
                 <Coordcard domainname="Techy" name1="Vishal Datta" name2="Varunaditya Singhal" contact1="7670925438" contact2="7015715920" />
               </div>
               <div className={`flex align-center ${styles.cardcoord}`}>
-                <Coordcard domainname="Sponsorship" name1="Sai Prateek" name2="Sailesh Reddy" contact1="9703312055" contact2="9740834746" />
+                <Coordcard domainname="Sponsorship"  name1="Sailesh Reddy"  contact1="9740834746" />
               </div>
             </div>
             <div
               className={` grid grid-cols-2 mx-auto`}
             >
               <div className={`flex align-center ${styles.cardcoord}`}>
-                <Coordcard domainname="Sponsorship" name1="Satya Aditi" name2="Aman Panwar" contact1="9505695646" contact2="8527185970" />
+                <Coordcard domainname="Sponsorship" name1="Prakhar Patni" name2="Devang sardal" contact1="9607048465" contact2="9136093007" />
               </div>
               <div className={`flex align-center ${styles.cardcoord}`}>
                 <Coordcard domainname="Sponsorship" name1="Poorvika C" name2="Ekshan Raj Verma" contact1="9900810774" contact2="6266875616" />
