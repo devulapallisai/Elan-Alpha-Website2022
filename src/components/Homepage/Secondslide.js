@@ -12,6 +12,7 @@ import style from "../../css/Homepage1.module.css";
 import ThirdSlide from "./ThirdSlide";
 import { useNavigate } from "react-router-dom";
 import Thirdslidemobile from "./Thirdslidemobile";
+import Fourthslidemobile from "./Fourthslidemobile";
 function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const navigate = useNavigate();
   const [thirdslide, setthirdslide] = useState(false);
@@ -198,13 +199,18 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
                 marginLeft:
                   initialVal <= 1
                     ? initialVal * 40
-                    : initialVal >= 1.1
+                    : initialVal >= 1.1 && initialVal <= 2.1
                     ? -initialVal * 80
                     : 0,
                 bottom: initialVal >= 0.01 ? 0 : -70,
+                transform:
+                  initialVal >= 2.1 ? `scale(${initialVal * 1})` : "scale(1)",
+                visibility: initialVal >= 2.12 ? "hidden" : "visible",
               }}
               className={`${
-                initialVal >= 1.4 ? `absolute top-[228vh]` : "fixed"
+                initialVal >= 1.4 && initialVal <= 2.1
+                  ? `absolute top-[228vh]`
+                  : "fixed"
               } ${style.chakra} ${
                 scrollDirection === "down"
                   ? initialVal <= 0.97
@@ -219,6 +225,10 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
         </>
       )}
       <Thirdslidemobile
+        initialVal={initialVal}
+        scrollDirection={scrollDirection}
+      />
+      <Fourthslidemobile
         initialVal={initialVal}
         scrollDirection={scrollDirection}
       />
