@@ -25,7 +25,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
       .scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div style={{ height: "100vh", overflow: "hidden" }}>
+    <div>
       {thirdslide ? (
         <ThirdSlide thirdslide={thirdslide} setthirdslide={setthirdslide} />
       ) : (
@@ -204,7 +204,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
                 bottom: initialVal >= 0.01 ? 0 : -70,
               }}
               className={`${
-                initialVal >= 1.6 ? `absolute top-[228vh]` : "fixed"
+                initialVal >= 1.4 ? `absolute top-[228vh]` : "fixed"
               } ${style.chakra} ${
                 scrollDirection === "down"
                   ? initialVal <= 0.97
