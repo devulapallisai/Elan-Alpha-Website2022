@@ -9,10 +9,12 @@ function Contact() {
   const [num, statehandler3] = useState("");
   const [rel, statehandler4] = useState("");
   const [email, statehandler2] = useState("");
+  const [relation, statehandler6] = useState("");
   const sendEmail = (e) => {
+    console.log(rel)
     e.preventDefault();
-
-    emailjs
+    if (rel == "Info"){
+      emailjs
       .sendForm(
         "service_328tyrj",
         "template_ue9mrbg",
@@ -21,7 +23,6 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
           statehandler2("");
           statehandler1("");
           statehandler3("");
@@ -32,6 +33,152 @@ function Contact() {
           console.log(error.text);
         }
       );
+    }
+    else if(rel =="Public Relations" || rel == "Informals")
+    {
+      emailjs
+      .sendForm(
+        "service_0s2vnvk",
+        "template_0blbjw6",
+        form.current,
+        "yTabJscJ8FxzGpgH6"
+      )
+      .then(
+        (result) => {
+          statehandler2("");
+          statehandler1("");
+          statehandler3("");
+          statehandler4("");
+          statehandler5("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    }
+    else if (rel == "Social Cause" || rel == "Culti")
+    {
+
+      emailjs
+      .sendForm(
+        "service_j3mfi7u",
+        "template_nyfcmsk",
+        form.current,
+        "XuTAhRnORESsapf1q"
+      )
+      .then(
+        (result) => {
+          statehandler2("");
+          statehandler1("");
+          statehandler3("");
+          statehandler4("");
+          statehandler5("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    }
+    else if (rel == "Finance" || rel == "Merchandise")
+    {
+
+      emailjs
+      .sendForm(
+        "service_0s2vnvk",
+        "template_lp8dowo",
+        form.current,
+        "yTabJscJ8FxzGpgH6"
+      )
+      .then(
+        (result) => {
+          statehandler2("");
+          statehandler1("");
+          statehandler3("");
+          statehandler4("");
+          statehandler5("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    }
+    else if (rel == "Workshops" || rel == "Techy")
+    {
+
+      emailjs
+      .sendForm(
+        "service_j3mfi7u",
+        "template_hzmw6xr",
+        form.current,
+        "XuTAhRnORESsapf1q"
+      )
+      .then(
+        (result) => {
+          statehandler2("");
+          statehandler1("");
+          statehandler3("");
+          statehandler4("");
+          statehandler5("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    }
+    else if (rel == "Sponsors")
+    {
+
+      emailjs
+      .sendForm(
+        "service_qm9ch3q",
+        "template_cxpwq7t",
+        form.current,
+        "0BEh3Pli1fv1yWqy2"
+      )
+      .then(
+        (result) => {
+          statehandler2("");
+          statehandler1("");
+          statehandler3("");
+          statehandler4("");
+          statehandler5("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    }
+    else if (rel == "Proshows")
+    {
+
+      emailjs
+      .sendForm(
+        "service_qm9ch3q",
+        "template_0g3ujen",
+        form.current,
+        "0BEh3Pli1fv1yWqy2"
+      )
+      .then(
+        (result) => {
+          statehandler2("");
+          statehandler1("");
+          statehandler3("");
+          statehandler4("");
+          statehandler5("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    }
+  
+    
   };
   return (
     <>
@@ -72,8 +219,21 @@ function Contact() {
               placeholder="Phone Number"
               onChange={(e) => statehandler3(e.target.value)}
             />
+              <select className="col-span-8 row-span-1 border border-gray-300 rounded-lg text-black-400 h-12 p-2 bg-[#F2EFE1] hover:border-black focus:outline-none appearance-none" name="Public" value={rel} onChange={(e) => statehandler4(e.target.value)}>
+                <option className="text-black p-2 m-2" value ="Public Relations">Public Relations</option>
+                <option className="text-black p-2 m-2" value ="Sponsors"> Sponsorships</option>
+                <option className="text-black p-2 m-2" value ="Proshows">Proshows</option>
+                <option className="text-black p-2 m-2" value ="Finance">Finance</option>
+                <option className="text-black p-2 m-2" value ="Workshops">Workshops</option>
+                <option className="text-black p-2 m-2" value ="Social Cause">Social Cause</option>
+                <option className="text-black p-2 m-2" value ="Culti">Culti & Biggies</option>
+                <option className="text-black p-2 m-2" value ="Techy">Techy</option>
+                <option className="text-black p-2 m-2" value ="Informals">Informals</option>
+                <option className="text-black p-2 m-2" value ="Merchandise">Merchandise</option>
+                <option className="text-black p-2 m-2" value ="Info">Micellaneous</option>
+              </select>
             <input
-              className="col-span-8 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
+              className="col-span-8 row-span-1 rounded-lg p-2 bg-[#F2EFE1] hidden"
               type="text"
               value={rel}
               placeholder="Public Relation"
@@ -142,8 +302,20 @@ function Contact() {
               placeholder="Phone Number"
               onChange={(e) => statehandler3(e.target.value)}
             />
+             <select className="col-span-2 row-span-1 border border-gray-300 rounded-lg text-black-400 h-12 p-2 bg-[#F2EFE1] hover:border-black focus:outline-none appearance-none" name="Public" id="public" value={rel} onChange={(e) => statehandler4(e.target.value)}>
+                <option className="text-black" value ="Public">Public Relations</option>
+                <option className="text-black" value ="Sponsor"> Sponsorships</option>
+                <option className="text-black" value ="Proshow">Proshows</option>
+                <option className="text-black" value ="Finance">Finance</option>
+                <option className="text-black" value ="Workshop">Workshops</option>
+                <option className="text-black" value ="Social">Social Cause</option>
+                <option className="text-black" value ="Culti">Culti & Biggies</option>
+                <option className="text-black" value ="Informals">Informals</option>
+                <option className="text-black" value ="Merchandise">Merchandise</option>
+                <option className="text-black" value ="Info">Micellaneous</option>
+              </select>
             <input
-              className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
+              className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1] hidden"
               type="text"
               value={rel}
               name="rel"

@@ -23,13 +23,13 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
     });
     gsap.from(".Para", {
       opacity: 0,
-      x: -100,
+      x: -200,
       yoyo: true,
-      duration: 1,
+      duration: 2,
     });
     gsap.from(".skyline3", {
-      y: 100,
-      duration: 2,
+      y: 270,
+      duration: 3,
     });
     gsap.from(".skyline1", {
       opacity: 0,
@@ -37,7 +37,7 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
       duration: 3,
     });
     gsap.from(".Back", {
-      duration: 3,
+      duration: 0,
     });
   }, []);
   const settosecond = (event) => {
