@@ -77,228 +77,223 @@ function Sponsors() {
         {/* Here comes the sponsors part */}
         <div className="sponsors w-screen justify-center items-center">
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Arcesium"
+            // Description="Sample Descritption"
             Image={arsecium}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Larsen & Turbo"
+            // Description="Sample Descritption"
             Image={lnt}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="celebr8"
+            // Description="Sample Descritption"
             Image={celebr8}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="SBI"
+            // Description="Sample Descritption"
             Image={sbi}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Honeywell"
+            // Description="Sample Descritption"
             Image={honeywell}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="NTPC"
+            // Description="Sample Descritption"
             Image={ntpc}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Airmeet"
+            // Description="Sample Descritption"
             Image={airmeet}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Big FM"
+            // Description="Sample Descritption"
             Image={bigfm}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Campus Comedy Club"
+            // Description="Sample Descritption"
             Image={ccc}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Canara BAnk"
+            // Description="Sample Descritption"
             Image={canera}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Campus Events"
+            // Description="Sample Descritption"
             Image={ces}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Chromatics"
+            // Description="Sample Descritption"
             Image={chromatics}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Clustera"
+            // Description="Sample Descritption"
             Image={clustera}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Code for Cause"
+            // Description="Sample Descritption"
             Image={cfc}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Coding Ninjas"
+            // Description="Sample Descritption"
             Image={cn}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Coolwinks"
+            // Description="Sample Descritption"
             Image={coolwinks}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="DU Beats"
+            // Description="Sample Descritption"
             Image={dubeats}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="DU Express"
+            // Description="Sample Descritption"
             Image={duexp}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Eleation"
+            // Description="Sample Descritption"
             Image={eleation}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="The Esports India"
+            // Description="Sample Descritption"
             Image={esports}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Fanclash"
+            // Description="Sample Descritption"
             Image={fanclash}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Fashion Herald"
+            // Description="Sample Descritption"
             Image={fh}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Fore"
+            // Description="Sample Descritption"
             Image={fore}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Foxmula"
+            // Description="Sample Descritption"
             Image={foxmula}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Give My Certificate"
+            // Description="Sample Descritption"
             Image={gmc}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Grabon"
+            // Description="Sample Descritption"
             Image={grabon}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Hans India"
+            // Description="Sample Descritption"
             Image={hansind}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Indinoir"
+            // Description="Sample Descritption"
             Image={indinoir}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Internshala"
+            // Description="Sample Descritption"
             Image={internshala}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Kaploths"
+            // Description="Sample Descritption"
             Image={kaploths}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Notice Board"
+            // Description="Sample Descritption"
             Image={notice}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Qwerty Thoughts"
+            // Description="Sample Descritption"
             Image={QT}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Celebrity School"
+            // Description="Sample Descritption"
             Image={school}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Shubang"
+            // Description="Sample Descritption"
             Image={shubang}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Skolar"
+            // Description="Sample Descritption"
             Image={skolar}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Summachar"
+            // Description="Sample Descritption"
             Image={summachar}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Talking Timber"
+            // Description="Sample Descritption"
             Image={tt}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Techienest"
+            // Description="Sample Descritption"
             Image={techienest}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
-            Image={tei}
-          />
-          <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Union Bank"
+            // Description="Sample Descritption"
             Image={ub}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Vedana"
+            // Description="Sample Descritption"
             Image={vedana}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Vishu Money"
+            // Description="Sample Descritption"
             Image={vm}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Wiley"
+            // Description="Sample Descritption"
             Image={wiley}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Yocket"
+            // Description="Sample Descritption"
             Image={yocket}
           />
           <Sponsorcard
-            Title="Sponsor"
-            Description="Sample Descritption"
+            Title="Youth Incorporated"
+            // Description="Sample Descritption"
             Image={yi}
           />
         </div>

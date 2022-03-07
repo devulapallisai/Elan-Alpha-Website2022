@@ -14,7 +14,7 @@ function Header({ path, block, sched, setsched }) {
     ["CA portal", "http://ca.elan.org.in"],
     ["Team", "/team"],
     ["Social Cause", "/socialcause"],
-    // ["Sponsors", "/sponsors"],
+    ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];
   const [color, setcolor] = useState("rgb(21,5,37)");
