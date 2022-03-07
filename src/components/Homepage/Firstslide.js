@@ -138,7 +138,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               alt="Theme Imag"
               data-aos="zoom-in"
               data-aos-duration="1000"
-              className={`${styles.themeimg}`}
+              className={`${styles.themeimg} z-20`}
             />
           </div>
           <div className="hidden lg:flex absolute w-[50px] h-full right-2 items-center">
