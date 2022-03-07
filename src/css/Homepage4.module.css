@@ -1,3 +1,6 @@
-.bgit{
-    background: linear-gradient(180deg, #943066 -67.92%, #F5C470 125.39%);
+.bgit {
+  background: linear-gradient(180deg, #943066 -67.92%, #f5c470 125.39%);
+}
+.bgitmobile {
+  background: linear-gradient(180deg, #80295d -52.19%, #f5c470 101.99%);
 }
