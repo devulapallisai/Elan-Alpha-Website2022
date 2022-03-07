@@ -15,6 +15,7 @@ function Card({ image, text, type, button, buttonText, a }) {
           </div>
 
           {a ? (
+            // return
             <>
               <br />
               <a
