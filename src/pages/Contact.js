@@ -13,7 +13,7 @@ function Contact() {
   const sendEmail = (e) => {
     console.log(rel)
     e.preventDefault();
-    if (rel == "Info"){
+    if (rel === "Info"){
       emailjs
       .sendForm(
         "service_328tyrj",
@@ -34,7 +34,7 @@ function Contact() {
         }
       );
     }
-    else if(rel =="Public Relations" || rel == "Informals")
+    else if(rel ==="Public Relations" || rel === "Informals")
     {
       emailjs
       .sendForm(
@@ -57,7 +57,7 @@ function Contact() {
       );
 
     }
-    else if (rel == "Social Cause" || rel == "Culti")
+    else if (rel === "Social Cause" || rel === "Culti")
     {
 
       emailjs
@@ -81,7 +81,7 @@ function Contact() {
       );
 
     }
-    else if (rel == "Finance" || rel == "Merchandise")
+    else if (rel === "Finance" || rel === "Merchandise")
     {
 
       emailjs
@@ -105,7 +105,7 @@ function Contact() {
       );
 
     }
-    else if (rel == "Workshops" || rel == "Techy")
+    else if (rel === "Workshops" || rel === "Techy")
     {
 
       emailjs
@@ -129,7 +129,7 @@ function Contact() {
       );
 
     }
-    else if (rel == "Sponsors")
+    else if (rel === "Sponsors")
     {
 
       emailjs
@@ -153,7 +153,7 @@ function Contact() {
       );
 
     }
-    else if (rel == "Proshows")
+    else if (rel === "Proshows")
     {
 
       emailjs
@@ -201,7 +201,8 @@ function Contact() {
               value={name}
               name="name"
               placeholder="First Name"
-              onChange={(e) => statehandler1(e.target.value)}
+              onChange={(e) => statehandler1(e.target.value)} 
+              required
             />
             <input
               className="col-span-4 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
@@ -210,6 +211,7 @@ function Contact() {
               name="email"
               placeholder="Email"
               onChange={(e) => statehandler2(e.target.value)}
+              required
             />
             <input
               className="col-span-4 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
@@ -218,6 +220,7 @@ function Contact() {
               name="num"
               placeholder="Phone Number"
               onChange={(e) => statehandler3(e.target.value)}
+              required
             />
               <select className="col-span-8 row-span-1 border border-gray-300 rounded-lg text-black-400 h-12 p-2 bg-[#F2EFE1] hover:border-black focus:outline-none appearance-none" name="Public" value={rel} onChange={(e) => statehandler4(e.target.value)}>
                 <option className="text-black p-2 m-2" value ="Public Relations">Public Relations</option>
@@ -246,7 +249,8 @@ function Contact() {
               placeholder="Your message"
               onChange={(e) => statehandler5(e.target.value)}
               name="msg"
-            />
+              required
+              />
             {/* <input
               type="submit"
               className="col-span-2 bg-[#] font-heading p-10"
@@ -285,6 +289,7 @@ function Contact() {
               name="name"
               placeholder="First Name"
               onChange={(e) => statehandler1(e.target.value)}
+              required
             />
             <input
               className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
@@ -293,6 +298,7 @@ function Contact() {
               name="email"
               placeholder="Email"
               onChange={(e) => statehandler2(e.target.value)}
+              required
             />
             <input
               className="col-span-2 row-span-1 rounded-lg p-2 bg-[#F2EFE1]"
@@ -301,6 +307,7 @@ function Contact() {
               name="num"
               placeholder="Phone Number"
               onChange={(e) => statehandler3(e.target.value)}
+              required
             />
              <select className="col-span-2 row-span-1 border border-gray-300 rounded-lg text-black-400 h-12 p-2 bg-[#F2EFE1] hover:border-black focus:outline-none appearance-none" name="Public" id="public" value={rel} onChange={(e) => statehandler4(e.target.value)}>
                 <option className="text-black" value ="Public">Public Relations</option>
@@ -328,6 +335,7 @@ function Contact() {
               placeholder="Your message"
               value={msg}
               onChange={(e) => statehandler5(e.target.value)}
+              required
             />
             <button
               type="submit"
