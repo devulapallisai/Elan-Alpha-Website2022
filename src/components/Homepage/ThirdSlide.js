@@ -37,7 +37,6 @@ function ThirdSlide({thirdslide,setthirdslide}) {
       duration: 3,
     });
     gsap.from(".Back", {
-      backgroundImage: BackgroundI,
       duration: 3,
     });
   }, []);
