@@ -16,11 +16,15 @@ function Infocard({
   contactdetails,
   timeline,
 }) {
+  let classNameString = "w-[" + width + "]";
+  if(pagecard){
+    classNameString += " mt-[8vh] lg:mt-[14vh]";
+  } else {
+    classNameString += " mt-[20px]";
+  }
   return (
     <div
-      className={`w-[${width}] ${
-        pagecard ? "mt-[8vh] lg:mt-[14vh]" : "mt-[20px]"
-      }`}
+      className={classNameString}
     >
       {pagecard ? (
         <div className="mt-[20px]">
@@ -112,7 +116,7 @@ function Infocard({
         ) : (
           ""
         )}
-        {statement ? (
+        {statement && (
           <>
             <div className="font-heading font-bold md:text-lg text-sm text-black mx-[2vw] mt-[2vh] md:mt-[2vw]">
               Problem Statement:
@@ -123,10 +127,8 @@ function Infocard({
               ))}
             </div>
           </>
-        ) : (
-          ""
         )}
-        {judgingcriteria ? (
+        {judgingcriteria && (
           <>
             <div className="font-heading font-bold md:text-lg text-sm text-black mx-[2vw] mt-[2vh] md:mt-[2vw]">
               Judging Criteria:
@@ -137,10 +139,8 @@ function Infocard({
               ))}
             </div>
           </>
-        ) : (
-          ""
-        )}
-        {submissionformat ? (
+        ) }
+        {submissionformat && (
           <>
             <div className="font-heading font-bold md:text-lg text-sm text-black mx-[2vw] mt-[2vh] md:mt-[2vw]">
               Submission format:
@@ -149,10 +149,8 @@ function Infocard({
               {submissionformat}
             </p>
           </>
-        ) : (
-          ""
         )}
-        {eventrules ? (
+        {eventrules && (
           <>
             <div className="font-heading font-bold md:text-lg text-sm text-black mx-[2vw] mt-[2vh] md:mt-[2vw]">
               Event Rules:
@@ -163,10 +161,8 @@ function Infocard({
               ))}
             </div>
           </>
-        ) : (
-          ""
         )}
-        {regdetails ? (
+        {regdetails && (
           <>
             <div className="font-heading font-bold md:text-lg text-sm text-black mx-[2vw] mt-[2vh] md:mt-[2vw]">
               Registration Details:
@@ -175,8 +171,6 @@ function Infocard({
               {regdetails}
             </div>
           </>
-        ) : (
-          ""
         )}
         {certifications ? (
           <>
@@ -192,7 +186,7 @@ function Infocard({
         ) : (
           ""
         )}
-        {contactdetails ? (
+        {contactdetails && (
           <>
             <div className="font-heading font-bold md:text-lg text-sm text-black mx-[2vw] mt-[2vh] md:mt-[2vw]">
               CONTACT DETAILS:
@@ -210,17 +204,13 @@ function Infocard({
               ))}
             </div>
           </>
-        ) : (
-          ""
         )}
       </div>
       <br />
-      {pagecard ? (
+      {pagecard && (
         <div className="container mx-auto">
           <Footer />
         </div>
-      ) : (
-        ""
       )}
     </div>
   );
