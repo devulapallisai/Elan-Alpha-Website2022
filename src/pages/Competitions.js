@@ -96,7 +96,6 @@ function Competitions({ block, setblock }) {
                   alt="imagehere"
                   className="my-auto mx-auto col-span-1 hidden md:block"
                 ></img>
-
                 <Card
                   type="col-span-3 mx-0"
                   text="TBA"
@@ -107,7 +106,6 @@ function Competitions({ block, setblock }) {
                   alt="imagehere"
                   className="my-auto mx-auto col-span-1 hidden md:block"
                 ></img>
-
                 <Card
                   type="col-span-3 mx-0"
                   text="TBA"
@@ -127,7 +125,6 @@ function Competitions({ block, setblock }) {
                   alt="imagehere"
                   className="my-auto mx-auto col-span-1 hidden md:block"
                 ></img>
-
                 <Card
                   type="col-span-3 mx-0"
                   text="TBA"
@@ -138,7 +135,6 @@ function Competitions({ block, setblock }) {
                   alt="imagehere"
                   className="my-auto mx-auto col-span-1 hidden md:block"
                 ></img>
-
                 <Card
                   type="col-span-3 mx-0"
                   text="TBA"
@@ -276,7 +272,6 @@ function Competitions({ block, setblock }) {
                   alt="imagehere"
                   className="my-auto mx-auto col-span-1 hidden md:block"
                 ></img>
-
                 <Card
                   type="col-span-3 mx-0"
                   text="TBA"
@@ -287,7 +282,6 @@ function Competitions({ block, setblock }) {
                   alt="imagehere"
                   className="my-auto mx-auto col-span-1 hidden md:block"
                 ></img>
-
                 <Card
                   type="col-span-3 mx-0"
                   text="TBA"
