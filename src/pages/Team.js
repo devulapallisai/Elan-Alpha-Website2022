@@ -161,7 +161,7 @@ function Team() {
               <Card
                 name="Eshwar Yadav"
                 position="Publicity Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Eshwar_Yadav_Publicity-1_LjDKRy-tAwwO.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162516134"
+                image="https://ik.imagekit.io/sai1975d/teams/IMG_20220226_212436_EmrPoNq1M.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646675370495"
                 type="mr-2"
                 phone="8688947336"
               />
