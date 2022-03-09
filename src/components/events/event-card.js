@@ -6,7 +6,12 @@ function Card({ image, text, type, button, buttonText, a, title }) {
     return (
       <div className={` ${type}`}>
         <div className={` ${styles.border}`}>
-          <img className={styles.imageBox} src={image} alt="imag" />
+          <img
+            className={styles.imageBox}
+            src={image}
+            alt="imag"
+            loading="lazy"
+          />
 
           <div
             className={`text-white ${styles.textBox} font-text md:font-lg font-sm`}
@@ -39,7 +44,12 @@ function Card({ image, text, type, button, buttonText, a, title }) {
     return (
       <div className={` ${type}`}>
         <div className={` ${styles.border}`}>
-          <img className={styles.imageBox} src={image} alt="imag" />
+          <img
+            className={styles.imageBox}
+            loading="lazy"
+            src={image}
+            alt="imag"
+          />
           <h1 className="font-heading m-2 text-center text-lg md:text-2xl text-white">
             {title}
           </h1>

@@ -14,29 +14,38 @@ function Culti() {
         >
           {groupedcomp.map((item) => (
             <>
-              <Card
-                type="col-span-3 mx-0"
-                text={item[0]["details"]}
-                title={item[0]["name"]}
-                image={item[0]["img"]}
-              />
-              <img
-                src={line}
-                alt="imagehere"
-                className="my-auto mx-auto col-span-1 hidden md:block"
-              ></img>
-              <Card
-                type="col-span-3 mx-0"
-                text={item[1]["details"]}
-                title={item[1]["name"]}
-                image={item[1]["img"]}
-              />
-              <img
-                src={line}
-                alt="imagehere"
-                className="my-auto mx-auto col-span-1 hidden md:block"
-              ></img>
-
+              {item[0] && (
+                <>
+                  <Card
+                    type="col-span-3 mx-0"
+                    text={item[0]["details"]}
+                    title={item[0]["name"]}
+                    image={item[0]["img"]}
+                  />
+                  <img
+                    src={line}
+                    alt="imagehere"
+                    loading="lazy"
+                    className="my-auto mx-auto col-span-1 hidden md:block"
+                  ></img>
+                </>
+              )}
+              {item[1] && (
+                <>
+                  <Card
+                    type="col-span-3 mx-0"
+                    text={item[1]["details"]}
+                    title={item[1]["name"]}
+                    image={item[1]["img"]}
+                  />
+                  <img
+                    src={line}
+                    alt="imagehere"
+                    loading="lazy"
+                    className="my-auto mx-auto col-span-1 hidden md:block"
+                  ></img>
+                </>
+              )}
               {item[2] && (
                 <>
                   <Card

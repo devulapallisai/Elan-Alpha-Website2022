@@ -21,15 +21,14 @@ export const groupedcomp = [
         "When your passion is singing ,nothing can stop you from bringing your music to life.Campus Idol is the perfect platform to help you share love and happiness through your song!",
     },
     {
-      name: "Glitz & Glamour",
-      reglink:
-        "https://dare2compete.com/creative-cultural-event/glitz-glamour-elan-ivision-2022-iit-hyderabad-272835",
-      sublink: "https://forms.gle/YyZAgE2VRCGzUTrE8",
+      name: "Breakfree",
+      reglink: "https://dare2compete.com/o/JBdSQcm?lb=KnvQoHU",
+      sublink: "https://forms.gle/7o7Ur19UWNw5GhPJA",
       rules:
-        "https://docs.google.com/document/d/1vYz61w_uMz9aE5rKKIlocSPe5Vx1hQiAHB_nt9N__Us/edit?usp=sharing",
-      img: "https://drive.google.com/file/d/18wan8HynAFzztYbR5CH5f7PXtW1AZzEx/view?usp=sharing",
+        "https://docs.google.com/document/d/1pzpTx8S8wuq0pDtpWWlYoeypnF06Wu0Crbqe258gRM4/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/1YQBtQhu9sExq7McQegUY1DusqA99rAZa/view?usp=sharing",
       details:
-        "Modelling is not just about beauty, it is about the way you portray yourself with confidence and glamour yet keeping simplicity in you alive! A platform  for all those young ladies out there who always dreamt of being a model. Elan & ηvision 2022 gives you the opportunity to take the first step towards your passion.",
+        "Is dancing your passion? Does the zen of dance breathe life into your torrid day? This is where you can show off your moves to the masses and shine. It is one of the biggest and most glamorous events of the fest. Participants can perform any dance form (except classical).",
     },
   ],
   [
@@ -45,27 +44,16 @@ export const groupedcomp = [
         "Short films are a catalyst for creative potential. Once again this year, ELAN & NVISION is hosting FILMFARE FIESTA to unleash the creativity in you. Make your own short film, enthrall and captivate movie buffs with your creativity. The stage at Elan & ηvision 2020 is set for you. Get judged by esteemed people in the film industry.",
     },
     {
-      name: "Breakfree",
-      reglink: "https://dare2compete.com/o/JBdSQcm?lb=KnvQoHU",
-      sublink: "https://forms.gle/7o7Ur19UWNw5GhPJA",
+      name: "Glitz & Glamour",
+      reglink:
+        "https://dare2compete.com/creative-cultural-event/glitz-glamour-elan-ivision-2022-iit-hyderabad-272835",
+      sublink: "https://forms.gle/YyZAgE2VRCGzUTrE8",
       rules:
-        "https://docs.google.com/document/d/1pzpTx8S8wuq0pDtpWWlYoeypnF06Wu0Crbqe258gRM4/edit?usp=sharing",
-      img: "https://drive.google.com/file/d/1YQBtQhu9sExq7McQegUY1DusqA99rAZa/view?usp=sharing",
+        "https://docs.google.com/document/d/1vYz61w_uMz9aE5rKKIlocSPe5Vx1hQiAHB_nt9N__Us/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/18wan8HynAFzztYbR5CH5f7PXtW1AZzEx/view?usp=sharing",
       details:
-        "Is dancing your passion? Does the zen of dance breathe life into your torrid day? This is where you can show off your moves to the masses and shine. It is one of the biggest and most glamorous events of the fest. Participants can perform any dance form (except classical).",
+        "Modelling is not just about beauty, it is about the way you portray yourself with confidence and glamour yet keeping simplicity in you alive! A platform  for all those young ladies out there who always dreamt of being a model. Elan & ηvision 2022 gives you the opportunity to take the first step towards your passion.",
     },
-    {
-      name: "Paint the Screen",
-      reglink: "https://dare2compete.com/o/2Lvyc1o?lb=KnvQoHU",
-      sublink: "https://forms.gle/9FoS6Bg5kiUt54nE7",
-      rules:
-        "https://docs.google.com/document/d/1aMF6wAu0zRFrOK-0Kpq4YCBxlDSCMtLh1Ai7YgD6nCc/edit?usp=sharing",
-      img: "https://drive.google.com/file/d/1jGMA2Hj5BJo1ndkqHFS4SnO4_DQOYKoT/view?usp=sharing",
-      details:
-        "Today the world  is all about digitalization.So,Elan and nvision presents you with an amazing opportunity to put all your imagination without any bound  to digitize your art and get along.",
-    },
-  ],
-  [
     {
       name: "Stand Up Comedy",
       reglink: "https://dare2compete.com/o/Un47bgp?lb=KnvQoHU",
@@ -75,6 +63,18 @@ export const groupedcomp = [
       img: "https://drive.google.com/file/d/1Jiz0ApDOhUtc9BjMGaYRjpJ-Ed4Rc9_x/view?usp=sharing",
       details:
         "The advent of social media and online pop culture has brought about a radical change in the Indian comedy circles as well. The past decade saw the rise of stand up comedians and now it’s your turn. Can you enthrall the audience with your wacky humor? Can you brighten up someone’s day? This is the event where you can test your skills against other similarly talented folk and try to come out on top.",
+    },
+  ],
+  [
+    {
+      name: "Paint the Screen",
+      reglink: "https://dare2compete.com/o/2Lvyc1o?lb=KnvQoHU",
+      sublink: "https://forms.gle/9FoS6Bg5kiUt54nE7",
+      rules:
+        "https://docs.google.com/document/d/1aMF6wAu0zRFrOK-0Kpq4YCBxlDSCMtLh1Ai7YgD6nCc/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/1jGMA2Hj5BJo1ndkqHFS4SnO4_DQOYKoT/view?usp=sharing",
+      details:
+        "Today the world  is all about digitalization.So,Elan and nvision presents you with an amazing opportunity to put all your imagination without any bound  to digitize your art and get along.",
     },
     {
       name: "Art attack",
@@ -88,17 +88,6 @@ export const groupedcomp = [
         "Painting is not about what one sees but what one can make others see! This theme-based painting competition is an opportunity to bring your imagination and creativity together on the paper alive.",
     },
     {
-      name: "Nrityangali",
-      reglink: "https://dare2compete.com/o/5wkyMb7?lb=KnvQoHU",
-      sublink: "https://forms.gle/bMcrbbZ2MWc4xrE9A",
-      rules:
-        "https://docs.google.com/document/d/1b1Xx39x8NFiNhCHjGkPtyNqCubpALzxyWd3ud3ZfHaU/edit?usp=sharing",
-      img: "https://drive.google.com/file/d/1jGMA2Hj5BJo1ndkqHFS4SnO4_DQOYKoT/view?usp=sharing",
-      details: "",
-    },
-  ],
-  [
-    {
       name: "Doddle Creation",
       reglink:
         "https://dare2compete.com/creative-cultural-event/doodle-art-elan-ivision-2022-iit-hyderabad-272832",
@@ -108,6 +97,18 @@ export const groupedcomp = [
       img: "https://drive.google.com/file/d/1Jiz0ApDOhUtc9BjMGaYRjpJ-Ed4Rc9_x/view?usp=sharing",
       details:
         "Doodling is a fun way of expressing yourself! It is not just a stress buster but also unlocks the subconscious creativity within you. In these times of pandemic , the elan & nvision is here to your rescue with its very own doodle art competition! Get ready to show off your doodles !",
+    },
+  ],
+  [
+    {
+      name: "Nrityangali",
+      reglink: "https://dare2compete.com/o/5wkyMb7?lb=KnvQoHU",
+      sublink: "https://forms.gle/bMcrbbZ2MWc4xrE9A",
+      rules:
+        "https://docs.google.com/document/d/1b1Xx39x8NFiNhCHjGkPtyNqCubpALzxyWd3ud3ZfHaU/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/1jGMA2Hj5BJo1ndkqHFS4SnO4_DQOYKoT/view?usp=sharing",
+      details:
+        "Dance is much more than an art- it is a sport , a way to express one’s self, a way to celebrate and much more. It embodies all forms of physical art and learning. Classical dance is the fusion of the mind's emotions and the body's articulate movements. It takes the viewers to a completely different world of calmness and imagination. We, at elan invite you to celebrate the beauty of Indian classical dance. Come and mesmerize the audience with your grace, expressions and soulful talent!",
     },
     {
       name: "Picelectic",
