@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../css/events.module.css";
 
-function Card({ image, text, type, button, buttonText, a }) {
+function Card({ image, text, type, button, buttonText, a, title }) {
   if (button === true) {
     return (
       <div className={` ${type}`}>
@@ -40,7 +40,9 @@ function Card({ image, text, type, button, buttonText, a }) {
       <div className={` ${type}`}>
         <div className={` ${styles.border}`}>
           <img className={styles.imageBox} src={image} alt="imag" />
-
+          <h1 className="font-heading m-2 text-center text-lg md:text-2xl text-white">
+            {title}
+          </h1>
           <div
             className={`text-white ${styles.textBox} font-text md:font-lg font-sm`}
           >
