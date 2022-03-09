@@ -8,6 +8,9 @@ import styles from "../../css/Homepage1.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
+import Finalmerch from "../../images/Homepage/Finalmerch.webp";
+import Finalcrypt from "../../images/Homepage/finalcryptex.webp";
+import { Link } from "react-router-dom";
 // import Themeimg from "../../images/Homepage/Theme_final.png";
 // import Logo from "../../images/elannvision.png";
 // import Chakra from "../../images/Homepage/Halfchakra.png";
@@ -111,6 +114,54 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               alt="Imag"
               className={`${styles.img} z-[20]`}
             />
+          </div>
+          <div className="hidden md:flex z-[20000000] absolute left-0 h-full items-center ml-[4vw]">
+            <Link to="/merch">
+              <img
+                src={Finalmerch}
+                alt="Im"
+                data-aos="zoom-in"
+                data-aos-delay="5000"
+                data-aos-duration="2000"
+                className={`${styles.sizeit}  my-auto cursor-pointer`}
+              />
+            </Link>
+          </div>
+          <div className="z-[20000000] md:hidden absolute flex top-0 w-full mt-[15vh] justify-center">
+            <Link to="/merch">
+              <img
+                src={Finalmerch}
+                alt="Im"
+                data-aos="zoom-in"
+                data-aos-delay="5000"
+                data-aos-duration="2000"
+                className={`${styles.sizeit} cursor-pointer`}
+              />
+            </Link>
+          </div>
+          <div className="absolute md:flex hidden right-0 h-full items-center mr-[4vw]">
+            <Link to="/merch">
+              <img
+                src={Finalcrypt}
+                alt="Im"
+                data-aos="zoom-in"
+                data-aos-delay="5000"
+                data-aos-duration="2000"
+                className={`${styles.sizeit}  my-auto cursor-pointer`}
+              />
+            </Link>
+          </div>
+          <div className="z-[20000000] md:hidden absolute flex bottom-0 w-full mb-[20vh] justify-center">
+            <Link to="/merch">
+              <img
+                src={Finalcrypt}
+                alt="Im"
+                data-aos="zoom-in"
+                data-aos-delay="5000"
+                data-aos-duration="2000"
+                className={`${styles.sizeit} cursor-pointer`}
+              />
+            </Link>
           </div>
           <div className="absolute">
             <div className={`${styles.backgr} flex justify-content-center`}>
