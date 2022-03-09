@@ -3,7 +3,7 @@ import styles from "../css/events.module.css";
 
 import Footer from "../components/common/Footer";
 import Culti from "../components/competitions/Culti";
-import Techy from "../compoenents/competitions/Techy"
+import Techy from "../components/competitions/Techy";
 function Competitions({ block, setblock }) {
   return (
     <div
@@ -66,7 +66,7 @@ function Competitions({ block, setblock }) {
           </div>
         ) : (
           <div id="TechyBlocks">
-           <Techy />
+            <Techy />
           </div>
         )}
       </div>
