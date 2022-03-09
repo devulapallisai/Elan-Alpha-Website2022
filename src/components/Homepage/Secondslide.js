@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // import Chakra from "../../images/Homepage/chakra.png";
 import styles from "../../css/Homepage2.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,6 +13,7 @@ import ThirdSlide from "./ThirdSlide";
 import { useNavigate } from "react-router-dom";
 import Thirdslidemobile from "./Thirdslidemobile";
 import Fourthslidemobile from "./Fourthslidemobile";
+import {gsap} from 'gsap';
 function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const navigate = useNavigate();
   const [thirdslide, setthirdslide] = useState(false);
@@ -25,6 +26,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
       .getElementById("firstslide")
       .scrollIntoView({ behavior: "smooth" });
   };
+
   return (
     <div>
       {thirdslide ? (
@@ -105,7 +107,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           >
             <img
               src="https://ik.imagekit.io/sai1975d/Homepage/window_webcopy-min_ENqCFONYh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646330063505"
-              className={`${styles.imagebackgr}`}
+              className={`backgr ${styles.imagebackgr}`}
               style={{ zIndex: 46 }}
               alt="Imag"
               width="100vw"

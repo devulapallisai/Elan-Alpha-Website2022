@@ -23,9 +23,8 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
     });
     gsap.from(".Para", {
       opacity: 0,
-      x: -200,
-      yoyo: true,
-      duration: 2,
+      x: 200,
+      duration: 3,
     });
     gsap.from(".skyline3", {
       y: 270,
@@ -36,8 +35,17 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
       y: 200,
       duration: 3,
     });
-    gsap.from(".Back", {
-      duration: 0,
+    gsap.to(".backgr", {
+      css : {
+        transform: "translateZ(50px) perspective(50px)",
+        transition : "4s",
+      },
+    });
+    gsap.from(".Back",{
+        css :{
+          background: "linear-gradient(180deg,#170735 -10.41%,#943066 65.44%,#f5c470 122.95%)",
+        },
+        duration: 3,
     });
   }, []);
   const settosecond = (event) => {
@@ -60,10 +68,22 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
       ) : (
         <>
           {forward ? (
+        
+            
             <div
-              className={`Back relative flex justify-center h-screen w-screen ${styles.bgit}`}
+              className={`Back overflow-hidden relative flex justify-center h-screen w-screen ${styles.bgit}`}
               id="thirdslide"
             >
+              
+              <img
+            src="https://ik.imagekit.io/sai1975d/Homepage/window_webcopy-min_ENqCFONYh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646330063505"
+            className={`backgr ${styles.imagebackgr}`}
+            style={{ zIndex: 46 }}
+            alt="Imag"
+            width="100vw"
+            height="100vh"
+          />
+
               <div className="z-[120000] absolute w-[50px] h-full right-2 flex items-center">
                 <div className="h-[100px] w-[50px] z-[120000]">
                   <div className="flex flex-col justify-around h-[100px] z-[120000]">
@@ -122,7 +142,7 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
                   alt="img"
                 ></img>
               </div>
-              <div className="chakra absolute left-16 top-20">
+              <div className="chakra absolute left-16 top-28">
                 <img
                   src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910"
                   alt="absolute"
