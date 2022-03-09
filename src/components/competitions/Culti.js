@@ -5,6 +5,7 @@ import line from "../../images/events/line gols 9.png";
 import lineHz from "../../images/events/line gols 8.png";
 import Zakir from "../../images/events/Coming Soon (1).png";
 import { groupedcomp } from "./Cultidata";
+import { groupedcompmob } from "./Cultidatamob";
 function Culti() {
   return (
     <div>
@@ -71,25 +72,26 @@ function Culti() {
       </div>
       {/* Mobile Part begins */}
       <div className="md:hidden overflow-hidden mx-10 ">
-        <div className="grid grid-cols-1 mx-auto">
-          <Card type="col-span-3 mx-0" text="TBA" image={Zakir} />
-        </div>
-        <img
-          src={lineHz}
-          alt="imagehere"
-          className="my-3 mx-auto col-span-1  md:hidden"
-        ></img>
-        <div className="grid grid-cols-1 mx-auto">
-          <Card type="col-span-3 mx-0" text="TBA" image={Zakir} />
-        </div>
-        <img
-          src={lineHz}
-          alt="imagehere"
-          className="my-3 mx-auto col-span-1  md:hidden"
-        ></img>
-        <div className="grid grid-cols-1 mx-auto">
-          <Card type="col-span-3 mx-0" text="TBA" image={Zakir} />
-        </div>
+        {groupedcompmob.map((item) => (
+          <>
+            <div className="grid grid-cols-1 mx-auto">
+              <Card
+                type="col-span-3 mx-0"
+                text={item[0]["details"]}
+                title={item[0]["name"]}
+                image={item[0]["img"]}
+                learnmore={item[0]["rules"]}
+                submit={item[0]["sublink"]}
+                register={item[0]["reglink"]}
+              />
+            </div>
+            <img
+              src={lineHz}
+              alt="imagehere"
+              className="my-3 mx-auto col-span-1  md:hidden"
+            ></img>
+          </>
+        ))}
       </div>
     </div>
   );
