@@ -56,14 +56,7 @@ function Header({ path, block, sched, setsched }) {
           <div
             className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex px-5`}
           >
-            <a
-              href="https://drive.google.com/file/d/1BvVRbZtoR064aPIpblzlXxZ8balrG9rE/view"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
-            >
-              FAQ
-            </a>
+          
             {routes.reverse().map((route) =>
               route[0] === "CA portal" ? (
                 <a
