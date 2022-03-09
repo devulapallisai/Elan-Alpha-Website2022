@@ -31,8 +31,9 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/merch" element={<Merch />} />
+        
         <Route path="/socialcause" element={<SocialCause />} />
+        <Route path="/merch" element={<Merch />} />
         <Route
           path="/competitions"
           element={<Competitions block={block} setblock={setblock} />}
