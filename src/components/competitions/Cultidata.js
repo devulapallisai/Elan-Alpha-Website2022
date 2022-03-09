@@ -1,6 +1,16 @@
 export const groupedcomp = [
   [
     {
+      name: "Breakfree",
+      reglink: "https://dare2compete.com/o/JBdSQcm?lb=KnvQoHU",
+      sublink: "https://forms.gle/7o7Ur19UWNw5GhPJA",
+      rules:
+        "https://docs.google.com/document/d/1pzpTx8S8wuq0pDtpWWlYoeypnF06Wu0Crbqe258gRM4/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/1YQBtQhu9sExq7McQegUY1DusqA99rAZa/view?usp=sharing",
+      details:
+        "Is dancing your passion? Does the zen of dance breathe life into your torrid day? This is where you can show off your moves to the masses and shine. It is one of the biggest and most glamorous events of the fest. Participants can perform any dance form (except classical).",
+    },
+    {
       name: "Beat Trippers",
       reglink: "https://dare2compete.com/o/I3PEK5Z?lb=KnvQoHU",
       sublink: "https://forms.gle/BL8zB7cgYiv1d6Mk8",
@@ -20,16 +30,6 @@ export const groupedcomp = [
       details:
         "When your passion is singing ,nothing can stop you from bringing your music to life.Campus Idol is the perfect platform to help you share love and happiness through your song!",
     },
-    {
-      name: "Breakfree",
-      reglink: "https://dare2compete.com/o/JBdSQcm?lb=KnvQoHU",
-      sublink: "https://forms.gle/7o7Ur19UWNw5GhPJA",
-      rules:
-        "https://docs.google.com/document/d/1pzpTx8S8wuq0pDtpWWlYoeypnF06Wu0Crbqe258gRM4/edit?usp=sharing",
-      img: "https://drive.google.com/file/d/1YQBtQhu9sExq7McQegUY1DusqA99rAZa/view?usp=sharing",
-      details:
-        "Is dancing your passion? Does the zen of dance breathe life into your torrid day? This is where you can show off your moves to the masses and shine. It is one of the biggest and most glamorous events of the fest. Participants can perform any dance form (except classical).",
-    },
   ],
   [
     {
@@ -44,6 +44,16 @@ export const groupedcomp = [
         "Short films are a catalyst for creative potential. Once again this year, ELAN & NVISION is hosting FILMFARE FIESTA to unleash the creativity in you. Make your own short film, enthrall and captivate movie buffs with your creativity. The stage at Elan & ηvision 2020 is set for you. Get judged by esteemed people in the film industry.",
     },
     {
+      name: "Stand Up Comedy",
+      reglink: "https://dare2compete.com/o/Un47bgp?lb=KnvQoHU",
+      sublink: "https://forms.gle/8T9GwzxzdqSSu98P7",
+      rules:
+        "https://docs.google.com/document/d/15pHNQlm8iv4UHCrdTv4py64JB39YW2GKAc7eguKMpoo/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/1Jiz0ApDOhUtc9BjMGaYRjpJ-Ed4Rc9_x/view?usp=sharing",
+      details:
+        "The advent of social media and online pop culture has brought about a radical change in the Indian comedy circles as well. The past decade saw the rise of stand up comedians and now it’s your turn. Can you enthrall the audience with your wacky humor? Can you brighten up someone’s day? This is the event where you can test your skills against other similarly talented folk and try to come out on top.",
+    },
+    {
       name: "Glitz & Glamour",
       reglink:
         "https://dare2compete.com/creative-cultural-event/glitz-glamour-elan-ivision-2022-iit-hyderabad-272835",
@@ -53,16 +63,6 @@ export const groupedcomp = [
       img: "https://drive.google.com/file/d/18wan8HynAFzztYbR5CH5f7PXtW1AZzEx/view?usp=sharing",
       details:
         "Modelling is not just about beauty, it is about the way you portray yourself with confidence and glamour yet keeping simplicity in you alive! A platform  for all those young ladies out there who always dreamt of being a model. Elan & ηvision 2022 gives you the opportunity to take the first step towards your passion.",
-    },
-    {
-      name: "Stand Up Comedy",
-      reglink: "https://dare2compete.com/o/Un47bgp?lb=KnvQoHU",
-      sublink: "https://forms.gle/8T9GwzxzdqSSu98P7",
-      rules:
-        "https://docs.google.com/document/d/15pHNQlm8iv4UHCrdTv4py64JB39YW2GKAc7eguKMpoo/edit?usp=sharing",
-      img: "https://drive.google.com/file/d/1Jiz0ApDOhUtc9BjMGaYRjpJ-Ed4Rc9_x/view?usp=sharing",
-      details:
-        "The advent of social media and online pop culture has brought about a radical change in the Indian comedy circles as well. The past decade saw the rise of stand up comedians and now it’s your turn. Can you enthrall the audience with your wacky humor? Can you brighten up someone’s day? This is the event where you can test your skills against other similarly talented folk and try to come out on top.",
     },
   ],
   [

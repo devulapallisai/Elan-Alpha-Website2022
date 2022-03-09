@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../css/events.module.css";
-import Card from "../../components/events/event-card";
+import Card from "./CCard";
 import line from "../../images/events/line gols 9.png";
 import lineHz from "../../images/events/line gols 8.png";
 import Zakir from "../../images/events/Coming Soon (1).png";
@@ -21,6 +21,9 @@ function Culti() {
                     text={item[0]["details"]}
                     title={item[0]["name"]}
                     image={item[0]["img"]}
+                    learnmore={item[0]["rules"]}
+                    submit={item[0]["sublink"]}
+                    register={item[0]["reglink"]}
                   />
                   <img
                     src={line}
@@ -37,6 +40,9 @@ function Culti() {
                     text={item[1]["details"]}
                     title={item[1]["name"]}
                     image={item[1]["img"]}
+                    learnmore={item[1]["rules"]}
+                    submit={item[1]["sublink"]}
+                    register={item[1]["reglink"]}
                   />
                   <img
                     src={line}
@@ -51,6 +57,9 @@ function Culti() {
                   <Card
                     type="col-span-3 mx-0"
                     text={item[2]["details"]}
+                    learnmore={item[2]["rules"]}
+                    submit={item[2]["sublink"]}
+                    register={item[2]["reglink"]}
                     title={item[2]["name"]}
                     image={item[2]["img"]}
                   />
