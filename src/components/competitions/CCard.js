@@ -10,12 +10,20 @@ function Card({ image, text, type, title, learnmore, submit, register }) {
           src={image}
           alt="imag"
           loading="lazy"
+          style={{
+            borderBottomLeftRadius: "10%",
+            borderBottomRightRadius: "10%",
+            borderTopRightRadius: "10%",
+            maxHeight: 160,
+            width: "auto",
+            margin: "auto",
+          }}
         />
         <h1 className="font-heading m-2 text-center text-lg md:text-2xl text-white">
           {title}
         </h1>
         <div
-          className={`text-white ${styles.textBox} font-text md:font-lg font-sm`}
+          className={`text-white ${styles.textBox} font-text md:font-lg font-sm text-justify`}
         >
           {text}
         </div>
