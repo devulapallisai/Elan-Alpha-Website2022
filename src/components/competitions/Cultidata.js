@@ -97,4 +97,27 @@ export const groupedcomp = [
       details: "",
     },
   ],
+  [
+    {
+      name: "Doddle Creation",
+      reglink:
+        "https://dare2compete.com/creative-cultural-event/doodle-art-elan-ivision-2022-iit-hyderabad-272832",
+      sublink: "https://forms.gle/ZBTCqW9Vh442ifGfA",
+      rules:
+        "https://docs.google.com/document/d/1rwGaRbJFfMMR2qOVrPWwdM72eAcNzH8ur_Jv-YTgYIY/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/1Jiz0ApDOhUtc9BjMGaYRjpJ-Ed4Rc9_x/view?usp=sharing",
+      details:
+        "Doodling is a fun way of expressing yourself! It is not just a stress buster but also unlocks the subconscious creativity within you. In these times of pandemic , the elan & nvision is here to your rescue with its very own doodle art competition! Get ready to show off your doodles !",
+    },
+    {
+      name: "Picelectic",
+      reglink: "https://dare2compete.com/o/s8GEaNl?lb=KnvQoHU",
+      sublink: "https://forms.gle/1CFEgse2faZkDjVF8",
+      rules:
+        "https://docs.google.com/document/d/17W9bejet1uF_NHQQ_66PxkohBfuCS-7AyqpC5su6iFs/edit?usp=sharing",
+      img: "https://drive.google.com/file/d/1e47lKXCHWBmRg3QLX5LV-f4owQBac4jm/view?usp=sharing",
+      details:
+        "A photograph is the pause button of life. Photography is the best way to capture a moment and save it forever! It is an austere and blazing poetry of the real. So, keep your camera ready to capture the perfect moment and show us your talent!",
+    },
+  ],
 ];

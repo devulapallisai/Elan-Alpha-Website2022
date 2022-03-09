@@ -37,12 +37,16 @@ function Culti() {
                 className="my-auto mx-auto col-span-1 hidden md:block"
               ></img>
 
-              <Card
-                type="col-span-3 mx-0"
-                text={item[2]["details"]}
-                title={item[2]["name"]}
-                image={item[2]["img"]}
-              />
+              {item[2] && (
+                <>
+                  <Card
+                    type="col-span-3 mx-0"
+                    text={item[2]["details"]}
+                    title={item[2]["name"]}
+                    image={item[2]["img"]}
+                  />
+                </>
+              )}
             </>
           ))}
         </div>
