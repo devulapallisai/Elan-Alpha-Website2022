@@ -16,6 +16,7 @@ import ProshowList from "./pages/ProshowList";
 import Infi from "./pages/Infi";
 import Proshows from "./pages/Prowshows";
 import Infocard from "./components/common/Infocard";
+import Merch from "./pages/Merch";
 // import Third from "./components/Homepage/ThirdSlide";
 library.add(fab, faCheckSquare, faCoffee);
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/merch" element={<Merch />} />
         <Route path="/socialcause" element={<SocialCause />} />
         <Route
           path="/competitions"
