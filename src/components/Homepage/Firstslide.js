@@ -115,7 +115,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               className={`${styles.img} z-[20]`}
             />
           </div>
-          <div className="hidden md:flex z-[20000000] absolute left-0 h-full items-center ml-[4vw]">
+          <div className="hidden md:flex z-[20000000] absolute left-0 h-full items-center ml-[6vw]">
             <Link to="/merch">
               <img
                 src={Finalmerch}
@@ -123,7 +123,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
                 data-aos="zoom-in"
                 data-aos-delay="5000"
                 data-aos-duration="2000"
-                className={`${styles.sizeit}  my-auto cursor-pointer`}
+                className={`${styles.sizeit}  my-auto cursor-pointer mb-[25vh]`}
               />
             </Link>
           </div>
@@ -139,7 +139,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               />
             </Link>
           </div>
-          <div className="absolute md:flex hidden right-0 h-full items-center mr-[4vw]">
+          <div className="absolute md:flex hidden right-0 h-full items-center mr-[6vw]">
             <Link to="/merch">
               <img
                 src={Finalcrypt}
@@ -147,7 +147,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
                 data-aos="zoom-in"
                 data-aos-delay="5000"
                 data-aos-duration="2000"
-                className={`${styles.sizeit}  my-auto cursor-pointer`}
+                className={`${styles.sizeit}  my-auto cursor-pointer mb-[25vh]`}
               />
             </Link>
           </div>
