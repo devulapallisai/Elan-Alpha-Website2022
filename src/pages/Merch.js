@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import styles from "../css/team.module.css";
-import Card from "../components/common/Card";
+// import Card from "../components/common/Card";
+import Card from "../components/merch/merchCard.js"
 import Coordcard from "../components/team/Coordcard";
 import stylesevents from "../css/events.module.css";
+import stylesmerch from "../css/merch.module.css";
+
 import merch1 from "../images/merch/Back design.jpg";
 import merch2 from "../images/merch/C3.jpg";
 import merch3 from "../images/merch/Back design.jpg";
@@ -80,7 +83,7 @@ function Merch() {
                             <Card
 
                                 image={merch1}
-
+                                
 
                             />
                             <Card
@@ -131,7 +134,7 @@ function Merch() {
                     <div className="md:hidden overflow-hidden">
 
                         <div
-                            className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
                             <div className={styles.rightcard}>
                                 <Card
@@ -149,7 +152,7 @@ function Merch() {
                             </div>
                         </div>
                         <div
-                            className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
                             <div className={styles.rightcard}>
                                 <Card
@@ -167,7 +170,7 @@ function Merch() {
                             </div>
                         </div>
                         <div
-                            className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
                             <div className={styles.rightcard}>
                                 <Card
@@ -187,7 +190,7 @@ function Merch() {
                             </div>
                         </div>
                         <div
-                            className={`flex flex-row justify-center overflow-x-hidden ${styles.heightfix}`}
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
                             <div className={styles.rightcard}>
                                 <Card
