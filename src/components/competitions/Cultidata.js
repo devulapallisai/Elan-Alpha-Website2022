@@ -112,7 +112,7 @@ export const groupedcomp = [
   ],
   [
     {
-      name: "Nrityangali",
+      name: "Nrityanjali",
       reglink: "https://dare2compete.com/o/5wkyMb7?lb=KnvQoHU",
       sublink: "https://forms.gle/bMcrbbZ2MWc4xrE9A",
       rules:
