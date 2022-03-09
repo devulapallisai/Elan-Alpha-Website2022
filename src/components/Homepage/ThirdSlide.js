@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import Skyline1 from "../../images/Homepage/Skyline 1.png";
 // import Skyline3 from "../../images/Homepage/Skyline 3.png";
-import { gsap } from "gsap";
+import { gsap, Power2 } from "gsap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { faArrowCircleDown } from "@fortawesome/free-solid-svg-icons";
@@ -19,6 +19,7 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
       x: 550,
       y: 500,
       duration: 3,
+      ease: Power2.easeInOut,
       rotation: 120,
     });
     gsap.from(".Para", {
