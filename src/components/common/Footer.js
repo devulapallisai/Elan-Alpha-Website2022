@@ -8,7 +8,10 @@ import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   const routes = [
-    // ["FAQ", "/"],
+    // [
+    //   "FAQ",
+    //   "https://drive.google.com/file/d/1BvVRbZtoR064aPIpblzlXxZ8balrG9rE/view",
+    // ],
     // ["Register", "/"],
     ["Contact us", "/contact"],
   ];
@@ -64,6 +67,14 @@ function Footer() {
                 {route[0]}
               </Link>
             ))}
+            <a
+              href="https://drive.google.com/file/d/1BvVRbZtoR064aPIpblzlXxZ8balrG9rE/view"
+              target="_blank"
+              rel="noreferrer"
+              className={`cursor-pointer font-bold text-2xl font-text text-headerwhite my-auto mx-2 lg:mx-4`}
+            >
+              FAQ
+            </a>
           </div>
         </div>
       </div>
@@ -75,6 +86,7 @@ function Footer() {
             <a
               href="https://www.facebook.com/elan.iithyderabad/"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={faFacebookSquare}
@@ -84,6 +96,7 @@ function Footer() {
             <a
               href="https://www.instagram.com/elan_nvision.iith/?hl=en"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={faInstagram}
@@ -95,6 +108,7 @@ function Footer() {
             <a
               href="https://www.youtube.com/channel/UC-D08t2esBoVTVOjlXUOxHA"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={faYoutube}
@@ -104,6 +118,7 @@ function Footer() {
             <a
               href="https://twitter.com/elan_nvision?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon
                 icon={faTwitter}
@@ -122,6 +137,14 @@ function Footer() {
                 {route[0]}
               </Link>
             ))}
+            <a
+              href="https://drive.google.com/file/d/1BvVRbZtoR064aPIpblzlXxZ8balrG9rE/view"
+              target="_blank"
+              rel="noreferrer"
+              className={`cursor-pointer font-bold text-lg font-text text-headerwhite  m-1 lg:mx-4 align-right`}
+            >
+              FAQ
+            </a>
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@ function Header({ path, block, sched, setsched }) {
     ["CA portal", "http://ca.elan.org.in"],
     ["Team", "/team"],
     ["Social Cause", "/socialcause"],
-    ["Merch", "/merch"],
+    // ["Merch", "/merch"],
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
   ];

@@ -2,8 +2,8 @@
   width: 15vw;
   opacity: 0.8;
 }
-.transform:hover{
-  transition:0.8s ease-in-out;
+.transform:hover {
+  transition: 0.8s ease-in-out;
   transform: scale(1.2);
 }
 .active1 {
@@ -15,8 +15,8 @@
   width: 70vw;
   height: 60vh;
   margin-left: 15vw;
-  margin-top:20vh;
-  background: url('https://ik.imagekit.io/sai1975d/Homepage/box_copy_IAYila0Lk.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345158');
+  margin-top: 20vh;
+  background: url("https://ik.imagekit.io/sai1975d/Homepage/box_copy_IAYila0Lk.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345158");
   opacity: 0.8;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -41,7 +41,7 @@
   width: 60vw;
   margin-left: 20vw;
   margin-right: 20vw;
-  
+
   max-height: 100vh;
   display: flex;
   justify-content: center;
@@ -116,14 +116,14 @@
     /* width: 70vw; */
     height: 80vh;
     display: flex;
-    margin:8vh 12vw;
+    margin: 8vh 12vw;
     width: auto;
-    background: url('https://ik.imagekit.io/sai1975d/Homepage/mobile_box_oPKJwXiCV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162347548');
+    background: url("https://ik.imagekit.io/sai1975d/Homepage/mobile_box_oPKJwXiCV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162347548");
     opacity: 0.8;
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
-  .chakra{
+  .chakra {
     width: 120px;
   }
   .zorae {
@@ -132,20 +132,30 @@
     justify-content: center;
     margin-left: 0vw;
     margin-right: 0vw;
-    
+
     max-height: 100vh;
     display: flex;
     justify-content: center;
   }
-  .zorae img{
+  .zorae img {
     height: 70vh;
     width: auto;
     margin: auto;
     max-width: 100vw;
   }
 }
-@media screen and (min-width:1500px){
-  .chakra{
+@media screen and (min-width: 1500px) {
+  .chakra {
     width: 190px;
+  }
+}
+.sizeit {
+  width: 130px;
+  height: 130px;
+}
+@media screen and (max-width: 768px) {
+  .sizeit {
+    width: 60px;
+    height: 60px;
   }
 }
