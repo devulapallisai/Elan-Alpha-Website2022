@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../css/events.module.css";
 import line from "../../images/events/line gols 9.png";
-// import lineHz from "../../images/events/line gols 8.png";
+import lineHz from "../../images/events/line gols 8.png";
 // import Zakir from "../../images/events/Coming Soon (1).png";
 import { TechyData } from "./TechyData";
 import {mTechyData} from "./Techydatamob"

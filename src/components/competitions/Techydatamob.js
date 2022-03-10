@@ -10,7 +10,7 @@ import app from "../../images/competitions/appdev.jpg";
 import cad from "../../images/competitions/cad1.png";
 import circut from "../../images/competitions/circuit.jpg";
 import depp from "../../images/competitions/deepn.jpg";
-export const TechyData = [
+export const mTechyData = [
     [
       
       {
