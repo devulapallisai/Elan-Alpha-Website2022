@@ -23,7 +23,7 @@ function Techy() {
                     image={item[0]["img"]}
                     learnmore={item[0]["rules"]}
                     // submit={item[0]["sublink"]}
-                    // register={item[0]["reglink"]}
+                    register={item[0]["reglink"]}
                   />
                   <img
                     src={line}
@@ -42,7 +42,7 @@ function Techy() {
                     image={item[1]["img"]}
                     learnmore={item[1]["rules"]}
                     // submit={item[1]["sublink"]}
-                    // register={item[1]["reglink"]}
+                    register={item[1]["reglink"]}
                   />
                   <img
                     src={line}
@@ -59,7 +59,7 @@ function Techy() {
                     text={item[2]["details"]}
                     learnmore={item[2]["rules"]}
                     // submit={item[2]["sublink"]}
-                    // register={item[2]["reglink"]}
+                    register={item[2]["reglink"]}
                     title={item[2]["name"]}
                     image={item[2]["img"]}
                   />
