@@ -7,7 +7,7 @@ import stylesevents from "../css/events.module.css";
 import stylesmerch from "../css/merch.module.css";
 
 import merch1 from "../images/merch/Back design.jpg";
-import merch2 from "../images/merch/C3.jpg";
+import merch2 from "../images/merch/C2.jpg";
 import merch3 from "../images/merch/Sunrise Tee.jpg";
 import merch4 from "../images/merch/Combo 1_f.jpg";
 import merch5 from "../images/merch/Combo 2_f.jpg";
@@ -111,14 +111,14 @@ function Merch() {
                             />
                             <Card
 
-                                image={merch4}
+                                image={merch2}
 
                             />
                         </div>
                         <div className="flex flex-col md:flex-row justify-center">
                             <Card
 
-                                image={merch2}
+                                image={merch4}
                                 type="mr-2"
 
                             />
@@ -192,7 +192,7 @@ function Merch() {
                         >
                             <div>
                                 <Card
-                                    image={merch4}
+                                    image={merch2}
                                     type="mr-2"
                                 />
                             </div>
@@ -202,7 +202,7 @@ function Merch() {
                         >
                             <div>
                                 <Card
-                                    image={merch2}
+                                    image={merch4}
                                     type="mr-2"
                                 />
                             </div>
