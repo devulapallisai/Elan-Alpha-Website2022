@@ -14,7 +14,7 @@ function Techy() {
         <div
           className={`container mx-auto grid md:grid-cols-11 ${styles.gridcont}`}
         >
-          <Card
+          {/* <Card
             type="col-span-3 mx-0"
             text="Find the mysterious secret techniques to decrypt the given texts/messages. Clear all the levels in the allotted time to become the ultimate cryptacker. It's a pen and paper event. Each team has to decode a series of crypted messages."
             title="Engima"
@@ -57,7 +57,7 @@ function Techy() {
             learnmore="https://docs.google.com/document/d/1ie-VxbSXJKeCgXwReFTGrON45q6yJkiJgXBOpd4J-ls/edit?usp=sharing"
             // submit={item[0]["sublink"]}
             // register={item[0]["reglink"]}
-          />
+          /> */}
           {TechyData.map((item) => (
             <>
               {item[0] && (
