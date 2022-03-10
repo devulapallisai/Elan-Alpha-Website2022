@@ -43,7 +43,7 @@ function Thirdslidemobile({ initialVal, scrollDirection }) {
       </div>
       <div
         className="bottom-0 skyline3 absolute overflow-hidden"
-        data-aos="fade-up"
+        data-aos="zoom-up"
       >
         <img
           src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286"
@@ -54,7 +54,7 @@ function Thirdslidemobile({ initialVal, scrollDirection }) {
       </div>
       <div
         className="skyline1 absolute bottom-0 overflow-hidden"
-        data-aos="fade-up"
+        data-aos="zoom-up"
       >
         <img
           src="https://ik.imagekit.io/sai1975d/Homepage/skylinemobile_d9UXa9s2-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646389191469"

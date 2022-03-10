@@ -1,5 +1,5 @@
 .imagebackgr {
-  background: url("../images/Homepage/window_webcopy.png");
+  /* background: url("../images/Homepage/window_webcopy.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -62,13 +62,13 @@
     max-width: 380px;
   }
 }
-@media screen and (min-width: 300px) and (max-width:768px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
   .texthere {
     max-width: 230px;
   }
 }
-@media screen and (min-width:260px) and (max-width:300px) {
-  .texthere{
+@media screen and (min-width: 260px) and (max-width: 300px) {
+  .texthere {
     max-width: 180px;
   }
 }

@@ -13,7 +13,7 @@ import ThirdSlide from "./ThirdSlide";
 import { useNavigate } from "react-router-dom";
 import Thirdslidemobile from "./Thirdslidemobile";
 import Fourthslidemobile from "./Fourthslidemobile";
-import {gsap} from 'gsap';
+import { gsap } from "gsap";
 function Secondslide({ initialVal, scrollDirection, secondslideref }) {
   const navigate = useNavigate();
   const [thirdslide, setthirdslide] = useState(false);
@@ -43,10 +43,10 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           >
             <div
               data-aos="fade-down"
-              className={`${initialVal >= 0.98 ? "absolute" : "fixed"} ${
-                initialVal >= 0.98
-                  ? "top-[128vh] sm:top-[135vh] md:top-[125vh] 2xl:top-[184vh]"
-                  : "top-[28vh] sm:top-[35vh] md:top-[25vh] 2xl:top-84"
+              className={`${initialVal >= 1.0002 ? "absolute" : "fixed"} ${
+                initialVal >= 1.0002
+                  ? "top-[128vh] sm:top-[135vh] md:top-[125vh] 2xl:top-[134vh]"
+                  : "top-[28vh] sm:top-[35vh] md:top-[25vh]"
               } text-sm flex justify-center ${styles.texthere}`}
               data-aos-duration="1000"
             >
@@ -199,7 +199,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               style={{
                 zIndex: initialVal > 0 ? -11 : 0,
                 marginLeft:
-                  initialVal <= 1
+                  initialVal <= 1.1
                     ? initialVal * 40
                     : initialVal >= 1.1 && initialVal <= 2.1
                     ? -initialVal * 80
