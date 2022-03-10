@@ -4,6 +4,7 @@ import line from "../../images/events/line gols 9.png";
 // import lineHz from "../../images/events/line gols 8.png";
 // import Zakir from "../../images/events/Coming Soon (1).png";
 import { TechyData } from "./TechyData";
+import {mTechyData} from "./Techydatamob"
 import enig from "../../images/competitions/enigmaa.jpg";
 import app from "../../images/competitions/appdev.jpg";
 import Card from "./CCard";
@@ -117,7 +118,7 @@ function Techy() {
       </div>
       {/* Mobile Part begins */}
       <div className="md:hidden overflow-hidden mx-10 ">
-        {/* {groupedcompmob.map((item) => (
+        {mTechyData.map((item) => (
           <>
             <div className="grid grid-cols-1 mx-auto">
               <Card
@@ -136,7 +137,7 @@ function Techy() {
               className="my-3 mx-auto col-span-1  md:hidden"
             ></img>
           </>
-        ))} */}
+        ))}
       </div>
     </>
   );
