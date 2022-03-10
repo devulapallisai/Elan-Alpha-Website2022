@@ -8,7 +8,7 @@ import stylesmerch from "../css/merch.module.css";
 
 import merch1 from "../images/merch/Back design.jpg";
 import merch2 from "../images/merch/C3.jpg";
-import merch3 from "../images/merch/Back design.jpg";
+import merch3 from "../images/merch/Sunrise Tee.jpg";
 import merch4 from "../images/merch/Combo 1_f.jpg";
 import merch5 from "../images/merch/Combo 2_f.jpg";
 import merch6 from "../images/merch/Hoodie.jpg";
