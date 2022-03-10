@@ -15,7 +15,7 @@ export const TechyData = [
       
       {
         name: "Enigma",
-        reglink: "https://dare2compete.com/competition/circuit-building-elan-ivision-2022-iit-hyderabad-elan-ivision-2022-iit-hyderabad-indian-institute-of-technol-272545",
+        reglink: "https://dare2compete.com/competition/enigma-elan-ivision-2022-iit-hyderabad-273370",
         sublink: "https://forms.gle/YPDJXae6UJJhJK346",
         rules:
           "https://docs.google.com/document/d/1wzHGJylOVHgLyCJRqWtxTvXHdsSQmRS9vXzJYL_5YOw/edit?usp=sharing",
@@ -69,7 +69,7 @@ export const TechyData = [
       },
       {
         name: "Circuit Building",
-        reglink: "https://dare2compete.com/o/2Lvyc1o?lb=KnvQoHU",
+        reglink: "https://dare2compete.com/competition/circuit-building-elan-ivision-2022-iit-hyderabad-elan-ivision-2022-iit-hyderabad-indian-institute-of-technol-272545",
         sublink: "https://forms.gle/9FoS6Bg5kiUt54nE7",
         rules:
           "https://docs.google.com/document/d/13lzjGhe8wtDXJMNlA6aiPhRAJ4vCR6fMo1UVQuJ-V0Q/edit?usp=sharing",
