@@ -5,6 +5,8 @@ import hack from "../../images/competitions/hackk.jpg";
 import mdd from "../../images/competitions/mddd.jpg";
 import paperpe from "../../images/competitions/paperpres.png";
 import arud from "../../images/competitions/arduino.jpg";
+import enig from "../../images/competitions/enigmaa.jpg";
+import app from "../../images/competitions/appdev.jpg";
 import cad from "../../images/competitions/cad1.png";
 import circut from "../../images/competitions/circuit.jpg";
 import depp from "../../images/competitions/deepn.jpg";
