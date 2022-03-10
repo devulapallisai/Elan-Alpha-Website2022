@@ -1,6 +1,4 @@
 import pro from "../../images/competitions/pq1.jpg";
-import enig from "../../images/competitions/enigmaa.jpg";
-import app from "../../images/competitions/appdev.jpg";
 import Webd from "../../images/competitions/webdev.jpg";
 import shark from "../../images/competitions/sharktank.jpeg";
 import hack from "../../images/competitions/hackk.jpg";

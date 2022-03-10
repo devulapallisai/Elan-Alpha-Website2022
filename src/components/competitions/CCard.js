@@ -1,9 +1,21 @@
 import React from "react";
 import styles from "../../css/events.module.css";
 
-function Card({ image, text, type, title, learnmore, submit, register }) {
+function Card({
+  image,
+  text,
+  type,
+  title,
+  learnmore,
+  submit,
+  register,
+  visibility,
+}) {
   return (
-    <div className={` ${type}`}>
+    <div
+      className={` ${type}`}
+      style={{ visibility: visibility ? "hidden" : "" }}
+    >
       <div className={` ${styles.border}`}>
         <img
           className={styles.imageBox}

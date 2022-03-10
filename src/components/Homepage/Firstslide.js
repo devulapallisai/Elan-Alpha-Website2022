@@ -62,7 +62,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
                   src="https://ik.imagekit.io/sai1975d/Homepage/Click_Here__iw82QbDdi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391411447"
                   className={`pl-10 cursor-pointer z-50 md:ml-[50vw] ml-[2vw]`}
                   alt="Imae"
-                  data-aos="zoom-in-up"
+                  data-aos="zoom-in"
                   data-aos-duration="1400"
                   style={{ height: 120 }}
                 />
