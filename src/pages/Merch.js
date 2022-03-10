@@ -83,7 +83,7 @@ function Merch() {
                             <Card
 
                                 image={merch7}
-                                
+
 
                             />
                             <Card
@@ -130,23 +130,39 @@ function Merch() {
                         </div>
                         <br />
                     </div>
+
+
                     {/* Mobile Part begins */}
                     <div className="md:hidden overflow-hidden">
 
                         <div
                             className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
-                            <div className={styles.rightcard}>
+                            <div>
                                 <Card
-
                                     image={merch7}
                                     type="mr-2"
                                 />
                             </div>
-                            <div className={styles.lefttcard}>
-                                <Card
+                        </div>
 
+                        <div
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
+                        >
+                            <div>
+                                <Card
                                     image={merch8}
+                                    type="mr-2"
+                                />
+                            </div>
+                        </div>
+
+                        <div
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
+                        >
+                            <div>
+                                <Card
+                                    image={merch1}
                                     type="mr-2"
                                 />
                             </div>
@@ -154,16 +170,8 @@ function Merch() {
                         <div
                             className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
-                            <div className={styles.rightcard}>
+                            <div>
                                 <Card
-
-                                    image={merch1}
-                                    type="mr-2"
-                                />
-                            </div>
-                            <div className={styles.lefttcard}>
-                                <Card
-
                                     image={merch3}
                                     type="mr-2"
                                 />
@@ -172,43 +180,44 @@ function Merch() {
                         <div
                             className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
-                            <div className={styles.rightcard}>
+                            <div>
                                 <Card
-
                                     image={merch6}
                                     type="mr-2"
-
-                                />
-                            </div>
-                            <div className={styles.lefttcard}>
-                                <Card
-
-                                    image={merch4}
-                                    type="mr-2"
-
                                 />
                             </div>
                         </div>
                         <div
                             className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
                         >
-                            <div className={styles.rightcard}>
+                            <div>
                                 <Card
-
-                                    image={merch2}
+                                    image={merch4}
                                     type="mr-2"
-
-                                />
-                            </div>
-                            <div className={styles.lefttcard}>
-                                <Card
-
-                                    image={merch5}
-                                    type="mr-2"
-
                                 />
                             </div>
                         </div>
+                        <div
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
+                        >
+                            <div>
+                                <Card
+                                    image={merch2}
+                                    type="mr-2"
+                                />
+                            </div>
+                        </div>
+                        <div
+                            className={`flex flex-row justify-center overflow-x-hidden ${stylesmerch.heightfix}`}
+                        >
+                            <div>
+                                <Card
+                                    image={merch5}
+                                    type="mr-2"
+                                />
+                            </div>
+                        </div>
+                        
 
                         <br />
                     </div>
