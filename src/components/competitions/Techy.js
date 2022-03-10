@@ -127,7 +127,7 @@ function Techy() {
                 title={item[0]["name"]}
                 image={item[0]["img"]}
                 learnmore={item[0]["rules"]}
-                submit={item[0]["sublink"]}
+                // submit={item[0]["sublink"]}
                 register={item[0]["reglink"]}
               />
             </div>
