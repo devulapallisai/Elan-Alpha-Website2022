@@ -17,6 +17,7 @@ import Infi from "./pages/Infi";
 import Proshows from "./pages/Prowshows";
 import Infocard from "./components/common/Infocard";
 import Merch from "./pages/Merch";
+import Cryptex from "./pages/Cryptex";
 // import Third from "./components/Homepage/ThirdSlide";
 library.add(fab, faCheckSquare, faCoffee);
 
@@ -40,6 +41,7 @@ function App() {
         />
         <Route path="/events" element={<Events />} />
         <Route path="/proshowlist" element={<ProshowList />} />
+        <Route path="/cryptex" element={<Cryptex />} />
         <Route path="/proshows" element={<Proshows />} />
         <Route path="/infi" element={<Infi />} />
         <Route

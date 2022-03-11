@@ -1,0 +1,31 @@
+.padit {
+    padding-top: 3.5vh;
+  }
+  @media screen and (max-height: 900px) and (min-height: 700px) {
+    .padit {
+      padding-top: 4vh;
+    }
+  }
+  @media screen and (max-height: 700px) and (min-height: 400px) {
+    .padit {
+      padding-top: 2.8vh;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    .padit {
+      padding-top: 7.8vh;
+    }
+  }
+  .colorit {
+    background: #80295D;
+  }
+  .borderitim {
+    /* padding: 15px; */
+    border: 3.5px solid transparent;
+    border-image: url("../images/Golden Box.png") 30 stretch;
+  }
+  @media screen and (max-width: 1024px) {
+    .cont {
+      display: block;
+    }
+  }
