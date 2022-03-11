@@ -47,7 +47,7 @@ function Cryptex() {
           </div>
           <div className={`${stylesevents.merchbutton} m-2`}>
             <a
-              href="cryptex.elan.org.in"
+              href="https://cryptex.elan.org.in"
               target="_blank"
               rel="noreferrer"
               className={`${stylesevents.button} font-text mt-3 text-white`}
