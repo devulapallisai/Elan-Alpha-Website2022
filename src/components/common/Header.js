@@ -27,6 +27,8 @@ function Header({ path, block, sched, setsched }) {
     competitions: block === "culti" ? "#1E0735" : "#943066",
     contact: "#F5C470",
     socialcause: "#A64C68",
+    cryptex: "#943066",
+    merch: "#1E0735",
   };
   useEffect(() => {
     AOS.init();
@@ -56,7 +58,6 @@ function Header({ path, block, sched, setsched }) {
           <div
             className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex px-5`}
           >
-            
             {routes.reverse().map((route) =>
               route[0] === "CA portal" ? (
                 <a
