@@ -152,7 +152,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             </Link>
           </div>
           <div className="z-[20000000] md:hidden absolute flex bottom-0 w-full mb-[20vh] justify-center">
-            <Link to="/merch">
+            <Link to="/cryptex">
               <img
                 src={Finalcrypt}
                 alt="Im"
