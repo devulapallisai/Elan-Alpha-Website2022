@@ -21,7 +21,7 @@ function Cryptex() {
             <div className="md:col-span-1 lg:col-span-2 mx-auto p-4 py-4 lg:pr-0 lg:pl-0 lg:py-6 my-auto ">
               <img src={logo} alt="cryptex"></img>
             </div>
-            <div className=" md:col-span-1 lg:col-span-3 mx-auto p-4 py-4 lg:pr-6 lg:pl-0 lg:py-6 my-auto text-center font-text">
+            <div className=" md:col-span-1 lg:col-span-3 mx-auto  py-4 lg:pr-6 lg:pl-0 lg:py-6 my-auto text-justify p-4 font-text">
               <span className="font-bold font-text md:text-2xl text-lg">
                 {" "}
                 Mark your calendars for April 1, 2022!{" "}
@@ -29,7 +29,7 @@ function Cryptex() {
               <br />
               <br />
               Cryptex is one of India’s largest Online Treasure Hunts (OTH),
-              conducted annually by the students of IIT-Hyderabad. <br />
+              conducted annually by the students of IIT-Hyderabad. <br /> <br/>
               The participants go through gruelling puzzles designed to test
               their deduction skills and intuition over a period of 54 hours.
               The questions are a series of cryptic images/videos/audio clips
@@ -41,7 +41,7 @@ function Cryptex() {
               <br />
               Clear your calendars and put your thinking caps on for this
               intense but fun weekend! <br />
-              You can pre-register for the event at: cryptex.elan.org.in <br />
+              You can pre-register for the event at: <a href="https://cryptex.elan.org.in" className="font-bold">cryptex.elan.org.in.</a> <br /><br/>
               ps. Prizes worth 30,000 INR are up for grabs <br />
             </div>
           </div>
