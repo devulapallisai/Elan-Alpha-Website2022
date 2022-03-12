@@ -15,7 +15,7 @@ export const mTechyData = [
       
       {
         name: "Enigma",
-        reglink: "https://dare2compete.com/competition/enigma-elan-ivision-2022-iit-hyderabad-273370",
+        reglink: "https://dare2compete.com/competition/enigma-elan-ivision-2022-iit-hyderabad-273580",
         sublink: "https://forms.gle/YPDJXae6UJJhJK346",
         rules:
           "https://docs.google.com/document/d/1wzHGJylOVHgLyCJRqWtxTvXHdsSQmRS9vXzJYL_5YOw/edit?usp=sharing",
@@ -86,7 +86,7 @@ export const mTechyData = [
     [
       {
         name: "Code Arduino",
-        reglink: "https://dare2compete.com/competition/code-arduino-elan-ivision-2022-iit-hyderabad-273364",
+        reglink: "https://dare2compete.com/hackathon/code-arduino-elan-ivision-2022-iit-hyderabad-273568",
         sublink: "https://forms.gle/8T9GwzxzdqSSu98P7",
         rules:
           "https://docs.google.com/document/d/1ZDsGh_YZHdFvkI4qK2g-gUwfibrUwKd5PLvisbOOj20/edit?usp=sharing",
@@ -120,7 +120,7 @@ export const mTechyData = [
     [
         {
           name: "CAD PRO",
-          reglink: "https://dare2compete.com/competition/cad-pro-elan-ivision-2022-iit-hyderabad-273360",
+          reglink: "https://dare2compete.com/competition/cad-pro-elan-ivision-2022-iit-hyderabad-indian-institute-of-technology-iit-hyderabad-273588",
           sublink: "https://forms.gle/8T9GwzxzdqSSu98P7",
           rules:
             "https://docs.google.com/document/d/1yPmSpc-j63HQRnJHIozlBusZvOL_7gOPc4C2eoDhYYs/edit?usp=sharing",
