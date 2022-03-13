@@ -50,14 +50,14 @@ import wiley from "../images/sponsors/wiley logo black.png"
 import yocket from "../images/sponsors/yocket.png"
 import yi from "../images/sponsors/youth incorporated.png"
 function Sponsors() {
-  let { width, height } = useWindowDimensions();
+  // let { width, height } = useWindowDimensions();
   return (
     <>
-      <div className={`${styles.colorit} overflow-x-hidden`}>
+      <div className={`${styles.colorit} overflow-x-hidden w-100`}>
         <div className={`relative ${styles.colorit}`}>
           <div
             className={`container z-10 mx-auto w-5/6 lg:w-3/4  ${styles.resizeit}`}
-            style={{ width: width < 300 ? "100vw" : "" }}
+            // style={{ width: width < 300 ? "100vw" : "" }}
           >
             <img
               alt="img"
@@ -77,14 +77,14 @@ function Sponsors() {
         {/* Here comes the sponsors part */}
         <div className="sponsors w-screen justify-center items-center">
           <Sponsorcard
-            Title="Arcesium"
-            // Description="Sample Descritption"
-            Image={arsecium}
-          />
-          <Sponsorcard
             Title="Larsen & Turbo"
             // Description="Sample Descritption"
             Image={lnt}
+          />
+          <Sponsorcard
+            Title="Arcesium"
+            // Description="Sample Descritption"
+            Image={arsecium}
           />
           <Sponsorcard
             Title="celebr8"
