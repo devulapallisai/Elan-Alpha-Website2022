@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
@@ -18,42 +19,46 @@ function Contact() {
           </h1>
         </div>
       </div>
-      <div className="hidden md:grid grid-cols-2 px-8">
-        <div
-          className="flex flex-row justify-between"
-          style={{ maxWidth: 200 }}
-        >
-          <a
-            href=" https://www.instagram.com/cryptex.iith/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="text-white text-3xl"
-            />
-          </a>
+      <div className="hidden md:grid grid-cols-1 px-8 flex justify-end">
+
+
+        <div className="flex flex-col my-auto ml-4">
+         
         </div>
         <div className="flex justify-end">
-          <div className="flex justify-between text-center">
-            <span className="font-bold text-2xl font-text text-headerwhite my-auto mx-2 lg:mx-4">
-              Email
-              <br />
-              <span className="text-center font-text text-white text-lg my-auto mx-2 lg:mx-4">
-                cryptex@elan.org.in
-              </span>
-            </span>
-
-            <h1 className="text-center font-text text-white text-lg my-auto mx-2 lg:mx-4"></h1>
-            <span
-              className={`font-bold text-2xl font-text text-headerwhite my-auto mx-2 lg:mx-4`}
-            ></span>
+          <div className="flex flex-col justify-between items-center">
+            
+          <h2 className="text-sm sm:text-lg font-heading m-0 "> Social Media  </h2>
+          <div className="flex flex-row-reverse w-[60px]">
+            <a
+              href=" https://www.instagram.com/cryptex.iith/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="text-white text-xl my-auto pl-3 pt-3"
+              />
+            </a>
+            <a
+              href="mailto:cryptex@elan.org.in"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="text-white text-xl my-auto pr-3 pt-3"
+              />
+            </a>
+          </div>
           </div>
         </div>
       </div>
 
-      <div className="grid md:hidden grid-cols-2 ml-2">
-        <div className="flex flex-col my-auto ml-4">
+
+      <div className="grid md:hidden grid-cols-1 ml-2">
+      <div className=" flex justify-end">
+        <div className="flex flex-col my-auto ml-4 items-center">
           <h2 className="text-sm sm:text-lg font-heading m-0">Social Media</h2>
 
           <div className="flex flex-row-reverse w-[60px]">
@@ -64,25 +69,23 @@ function Contact() {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="text-white text-xl my-auto"
+                className="text-white text-xl my-auto pl-3 pt-3"
+              />
+            </a>
+            <a
+              href="mailto:cryptex@elan.org.in"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="text-white text-xl my-auto pr-3 pt-3"
               />
             </a>
           </div>
-        </div>
-        <div className="flex justify-end my-auto mr-4">
-          <div className="flex justify-between flex-col-reverse text-center">
-            <h2
-              className={` text-sm sm:text-lg font-heading  lg:mx-4 align-right`}
-            >
-              Email
-              <br />
-              <span className="text-center font-text text-white text-lg my-auto lg:mx-4">
-                cryptex@elan.org.in
-              </span>
-            </h2>
           </div>
         </div>
-      </div>
+     </div>
     </>
   );
 }

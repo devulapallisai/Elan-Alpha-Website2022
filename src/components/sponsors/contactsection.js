@@ -53,7 +53,7 @@ function Contactsection() {
             9740834746
           </h1>
         </div>
-        <div data-aos="fade-left" className="md:hidden my-2 md:py-0">
+        <div data-aos="fade-left" className="md:hidden mt-2 mb-10 md:py-0">
           <h1 className="text-center font-text text-white text-lg">Prakhar</h1>
           <h1 className="text-center font-text text-white text-lg">
             prakhar.p@elan.org.in
@@ -62,15 +62,7 @@ function Contactsection() {
             9607048465
           </h1>
         </div>
-        <div data-aos="fade-right" className="py-2 md:py-0">
-          {/* <h1 className="text-center font-text text-white text-lg">Sailesh</h1>
-          <h1 className="text-center font-text text-white text-lg">
-            sailesh.m@elan.org.in
-          </h1>
-          <h1 className="text-center font-text text-white text-lg">
-            9740834746
-          </h1> */}
-        </div>
+        
       </div>
       <div className="hidden md:flex justify-center mx-auto py-0 md:py-5">
         <div data-aos="fade-right" className="py-2 px-6 md:py-0">
