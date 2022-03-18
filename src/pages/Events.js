@@ -86,7 +86,7 @@ function Events() {
           <div className="grid grid-cols-1 mx-auto">
             <Card
               type="col-span-3 mx-0"
-              text="TBA"
+              text="Learning should never stop, and it's time to get at par with all those people showing off their technical skills. Join our Workshop Series to sharpen your skills and keep yourself updated with the latest developments in technology."
               button={true}
               image={Workshops}
               buttonText="WORKSHOPS"
