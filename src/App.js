@@ -1,7 +1,7 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
@@ -18,10 +18,14 @@ import Proshows from "./pages/Prowshows";
 import Infocard from "./components/common/Infocard";
 import Merch from "./pages/Merch";
 import Cryptex from "./pages/Cryptex";
+import ReactGA from "react-ga";
 // import Third from "./components/Homepage/ThirdSlide";
 library.add(fab, faCheckSquare, faCoffee);
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("G-EJDEL2CGJX");
+  }, []);
   const [block, setblock] = useState("culti");
   return (
     <Router basename="/">
@@ -32,7 +36,7 @@ function App() {
         <Route path="/team" element={<Team />} />
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/contact" element={<Contact />} />
-        
+
         <Route path="/socialcause" element={<SocialCause />} />
         <Route path="/merch" element={<Merch />} />
         <Route
