@@ -25,6 +25,7 @@ library.add(fab, faCheckSquare, faCoffee);
 function App() {
   useEffect(() => {
     ReactGA.initialize("G-EJDEL2CGJX");
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
   const [block, setblock] = useState("culti");
   return (
