@@ -24,7 +24,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
         data-aos-duration="1000"
       >
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Halfchakra_iC0BoQejKKVN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345351"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Halfchakra-min_slX8RoVTq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602648645"
           alt="Topmage"
           className="w-5/6 mx-auto"
           style={{ transform: "scaleY(-1)" }}
@@ -53,7 +53,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
               data-aos-duration="1400"
             >
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/Hom_frwlgM5pR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162342566"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Hom_pMwTV2zMm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647606408732"
                 alt="Im"
                 style={{ width: 50, height: 50 }}
                 className="mx-auto z-[120000]"
@@ -68,7 +68,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
               data-aos-duration="1400"
             >
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/Tag_0emHuttNblyd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357295"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Tag_X8IyJUxq4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603132317"
                 alt="Im"
                 style={{ width: 60, height: 55 }}
                 className="mx-auto z-[120000]"
@@ -87,7 +87,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
               data-aos-duration="1400"
             >
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/Cal_M-xuJ4WtcdIn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162341371"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Cal_zfvmTnBh_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603168724"
                 alt="Im"
                 style={{ width: 60, height: 50 }}
                 className="mx-auto z-[120000]"
@@ -102,7 +102,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
               data-aos-duration="1400"
             >
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/User_TxcUNWtbf4kcf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357316"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/User_DEfRudrCQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603168708"
                 alt="Im"
                 style={{ width: 85, height: 55 }}
                 className="mx-auto z-[120000]"

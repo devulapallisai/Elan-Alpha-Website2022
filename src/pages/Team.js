@@ -37,7 +37,7 @@ function Team() {
         } transition-opacity duration-500 ease-in-out delay-75`}
       >
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
           alt="Img"
           className={styles.widthis}
         />
@@ -50,7 +50,7 @@ function Team() {
         }`}
       >
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
           alt="Img"
           className={styles.widthis}
         />
@@ -61,7 +61,7 @@ function Team() {
         } transition-opacity duration-500 ease-in-out delay-75`}
       >
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
           alt="Img"
           className={styles.widthis}
         />
@@ -74,7 +74,7 @@ function Team() {
         }`}
       >
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
           alt="Img"
           className={styles.widthis}
         />
@@ -90,7 +90,7 @@ function Team() {
               <Card
                 name="Krati Arela"
                 position="Overall Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Krati_Arela_Overall_Head-1_SLjj24wyF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162516460"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Krati_Arela_Overall_Head-1_IXFfMSIGe.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598396385"
                 phone="6265534713"
               />
             </div>
@@ -98,19 +98,19 @@ function Team() {
               <Card
                 name="Smaran Kulkarni"
                 position="Public Relations Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Smaran_PR_Infi_Web_waTO4xjk3X3J.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162520497"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Smaran_PR_Infi_Web_lvWanqr3E.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598400305"
                 phone="7995204145"
               />
               <Card
                 name="Chirag Jain"
                 position="Sponsorship Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Chirag_Jain_Sponsorship__1__tm9ZuDZAa.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162515830"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Chirag_Jain_Sponsorship__1__gPjD54C_P.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598395188"
                 phone="9326168076"
               />
               <Card
                 name="Ashish Chakravarthi "
                 position="Finance Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Ashish_Chakravarthy_Finance_zX1zbpLOlY_3.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162515201"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Ashish_Chakravarthy_Finance_LKtjdwLHJ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598394900"
                 phone="9247858685"
               />
             </div>
@@ -118,14 +118,14 @@ function Team() {
               <Card
                 name="Nishanth Kannan"
                 position="Creatives Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Nishanth_Kannan_Creatives___Multimedia__1__nsEz4ti_X5YW.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162517201"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Nishanth_Kannan_Creatives___Multimedia__1__gnot-IeHb.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598396854"
                 type="mr-2"
                 phone="9550820916"
               />
               <Card
                 name="Sidhardha Grandhi"
                 position="Creatives Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Sidhardha_Grandhi_Creatives_Multimedia_HPw1FA5jw.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162518342"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Sidhardha_Grandhi_Creatives_Multimedia_phODqou6l.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598397528"
                 type="mr-2"
                 phone="6300568214"
               />
@@ -134,19 +134,19 @@ function Team() {
               <Card
                 name="Swapnish Sahare"
                 position="Pronites Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Swapnish_Sahare___Production___Pronites___Security_uovZIgu7-.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162519846"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Swapnish_Sahare___Production___Pronites___Security_rvYZ9u6ma.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598399191"
                 phone="7030753158"
               />
               <Card
                 name="Amogh Bedarakota"
                 position="Techy Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Amogh_Bedarakota_Techy___Workshop_9UEpqTvv2.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162514684"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Amogh_Bedarakota_Techy___Workshop_LNNjv8sau.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598394287"
                 phone="9492608927"
               />
               <Card
                 name="Prashanth Naik"
                 position="Hospitality Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Prashanth_Naik_Hospitality___Transport_R3JeRDgfFF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162517365"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Prashanth_Naik_Hospitality___Transport_cIAH6S7m1.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598397141"
                 phone="9390234039"
               />
             </div>
@@ -154,14 +154,14 @@ function Team() {
               <Card
                 name="Sachi Kavitake"
                 position="Culti & Biggies Head"
-                image="https://ik.imagekit.io/sai1975d/teams/Sachi_Kavitake_Culti___Biggies__Social_Cause__Litr__EML_HPQKVS7G4S0O.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162517855"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Sachi_Kavitake_Culti___Biggies__Social_Cause__Litr__EML_osOoyHITV.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598397224"
                 type="mr-2"
                 phone="9511631183"
               />
               <Card
                 name="Eshwar Yadav"
                 position="Publicity Head"
-                image="https://ik.imagekit.io/sai1975d/teams/IMG_20220226_212436_EmrPoNq1M.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646675370495"
+                image="https://ik.imagekit.io/lc4zhdkrtsr/teams/IMG_20220226_212436_LkHHxsLB4.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598399047"
                 type="mr-2"
                 phone="8688947336"
               />
@@ -175,7 +175,7 @@ function Team() {
                 <Card
                   name="Krati Arela"
                   position="Overall Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Krati_Arela_Overall_Head-1_SLjj24wyF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162516460"
+                  image="hhttps://ik.imagekit.io/lc4zhdkrtsr/teams/Krati_Arela_Overall_Head-1_IXFfMSIGe.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598396385"
                   phone="6265534713"
                 />
               </div>
@@ -187,7 +187,7 @@ function Team() {
                 <Card
                   name="Smaran Kulkarni"
                   position="Public Relations Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Smaran_PR_Infi_Web_waTO4xjk3X3J.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162520497"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Smaran_PR_Infi_Web_lvWanqr3E.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598400305"
                   type="mr-2"
                   phone="7995204145"
                 />
@@ -196,7 +196,7 @@ function Team() {
                 <Card
                   name="Chirag Jain"
                   position="Sponsorship Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Chirag_Jain_Sponsorship__1__tm9ZuDZAa.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162515830"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Chirag_Jain_Sponsorship__1__gPjD54C_P.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598395188"
                   type="mr-2"
                   phone="9326168076"
                 />
@@ -209,7 +209,7 @@ function Team() {
                 <Card
                   name="Ashish Chakravarthi "
                   position="Finance Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Ashish_Chakravarthy_Finance_zX1zbpLOlY_3.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162515201"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Ashish_Chakravarthy_Finance_LKtjdwLHJ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598394900"
                   type="mr-2"
                   phone="9247858685"
                 />
@@ -218,7 +218,7 @@ function Team() {
                 <Card
                   name="Prashant Naik"
                   position="Hospitality Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Prashanth_Naik_Hospitality___Transport_R3JeRDgfFF.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162517365"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Prashanth_Naik_Hospitality___Transport_cIAH6S7m1.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598397141"
                   type="mr-2"
                   phone="9390234039"
                 />
@@ -231,7 +231,7 @@ function Team() {
                 <Card
                   name="Sidhardha Grandhi"
                   position="Creatives Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Sidhardha_Grandhi_Creatives_Multimedia_HPw1FA5jw.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162518342"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Sidhardha_Grandhi_Creatives_Multimedia_phODqou6l.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598397528"
                   type="mr-2"
                   phone="6300568214"
                 />
@@ -240,7 +240,7 @@ function Team() {
                 <Card
                   name="Nishanth Kannan"
                   position="Creatives Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Nishanth_Kannan_Creatives___Multimedia__1__nsEz4ti_X5YW.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162517201"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Nishanth_Kannan_Creatives___Multimedia__1__gnot-IeHb.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598396854"
                   type="mr-2"
                   phone="9550820916"
                 />
@@ -253,7 +253,7 @@ function Team() {
                 <Card
                   name="Swapnish Sahare"
                   position="Pronites Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Swapnish_Sahare___Production___Pronites___Security_uovZIgu7-.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162519846"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Swapnish_Sahare___Production___Pronites___Security_rvYZ9u6ma.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598399191"
                   type="mr-2"
                   phone="7030753158"
                 />
@@ -262,7 +262,7 @@ function Team() {
                 <Card
                   name="Amogh Bedarakota"
                   position="Techy Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Amogh_Bedarakota_Techy___Workshop_9UEpqTvv2.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162514684"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Amogh_Bedarakota_Techy___Workshop_LNNjv8sau.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598394287"
                   type="mr-2"
                   phone="9492608927"
                 />
@@ -275,7 +275,7 @@ function Team() {
                 <Card
                   name="Sachi Kavitake"
                   position="Culti & Biggies Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/Sachi_Kavitake_Culti___Biggies__Social_Cause__Litr__EML_HPQKVS7G4S0O.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646162517855"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Sachi_Kavitake_Culti___Biggies__Social_Cause__Litr__EML_osOoyHITV.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598397224"
                   type="mr-2"
                   phone="9511631183"
                 />
@@ -284,7 +284,7 @@ function Team() {
                 <Card
                   name="Eshwar Yadav"
                   position="Publicity Head"
-                  image="https://ik.imagekit.io/sai1975d/teams/IMG_20220226_212436_EmrPoNq1M.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1646675370495"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/IMG_20220226_212436_LkHHxsLB4.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598399047"
                   type="mr-2"
                   phone="8688947336"
                 />

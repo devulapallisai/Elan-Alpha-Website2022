@@ -46,7 +46,7 @@ function Thirdslidemobile({ initialVal, scrollDirection }) {
         data-aos="zoom-up"
       >
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Skyline_3_hNO62SCOV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600855457"
           className="min-h-[220px] w-screen"
           alt="img"
           style={{ transform: "scale(2.2)" }}
@@ -57,7 +57,7 @@ function Thirdslidemobile({ initialVal, scrollDirection }) {
         data-aos="zoom-up"
       >
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/skylinemobile_d9UXa9s2-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646389191469"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/skylinemobile_eSVg-ibtC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603973068"
           className="w-screen min-h-[160px]"
           alt="img"
         />

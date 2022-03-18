@@ -18,7 +18,7 @@ function Card({ name, position, image, type, phone }) {
             alt="ImageHere"
           />
           <div className={`absolute top-2 left-2 ${styles.box}`}>
-            <LazyLoadImage src="https://ik.imagekit.io/sai1975d/Golden_Box_zAE6A9eo1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162489050" alt="ImageHere" />
+            <LazyLoadImage src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Golden_Box-min_bTcbyiC7p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600521785" alt="ImageHere" />
           </div>
         </div>
         <div className="text-center font-text text-2xl mt-4 text-white font-bold ">

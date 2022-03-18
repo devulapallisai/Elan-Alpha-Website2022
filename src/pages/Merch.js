@@ -34,7 +34,7 @@ function Merch() {
                     } transition-opacity duration-500 ease-in-out delay-75`}
             >
                 <img
-                    src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+                    src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
                     alt="Img"
                     className={styles.widthis}
                 />
@@ -45,7 +45,7 @@ function Merch() {
                     }`}
             >
                 <img
-                    src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+                    src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
                     alt="Img"
                     className={styles.widthis}
                 />
@@ -55,7 +55,7 @@ function Merch() {
                     } transition-opacity duration-500 ease-in-out delay-75`}
             >
                 <img
-                    src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+                    src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
                     alt="Img"
                     className={styles.widthis}
                 />
@@ -66,7 +66,7 @@ function Merch() {
                     }`}
             >
                 <img
-                    src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+                    src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
                     alt="Img"
                     className={styles.widthis}
                 />

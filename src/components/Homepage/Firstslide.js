@@ -43,7 +43,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
         <div className="first transition duration-800 ease-in-out overflow-y-hidden">
           <div className="absolute  z-[5000] bottom-0 w-full">
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/Halfchakra_iC0BoQejKKVN.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345351"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Halfchakra-min_slX8RoVTq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602648645"
               className={`mx-auto cursor-pointer z-[5000] ${styles.chakra} ${styles.transform}`}
               alt="Imae"
               onClick={
@@ -59,7 +59,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             <div className="absolute top-0 z-[500] w-screen h-screen bg-[#000000b5] opacity-80">
               <div className="absolute bottom-6 w-full">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Click_Here__iw82QbDdi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391411447"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Click_Here__iw82QbDdi_SHkEU7VrQ.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605463217"
                   className={`pl-10 cursor-pointer z-50 md:ml-[50vw] ml-[2vw]`}
                   alt="Imae"
                   data-aos="zoom-in"
@@ -77,7 +77,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             }`}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copy_v4afQOlnB.png"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/corners_copy-min_E4uHrIYXC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602705725"
               alt="Imag"
               className={`${styles.img} z-[20]`}
             />
@@ -88,7 +88,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             }`}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyleftbot_m1fUpUH2RCmdA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343848"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/corners_copyleftbot-min_r_2DJdXqU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602705530"
               alt="Imag"
               className={`${styles.img}  z-[20]`}
             />
@@ -99,7 +99,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             }`}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrighttop_-P71J84d1W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343861"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/corners_copyrighttop-min_YG6If1ZOE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602706275"
               alt="Imag"
               className={`${styles.img}  z-[20]`}
             />
@@ -110,7 +110,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             }`}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/corners_copyrightbot_Hb3DBSZQKkxG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162343879"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/corners_copyrightbot-min_zE5Xq3Z-f.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602706056"
               alt="Imag"
               className={`${styles.img} z-[20]`}
             />
@@ -166,7 +166,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
           <div className="absolute">
             <div className={`${styles.backgr} flex justify-content-center`}>
               <img
-                src="https://ik.imagekit.io/sai1975d/elannvision_m-ZykeIdB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162487717"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/elannvision_qHs6Xk06n.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602958387"
                 alt="Logo"
                 className="my-auto"
                 style={{
@@ -185,7 +185,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
             className={`absolute top-0 ${styles.zorae} flex justify-center h-screen`}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/Theme_final_VYd-YxKCK64x.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162359270"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Theme_final-min_f7bz_7Mhm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602999447"
               alt="Theme Imag"
               data-aos="zoom-in"
               data-aos-duration="1000"
@@ -197,7 +197,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               <div className="flex flex-col justify-around h-[100px]">
                 <div className="flex justify-center align-center items-center">
                   <img
-                    src="https://ik.imagekit.io/sai1975d/Homepage/arrow_up_6vVwCQvCd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391413079"
+                    src="https://ik.imagekit.io/lc4zhdkrtsr/Home/arrow_up_6vVwCQvCd_EqgpmqvKn.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605097198"
                     alt="Ima"
                     width={40}
                     onClick={() => setchakra(false)}
@@ -208,7 +208,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
                 </div>
                 <div className="flex justify-center align-center items-center">
                   <img
-                    src="https://ik.imagekit.io/sai1975d/Homepage/arrow_down_tCfbfiNJI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391412714"
+                    src="https://ik.imagekit.io/lc4zhdkrtsr/Home/arrow_down_tCfbfiNJI_g5Z3PKqsa.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605097239"
                     alt="Ima"
                     width={40}
                     onClick={scrollintoviewsec}

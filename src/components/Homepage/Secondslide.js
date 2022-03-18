@@ -86,7 +86,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           </div>
           <div className="block lg:hidden absolute top-[100vh] w-screen h-screen z-[10]">
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/window_with_lantern_mobile_copy_a04d9lgndbmE.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646228366685"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/window_with_lantern_mobile_copy_pxHFwAUTW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603531548"
               alt="Imag"
               style={{ width: "100vw", height: "100vh" }}
             />
@@ -94,7 +94,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
           <div className="block lg:hidden relative top-[100vh]">
             <div className="absolute bottom-0">
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/Skyline3copy_1Gtxl7GfPnZGl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357682"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Skyline3copy_65vQJqeDS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603572078"
                 alt="Imag"
                 style={{ width: "100vw", minHeight: 140 }}
               />
@@ -106,7 +106,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             className={`h-screen w-screen hidden lg:block -z-[1] overflow-hidden`}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/window_webcopy-min_ENqCFONYh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646330063505"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/window_webcopy_Yw7QaG-ZU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603652858"
               className={`backgr ${styles.imagebackgr}`}
               style={{ zIndex: 46 }}
               alt="Imag"
@@ -117,14 +117,14 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             <div className="absolute top-[100vh] w-screen h-screen">
               <div className="absolute top-14 right-24">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Lantern1_sHrLhheomo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162490003"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lantern1_sHrLhheomo_a3t_UG3fE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647604602891"
                   alt="Imag"
                   className={styles.img}
                 />
               </div>
               <div className="absolute top-0 right-40 2xl:right-48">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Lantern1_sHrLhheomo.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162490003"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lantern1_sHrLhheomo_a3t_UG3fE.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647604602891"
                   alt="Imag"
                   className={styles.img1}
                 />
@@ -133,7 +133,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
                 <div className="h-[100px] w-[50px]">
                   <div className="flex justify-center align-center items-center">
                     <img
-                      src="https://ik.imagekit.io/sai1975d/Homepage/arrow_up_6vVwCQvCd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391413079"
+                      src="https://ik.imagekit.io/lc4zhdkrtsr/Home/arrow_up_6vVwCQvCd_EqgpmqvKn.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605097198"
                       alt="Ima"
                       width={40}
                       onClick={() => setslidefirst(false)}
@@ -144,7 +144,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
                   </div>
                   <div className="flex justify-center align-center items-center">
                     <img
-                      src="https://ik.imagekit.io/sai1975d/Homepage/arrow_down_tCfbfiNJI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391412714"
+                      src="https://ik.imagekit.io/lc4zhdkrtsr/Home/arrow_down_tCfbfiNJI_g5Z3PKqsa.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605097239"
                       alt="Ima"
                       width={40}
                       onClick={scrollintoviewthird}
@@ -157,28 +157,28 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               </div>
               <div className="absolute left-16 top-40">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
                   alt="Imag"
                   className={styles.img2}
                 />
               </div>
               <div className="absolute left-28 top-16 2xl:left-32">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
                   alt="Imag"
                   className={styles.img3}
                 />
               </div>
               <div className="absolute left-48 top-28 2xl:left-52">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Lanterntop_ElMfEjYvzo1B.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346668"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
                   alt="Imag"
                   className={styles.img4}
                 />
               </div>
               <div className={`${styles.zInde} w-screen absolute bottom-0`}>
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Skyline3copy_1Gtxl7GfPnZGl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357682"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Skyline3copy_65vQJqeDS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603572078"
                   alt="Imag"
                   className={styles.zoomimg}
                 />
@@ -194,7 +194,7 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
             }}
           >
             <img
-              src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910"
+              src="https://ik.imagekit.io/lc4zhdkrtsr/Home/chakra-min_PV3hfN1lW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600813517"
               alt="chakra"
               style={{
                 zIndex: initialVal > 0 ? -11 : 0,

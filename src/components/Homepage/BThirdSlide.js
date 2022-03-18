@@ -87,7 +87,7 @@ function FourthSlide({
           <div className="flex flex-col justify-around h-[100px] z-[120000]">
             <div className="flex justify-center align-center items-center">
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/arrow_up_6vVwCQvCd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391413079"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/arrow_up_6vVwCQvCd_EqgpmqvKn.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605097198"
                 alt="Ima"
                 width={40}
                 onClick={settosecond}
@@ -98,7 +98,7 @@ function FourthSlide({
             </div>
             <div className="flex justify-center align-center items-center">
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/arrow_down_tCfbfiNJI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391412714"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/arrow_down_tCfbfiNJI_g5Z3PKqsa.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605097239"
                 alt="Ima"
                 width={40}
                 onClick={settofourth}
@@ -140,21 +140,21 @@ function FourthSlide({
       </div>
       <div className="bottom-0  skyline3 absolute overflow-hidden">
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Skyline_3_hNO62SCOV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600855457"
           className=" w-screen"
           alt="img"
         ></img>
       </div>
       <div className="skyline1 absolute bottom-0 overflow-hidden">
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_1_VwK4ZUis_xoz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346061"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Skyline_1_P-qKtQ_5u.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600855088"
           className="w-screen"
           alt="img"
         ></img>
       </div>
       <div className="chakra1 absolute w-[150px] -z-4 left-16 top-20 mx-auto">
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/chakra-min_PV3hfN1lW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600813517"
           alt="img"
         />
       </div>

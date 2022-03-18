@@ -89,7 +89,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
           <div className="flex flex-col justify-around h-[100px] z-[120000]">
             <div className="flex justify-center align-center items-center">
               <img
-                src="https://ik.imagekit.io/sai1975d/Homepage/arrow_up_6vVwCQvCd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646391413079"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/arrow_up_6vVwCQvCd_EqgpmqvKn.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647605097198"
                 alt="Ima"
                 width={40}
                 onClick={settothird}
@@ -128,7 +128,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Hom_frwlgM5pR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162342566"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Hom_pMwTV2zMm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647606408732"
                   alt="Im"
                   style={{ width: 100, height: 100 }}
                   className="mx-auto z-[120000]"
@@ -139,7 +139,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Tag_0emHuttNblyd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357295"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Tag_X8IyJUxq4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603132317"
                   alt="Im"
                   style={{ width: 120, height: 110 }}
                   className="mx-auto z-[120000]"
@@ -150,7 +150,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/Cal_M-xuJ4WtcdIn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162341371"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Cal_zfvmTnBh_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603168724"
                   alt="Im"
                   style={{ width: 120, height: 100 }}
                   className="mx-auto z-[120000]"
@@ -161,7 +161,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
             <div className="text-center text-lg font-text font-bold">
               <div className="img mb-5">
                 <img
-                  src="https://ik.imagekit.io/sai1975d/Homepage/User_TxcUNWtbf4kcf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357316"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/User_DEfRudrCQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603168708"
                   alt="Im"
                   style={{ width: 170, height: 110 }}
                   className="mx-auto z-[120000]"
@@ -241,21 +241,21 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
       </div>
       <div className="bottom-0  skyline3 absolute overflow-hidden">
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_3_O7QErCOKx2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162357286"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Skyline_3_hNO62SCOV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600855457"
           className=" w-screen"
           alt="img"
         ></img>
       </div>
       <div className="skyline1 absolute bottom-0 overflow-hidden">
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/Skyline_1_VwK4ZUis_xoz.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162346061"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Skyline_1_P-qKtQ_5u.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600855088"
           className="w-screen"
           alt="img"
         ></img>
       </div>
       <div className="chakra1 absolute w-[120px] z-[11] left-16 top-20 mx-auto">
         <img
-          src="https://ik.imagekit.io/sai1975d/Homepage/chakra_Mv5H8QKGjH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1646162345910"
+          src="https://ik.imagekit.io/lc4zhdkrtsr/Home/chakra-min_PV3hfN1lW.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647600813517"
           alt="img"
         />
       </div>
