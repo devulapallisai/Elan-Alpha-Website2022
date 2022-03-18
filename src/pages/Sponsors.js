@@ -42,7 +42,7 @@ import skolar from "../images/sponsors/SKOLAR.png";
 import summachar from "../images/sponsors/summachar.png";
 import tt from "../images/sponsors/talking timber.png";
 import techienest from "../images/sponsors/techienest.png";
-import tei from "../images/sponsors/the esports india.png";
+// import tei from "../images/sponsors/the esports india.png";
 import ub from "../images/sponsors/union bank.png";
 import vedana from "../images/sponsors/vedana.png";
 import vm from "../images/sponsors/vishumoney.png";

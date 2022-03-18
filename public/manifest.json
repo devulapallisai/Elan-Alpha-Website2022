@@ -1,6 +1,6 @@
 {
   "short_name": "Elan",
-  "name": "Elan 2022",
+  "name": "Elan and ηVision 2022",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": "https://elan.org.in",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#17032a",
   "background_color": "#ffffff"
 }
