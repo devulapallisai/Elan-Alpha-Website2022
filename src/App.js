@@ -2,7 +2,12 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 import React, { useState, useEffect } from "react";
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  BrowserRouter as Router,
+  useLocation,
+} from "react-router-dom";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
 import SocialCause from "./pages/SocialCause";
@@ -23,10 +28,11 @@ import ReactGA from "react-ga";
 library.add(fab, faCheckSquare, faCoffee);
 
 function App() {
+  const loc = window.location.href;
   useEffect(() => {
     ReactGA.initialize("G-EJDEL2CGJX");
     ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
+  }, [loc]);
   const [block, setblock] = useState("culti");
   return (
     <Router basename="/">
