@@ -17,6 +17,7 @@ function Header({ path, block, sched, setsched }) {
     // ["Merch", "/merch"],
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
+    ["Cryptex","/cryptex"]
   ];
   const [color, setcolor] = useState("rgb(21,5,37)");
   const colors = {
@@ -169,13 +170,6 @@ function Header({ path, block, sched, setsched }) {
                   </Link>
                 )
               )}
-              <a
-                href="https://drive.google.com/file/d/1BvVRbZtoR064aPIpblzlXxZ8balrG9rE/view"
-                className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
-                onClick={() => sethamburger(false)}
-              >
-                FAQ
-              </a>
             </div>
           </div>
         ) : (
