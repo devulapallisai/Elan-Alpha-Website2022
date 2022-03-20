@@ -12,12 +12,13 @@ function Header({ path, block, sched, setsched }) {
     ["Events", "/events"],
     ["Competitions", "/competitions"],
     ["CA portal", "http://ca.elan.org.in"],
+    ["Cryptex","/cryptex"],
     ["Team", "/team"],
     ["Social Cause", "/socialcause"],
     // ["Merch", "/merch"],
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
-    ["Cryptex","/cryptex"]
+    
   ];
   const [color, setcolor] = useState("rgb(21,5,37)");
   const colors = {
