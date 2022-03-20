@@ -175,7 +175,7 @@ function Team() {
                 <Card
                   name="Krati Arela"
                   position="Overall Head"
-                  image="hhttps://ik.imagekit.io/lc4zhdkrtsr/teams/Krati_Arela_Overall_Head-1_IXFfMSIGe.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598396385"
+                  image="https://ik.imagekit.io/lc4zhdkrtsr/teams/Krati_Arela_Overall_Head-1_IXFfMSIGe.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1647598396385"
                   phone="6265534713"
                 />
               </div>
