@@ -40,7 +40,7 @@ function Header({ path, block, sched, setsched }) {
   return (
     <>
       <div
-        className={`bg-gradient-to-b from-${color} to-transparent fixed top-0 left-0 right-0 z-50`}
+        className={`bg-gradient-to-b  from-${color} to-transparent fixed top-0 left-0 right-0 z-[20000002]`}
         style={{
           background: `linear-gradient(to bottom,${
             colors[`${path}`]
@@ -88,12 +88,12 @@ function Header({ path, block, sched, setsched }) {
                 </Link>
               )
             )}
-            {/* <span
+            <span
               className={`cursor-pointer font-heading text-headerwhite my-auto ${styles.hoverinbac}`}
               onClick={() => setsched(true)}
             >
               Schedule
-            </span> */}
+            </span>
           </div>
         </div>
         {/* Mobile part begins now */}
@@ -135,7 +135,7 @@ function Header({ path, block, sched, setsched }) {
             data-aos-duration="400"
           >
             <div className="flex flex-col list-none mr-3 mt-2 ml-16 w-200 mb-3">
-              {/* <div
+              <div
                 className="cursor-pointer font-heading font-light tracking-wider my-auto z-0 p-2 text-xs flex flex-row-reverse"
                 onClick={() => {
                   setsched(true);
@@ -143,7 +143,7 @@ function Header({ path, block, sched, setsched }) {
                 }}
               >
                 Schedule
-              </div> */}
+              </div>
               {routes.reverse().map((route) =>
                 route[0] === "CA portal" ? (
                   <a

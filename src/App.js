@@ -24,6 +24,7 @@ import Infocard from "./components/common/Infocard";
 import Merch from "./pages/Merch";
 import Cryptex from "./pages/Cryptex";
 import ReactGA from "react-ga";
+import Enigma from "./pages/Enigma"
 // import Third from "./components/Homepage/ThirdSlide";
 library.add(fab, faCheckSquare, faCoffee);
 
@@ -55,6 +56,7 @@ function App() {
         <Route path="/cryptex" element={<Cryptex />} />
         <Route path="/proshows" element={<Proshows />} />
         <Route path="/infi" element={<Infi />} />
+        <Route path="/mjaz3o7101lu9x2h" element={<Enigma />} />
         <Route
           path="/events/0"
           element={
