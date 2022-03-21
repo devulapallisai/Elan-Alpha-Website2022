@@ -157,21 +157,21 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               </div>
               <div className="absolute left-16 top-40">
                 <img
-                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/739809170sst1647891060-min_v2d7ZD-Vs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647897545933"
                   alt="Imag"
                   className={styles.img2}
                 />
               </div>
               <div className="absolute left-28 top-16 2xl:left-32">
                 <img
-                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/739809170sst1647891060-min_v2d7ZD-Vs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647897545933"
                   alt="Imag"
                   className={styles.img3}
                 />
               </div>
               <div className="absolute left-48 top-28 2xl:left-52">
                 <img
-                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Lanterntop_BNrAYXc0e.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647604185450"
+                  src="https://ik.imagekit.io/lc4zhdkrtsr/Home/739809170sst1647891060-min_v2d7ZD-Vs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647897545933"
                   alt="Imag"
                   className={styles.img4}
                 />
