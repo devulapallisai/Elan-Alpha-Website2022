@@ -50,8 +50,8 @@ function Secondslide({ initialVal, scrollDirection, secondslideref }) {
               } text-sm flex justify-center ${styles.texthere}`}
               data-aos-duration="1000"
             >
-              <div className="flex flex-col">
-                <div className="font-heading text-3xl 2xl:text-5xl text-center pb-2">
+              <div className="flex flex-col text-white">
+                <div className="  font-heading text-3xl 2xl:text-5xl text-center pb-2">
                   OUR THEME
                 </div>
                 <div className="text-justify font-text">
