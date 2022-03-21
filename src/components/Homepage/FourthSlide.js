@@ -188,7 +188,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
                 className="text-white text-5xl"
               />
             </a>
-            <p className="font-text text-center font-bold text-lg mt-4">
+            <p className="font-text text-white text-center font-bold text-lg mt-4">
               41k+ likes
             </p>
           </div>
@@ -203,7 +203,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
                 className="text-white text-5xl"
               />
             </a>
-            <p className="font-text text-center font-bold text-lg mt-4">
+            <p className="font-text text-white text-center font-bold text-lg mt-4">
               3.1k+ followers
             </p>
           </div>
@@ -218,7 +218,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
                 className="text-white text-5xl"
               />
             </a>
-            <p className="font-text text-center font-bold text-lg mt-4">
+            <p className="font-text text-center text-white font-bold text-lg mt-4">
               77k+ views
             </p>
           </div>
@@ -233,7 +233,7 @@ function FourthSlide({ forward, setforward, dispf, setdispf }) {
                 className="text-white text-5xl"
               />
             </a>
-            <p className="font-text text-center font-bold text-lg mt-4">
+            <p className="font-text text-center text-white font-bold text-lg mt-4">
               1.1k+ followers
             </p>
           </div>
