@@ -41,7 +41,7 @@
   width: 60vw;
   margin-left: 20vw;
   margin-right: 20vw;
-
+  height: 60vh;
   max-height: 100vh;
   display: flex;
   justify-content: center;
