@@ -206,7 +206,7 @@ function Schedule({ setsched }) {
           </div>
         </div>
       </div>
-      <div className="md:hidden z-[20000001]">
+      <div className="md:hidden z-[20000001] bg-[rgba(36,23,25,0.47)]">
         <div className=" h-screen items-center justify-center flex flex-col-reverse">
           <div
             className={`w-fit cursor-pointer mx:4 rounded-xl p-2 pb-2 pt-0  bg-[#F2EFE1] ${styles.borderM} `}
