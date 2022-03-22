@@ -12,13 +12,12 @@ function Header({ path, block, sched, setsched }) {
     ["Events", "/events"],
     ["Competitions", "/competitions"],
     ["CA portal", "http://ca.elan.org.in"],
-    ["Cryptex","/cryptex"],
+    ["Cryptex", "/cryptex"],
     ["Team", "/team"],
     ["Social Cause", "/socialcause"],
     // ["Merch", "/merch"],
     ["Sponsors", "/sponsors"],
     ["Contact us", "/contact"],
-    
   ];
   const [color, setcolor] = useState("rgb(21,5,37)");
   const colors = {
@@ -58,7 +57,7 @@ function Header({ path, block, sched, setsched }) {
           <span className={`${styles.stylit}`}></span>
           {/* <div className="hidden lg:w-0 lg:flex bg-gradient-to-b from-blue-100 to-transparent"></div> */}
           <div
-            className={`hidden flex-row-reverse justify-between list-none lg:w-3/4 w-5/6 lg:flex px-5`}
+            className={`hidden flex-row-reverse justify-between list-none lg:w-4/5 w-5/6 lg:flex px-5`}
           >
             {routes.reverse().map((route) =>
               route[0] === "CA portal" ? (

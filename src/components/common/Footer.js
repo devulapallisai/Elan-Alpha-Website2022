@@ -80,7 +80,9 @@ function Footer() {
       </div>
       <div className="grid md:hidden grid-cols-2 ml-2">
         <div className="flex flex-col my-auto ml-4">
-          <h2 className="text-sm sm:text-lg font-heading">Social Media</h2>
+          <h2 className="text-sm sm:text-lg font-heading text-white">
+            Social Media
+          </h2>
           <br />
           <div className="flex flex-row-reverse justify-between w-[60px]">
             <a
