@@ -30,6 +30,7 @@ function Header({ path, block, sched, setsched }) {
     socialcause: "#A64C68",
     cryptex: "#943066",
     merch: "#1E0735",
+    proshows: "#622980",
   };
   useEffect(() => {
     AOS.init();

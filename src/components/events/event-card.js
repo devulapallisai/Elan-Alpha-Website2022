@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "../../css/events.module.css";
 
-function Card({ image, text, type, button, buttonText, a, title }) {
+function Card({ image, text, type, button, buttonText, a, title, hlink }) {
   if (button === true) {
     return (
       <div className={` ${type}`}>
-        <div className={` ${styles.border}`}>
+        <div className={` ${styles.border} flex flex-col justify-around`}>
           <img
             className={styles.imageBox}
             src={image}
@@ -32,6 +33,12 @@ function Card({ image, text, type, button, buttonText, a, title }) {
                 {buttonText}
               </a>
             </>
+          ) : hlink ? (
+            <Link to={hlink}>
+              <button className={`${styles.button} font-text mt-3 text-white`}>
+                {buttonText}
+              </button>
+            </Link>
           ) : (
             <button className={`${styles.button} font-text mt-3 text-white`}>
               {buttonText}

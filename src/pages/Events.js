@@ -6,18 +6,19 @@ import lineHz from "../images/events/line gols 8.png";
 import Zakir from "../images/events/Coming Soon (1).png";
 import Footer from "../components/common/Footer";
 import Workshops from "../images/events/workshops.jpg";
+import Proshows from "../images/events/proshows.jpg";
 
 function Events() {
   return (
-    <div className="Events  bg-events text-white">
+    <div className="Events min-h-screen bg-events text-white">
       <div className={styles.padit}>
         <h1 className="font-heading text-white text-4xl md:text-6xl text-center pt-11">
           EVENTS
         </h1>
-        <br />
+        {/* <br /> */}
         <div className="hidden md:block">
-          <div className={`container mx-auto grid md:grid-cols-11 mt-10`}>
-            <Card
+          <div className={`container mx-auto grid md:grid-cols-12 mt-6`}>
+            {/* <Card
               type="col-span-3 mx-0"
               text="TBA"
               button={true}
@@ -28,14 +29,15 @@ function Events() {
               src={line}
               alt="imagehere"
               className="my-auto mx-auto col-span-1 hidden md:block"
-            ></img>
+            ></img> */}
 
             <Card
-              type="col-span-3 mx-0"
-              text="TBA"
+              type="col-span-4 mx-0"
+              text="Take a break from the grind and witness amazing shows brought to you at home for free! Fun and Enjoyment has no end! Register for an exhilarating experience now!"
               button={true}
-              image={Zakir}
-              buttonText="INFORMAL EVENTS"
+              image={Proshows}
+              buttonText="PROSHOWS"
+              hlink="/proshows"
             />
             <img
               src={line}
@@ -44,7 +46,7 @@ function Events() {
             ></img>
 
             <Card
-              type="col-span-3 mx-0"
+              type="col-span-4 mx-0"
               text="Learning should never stop, and it's time to get at par with all those people showing off their technical skills. Join our Workshop Series to sharpen your skills and keep yourself updated with the latest developments in technology."
               button={true}
               image={Workshops}
@@ -58,24 +60,11 @@ function Events() {
           <div className="grid grid-cols-1 mx-auto">
             <Card
               type="col-span-3 mx-0"
-              text="TBA"
+              text="Take a break from the grind and witness amazing shows brought to you at home for free! Fun and Enjoyment has no end! Register for an exhilarating experience now!"
               button={true}
-              image={Zakir}
-              buttonText="PROSHOW"
-            />
-          </div>
-          <img
-            src={lineHz}
-            alt="imagehere"
-            className="my-3 mx-auto col-span-1  md:hidden"
-          ></img>
-          <div className="grid grid-cols-1 mx-auto">
-            <Card
-              type="col-span-3 mx-0"
-              text="TBA"
-              button={true}
-              image={Zakir}
-              buttonText="INFORMAL EVENTS"
+              image={Proshows}
+              buttonText="PROSHOWS"
+              hlink="/proshows"
             />
           </div>
           <img
