@@ -25,7 +25,8 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
     gsap.from(".Para", {
       opacity: 0,
       x: 200,
-      duration: 3,
+      delay: 1.5,
+      duration: 2,
     });
     gsap.from(".skyline3", {
       y: 270,
@@ -37,16 +38,17 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
       duration: 3,
     });
     gsap.to(".backgr", {
-      css : {
+      css: {
         transform: "translateZ(50px) perspective(50px)",
-        transition : "4s",
+        transition: "4s",
       },
     });
-    gsap.from(".Back",{
-        css :{
-          background: "linear-gradient(180deg,#170735 -10.41%,#943066 65.44%,#f5c470 122.95%)",
-        },
-        duration: 3,
+    gsap.from(".Back", {
+      css: {
+        background:
+          "linear-gradient(180deg,#170735 -10.41%,#943066 65.44%,#f5c470 122.95%)",
+      },
+      duration: 1,
     });
   }, []);
   const settosecond = (event) => {
@@ -69,21 +71,18 @@ function ThirdSlide({ thirdslide, setthirdslide }) {
       ) : (
         <>
           {forward ? (
-        
-            
             <div
               className={`Back overflow-hidden relative flex justify-center h-screen w-screen ${styles.bgit}`}
               id="thirdslide"
             >
-              
               <img
-            src="https://ik.imagekit.io/lc4zhdkrtsr/Home/window_webcopy_Yw7QaG-ZU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603652858"
-            className={`backgr ${styles.imagebackgr}`}
-            style={{ zIndex: 46 }}
-            alt="Imag"
-            width="100vw"
-            height="100vh"
-          />
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/window_webcopy_Yw7QaG-ZU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603652858"
+                className={`backgr ${styles.imagebackgr}`}
+                style={{ zIndex: 46 }}
+                alt="Imag"
+                width="100vw"
+                height="100vh"
+              />
 
               <div className="z-[120000] absolute w-[50px] h-full right-2 flex items-center">
                 <div className="h-[100px] w-[50px] z-[120000]">
