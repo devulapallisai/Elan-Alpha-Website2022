@@ -46,7 +46,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
       <div className="container mx-auto mt-5 max-w-[240px]">
         {/* <div className="max-w-[240px] mx-auto flex"></div> */}
         <div className="grid grid-cols-2 gap-2">
-          <div className="text-center text-sm font-text font-bold text-white">
+          <div className="text-center text-sm font-text font-bold text-white ">
             <div
               className="img mb-5 "
               data-aos="fade-up"
