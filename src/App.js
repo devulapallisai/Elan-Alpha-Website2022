@@ -24,7 +24,7 @@ import Infocard from "./components/common/Infocard";
 import Merch from "./pages/Merch";
 import Cryptex from "./pages/Cryptex";
 import ReactGA from "react-ga";
-import Enigma from "./pages/Enigma"
+import Enigma from "./pages/Enigma";
 // import Third from "./components/Homepage/ThirdSlide";
 library.add(fab, faCheckSquare, faCoffee);
 
