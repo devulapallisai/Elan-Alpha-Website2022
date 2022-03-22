@@ -84,7 +84,7 @@ function Sponsors() {
         </div>
         <br />
         {/* Here comes the sponsors part */}
-        <div className="sponsors w-screen justify-center items-center">
+        <div className="sponsors max-w-[70vw] mx-auto justify-center items-center">
           <Sponsorcard
             Title="Arcesium"
             // Description="Sample Descritption"
