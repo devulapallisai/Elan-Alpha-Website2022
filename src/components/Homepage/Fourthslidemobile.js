@@ -30,7 +30,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
           style={{ transform: "scaleY(-1)" }}
         />
       </div>
-      <div className="mt-[15vh]">
+      <div className="mt-[15vh] text-white">
         <h1
           className="text-center text-xl font-heading"
           data-aos="fade-up"
@@ -46,9 +46,9 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
       <div className="container mx-auto mt-5 max-w-[240px]">
         {/* <div className="max-w-[240px] mx-auto flex"></div> */}
         <div className="grid grid-cols-2 gap-2">
-          <div className="text-center text-sm font-text font-bold">
+          <div className="text-center text-sm font-text font-bold text-white">
             <div
-              className="img mb-5"
+              className="img mb-5 "
               data-aos="fade-up"
               data-aos-duration="1400"
             >
@@ -56,14 +56,14 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
                 src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Hom_pMwTV2zMm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647606408732"
                 alt="Im"
                 style={{ width: 50, height: 50 }}
-                className="mx-auto z-[120000]"
+                className="mx-auto z-[120000] "
               />
             </div>
             400+ colleges
           </div>
-          <div className="text-center text-sm font-text font-bold">
+          <div className="text-center text-sm font-text font-bold text-white">
             <div
-              className="img mb-5"
+              className="img mb-5 "
               data-aos="fade-up"
               data-aos-duration="1400"
             >
@@ -71,7 +71,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
                 src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Tag_X8IyJUxq4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603132317"
                 alt="Im"
                 style={{ width: 60, height: 55 }}
-                className="mx-auto z-[120000]"
+                className="mx-auto z-[120000] "
               />
             </div>
             40+ events
@@ -80,9 +80,9 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
       </div>
       <div className="container mx-auto mt-5  max-w-[240px]">
         <div className="grid grid-cols-2 gap-2">
-          <div className="text-center text-sm font-text font-bold">
+          <div className="text-center text-sm font-text font-bold text-white">
             <div
-              className="img mb-5"
+              className="img mb-5 "
               data-aos="fade-up"
               data-aos-duration="1400"
             >
@@ -90,14 +90,14 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
                 src="https://ik.imagekit.io/lc4zhdkrtsr/Home/Cal_zfvmTnBh_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603168724"
                 alt="Im"
                 style={{ width: 60, height: 50 }}
-                className="mx-auto z-[120000]"
+                className="mx-auto z-[120000] "
               />
             </div>
             3 days
           </div>
-          <div className="text-center text-sm font-text font-bold">
+          <div className="text-center text-sm font-text font-bold text-white">
             <div
-              className="img mb-5"
+              className="img mb-5 "
               data-aos="fade-up"
               data-aos-duration="1400"
             >
@@ -105,7 +105,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
                 src="https://ik.imagekit.io/lc4zhdkrtsr/Home/User_DEfRudrCQ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647603168708"
                 alt="Im"
                 style={{ width: 85, height: 55 }}
-                className="mx-auto z-[120000]"
+                className="mx-auto z-[120000] "
               />
             </div>
             10k+ audience
@@ -129,7 +129,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
               className="text-white text-3xl"
             />
           </a>
-          <p className="font-text text-center font-bold text-lg mt-4">
+          <p className="font-text text-center font-bold text-lg mt-4 text-white">
             41k+ likes
           </p>
         </div>
@@ -149,7 +149,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
               className="text-white text-3xl"
             />
           </a>
-          <p className="font-text text-center font-bold text-lg mt-4">
+          <p className="font-text text-center font-bold text-lg mt-4 text-white">
             3.1k+ followers
           </p>
         </div>
@@ -166,7 +166,7 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
           >
             <FontAwesomeIcon icon={faYoutube} className="text-white text-3xl" />
           </a>
-          <p className="font-text text-center font-bold text-lg mt-4">
+          <p className="font-text text-center font-bold text-lg mt-4 text-white">
             77k+ views
           </p>
         </div>
@@ -183,12 +183,12 @@ function Fourthslidemobile({ initialVal, scrollDirection }) {
           >
             <FontAwesomeIcon icon={faTwitter} className="text-white text-3xl" />
           </a>
-          <p className="font-text text-center font-bold text-lg mt-4">
+          <p className="font-text text-center font-bold text-lg mt-4 text-white">
             1.1k+ followers
           </p>
         </div>
       </div>
-      <div className="absolute bottom-0 w-full">
+      <div className="absolute bottom-0 w-full text-white">
         <Footer />
       </div>
     </div>
