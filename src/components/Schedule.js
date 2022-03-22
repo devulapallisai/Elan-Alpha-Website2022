@@ -7,7 +7,7 @@ function Schedule({ setsched }) {
   console.log(num);
   return (
     <>
-      <div className="hidden md:block z-[20000001]">
+      <div className="hidden md:block z-[200000000001] bg-[rgba(36,23,25,0.47)]">
         <div className=" h-screen items-center justify-center flex">
           <div
             className={`w-fit cursor-pointer text-black rounded-xl p-14 pb-4 pt-0  bg-[#F2EFE1] ${styles.border} `}
