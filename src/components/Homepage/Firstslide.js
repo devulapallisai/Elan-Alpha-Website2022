@@ -166,7 +166,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
           <div className="absolute">
             <div className={`${styles.backgr} flex justify-content-center`}>
               <img
-                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/ELAN_2022_white_non_transparent__HMIbr9xU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648045446412"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/ELAN_2022_white_non_transparent_XIMFWqerf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648046856378"
                 alt="Logo"
                 className="my-auto"
                 style={{
