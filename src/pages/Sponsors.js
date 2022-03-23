@@ -4,6 +4,8 @@ import Halfchakra from "../images/SocialCause/Halfchakra.png";
 import Contactsection from "../components/sponsors/contactsection";
 import Sponsorcard from "../components/sponsors/Sponsorcard";
 import lnt from "../images/sponsors/L&T.png";
+import Nisarga from "./../images/sponsors/2022/nisarga.jpg";
+import Honeywell from "./../images/sponsors/Honeywell.png";
 import arsecium from "../images/sponsors/Arcesium - Copy.png";
 import sbi from "../images/sponsors/SBI.png";
 import honeywell from "../images/sponsors/Honeywell.png";
@@ -103,6 +105,21 @@ function Sponsors() {
             >
               Sponsors - {year}
             </button>
+          </div>
+          <div className="flex justify-around md:flex-row flex-col">
+            <Sponsorcard
+              Role="Sustainable future partner"
+              Description="Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions."
+              Image={Honeywell}
+              Website="https://www.honeywell.com/in/en"
+              Instagram="https://www.instagram.com/honeywell/"
+            />
+            <Sponsorcard
+              Role="Co-title sponsor"
+              Description="Nisarga Information Technology Solutions Pvt. Ltd, from 2012 are famous amongst the esteemed trader of quality assortment of Fujitsu Scanners. Offered products are Plustek and Fujitsu Scanners, Software Development and Implementation Services. These are known for their high strength, fine functioning, perfect execution service."
+              Image={Nisarga}
+              Website="https://www.nisargaitsolutions.com/"
+            />
           </div>
           {year === "2022" ? (
             <>

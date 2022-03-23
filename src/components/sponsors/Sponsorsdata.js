@@ -2,35 +2,86 @@ import NTPC from "../../images/sponsors/2022/NTPCLogo.png";
 import Blend360 from "../../images/sponsors/2022/Blend360.svg";
 import Sales from "../../images/sponsors/2022/Sales.svg";
 import Coding from "../../images/sponsors/2022/Coding.svg";
-import Coco from "../../images/sponsors/2022/Coco.svg";
+import Techvanto from "../../images/sponsors/2022/Techvanto.jpeg";
+import KLA from "../../images/sponsors/2022/KLA.png";
+import Coco from "../../images/sponsors/2022/Coco.jpeg";
+import Youth from "../../images/sponsors/2022/youth.png";
+import Unblended from "../../images/sponsors/2022/Unblended.png";
 import MentorX from "../../images/sponsors/2022/MentorX.png";
+import LIC from "../../images/sponsors/2022/LIC.png";
 import HoverRobotix from "../../images/sponsors/2022/HoverRobotix.png";
 import Xcube from "../../images/sponsors/2022/Xcube.png";
 import DLink from "../../images/sponsors/2022/DLink.png";
+import Noticebard from "../../images/sponsors/2022/NoticeBard.png";
 import Vijaya from "../../images/sponsors/2022/Vijaya.png";
-import ICICI from "../../images/sponsors/2022/ICICI.png";
+// import ICICI from "../../images/sponsors/2022/ICICI.png";
 import IODL from "../../images/sponsors/2022/IODL.jpg";
 import Wing from "../../images/sponsors/2022/wing.jpg";
-import LIC from "../../images/sponsors/2022/LIC.png";
 import Quert from "../../images/sponsors/2022/Quert.png";
 import Remark from "../../images/sponsors/2022/Remark.png";
 import SBI from "../../images/sponsors/2022/sbi.png";
-import Nisarga from "../../images/sponsors/2022/nisarga.jpg";
-import Honeywell from "../../images/sponsors/Honeywell.png";
 import Canera from "../../images/sponsors/canera bank - Copy.png";
 const Sponsors2022 = [
+  // {
+  //   Name: "Honeywell",
+  //   Role: "Sustainable future partner",
+  //   Description:
+  //     "Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.",
+  //   Website: "https://www.honeywell.com/in/en",
+  //   Instagram: "https://www.instagram.com/honeywell/",
+  //   Image: Honeywell,
+  // },
   {
-    Name: "NTPC",
-    Role: "Major sponsor",
+    Name: "Coca Cola",
     Description:
-      "NTPC Limited, formerly known as National Thermal Power Corporation Limited, is an Indian Public Sector Undertaking, engaged in the business of generation of electricity and allied activities.",
-    Website: "https://www.ntpc.co.in/",
-    Instagram: "https://www.instagram.com/ntpclimited/?hl=en",
-    Image: NTPC,
+      "The Coca-Cola Company is a beverage company with products sold in more than 200 countries. We seek to positively impact people’s lives and planet through water replenishment, packaging recycling, sustainable sourcing practices and carbon emissions reductions across our value chain.",
+    Website: "https://www.coca-colacompany.com/",
+    Linkedin: "https://www.linkedin.com/company/the-coca-cola-company/",
+    Image: Coco,
+    Role: "Refreshing Partner",
+  },
+  {
+    Name: "[x]cubeLabs",
+    Description:
+      "[x]cube LABS helps enterprises globally with digital transformation and digital technology adoption. We take a highly collaborative approach and help solve problems across the entire digital transformation journey from ideation and strategizing to experimentation and execution",
+    Website: "https://www.xcubelabs.com/",
+    Linkedin:
+      "https://www.linkedin.com/company/xcubelabs/?originalSubdomain=in",
+    Image: Xcube,
+    Role: "Digital Transformation Partner",
+  },
+  {
+    Name: "KLA",
+    // Description:
+    //   "[x]cube LABS helps enterprises globally with digital transformation and digital technology adoption. We take a highly collaborative approach and help solve problems across the entire digital transformation journey from ideation and strategizing to experimentation and execution",
+    // Website: "https://www.xcubelabs.com/",
+    // Linkedin:
+    //   "https://www.linkedin.com/company/xcubelabs/?originalSubdomain=in",
+    Image: KLA,
+    Role: "Platinum Sponsor",
+  },
+  {
+    Name: "Salesforce",
+    Role: "Futureforce Partner",
+    Description:
+      "Salesforce is an American cloud-based software company headquartered in San Francisco, California. It provides customer relationship management (CRM) software and applications focused on sales, customer service, marketing automation, analytics, and application development.",
+    Website: "https://www.salesforce.com/in/",
+    Instagram: "https://www.instagram.com/salesforce/",
+    Facebook: "https://www.facebook.com/salesforce/",
+    Image: Sales,
+  },
+  {
+    Name: "TS Dairy",
+    Description:
+      "TSDDCF seeks to usher in an era of rural property in Telangana State through organized commercial dairying based on the principals of cooperatives. For development of village based dairy sector we integrate milk producers at village level with consumer in the urban and metropolitan markets.",
+    Website: "https://tsdairy.telangana.gov.in/",
+    Instagram: "https://www.instagram.com/ts_dairy_09/",
+    Image: Vijaya,
+    Role: "Gold sponsor",
   },
   {
     Name: "LIC",
-    Role: "Major sponsor",
+    Role: "Gold sponsor",
     Description:
       "Life Insurance Corporation of India (abbreviated as LIC) is an Indian state-owned insurance group and investment corporation owned by the Government of India. Over 245 insurance companies and provident societies were merged to create the state-owned Life Insurance Corporation of India.",
     Website: "https://licindia.in/",
@@ -38,13 +89,13 @@ const Sponsors2022 = [
     Image: LIC,
   },
   {
-    Name: "Honeywell",
-    Role: "Sustainable future partner",
+    Name: "NTPC",
+    Role: "GOld sponsor",
     Description:
-      "Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.",
-    Website: "https://www.honeywell.com/in/en",
-    Instagram: "https://www.instagram.com/honeywell/",
-    Image: Honeywell,
+      "NTPC Limited, formerly known as National Thermal Power Corporation Limited, is an Indian Public Sector Undertaking, engaged in the business of generation of electricity and allied activities.",
+    Website: "https://www.ntpc.co.in/",
+    Instagram: "https://www.instagram.com/ntpclimited/?hl=en",
+    Image: NTPC,
   },
   {
     Name: "Blend360",
@@ -54,6 +105,26 @@ const Sponsors2022 = [
     Website: "https://www.blend360.com/",
     Linkedin: "https://www.linkedin.com/company/blend360",
     Image: Blend360,
+  },
+  {
+    Name: "IOCL",
+    Role: "Gold Sponsor",
+    Description:
+      "Indian Oil Corporation Limited(IOCL) is a largest government owned oil corporation in the India. Indian Oil's commercial activities span the whole hydrocarbon value chain, including refining, pipeline transportation, petroleum product marketing, crude oil, natural gas, and petrochemical exploration and production.",
+    Website: "https://iocl.com/",
+    Instagram: "https://www.instagram.com/indianoilcorp/",
+    Facebook: "https://www.facebook.com/IndianOilCorpLimited/",
+    Image: IODL,
+  },
+  {
+    Name: "Wingfotech",
+    Role: "Silver Sponsor",
+    Description:
+      "Wingfotech is a quality certified & MSME (Government of India) recognized institute providing a comprehensive e-learning platform dedicated to developing the state of art learning techniques in the field of advanced engineering branches and high-end technology",
+    Facebook: "https://www.facebook.com/wingfotech/",
+    Linkedin:
+      "https://www.linkedin.com/company/wingfotech/?originalSubdomain=in",
+    Image: Wing,
   },
   {
     Name: "Canara bank",
@@ -74,20 +145,13 @@ const Sponsors2022 = [
     Image: SBI,
   },
   {
-    Name: "TS Dairy",
-    Description:
-      "TSDDCF seeks to usher in an era of rural property in Telangana State through organized commercial dairying based on the principals of cooperatives. For development of village based dairy sector we integrate milk producers at village level with consumer in the urban and metropolitan markets.",
-    Website: "https://tsdairy.telangana.gov.in/",
-    Instagram: "https://www.instagram.com/ts_dairy_09/",
-    Image: Vijaya,
-  },
-  {
-    Name: "ICICI Bank",
-    Description:
-      "ICICI Bank is a leading private sector bank in India. The Bank’s consolidated total assets stood at Rs. 14.76 trillion at September 30, 2020.  ICICI Bank currently has a network of 5,288 branches and 13,723 ATMs across India.",
-    Website: "https://www.icicibank.com/",
-    Instagram: "https://www.instagram.com/icicibank/?hl=en",
-    Image: ICICI,
+    Name: "Techvanto",
+    Role: "Silver sponsor",
+    // Description:
+    //   "Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.",
+    // Website: "https://www.honeywell.com/in/en",
+    // Instagram: "https://www.instagram.com/honeywell/",
+    Image: Techvanto,
   },
   {
     Name: "Remark Skill",
@@ -109,42 +173,6 @@ const Sponsors2022 = [
     Image: Coding,
   },
   {
-    Name: "Wingfotech",
-    Role: "Gold Sponsor",
-    Description:
-      "Wingfotech is a quality certified & MSME (Government of India) recognized institute providing a comprehensive e-learning platform dedicated to developing the state of art learning techniques in the field of advanced engineering branches and high-end technology",
-    Facebook: "https://www.facebook.com/wingfotech/",
-    Linkedin:
-      "https://www.linkedin.com/company/wingfotech/?originalSubdomain=in",
-    Image: Wing,
-  },
-  {
-    Name: "[x]cubeLabs",
-    Description:
-      "[x]cube LABS helps enterprises globally with digital transformation and digital technology adoption. We take a highly collaborative approach and help solve problems across the entire digital transformation journey from ideation and strategizing to experimentation and execution",
-    Website: "https://www.xcubelabs.com/",
-    Linkedin:
-      "https://www.linkedin.com/company/xcubelabs/?originalSubdomain=in",
-    Image: Xcube,
-  },
-  // {
-  //   Name: "Hero",
-  //   Role: "Title Sponsor",
-  //   Description:
-  //     "Hero MotoCorp believes in Vision, Quality, Excellence & Recognition. Hero MotoCorp is India's leading two wheeler company, which has been providing customers with an excellent range of two wheelers that ensure both style and comfort",
-  //   Website: "https://www.heromotocorp.com/en-in/",
-  // },
-  {
-    Name: "Salesforce",
-    Role: "Futureforce Partner",
-    Description:
-      "Salesforce is an American cloud-based software company headquartered in San Francisco, California. It provides customer relationship management (CRM) software and applications focused on sales, customer service, marketing automation, analytics, and application development.",
-    Website: "https://www.salesforce.com/in/",
-    Instagram: "https://www.instagram.com/salesforce/",
-    Facebook: "https://www.facebook.com/salesforce/",
-    Image: Sales,
-  },
-  {
     Name: "D-Link",
     Role: "Silver Sponsor",
     Description:
@@ -153,24 +181,22 @@ const Sponsors2022 = [
     Instagram: "https://www.instagram.com/dlinkindia/",
     Image: DLink,
   },
-  {
-    Name: "IOCL",
-    Role: "Gold Sponsor",
-    Description:
-      "Indian Oil Corporation Limited(IOCL) is a largest government owned oil corporation in the India. Indian Oil's commercial activities span the whole hydrocarbon value chain, including refining, pipeline transportation, petroleum product marketing, crude oil, natural gas, and petrochemical exploration and production.",
-    Website: "https://iocl.com/",
-    Instagram: "https://www.instagram.com/indianoilcorp/",
-    Facebook: "https://www.facebook.com/IndianOilCorpLimited/",
-    Image: IODL,
-  },
-  {
-    Name: "Nisarg IT Solutions",
-    Role: "Co-Title Sponsor",
-    Description:
-      "Nisarga Information Technology Solutions Pvt. Ltd, from 2012 are famous amongst the esteemed trader of quality assortment of Fujitsu Scanners. Offered products are Plustek and Fujitsu Scanners, Software Development and Implementation Services. These are known for their high strength, fine functioning, perfect execution service.",
-    Website: "https://www.nisargaitsolutions.com/",
-    Image: Nisarga,
-  },
+  // {
+  //   Name: "ICICI Bank",
+  //   Description:
+  //     "ICICI Bank is a leading private sector bank in India. The Bank’s consolidated total assets stood at Rs. 14.76 trillion at September 30, 2020.  ICICI Bank currently has a network of 5,288 branches and 13,723 ATMs across India.",
+  //   Website: "https://www.icicibank.com/",
+  //   Instagram: "https://www.instagram.com/icicibank/?hl=en",
+  //   Image: ICICI,
+  // },
+
+  // {
+  //   Name: "Hero",
+  //   Role: "Title Sponsor",
+  //   Description:
+  //     "Hero MotoCorp believes in Vision, Quality, Excellence & Recognition. Hero MotoCorp is India's leading two wheeler company, which has been providing customers with an excellent range of two wheelers that ensure both style and comfort",
+  //   Website: "https://www.heromotocorp.com/en-in/",
+  // },
   {
     Name: "Qwerty Thoughts",
     Role: "Literary Partner",
@@ -184,21 +210,39 @@ const Sponsors2022 = [
       "HoverRobotix Mobility devices are the futuristic solution to the environmental pollution problem with its Hoverboards. No matter which corner of India you belong to, we try to deliver your dream wheels at the earliest.",
     Website: "https://hoverrobotix.com/",
     Image: HoverRobotix,
+    Role: "",
   },
+
   {
     Name: "MentorX",
     Description:
       "MentorX is a platform formulated by world-class visionaries who have a common vision to educate, empower, and elevate as many people as possible. MENTORx team is working with a clear objective to make people rise by providing them with essential guidance and by connecting at the grass-root level with everyone.",
     Website: "https://thementorx.com/",
     Image: MentorX,
+    Role: "",
+  },
+  // {
+  //   Name: "Nisarg IT Solutions",
+  //   Role: "Co-Title Sponsor",
+  //   Description:
+  //     "Nisarga Information Technology Solutions Pvt. Ltd, from 2012 are famous amongst the esteemed trader of quality assortment of Fujitsu Scanners. Offered products are Plustek and Fujitsu Scanners, Software Development and Implementation Services. These are known for their high strength, fine functioning, perfect execution service.",
+  //   Website: "https://www.nisargaitsolutions.com/",
+  //   Image: Nisarga,
+  // },
+  {
+    Name: "Youth Incorporated",
+    Image: Unblended,
+    // Role: "",
   },
   {
-    Name: "Coca Cola",
-    Description:
-      "The Coca-Cola Company is a beverage company with products sold in more than 200 countries. We seek to positively impact people’s lives and planet through water replenishment, packaging recycling, sustainable sourcing practices and carbon emissions reductions across our value chain.",
-    Website: "https://www.coca-colacompany.com/",
-    Linkedin: "https://www.linkedin.com/company/the-coca-cola-company/",
-    Image: Coco,
+    Name: "NoticeBard",
+    Image: Noticebard,
+    // Role: "",
+  },
+  {
+    Name: "Youth Incorporated",
+    Image: Youth,
+    // Role: "",
   },
 ];
 
