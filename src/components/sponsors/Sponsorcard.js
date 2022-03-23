@@ -25,14 +25,14 @@ function Sponsorcard({
   return (
     <>
       <div
-        class={`${styles.container1}`}
+        className={`${styles.container1}`}
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <div class={`${styles.content}`}>
-          <div class={`${styles.contentOverlay}`}></div>
-          <img alt="img" class={`${styles.contentImage}`} src={Image} />
-          <div class={`${styles.fadeInTop} ${styles.contentDetails}`}>
+        <div className={`${styles.content}`}>
+          <div className={`${styles.contentOverlay}`}></div>
+          <img alt="img" className={`${styles.contentImage}`} src={Image} />
+          <div className={`${styles.fadeInTop} ${styles.contentDetails}`}>
             <p className="font-text text-sm">{Description}</p>
 
             <div className="flex justify-around pt-4 px-6">

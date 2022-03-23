@@ -1,19 +1,32 @@
-const sponsors2022 = [
+import NTPC from "../../images/sponsors/2022/NTPCLogo.png";
+import Blend360 from "../../images/sponsors/2022/Blend360.svg";
+import Sales from "../../images/sponsors/2022/Sales.svg";
+import Coding from "../../images/sponsors/2022/Coding.svg";
+import Coco from "../../images/sponsors/2022/Coco.svg";
+import MentorX from "../../images/sponsors/2022/MentorX.png";
+import HoverRobotix from "../../images/sponsors/2022/HoverRobotix.png";
+import Xcube from "../../images/sponsors/2022/Xcube.png";
+import DLink from "../../images/sponsors/2022/DLink.png";
+import Vijaya from "../../images/sponsors/2022/Vijaya.png";
+import ICICI from "../../images/sponsors/2022/ICICI.png";
+import IODL from "../../images/sponsors/2022/IODL.jpg";
+import Wing from "../../images/sponsors/2022/wing.jpg";
+import LIC from "../../images/sponsors/2022/LIC.png";
+import Quert from "../../images/sponsors/2022/Quert.png";
+import Remark from "../../images/sponsors/2022/Remark.png";
+import SBI from "../../images/sponsors/2022/sbi.png";
+import Nisarga from "../../images/sponsors/2022/nisarga.jpg";
+import Honeywell from "../../images/sponsors/Honeywell.png";
+import Canera from "../../images/sponsors/canera bank - Copy.png";
+const Sponsors2022 = [
   {
-    Name: "Honeywell",
-    Role: "Sustainable future partner",
+    Name: "NTPC",
+    Role: "Major sponsor",
     Description:
-      "Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.",
-    Website: "https://www.honeywell.com/in/en",
-    Instagram: "https://www.instagram.com/honeywell/",
-  },
-  {
-    Name: "Blend360",
-    Role: "Data Science Partner",
-    Description:
-      "Blend360 is a company with strong values, a passion to work with the elite, and focus on data science. They are well known for their core capabilities to data science solutions to various companies.",
-    Website: "https://www.blend360.com/",
-    Linkedin: "https://www.linkedin.com/company/blend360",
+      "NTPC Limited, formerly known as National Thermal Power Corporation Limited, is an Indian Public Sector Undertaking, engaged in the business of generation of electricity and allied activities.",
+    Website: "https://www.ntpc.co.in/",
+    Instagram: "https://www.instagram.com/ntpclimited/?hl=en",
+    Image: NTPC,
   },
   {
     Name: "LIC",
@@ -22,6 +35,25 @@ const sponsors2022 = [
       "Life Insurance Corporation of India (abbreviated as LIC) is an Indian state-owned insurance group and investment corporation owned by the Government of India. Over 245 insurance companies and provident societies were merged to create the state-owned Life Insurance Corporation of India.",
     Website: "https://licindia.in/",
     Instagram: "https://www.instagram.com/licindiaforever/?hl=en",
+    Image: LIC,
+  },
+  {
+    Name: "Honeywell",
+    Role: "Sustainable future partner",
+    Description:
+      "Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.",
+    Website: "https://www.honeywell.com/in/en",
+    Instagram: "https://www.instagram.com/honeywell/",
+    Image: Honeywell,
+  },
+  {
+    Name: "Blend360",
+    Role: "Data Science Partner",
+    Description:
+      "Blend360 is a company with strong values, a passion to work with the elite, and focus on data science. They are well known for their core capabilities to data science solutions to various companies.",
+    Website: "https://www.blend360.com/",
+    Linkedin: "https://www.linkedin.com/company/blend360",
+    Image: Blend360,
   },
   {
     Name: "Canara bank",
@@ -30,6 +62,7 @@ const sponsors2022 = [
       "Canara Bank Limited is one of the largest public sector banks owned by the Government of India.Canara Bank occupies a premier position in the comity of Indian banks with an unbroken record of profits since its inception.",
     Website: "https://canarabank.com/",
     Instagram: "https://www.instagram.com/canarabankinsta/?hl=en",
+    Image: Canera,
   },
   {
     Name: "SBI",
@@ -38,21 +71,15 @@ const sponsors2022 = [
       "State Bank of India is an Indian multinational, public sector banking and financial services statutory body.SBI provides a range of banking products through its network of branches in India and overseas",
     Website: "https://www.onlinesbi.com/",
     Instagram: "https://www.instagram.com/theofficialsbi/?hl=en",
-  },
-  {
-    Name: "NTPC",
-    Role: "Major sponsor",
-    Description:
-      "NTPC Limited, formerly known as National Thermal Power Corporation Limited, is an Indian Public Sector Undertaking, engaged in the business of generation of electricity and allied activities.",
-    Website: "https://www.ntpc.co.in/",
-    Instagram: "https://www.instagram.com/ntpclimited/?hl=en",
+    Image: SBI,
   },
   {
     Name: "TS Dairy",
     Description:
-      "TSDDCF seeks to usher in an era of rural property in Telangana State through organized commercial dairying based on the principals of cooperatives. To transform itself in to an instrument and vehicle for development of village based dairy sector integrating the milk producers at the village level with the consumer in the urban markets and metropolitan markets.",
+      "TSDDCF seeks to usher in an era of rural property in Telangana State through organized commercial dairying based on the principals of cooperatives. For development of village based dairy sector we integrate milk producers at village level with consumer in the urban and metropolitan markets.",
     Website: "https://tsdairy.telangana.gov.in/",
     Instagram: "https://www.instagram.com/ts_dairy_09/",
+    Image: Vijaya,
   },
   {
     Name: "ICICI Bank",
@@ -60,6 +87,7 @@ const sponsors2022 = [
       "ICICI Bank is a leading private sector bank in India. The Bank’s consolidated total assets stood at Rs. 14.76 trillion at September 30, 2020.  ICICI Bank currently has a network of 5,288 branches and 13,723 ATMs across India.",
     Website: "https://www.icicibank.com/",
     Instagram: "https://www.instagram.com/icicibank/?hl=en",
+    Image: ICICI,
   },
   {
     Name: "Remark Skill",
@@ -68,6 +96,7 @@ const sponsors2022 = [
       "Think, Learn, Certify and Innovate with Remark Skill. Give your ideas a kick start by learning trending technologies. The booming internet is changing market requirements. Prepare yourself and stand out in this crowd. Your vision is Remark Skill’s vision",
     Website: "https://remarkskill.com/",
     Instagram: "https://www.instagram.com/remarkskill/",
+    Image: Remark,
   },
   {
     Name: "Coding Ninjas",
@@ -77,6 +106,7 @@ const sponsors2022 = [
     Website: "https://www.codingninjas.com/",
     Instagram: "https://www.instagram.com/coding.ninjas/",
     Facebook: "https://www.facebook.com/codingninjas/",
+    Image: Coding,
   },
   {
     Name: "Wingfotech",
@@ -86,6 +116,7 @@ const sponsors2022 = [
     Facebook: "https://www.facebook.com/wingfotech/",
     Linkedin:
       "https://www.linkedin.com/company/wingfotech/?originalSubdomain=in",
+    Image: Wing,
   },
   {
     Name: "[x]cubeLabs",
@@ -94,21 +125,15 @@ const sponsors2022 = [
     Website: "https://www.xcubelabs.com/",
     Linkedin:
       "https://www.linkedin.com/company/xcubelabs/?originalSubdomain=in",
+    Image: Xcube,
   },
-  {
-    Name: "Coca Cola",
-    Description:
-      "The Coca-Cola Company is a total beverage company with products sold in more than 200 countries and territories. The Company’s purpose is to refresh the world and make a difference. We seek to positively impact people’s lives, communities and the planet through water replenishment, packaging recycling, sustainable sourcing practices and carbon emissions reductions across our value chain.",
-    Website: "https://www.coca-colacompany.com/",
-    Linkedin: "https://www.linkedin.com/company/the-coca-cola-company/",
-  },
-  {
-    Name: "Hero",
-    Role: "Title Sponsor",
-    Description:
-      "Hero MotoCorp believes in Vision, Quality, Excellence & Recognition. Hero MotoCorp is India's leading two wheeler company, which has been providing customers with an excellent range of two wheelers that ensure both style and comfort",
-    Website: "https://www.heromotocorp.com/en-in/",
-  },
+  // {
+  //   Name: "Hero",
+  //   Role: "Title Sponsor",
+  //   Description:
+  //     "Hero MotoCorp believes in Vision, Quality, Excellence & Recognition. Hero MotoCorp is India's leading two wheeler company, which has been providing customers with an excellent range of two wheelers that ensure both style and comfort",
+  //   Website: "https://www.heromotocorp.com/en-in/",
+  // },
   {
     Name: "Salesforce",
     Role: "Futureforce Partner",
@@ -117,49 +142,64 @@ const sponsors2022 = [
     Website: "https://www.salesforce.com/in/",
     Instagram: "https://www.instagram.com/salesforce/",
     Facebook: "https://www.facebook.com/salesforce/",
+    Image: Sales,
   },
   {
     Name: "D-Link",
     Role: "Silver Sponsor",
     Description:
-      "D-Link Corporation is a Taiwanese multinational networking equipment manufacturing corporation headquartered in Taipei, Taiwan.D-Link's products are geared towards the networking and communications market. D-Link has over 28 years of expertise developing the highest quality networking solutions to meet the ever-changing connectivity needs for businesses of all sizes. ",
+      "D-Link Corporation is a Taiwanese multinational networking equipment manufacturing corporation headquartered in Taipei, Taiwan. D-Link has over 28 years of expertise developing the highest quality networking solutions to meet the ever-changing connectivity needs for businesses of all sizes. ",
     Website: "https://www.dlink.com/",
     Instagram: "https://www.instagram.com/dlinkindia/",
+    Image: DLink,
   },
   {
     Name: "IOCL",
     Role: "Gold Sponsor",
     Description:
-      "Indian Oil Corporation Limited is an Indian government corporation. It is the largest government owned oil corporation in the countryIndian Oil's commercial activities span the whole hydrocarbon value chain, including refining, pipeline transportation, petroleum product marketing, crude oil, natural gas, and petrochemical exploration and production.",
+      "Indian Oil Corporation Limited(IOCL) is a largest government owned oil corporation in the India. Indian Oil's commercial activities span the whole hydrocarbon value chain, including refining, pipeline transportation, petroleum product marketing, crude oil, natural gas, and petrochemical exploration and production.",
     Website: "https://iocl.com/",
     Instagram: "https://www.instagram.com/indianoilcorp/",
     Facebook: "https://www.facebook.com/IndianOilCorpLimited/",
+    Image: IODL,
   },
   {
     Name: "Nisarg IT Solutions",
     Role: "Co-Title Sponsor",
     Description:
-      "Nisarga Information Technology Solutions Pvt. Ltd, from 2012 are famous amongst the esteemed trader of an exceptional quality assortment of Fujitsu Scanners. Offered products range consists of Plustek Scanner, Fujitsu Scanners, Software Development Services, and Implementation Service. All products are designed under the supervision of quality controllers. These products are known for their high strength, fine functioning, perfect execution service and strong construction. Additionally, they offer IT Service to their valued clients.",
+      "Nisarga Information Technology Solutions Pvt. Ltd, from 2012 are famous amongst the esteemed trader of quality assortment of Fujitsu Scanners. Offered products are Plustek and Fujitsu Scanners, Software Development and Implementation Services. These are known for their high strength, fine functioning, perfect execution service.",
     Website: "https://www.nisargaitsolutions.com/",
+    Image: Nisarga,
   },
   {
     Name: "Qwerty Thoughts",
     Role: "Literary Partner",
     Description:
-      "Qwerty Thoughts is a social reading, book discovery, promotion and self publishing platform selling books globally, where readers can read a book with others, as well as connect, discuss and share their experiences in real time. Qwerty Thoughts makes books come alive by putting together the reading journey, experiences and knowledge of innumerable readers from different parts of the world, across cultures, beliefs, values and differences, all inside the book.",
+      "Qwerty Thoughts is a social reading, book discovery, promotion and self publishing platform selling books globally, where readers can read a book with others and connect, share their experiences in real time. It makes books come alive by putting together the reading journey, experiences and knowledge of innumerable readers from different parts of the world, across cultures all inside the book.",
+    Image: Quert,
   },
   {
     Name: "Hoverbotix",
     Description:
       "HoverRobotix Mobility devices are the futuristic solution to the environmental pollution problem with its Hoverboards. No matter which corner of India you belong to, we try to deliver your dream wheels at the earliest.",
     Website: "https://hoverrobotix.com/",
+    Image: HoverRobotix,
   },
   {
     Name: "MentorX",
     Description:
-      "MentorX is connecting and converging people globally and making them evolve. It is a platform formulated by world-class visionaries who have a common vision to educate, empower, and elevate as many people as possible. MENTORx team is working with a clear objective to make people rise by providing them with essential guidance and by connecting at the grass-root level with everyone be it kids, youth, startups, women, entrepreneurs, or professionals.",
+      "MentorX is a platform formulated by world-class visionaries who have a common vision to educate, empower, and elevate as many people as possible. MENTORx team is working with a clear objective to make people rise by providing them with essential guidance and by connecting at the grass-root level with everyone.",
     Website: "https://thementorx.com/",
+    Image: MentorX,
+  },
+  {
+    Name: "Coca Cola",
+    Description:
+      "The Coca-Cola Company is a beverage company with products sold in more than 200 countries. We seek to positively impact people’s lives and planet through water replenishment, packaging recycling, sustainable sourcing practices and carbon emissions reductions across our value chain.",
+    Website: "https://www.coca-colacompany.com/",
+    Linkedin: "https://www.linkedin.com/company/the-coca-cola-company/",
+    Image: Coco,
   },
 ];
 
-export default sponsors2022;
+export default Sponsors2022;
