@@ -115,7 +115,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
               className={`${styles.img} z-[20]`}
             />
           </div>
-          <div className="hidden md:flex z-[20000000] absolute left-0 h-full items-center ml-[6vw]">
+          {/* <div className="hidden md:flex z-[20000000] absolute left-0 h-full items-center ml-[6vw]">
             <Link to="/merch">
               <img
                 src={Finalmerch}
@@ -126,8 +126,8 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
                 className={`${styles.sizeit}  my-auto cursor-pointer mb-[25vh]`}
               />
             </Link>
-          </div>
-          <div className="z-[20000000] md:hidden absolute flex top-0 w-full mt-[15vh] justify-center">
+          </div> */}
+          {/* <div className="z-[20000000] md:hidden absolute flex top-0 w-full mt-[15vh] justify-center">
             <Link to="/merch">
               <img
                 src={Finalmerch}
@@ -150,7 +150,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
                 className={`${styles.sizeit}  my-auto cursor-pointer mb-[25vh]`}
               />
             </Link>
-          </div>
+          </div> */}
           <div className="z-[20000000] md:hidden absolute flex bottom-0 w-full mb-[20vh] justify-center">
             <Link to="/cryptex">
               <img
@@ -166,7 +166,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
           <div className="absolute">
             <div className={`${styles.backgr} flex justify-content-center`}>
               <img
-                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/elannvision_qHs6Xk06n.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647602958387"
+                src="https://ik.imagekit.io/lc4zhdkrtsr/Home/ELAN_2022_white_non_transparent__HMIbr9xU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648045446412"
                 alt="Logo"
                 className="my-auto"
                 style={{
