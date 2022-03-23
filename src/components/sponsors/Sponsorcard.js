@@ -36,36 +36,46 @@ function Sponsorcard({
             <p className="font-text text-sm">{Description}</p>
 
             <div className="flex justify-around pt-4 px-6">
-              <a href={Website} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faGlobe}
-                  className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
-                />
-              </a>
-              <a href={Facebook} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faFacebookSquare}
-                  className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
-                />
-              </a>
-              <a href={Instagram} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
-                />
-              </a>
-              <a href={Twitter} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
-                />
-              </a>
-              <a href={Linkedin} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon
-                  icon={faLinkedinIn}
-                  className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
-                />
-              </a>
+              {Website && (
+                <a href={Website} target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon
+                    icon={faGlobe}
+                    className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
+                  />
+                </a>
+              )}
+              {Facebook && (
+                <a href={Facebook} target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon
+                    icon={faFacebookSquare}
+                    className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
+                  />
+                </a>
+              )}
+              {Instagram && (
+                <a href={Instagram} target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
+                  />
+                </a>
+              )}
+              {Twitter && (
+                <a href={Twitter} target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon
+                    icon={faTwitter}
+                    className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
+                  />
+                </a>
+              )}
+              {Linkedin && (
+                <a href={Linkedin} target="_blank" rel="noreferrer">
+                  <FontAwesomeIcon
+                    icon={faLinkedinIn}
+                    className={`text-white text-xl  ${styles.hoveraction} cursor-pointer`}
+                  />
+                </a>
+              )}
             </div>
           </div>
           <h3 className="font-heading text-lg text-center text-white">
