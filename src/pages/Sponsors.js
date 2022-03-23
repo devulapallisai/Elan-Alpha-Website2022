@@ -108,7 +108,7 @@ function Sponsors() {
             <>
               {Sponsors2022.map((item) => (
                 <Sponsorcard
-                  Role={item.Role}
+                  Role={item.Role ? item.Role : "Partner"}
                   Description={item.Description}
                   Image={item.Image}
                   Website={item.Website}

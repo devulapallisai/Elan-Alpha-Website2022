@@ -29,7 +29,7 @@ function Firstslide({ chakra, setchakra, scrollDirection, secondslideref }) {
   useEffect(() => {
     setTimeout(() => {
       setdispnot(false);
-    }, 5000);
+    }, 3000);
   }, []);
   return (
     <div
