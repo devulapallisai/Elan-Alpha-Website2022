@@ -86,217 +86,218 @@ function Sponsors() {
         {/* Here comes the sponsors part */}
         <div className="sponsors max-w-[70vw] mx-auto justify-center items-center">
           <Sponsorcard
-            Title="Arcesium"
+            Role="Title Sponsor"
             // Description="Sample Descritption"
             Image={arsecium}
+            Description="Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions."
           />
           <Sponsorcard
-            Title="celebr8"
+            Role="celebr8"
             // Description="Sample Descritption"
             Image={celebr8}
           />
           <Sponsorcard
-            Title="SBI"
+            Role="SBI"
             // Description="Sample Descritption"
             Image={sbi}
           />
           <Sponsorcard
-            Title="Honeywell"
+            Role="Honeywell"
             // Description="Sample Descritption"
             Image={honeywell}
           />
           <Sponsorcard
-            Title="NTPC"
+            Role="NTPC"
             // Description="Sample Descritption"
             Image={ntpc}
           />
           <Sponsorcard
-            Title="Airmeet"
+            Role="Airmeet"
             // Description="Sample Descritption"
             Image={airmeet}
           />
           <Sponsorcard
-            Title="Big FM"
+            Role="Big FM"
             // Description="Sample Descritption"
             Image={bigfm}
           />
           <Sponsorcard
-            Title="Campus Comedy Club"
+            Role="Campus Comedy Club"
             // Description="Sample Descritption"
             Image={ccc}
           />
           <Sponsorcard
-            Title="Canara BAnk"
+            Role="Canara BAnk"
             // Description="Sample Descritption"
             Image={canera}
           />
           <Sponsorcard
-            Title="Campus Events"
+            Role="Campus Events"
             // Description="Sample Descritption"
             Image={ces}
           />
           <Sponsorcard
-            Title="Chromatics"
+            Role="Chromatics"
             // Description="Sample Descritption"
             Image={chromatics}
           />
           <Sponsorcard
-            Title="Clustera"
+            Role="Clustera"
             // Description="Sample Descritption"
             Image={clustera}
           />
           <Sponsorcard
-            Title="Code for Cause"
+            Role="Code for Cause"
             // Description="Sample Descritption"
             Image={cfc}
           />
           <Sponsorcard
-            Title="Coding Ninjas"
+            Role="Coding Ninjas"
             // Description="Sample Descritption"
             Image={cn}
           />
           <Sponsorcard
-            Title="Coolwinks"
+            Role="Coolwinks"
             // Description="Sample Descritption"
             Image={coolwinks}
           />
           <Sponsorcard
-            Title="DU Beats"
+            Role="DU Beats"
             // Description="Sample Descritption"
             Image={dubeats}
           />
           <Sponsorcard
-            Title="DU Express"
+            Role="DU Express"
             // Description="Sample Descritption"
             Image={duexp}
           />
           <Sponsorcard
-            Title="Eleation"
+            Role="Eleation"
             // Description="Sample Descritption"
             Image={eleation}
           />
           <Sponsorcard
-            Title="The Esports India"
+            Role="The Esports India"
             // Description="Sample Descritption"
             Image={esports}
           />
           <Sponsorcard
-            Title="Fanclash"
+            Role="Fanclash"
             // Description="Sample Descritption"
             Image={fanclash}
           />
           <Sponsorcard
-            Title="Fashion Herald"
+            Role="Fashion Herald"
             // Description="Sample Descritption"
             Image={fh}
           />
           <Sponsorcard
-            Title="Fore"
+            Role="Fore"
             // Description="Sample Descritption"
             Image={fore}
           />
           <Sponsorcard
-            Title="Foxmula"
+            Role="Foxmula"
             // Description="Sample Descritption"
             Image={foxmula}
           />
           <Sponsorcard
-            Title="Give My Certificate"
+            Role="Give My Certificate"
             // Description="Sample Descritption"
             Image={gmc}
           />
           <Sponsorcard
-            Title="Grabon"
+            Role="Grabon"
             // Description="Sample Descritption"
             Image={grabon}
           />
           <Sponsorcard
-            Title="Hans India"
+            Role="Hans India"
             // Description="Sample Descritption"
             Image={hansind}
           />
           <Sponsorcard
-            Title="Indinoir"
+            Role="Indinoir"
             // Description="Sample Descritption"
             Image={indinoir}
           />
           <Sponsorcard
-            Title="Internshala"
+            Role="Internshala"
             // Description="Sample Descritption"
             Image={internshala}
           />
           <Sponsorcard
-            Title="Kaploths"
+            Role="Kaploths"
             // Description="Sample Descritption"
             Image={kaploths}
           />
           <Sponsorcard
-            Title="Notice Board"
+            Role="Notice Board"
             // Description="Sample Descritption"
             Image={notice}
           />
           <Sponsorcard
-            Title="Qwerty Thoughts"
+            Role="Qwerty Thoughts"
             // Description="Sample Descritption"
             Image={QT}
           />
           <Sponsorcard
-            Title="Celebrity School"
+            Role="Celebrity School"
             // Description="Sample Descritption"
             Image={school}
           />
           <Sponsorcard
-            Title="Shubang"
+            Role="Shubang"
             // Description="Sample Descritption"
             Image={shubang}
           />
           <Sponsorcard
-            Title="Skolar"
+            Role="Skolar"
             // Description="Sample Descritption"
             Image={skolar}
           />
           <Sponsorcard
-            Title="Summachar"
+            Role="Summachar"
             // Description="Sample Descritption"
             Image={summachar}
           />
           <Sponsorcard
-            Title="Talking Timber"
+            Role="Talking Timber"
             // Description="Sample Descritption"
             Image={tt}
           />
           <Sponsorcard
-            Title="Techienest"
+            Role="Techienest"
             // Description="Sample Descritption"
             Image={techienest}
           />
           <Sponsorcard
-            Title="Union Bank"
+            Role="Union Bank"
             // Description="Sample Descritption"
             Image={ub}
           />
           <Sponsorcard
-            Title="Vedana"
+            Role="Vedana"
             // Description="Sample Descritption"
             Image={vedana}
           />
           <Sponsorcard
-            Title="Vishu Money"
+            Role="Vishu Money"
             // Description="Sample Descritption"
             Image={vm}
           />
           <Sponsorcard
-            Title="Wiley"
+            Role="Wiley"
             // Description="Sample Descritption"
             Image={wiley}
           />
           <Sponsorcard
-            Title="Yocket"
+            Role="Yocket"
             // Description="Sample Descritption"
             Image={yocket}
           />
           <Sponsorcard
-            Title="Youth Incorporated"
+            Role="Youth Incorporated"
             // Description="Sample Descritption"
             Image={yi}
           />
