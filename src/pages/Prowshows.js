@@ -14,16 +14,30 @@ function Proshows() {
           PROSHOWS
         </h1>
         <br />
-        {/* <div className="hidden md:block">
+        <div className="hidden md:block">
+          <div className="container mx-auto my-10 items-center flex justify-center">
+            <Card
+              type="col-span-3 mx-0"
+              textclass="mt-6 font-bold"
+              text="We bring to you the Indian DJ/producer duo, Loststories in partnership with Tribevibe.
+
+              Witness the amazing performances on stage with the Indian duo composed by Prayag Mehta and Rishab Joshi."
+              image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/LS_IIT_Hydrabad_XQhQ3zi7b.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927554"
+             
+            />
+           
+          </div>
           <div
             className="container mx-auto grid md:grid-cols-7 items-center"
             style={{ marginBottom: `80px`, marginTop: `20px` }}
           >
             <Card
-              type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="PROSHOWS"
+              type="col-span-3 mx-0 "
+              textclass="mt-6 font-bold"
+              text="We bring to you the alt-rock band Alchemy for this year's fest on 26th March. 
+
+              Get ready to witness the amazing performance on stage with the Alchemy Rock Band."
+              image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/Alchemy_Final_z4wFxqqNB4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927807"
             />
             <img
               src={line}
@@ -33,40 +47,24 @@ function Proshows() {
 
             <Card
               type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="INFORMAL EVENTS"
+              textclass="mt-6 font-bold"
+              text="We bring to you THE TOUCHDOWN. With all three major shows lined up on the 26th (2nd day of the fest), Elan & ηVision is coming with a BANG!"
+              image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/ttd_fGvB1ta7U.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927588"
+            
             />
           </div>
-          <div className="container mx-auto grid md:grid-cols-7 my-10">
-            <Card
-              type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="PROSHOWS"
-            />
-            <img
-              src={line}
-              alt="imagehere"
-              className="my-auto mx-auto col-span-1 hidden md:block"
-            ></img>
-
-            <Card
-              type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="INFORMAL EVENTS"
-            />
-          </div>
-        </div> */}
+        </div>
         {/* Mobile Part begins */}
-        {/* <div className="md:hidden overflow-hidden mx-10">
+        <div className="md:hidden overflow-hidden mx-10">
           <div className="grid grid-cols-1 mx-auto">
             <Card
               type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="PROSHOW"
+              textclass="mt-6 font-bold"
+              text="We bring to you the Indian DJ/producer duo, Loststories in partnership with Tribevibe.
+
+              Witness the amazing performances on stage with the Indian duo composed by Prayag Mehta and Rishab Joshi."
+              image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/LS_IIT_Hydrabad_XQhQ3zi7b.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927554"
+             
             />
           </div>
           <img
@@ -76,10 +74,12 @@ function Proshows() {
           ></img>
           <div className="grid grid-cols-1 mx-auto">
             <Card
-              type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="INFORMAL EVENTS"
+                           type="col-span-3 mx-0 "
+                           textclass="mt-6 font-bold"
+                           text="We bring to you the alt-rock band Alchemy for this year's fest on 26th March. 
+             
+                           Get ready to witness the amazing performance on stage with the Alchemy Rock Band."
+                           image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/Alchemy_Final_z4wFxqqNB4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927807"
             />
           </div>
           <img
@@ -89,10 +89,11 @@ function Proshows() {
           ></img>
           <div className="grid grid-cols-1 mx-auto">
             <Card
-              type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="WORKSHOPS"
+               type="col-span-3 mx-0"
+               textclass="mt-6 font-bold"
+               text="We bring to you THE TOUCHDOWN. With all three major shows lined up on the 26th (2nd day of the fest), Elan & ηVision is coming with a BANG!"
+               image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/ttd_fGvB1ta7U.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927588"
+             
             />
           </div>
           <img
@@ -100,15 +101,8 @@ function Proshows() {
             alt="imagehere"
             className="my-auto mx-auto col-span-1  md:hidden"
           ></img>
-          <div className="grid grid-cols-1 mx-auto">
-            <Card
-              type="col-span-3 mx-0"
-              text="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifie"
-              image={Zakir}
-              buttonText="WORKSHOPS"
-            />
-          </div>
-        </div> */}
+          
+        </div>
       </div>
       <Footer />
     </div>

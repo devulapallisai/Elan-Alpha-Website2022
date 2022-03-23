@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "../../css/events.module.css";
 
-function Card({ image, text, type, button, buttonText, a, title, hlink }) {
+function Card({ image, text, type, button, buttonText, a, title, hlink, textclass }) {
   if (button === true) {
     return (
       <div className={` ${type}`}>
@@ -61,7 +61,7 @@ function Card({ image, text, type, button, buttonText, a, title, hlink }) {
             {title}
           </h1>
           <div
-            className={`text-white ${styles.textBox} font-text md:font-lg font-sm`}
+            className={`text-white ${styles.textBox} font-text md:font-lg font-sm ${textclass}`}
           >
             {text}
           </div>

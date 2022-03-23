@@ -75,7 +75,7 @@ function Sponsors() {
           <h1 className="font-heading absolute bottom-[5.5rem] text-center lg:bottom-72 w-full d-flex text-3xl sm:bottom-48 md:text-6xl text-white">
             {year === "2021" ? "2021" : ""} Sponsors
           </h1>
-          <h1 className="font-text font-black absolute bottom-4 text-center w-full d-flex text-lg sm:bottom-18 sm:text-xl md:text-3xl lg:bottom-28 text-white">
+          <h1 className="font-text font-black absolute bottom-0 text-center w-full d-flex text-lg sm:bottom-10 sm:text-xl md:text-3xl lg:bottom-18 text-white mt-10">
             {year === "2022" ? (
               <img
                 src={Hero}
