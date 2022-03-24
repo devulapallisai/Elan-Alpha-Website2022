@@ -21,6 +21,7 @@ import Quert from "../../images/sponsors/2022/Quert.png";
 import Remark from "../../images/sponsors/2022/Remark.png";
 import SBI from "../../images/sponsors/2022/sbi.png";
 import Canera from "../../images/sponsors/canera bank - Copy.png";
+import Indinoir from "../../images/sponsors/2022/Indinoir Logo (2).png";
 const Sponsors2022 = [
   {
     Name: "Coca Cola",
@@ -139,7 +140,7 @@ const Sponsors2022 = [
   },
   {
     Name: "Techvanto",
-    Role: "Silver sponsor",
+    Role: "Workshop partner",
     Description:
       "Techvanto is a leading software development company that enables disruptive startups to bridge the gap between ideas and reality with innovative software solutions. Techvanto's main goal is to create and promote breakthrough information technologies for multi-user applications.",
      Website: "https://techvanto.com/",
@@ -229,6 +230,11 @@ const Sponsors2022 = [
     Name: "Youth Incorporated",
     Image: Youth,
     Role: "Youth Media Partner",
+  },
+  {
+    Name: "Indinoir",
+    Image: Indinoir,
+    Role: "Fragrance Partner",
   },
 ];
 

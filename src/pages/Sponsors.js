@@ -4,7 +4,7 @@ import Halfchakra from "../images/SocialCause/Halfchakra.png";
 import Contactsection from "../components/sponsors/contactsection";
 import Sponsorcard from "../components/sponsors/Sponsorcard";
 import lnt from "../images/sponsors/L&T.png";
-import Nisarga from "./../images/sponsors/2022/nisarga.jpg";
+import Nisarga from "./../images/sponsors/2022/nisarga.png";
 import Honeywell from "./../images/sponsors/Honeywell.png";
 import arsecium from "../images/sponsors/Arcesium - Copy.png";
 import sbi from "../images/sponsors/SBI.png";

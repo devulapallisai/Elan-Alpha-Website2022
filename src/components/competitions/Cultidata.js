@@ -119,7 +119,7 @@ export const groupedcomp = [
         "https://docs.google.com/document/d/1b1Xx39x8NFiNhCHjGkPtyNqCubpALzxyWd3ud3ZfHaU/edit?usp=sharing",
       img: "https://ik.imagekit.io/lc4zhdkrtsr/competition/nryt-min_1lofqgQvw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647598285086",
       details:
-        "Dance is much more than an art- it is a sport , a way to express one’s self, a way to celebrate and much more. It embodies all forms of physical art and learning. Classical dance is the fusion of the mind's emotions and the body's articulate movements. It takes the viewers to a completely different world of calmness and imagination. We, at elan invite you to celebrate the beauty of Indian classical dance. Come and mesmerize the audience with your grace, expressions and soulful talent!",
+        "Classical dance is the fusion of the mind's emotions and the body's articulate movements. It takes the viewers to a completely different world of calmness and imagination. We, at elan invite you to celebrate the beauty of Indian classical dance. Come and mesmerize the audience with your grace, expressions and soulful talent!",
     },
     {
       name: "Picelectic",

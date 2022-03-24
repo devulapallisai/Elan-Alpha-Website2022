@@ -55,15 +55,21 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route
           path="/proshowlist/0"
-          element={<ProshowList name="events" desc="lorem100" img={Elan} />}
+          element={<ProshowList name="events" desc="We bring to you the Indian DJ/producer duo, Loststories in partnership with Tribevibe.
+
+          Witness the amazing performances on stage with the Indian duo composed by Prayag Mehta and Rishab Joshi.Lost stories are a name synonymous to Dance Music in India and South Asia. Ranked #52 on Dj mag 2016 and labelled the “Scene Starters” by DJ Mag, Rishab and Prayag began their journey in dance music in 2008 earlier producing Trance and Progressive House and garnering support from heavyweights like Tiesto, Armin van Buuren, BT, Markus Schulz etc. They then evolved their sound with their debut album – Music for the # Generation (Universal Music) in 2012 which was the no 3 Album on Top 100 Dance Albums iTunes Charts." img="https://ik.imagekit.io/lc4zhdkrtsr/proshows/LS_IIT_Hydrabad_XQhQ3zi7b.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927554" />}
         />
         <Route
           path="/proshowlist/1"
-          element={<ProshowList name="proshows" desc="lorem100" img={Elan} />}
+          element={<ProshowList name="events" desc="We bring to you the alt-rock band Alchemy for this year's fest on 26th March. 
+             
+          Get ready to witness the amazing performance on stage with the Alchemy Rock Band. Alchemy, as the word suggests, is an ‘amalgamation' of musicians hailing from different genres. 
+
+          The band comes together to produce a cohesive sound that addresses a broad vista of emotions. Be it a new found love, a broken heart or even a socially pressing matter, Alchemy is bound to find a way into your playlist. " img="https://ik.imagekit.io/lc4zhdkrtsr/proshows/Alchemy_Final_z4wFxqqNB4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927807" />}
         />
         <Route
           path="/proshowlist/2"
-          element={<ProshowList name="team" desc="lorem100" img={Elan} />}
+          element={<ProshowList name="events" desc="We bring to you THE TOUCHDOWN. With all three major shows lined up on the 26th (2nd day of the fest), Elan & ηVision is coming with a BANG!" img="https://ik.imagekit.io/lc4zhdkrtsr/proshows/ttd_fGvB1ta7U.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927588" />}
         />
         <Route path="/cryptex" element={<Cryptex />} />
         <Route path="/proshows" element={<Proshows />} />

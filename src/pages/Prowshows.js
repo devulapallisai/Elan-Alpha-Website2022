@@ -23,9 +23,12 @@ function Proshows() {
 
               Witness the amazing performances on stage with the Indian duo composed by Prayag Mehta and Rishab Joshi."
               image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/LS_IIT_Hydrabad_XQhQ3zi7b.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927554"
-             
+              button={true}
+              buttonText="Know More"
+              hlink="/proshowlist/0"
+
             />
-           
+
           </div>
           <div
             className="container mx-auto grid md:grid-cols-7 items-center"
@@ -38,6 +41,9 @@ function Proshows() {
 
               Get ready to witness the amazing performance on stage with the Alchemy Rock Band."
               image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/Alchemy_Final_z4wFxqqNB4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927807"
+              button={true}
+              buttonText="Know More"
+              hlink="/proshowlist/1"
             />
             <img
               src={line}
@@ -50,7 +56,9 @@ function Proshows() {
               textclass="mt-6 font-bold"
               text="We bring to you THE TOUCHDOWN. With all three major shows lined up on the 26th (2nd day of the fest), Elan & ηVision is coming with a BANG!"
               image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/ttd_fGvB1ta7U.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927588"
-            
+              button={true}
+              buttonText="Know More"
+              hlink="/proshowlist/2"
             />
           </div>
         </div>
@@ -64,7 +72,10 @@ function Proshows() {
 
               Witness the amazing performances on stage with the Indian duo composed by Prayag Mehta and Rishab Joshi."
               image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/LS_IIT_Hydrabad_XQhQ3zi7b.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927554"
-             
+              button={true}
+              buttonText="Know More"
+              hlink="/proshowlist/0"
+
             />
           </div>
           <img
@@ -74,12 +85,15 @@ function Proshows() {
           ></img>
           <div className="grid grid-cols-1 mx-auto">
             <Card
-                           type="col-span-3 mx-0 "
-                           textclass="mt-6 font-bold"
-                           text="We bring to you the alt-rock band Alchemy for this year's fest on 26th March. 
+              type="col-span-3 mx-0 "
+              textclass="mt-6 font-bold"
+              text="We bring to you the alt-rock band Alchemy for this year's fest on 26th March. 
              
                            Get ready to witness the amazing performance on stage with the Alchemy Rock Band."
-                           image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/Alchemy_Final_z4wFxqqNB4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927807"
+              image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/Alchemy_Final_z4wFxqqNB4.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927807"
+              button={true}
+              buttonText="Know More"
+              hlink="/proshowlist/1"
             />
           </div>
           <img
@@ -89,11 +103,14 @@ function Proshows() {
           ></img>
           <div className="grid grid-cols-1 mx-auto">
             <Card
-               type="col-span-3 mx-0"
-               textclass="mt-6 font-bold"
-               text="We bring to you THE TOUCHDOWN. With all three major shows lined up on the 26th (2nd day of the fest), Elan & ηVision is coming with a BANG!"
-               image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/ttd_fGvB1ta7U.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927588"
-             
+              type="col-span-3 mx-0"
+              textclass="mt-6 font-bold"
+              text="We bring to you THE TOUCHDOWN. With all three major shows lined up on the 26th (2nd day of the fest), Elan & ηVision is coming with a BANG!"
+              image="https://ik.imagekit.io/lc4zhdkrtsr/proshows/ttd_fGvB1ta7U.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648074927588"
+              button={true}
+              buttonText="Know More"
+              hlink="/proshowlist/2"
+
             />
           </div>
           <img
@@ -101,7 +118,7 @@ function Proshows() {
             alt="imagehere"
             className="my-auto mx-auto col-span-1  md:hidden"
           ></img>
-          
+
         </div>
       </div>
       <Footer />
