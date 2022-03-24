@@ -153,6 +153,10 @@ const Sponsors2022 = [
       "Techvanto is a leading software development company that enables disruptive startups to bridge the gap between ideas and reality with innovative software solutions. Techvanto's main goal is to create and promote breakthrough information technologies for multi-user applications.",
      Website: "https://techvanto.com/",
      Instagram: "https://www.instagram.com/techvanto_official/",
+    Twitter:"https://twitter.com/techvanto",
+    
+    Facebook:"https://www.facebook.com/techvanto.official",
+    Linkedin :"https://www.linkedin.com/company/techvanto",
     Image: Techvanto,
   },
   {
@@ -161,10 +165,7 @@ const Sponsors2022 = [
     Description:
       "Think, Learn, Certify and Innovate with Remark Skill. Give your ideas a kick start by learning trending technologies. The booming internet is changing market requirements. Prepare yourself and stand out in this crowd. Your vision is Remark Skill’s vision",
     Website: "https://remarkskill.com/",
-    Twitter:"https://twitter.com/techvanto",
     
-    Facebook:"https://www.facebook.com/techvanto.official",
-    Linkedin :"https://www.linkedin.com/company/techvanto",
     Instagram: "https://www.instagram.com/remarkskill/",
     Image: Remark,
   },
