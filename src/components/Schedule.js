@@ -58,7 +58,23 @@ function Schedule({ setsched }) {
               <ul className="text-black list-none">
                 <li className="font-[400] flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    HoneyWell Webinars
+                    <a href="https://www.airmeet.com/e/cb8bbb70-ab92-11ec-996e-dbbf4375de2a">Inaguration</a>
+                  </span>
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+                    8:30 - 9:30
+                  </span>
+                </li>
+                <li className="font-[400] flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+                    <a href="https://www.airmeet.com/e/4b3e5ef0-aa7f-11ec-bb37-4b6c220f21a8">PicElectric</a>
+                  </span>
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+                    9:30 - 10:00
+                  </span>
+                </li>
+                <li className="font-[400] flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+                    <a href="https://www.airmeet.com/e/9ff8f040-ab83-11ec-8821-f973751c98c5">HoneyWell Webinars</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     10:00 - 13:00
@@ -66,23 +82,23 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Hero Webinars
+                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    14:30 - 15:30
+                    13:30 - 14:30
                   </span>
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    HoverRobotix Talk
+                  <a href="https://www.airmeet.com/e/3beed070-ab9b-11ec-9b5b-ab1357253e4c">HoverRobotix Talk</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    16:00 - 16:30
+                    15:30 - 16:00
                   </span>
                 </li>
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    MentorX talk
+                  <a href="https://www.airmeet.com/e/5f2f5c70-ab9c-11ec-8821-f973751c98c5">MentorX talk</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     16:30 - 17:00
@@ -90,7 +106,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Stand Up
+                  <a href="https://www.airmeet.com/e/42dc5890-aa82-11ec-bb37-4b6c220f21a8">Stand Up</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     17:00 - 18:00
@@ -98,7 +114,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Breakfree
+                  <a href="https://www.airmeet.com/e/d6da8890-aa7e-11ec-a68e-f74d24b2e40b">Breakfree</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     18:00 - 19:00
@@ -218,7 +234,7 @@ function Schedule({ setsched }) {
               <h4
                 className={
                   num === 0
-                    ? `text-[#F72C25]  col-span-1`
+                    ? `text-[#F72C25]   col-span-1`
                     : `text-[#431444]  col-span-1`
                 }
                 onClick={() => {
@@ -255,51 +271,67 @@ function Schedule({ setsched }) {
             <hr />
             {num === 0 && (
               <ul className="list-none">
-                <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    HoneyWell Webinars
+              <li className="font-[400] flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    <a href="https://www.airmeet.com/e/cb8bbb70-ab92-11ec-996e-dbbf4375de2a">Inaguration</a>
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    8:30 - 9:30
+                  </span>
+                </li>
+                <li className="font-[400] flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    <a href="https://www.airmeet.com/e/4b3e5ef0-aa7f-11ec-bb37-4b6c220f21a8">PicElectric</a>
+                  </span>
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    9:30 - 10:00
+                  </span>
+                </li>
+                <li className="font-[400] flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    <a href="https://www.airmeet.com/e/9ff8f040-ab83-11ec-8821-f973751c98c5">HoneyWell Webinars</a>
+                  </span>
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     10:00 - 13:00
                   </span>
                 </li>
-                <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    Hero Webinars
+                <li className="flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars</a>
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    14:30 - 15:30
-                  </span>
-                </li>
-                <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    HoverRobotix Talk
-                  </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    16:00 - 16:30
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    13:30 - 14:30
                   </span>
                 </li>
-                <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    MentorX talk
+                <li className=" flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                  <a href="https://www.airmeet.com/e/3beed070-ab9b-11ec-9b5b-ab1357253e4c">HoverRobotix Talk</a>
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                    15:30 - 16:00
+                  </span>
+                </li>
+                <li className="flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                  <a href="https://www.airmeet.com/e/5f2f5c70-ab9c-11ec-8821-f973751c98c5">MentorX talk</a>
+                  </span>
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     16:30 - 17:00
                   </span>
                 </li>
-                <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    Stand Up
+                <li className=" flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                  <a href="https://www.airmeet.com/e/42dc5890-aa82-11ec-bb37-4b6c220f21a8">Stand Up</a>
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     17:00 - 18:00
                   </span>
                 </li>
-                <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
-                    Breakfree
+                <li className=" flex justify-between m-2">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
+                  <a href="https://www.airmeet.com/e/d6da8890-aa7e-11ec-a68e-f74d24b2e40b">Breakfree</a>
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     18:00 - 19:00
                   </span>
                 </li>
@@ -308,34 +340,34 @@ function Schedule({ setsched }) {
             {num === 1 && (
               <ul className="text-black list-none">
                 <li className="text-black flex justify-between m-3">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Paper Presentation
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     9:00 - 12:00
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-3">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Nrityanjali
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     12:30 - 14:30
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-3">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     FilmFare Fiesta
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     15:00 - 16:00
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-3">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Glitz and Glamour
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     16:30 - 19:00
                   </span>
                 </li>
@@ -344,50 +376,50 @@ function Schedule({ setsched }) {
             {num === 2 && (
               <ul className="text-black list-none">
                 <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Shark Tank
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     9:00 - 11:00
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Campus Idol
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     11:30 - 12:30
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Xcubelabs Webinar
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     13:00 - 14:00
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Mr & Ms Elan
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     14:30 - 15:30
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     ArtAttack & DoodleArt
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     16:00 - 17:00
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-2">
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     Beat Trippers
                   </span>
-                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.9rem]">
+                  <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     17:00 - 18:00
                   </span>
                 </li>
