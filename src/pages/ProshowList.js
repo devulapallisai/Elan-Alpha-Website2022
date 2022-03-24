@@ -7,7 +7,7 @@ import Mandala from "../images/proshows/Mandala.png";
 
 import { gsap } from "gsap";
 import { rotate } from "tailwindcss/defaultTheme";
-function ProshowList() {
+function ProshowList({ desc, img, name }) {
   const [num, setnum] = useState(0);
   function FirstCLick() {
     console.log(num);
@@ -57,7 +57,9 @@ function ProshowList() {
   return (
     <>
       <div className="hidden md:block ">
-        <div className=" fixed Proshow flex justify-center overflow:hidden items-center h-screen w-full bg-events m:0 z-2">
+        <div
+          className={`fixed Proshow flex justify-center overflow:hidden items-center h-screen w-full bg-${name} m:0 z-2`}
+        >
           <div className="Mand absolute w-[100vh] overflow:hidden  -left-[25vw] -z-1">
             <img
               src={Mandala}
@@ -71,18 +73,14 @@ function ProshowList() {
             />
           </div>
 
-          <Card
-            image={Zakir}
-            description="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image.  "
-          />
+          <Card image={img} description={desc} />
         </div>
       </div>
       {/* // Mobile view */}
-      <div className=" md:hidden fixed Proshow flex justify-center overflow:hidden items-center h-screen bg-events">
-        <MCard
-          image={Zakir}
-          description="loremipsumdtatribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image. You don’t need to use the words `image`, `photo,` or `picture` (or any specifieribute. Screen-readers already announce `img` tags as an image.  "
-        />
+      <div
+        className={`md:hidden fixed Proshow flex justify-center overflow:hidden items-center h-screen bg-${name}`}
+      >
+        <MCard image={img} description={desc} />
       </div>
     </>
   );

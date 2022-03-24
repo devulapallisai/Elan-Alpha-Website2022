@@ -24,6 +24,7 @@ import Infocard from "./components/common/Infocard";
 import Merch from "./pages/Merch";
 import Cryptex from "./pages/Cryptex";
 import ReactGA from "react-ga";
+import Elan from "./images/events/elan_logo_w.jpeg";
 import Enigma from "./pages/Enigma";
 // import Third from "./components/Homepage/ThirdSlide";
 library.add(fab, faCheckSquare, faCoffee);
@@ -52,7 +53,18 @@ function App() {
           element={<Competitions block={block} setblock={setblock} />}
         />
         <Route path="/events" element={<Events />} />
-        <Route path="/proshowlist" element={<ProshowList />} />
+        <Route
+          path="/proshowlist/0"
+          element={<ProshowList name="events" desc="lorem100" img={Elan} />}
+        />
+        <Route
+          path="/proshowlist/1"
+          element={<ProshowList name="proshows" desc="lorem100" img={Elan} />}
+        />
+        <Route
+          path="/proshowlist/2"
+          element={<ProshowList name="team" desc="lorem100" img={Elan} />}
+        />
         <Route path="/cryptex" element={<Cryptex />} />
         <Route path="/proshows" element={<Proshows />} />
         <Route path="/infi" element={<Infi />} />
