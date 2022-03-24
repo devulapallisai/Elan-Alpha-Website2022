@@ -22,15 +22,6 @@ import Remark from "../../images/sponsors/2022/Remark.png";
 import SBI from "../../images/sponsors/2022/sbi.png";
 import Canera from "../../images/sponsors/canera bank - Copy.png";
 const Sponsors2022 = [
-  // {
-  //   Name: "Honeywell",
-  //   Role: "Sustainable future partner",
-  //   Description:
-  //     "Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.",
-  //   Website: "https://www.honeywell.com/in/en",
-  //   Instagram: "https://www.instagram.com/honeywell/",
-  //   Image: Honeywell,
-  // },
   {
     Name: "Coca Cola",
     Description:
@@ -188,22 +179,6 @@ const Sponsors2022 = [
     Instagram: "https://www.instagram.com/dlinkindia/",
     Image: DLink,
   },
-  // {
-  //   Name: "ICICI Bank",
-  //   Description:
-  //     "ICICI Bank is a leading private sector bank in India. The Bank’s consolidated total assets stood at Rs. 14.76 trillion at September 30, 2020.  ICICI Bank currently has a network of 5,288 branches and 13,723 ATMs across India.",
-  //   Website: "https://www.icicibank.com/",
-  //   Instagram: "https://www.instagram.com/icicibank/?hl=en",
-  //   Image: ICICI,
-  // },
-
-  // {
-  //   Name: "Hero",
-  //   Role: "Title Sponsor",
-  //   Description:
-  //     "Hero MotoCorp believes in Vision, Quality, Excellence & Recognition. Hero MotoCorp is India's leading two wheeler company, which has been providing customers with an excellent range of two wheelers that ensure both style and comfort",
-  //   Website: "https://www.heromotocorp.com/en-in/",
-  // },
   {
     Name: "Qwerty Thoughts",
     Role: "Literary Partner",
@@ -217,7 +192,7 @@ const Sponsors2022 = [
       "HoverRobotix Mobility devices are the futuristic solution to the environmental pollution problem with its Hoverboards. No matter which corner of India you belong to, we try to deliver your dream wheels at the earliest.",
     Website: "https://hoverrobotix.com/",
     Image: HoverRobotix,
-    Role: "",
+    Role: "Beauty Partner",
   },
 
   {
@@ -226,7 +201,7 @@ const Sponsors2022 = [
       "MentorX is a platform formulated by world-class visionaries who have a common vision to educate, empower, and elevate as many people as possible. MENTORx team is working with a clear objective to make people rise by providing them with essential guidance and by connecting at the grass-root level with everyone.",
     Website: "https://thementorx.com/",
     Image: MentorX,
-    Role: "",
+    Role: "Robotix Partner",
   },
   // {
   //   Name: "Nisarg IT Solutions",
@@ -237,19 +212,23 @@ const Sponsors2022 = [
   //   Image: Nisarga,
   // },
   {
-    Name: "Youth Incorporated",
+    Name: "Unblended",
     Image: Unblended,
-    // Role: "",
+    Role: "Mentor partner",
+    Website:"https://unblended.in/",
+    Instagram:"https://www.instagram.com/unblended_story/",
+    Facebook:"https://www.facebook.com/unblended.in/",
+    Description:"Unblended is an all women startup committed to providing customers with a wide range of products that are organic, pure and unaltered. Making luxury accessible to many.  They develop most premium and luxury products in a way that is personalised and bespoke.",
   },
   {
     Name: "NoticeBard",
     Image: Noticebard,
-    // Role: "",
+    Role: "Media Partner",
   },
   {
     Name: "Youth Incorporated",
     Image: Youth,
-    // Role: "",
+    Role: "Youth Media Partner",
   },
 ];
 
