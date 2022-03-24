@@ -56,7 +56,7 @@ const Sponsors2022 = [
      "KLA Corporation is a capital equipment company based in California. They develop industry-leading equipment and services that enable innovation throughout the electronics industry.",
      Website: "https://www.kla.com/",
     Instagram:"https://www.instagram.com/explore/locations/4705697/united-states/milpitas-california/kla-corporation/",
-    Facebook: 'https://www.facebook.com/KLAcorp/",
+    Facebook: "https://www.facebook.com/KLAcorp/",
     Linkedin:
      "https://www.linkedin.com/company/klacorp/",
     Image: KLA,
