@@ -52,11 +52,13 @@ const Sponsors2022 = [
   },
   {
     Name: "KLA",
-    // Description:
-    //   "[x]cube LABS helps enterprises globally with digital transformation and digital technology adoption. We take a highly collaborative approach and help solve problems across the entire digital transformation journey from ideation and strategizing to experimentation and execution",
-    // Website: "https://www.xcubelabs.com/",
-    // Linkedin:
-    //   "https://www.linkedin.com/company/xcubelabs/?originalSubdomain=in",
+    Description:
+     "KLA Corporation is a capital equipment company based in California. They develop industry-leading equipment and services that enable innovation throughout the electronics industry.",
+     Website: "https://www.kla.com/",
+    Instagram:"https://www.instagram.com/explore/locations/4705697/united-states/milpitas-california/kla-corporation/",
+    Facebook: 'https://www.facebook.com/KLAcorp/",
+    Linkedin:
+     "https://www.linkedin.com/company/klacorp/",
     Image: KLA,
     Role: "Platinum Sponsor",
   },
@@ -147,10 +149,10 @@ const Sponsors2022 = [
   {
     Name: "Techvanto",
     Role: "Silver sponsor",
-    // Description:
-    //   "Honeywell International Inc. is a technology and manufacturing company. The Company operates through four segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions.",
-    // Website: "https://www.honeywell.com/in/en",
-    // Instagram: "https://www.instagram.com/honeywell/",
+    Description:
+      "Techvanto is a leading software development company that enables disruptive startups to bridge the gap between ideas and reality with innovative software solutions. Techvanto's main goal is to create and promote breakthrough information technologies for multi-user applications.",
+     Website: "https://techvanto.com/",
+     Instagram: "https://www.instagram.com/techvanto_official/",
     Image: Techvanto,
   },
   {
@@ -159,6 +161,10 @@ const Sponsors2022 = [
     Description:
       "Think, Learn, Certify and Innovate with Remark Skill. Give your ideas a kick start by learning trending technologies. The booming internet is changing market requirements. Prepare yourself and stand out in this crowd. Your vision is Remark Skill’s vision",
     Website: "https://remarkskill.com/",
+    Twitter:"https://twitter.com/techvanto",
+    
+    Facebook:"https://www.facebook.com/techvanto.official",
+    Linkedin :"https://www.linkedin.com/company/techvanto",
     Instagram: "https://www.instagram.com/remarkskill/",
     Image: Remark,
   },
