@@ -2,18 +2,22 @@ import NTPC from "../../images/sponsors/2022/NTPCLogo.png";
 import Blend360 from "../../images/sponsors/2022/Blend360.svg";
 import Sales from "../../images/sponsors/2022/Sales.svg";
 import Coding from "../../images/sponsors/2022/Coding.svg";
-import Techvanto from "../../images/sponsors/2022/Techvanto.jpeg";
+import Techvanto from "../../images/sponsors/2022/Techvanto.png";
 import KLA from "../../images/sponsors/2022/KLA.png";
 import Coco from "../../images/sponsors/2022/Coco.jpeg";
 import Youth from "../../images/sponsors/2022/youth.png";
 import Unblended from "../../images/sponsors/2022/Unblended.png";
 import MentorX from "../../images/sponsors/2022/MentorX.png";
 import LIC from "../../images/sponsors/2022/LIC.png";
+import Fash from "../../images/sponsors/2022/fash.png";
+import Blur from "../../images/sponsors/2022/Blur.webp";
 import HoverRobotix from "../../images/sponsors/2022/HoverRobotix.png";
 import Xcube from "../../images/sponsors/2022/Xcube.png";
 import DLink from "../../images/sponsors/2022/DLink.png";
 import Noticebard from "../../images/sponsors/2022/NoticeBard.png";
 import Vijaya from "../../images/sponsors/2022/Vijaya.png";
+import Ease from "../../images/sponsors/2022/Ease.png";
+import LogoNT from "../../images/sponsors/2022/logoNT.png";
 // import ICICI from "../../images/sponsors/2022/ICICI.png";
 import IODL from "../../images/sponsors/2022/IODL.jpg";
 import Wing from "../../images/sponsors/2022/wing.jpg";
@@ -45,12 +49,12 @@ const Sponsors2022 = [
   {
     Name: "KLA",
     Description:
-     "KLA Corporation is a capital equipment company based in California. They develop industry-leading equipment and services that enable innovation throughout the electronics industry.",
-     Website: "https://www.kla.com/",
-    Instagram:"https://www.instagram.com/explore/locations/4705697/united-states/milpitas-california/kla-corporation/",
+      "KLA Corporation is a capital equipment company based in California. They develop industry-leading equipment and services that enable innovation throughout the electronics industry.",
+    Website: "https://www.kla.com/",
+    Instagram:
+      "https://www.instagram.com/explore/locations/4705697/united-states/milpitas-california/kla-corporation/",
     Facebook: "https://www.facebook.com/KLAcorp/",
-    Linkedin:
-     "https://www.linkedin.com/company/klacorp/",
+    Linkedin: "https://www.linkedin.com/company/klacorp/",
     Image: KLA,
     Role: "Platinum Sponsor",
   },
@@ -101,6 +105,19 @@ const Sponsors2022 = [
     Image: Blend360,
   },
   {
+    Name: "Nuetech Solar",
+    Role: "Gold Sponsor",
+    Description:
+      "Nuetech Solar Systems Pvt. Ltd commands a rich experience in the Renewable Energy Industry having its origin in the very nascent days of Solar Thermal Business in India.",
+    Website: "http://nuetechsolar.com/",
+    Instagram: "https://www.instagram.com/nuetechsolarindia/",
+    Facebook: "https://www.facebook.com/NuetechSolarIndia",
+    Twitter: "https://twitter.com/NuetechS",
+    Linkedin:
+      "https://www.linkedin.com/company/nuetech-solar-systems-privite-limited",
+    Image: LogoNT,
+  },
+  {
     Name: "IOCL",
     Role: "Gold Sponsor",
     Description:
@@ -143,12 +160,12 @@ const Sponsors2022 = [
     Role: "Workshop partner",
     Description:
       "Techvanto is a leading software development company that enables disruptive startups to bridge the gap between ideas and reality with innovative software solutions. Techvanto's main goal is to create and promote breakthrough information technologies for multi-user applications.",
-     Website: "https://techvanto.com/",
-     Instagram: "https://www.instagram.com/techvanto_official/",
-    Twitter:"https://twitter.com/techvanto",
-    
-    Facebook:"https://www.facebook.com/techvanto.official",
-    Linkedin :"https://www.linkedin.com/company/techvanto",
+    Website: "https://techvanto.com/",
+    Instagram: "https://www.instagram.com/techvanto_official/",
+    Twitter: "https://twitter.com/techvanto",
+
+    Facebook: "https://www.facebook.com/techvanto.official",
+    Linkedin: "https://www.linkedin.com/company/techvanto",
     Image: Techvanto,
   },
   {
@@ -157,7 +174,7 @@ const Sponsors2022 = [
     Description:
       "Think, Learn, Certify and Innovate with Remark Skill. Give your ideas a kick start by learning trending technologies. The booming internet is changing market requirements. Prepare yourself and stand out in this crowd. Your vision is Remark Skill’s vision",
     Website: "https://remarkskill.com/",
-    
+
     Instagram: "https://www.instagram.com/remarkskill/",
     Image: Remark,
   },
@@ -204,37 +221,66 @@ const Sponsors2022 = [
     Image: MentorX,
     Role: "Robotix Partner",
   },
-  // {
-  //   Name: "Nisarg IT Solutions",
-  //   Role: "Co-Title Sponsor",
-  //   Description:
-  //     "Nisarga Information Technology Solutions Pvt. Ltd, from 2012 are famous amongst the esteemed trader of quality assortment of Fujitsu Scanners. Offered products are Plustek and Fujitsu Scanners, Software Development and Implementation Services. These are known for their high strength, fine functioning, perfect execution service.",
-  //   Website: "https://www.nisargaitsolutions.com/",
-  //   Image: Nisarga,
-  // },
   {
     Name: "Unblended",
     Image: Unblended,
     Role: "Mentor partner",
-    Website:"https://unblended.in/",
-    Instagram:"https://www.instagram.com/unblended_story/",
-    Facebook:"https://www.facebook.com/unblended.in/",
-    Description:"Unblended is an all women startup committed to providing customers with a wide range of products that are organic, pure and unaltered. Making luxury accessible to many.  They develop most premium and luxury products in a way that is personalised and bespoke.",
+    Website: "https://unblended.in/",
+    Instagram: "https://www.instagram.com/unblended_story/",
+    Facebook: "https://www.facebook.com/unblended.in/",
+    Description:
+      "Unblended is an all women startup committed to providing customers with a wide range of products that are organic, pure and unaltered. Making luxury accessible to many.  They develop most premium and luxury products in a way that is personalised and bespoke.",
   },
   {
     Name: "NoticeBard",
     Image: Noticebard,
     Role: "Media Partner",
+    Description:
+      "NoticeBard was started in March 2017 as a notice-board for educational opportunities and events.NoticeBard is also, well, a bard (story-teller!) of student-related news and issues.",
+    Website: "https://www.noticebard.com/",
+    Linkedin: "https://in.linkedin.com/company/noticebard/",
   },
   {
     Name: "Youth Incorporated",
     Image: Youth,
     Role: "Youth Media Partner",
+    Description:
+      "The magazine showcases relevant information and articles on education in India and abroad. With campus reviews, student profiles, professor interviews and a strong focus on careers and entrepreneurship, the magazine aims to empower the youth in today’s competitive world. ",
+  },
+  {
+    Name: "Blur India",
+    Image: Blur,
+    Role: "Beauty Partner",
+    Website: "https://blurindia.com/",
+    Instagram: "https://www.instagram.com/blurindia/?hl=en",
+    Description:
+      "Blur India makes gorgeous products with a hint of sass. The Formulas, the textures, the packaging- it's all done using inputs from our customers! Team Blur wants to create a beauty community like no other :) ",
+  },
+  {
+    Name: "Fashion Herald",
+    Image: Fash,
+    Role: "Media Partner",
+    Instagram: "https://www.instagram.com/fashion.herald/",
+    Description:
+      "FASHION HERALD is a renowned fashion magazine of Lucknow focusing on changing trends in every sphere from fashion, arts, lifestyle, food,entertainment to business and economics. They have a circulation of 128000 copies in Lucknow,Delhi, Mumbai. The magazine has readership in the elite gentry.",
   },
   {
     Name: "Indinoir",
     Image: Indinoir,
     Role: "Fragrance Partner",
+    Description:
+      "Indinoir makes perfumes that will make you and those around you feel good. Perfumes you can build memories with. Whether you are at work, meeting friends or just by yourself we have something for you. ",
+    Website: "https://indinoir.com/",
+    Instagram: "https://www.instagram.com/indinoir.store/?hl=en",
+  },
+  {
+    Name: "Easemytrip",
+    Image: Ease,
+    Role: "Booking Partner",
+    Description:
+      "EaseMyTrip is an Indian online travel company, founded in 2008 by Nishant Pitti, Rikant Pitti, and Prashant Pitti. Headquartered in New Delhi, the company provides hotel bookings, air tickets, holiday packages, bus bookings, and white-label services.",
+    Website: "https://www.easemytrip.com/",
+    Instagram: "https://www.instagram.com/easemytrip/?hl=en",
   },
 ];
 
