@@ -82,7 +82,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars</a>
+                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     13:30 - 14:30
