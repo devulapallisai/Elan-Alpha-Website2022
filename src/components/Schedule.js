@@ -58,7 +58,9 @@ function Schedule({ setsched }) {
               <ul className="text-black list-none">
                 <li className="font-[400] flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/cb8bbb70-ab92-11ec-996e-dbbf4375de2a">Inaguration</a>
+                    <a href="https://www.airmeet.com/e/cb8bbb70-ab92-11ec-996e-dbbf4375de2a">
+                      Inaguration
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     8:30 - 9:30
@@ -66,7 +68,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="font-[400] flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/4b3e5ef0-aa7f-11ec-bb37-4b6c220f21a8">PicElectric</a>
+                    <a href="https://www.airmeet.com/e/4b3e5ef0-aa7f-11ec-bb37-4b6c220f21a8">
+                      PicElectric
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     9:30 - 10:00
@@ -74,7 +78,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="font-[400] flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/9ff8f040-ab83-11ec-8821-f973751c98c5">HoneyWell Webinars</a>
+                    <a href="https://www.airmeet.com/e/9ff8f040-ab83-11ec-8821-f973751c98c5">
+                      HoneyWell Webinars
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     10:00 - 13:00
@@ -82,7 +88,13 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars</a>
+=======
+                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">
+                      Blend360 Webinars{" "}
+                    </a>
+>>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     13:30 - 14:30
@@ -90,7 +102,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/3beed070-ab9b-11ec-9b5b-ab1357253e4c">HoverRobotix Talk</a>
+                    <a href="https://www.airmeet.com/e/3beed070-ab9b-11ec-9b5b-ab1357253e4c">
+                      HoverRobotix Talk
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     15:30 - 16:00
@@ -98,7 +112,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/5f2f5c70-ab9c-11ec-8821-f973751c98c5">MentorX talk</a>
+                    <a href="https://www.airmeet.com/e/5f2f5c70-ab9c-11ec-8821-f973751c98c5">
+                      MentorX talk
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     16:30 - 17:00
@@ -106,7 +122,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/42dc5890-aa82-11ec-bb37-4b6c220f21a8">Stand Up</a>
+                    <a href="https://www.airmeet.com/e/42dc5890-aa82-11ec-bb37-4b6c220f21a8">
+                      Stand Up
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     17:00 - 18:00
@@ -114,7 +132,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    <a href="https://www.airmeet.com/e/d6da8890-aa7e-11ec-a68e-f74d24b2e40b">Breakfree</a>
+                    <a href="https://www.airmeet.com/e/d6da8890-aa7e-11ec-a68e-f74d24b2e40b">
+                      Breakfree
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     18:00 - 19:00
@@ -126,8 +146,14 @@ function Schedule({ setsched }) {
               <ul className="text-black list-none">
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/2603d9e0-aa8d-11ec-ba50-95b005c10293">
                     Paper Presentation</a>
+=======
+                    <a href="https://www.airmeet.com/e/2603d9e0-aa8d-11ec-ba50-95b005c10293 ">
+                      Paper Presentation
+                    </a>
+>>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     9:00 - 12:00
@@ -136,7 +162,12 @@ function Schedule({ setsched }) {
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     <a href="https://www.airmeet.com/e/2c8823c0-aa83-11ec-92d9-b91f60afb543">
+<<<<<<< HEAD
                     Nrityanjali</a>
+=======
+                      Nrityanjali
+                    </a>
+>>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     12:30 - 14:30
@@ -144,8 +175,14 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/4ec6eca0-aa83-11ec-8884-3f88290d8ad0">
                     FilmFare Fiesta</a>
+=======
+                    <a href="https://www.airmeet.com/e/4ec6eca0-aa83-11ec-8884-3f88290d8ad0 ">
+                      FilmFare Fiesta
+                    </a>
+>>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     15:00 - 16:00
@@ -154,7 +191,12 @@ function Schedule({ setsched }) {
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     <a href="https://www.airmeet.com/e/680ca6a0-aa83-11ec-a285-67ea79b67b95">
+<<<<<<< HEAD
                     Glitz and Glamour</a>
+=======
+                      Glitz and Glamour
+                    </a>
+>>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     16:30 - 19:00
@@ -232,16 +274,15 @@ function Schedule({ setsched }) {
             className={`w-fit cursor-pointer mx:4 rounded-xl p-2 pb-2 pt-0  bg-[#F2EFE1] ${styles.borderM} `}
           >
             <h3 className="text-black font-heading flex items-center justify-between text-center text-[1.2rem] m-2">
-
               <span className="text-[#431444] text-[1.4rem]">SCHEDULE</span>
               <div
-              className="inline cursor-pointer text-gray p-1 px-2 justify-end  bg-[#F2EFE1] rounded-t-lg"
-              onClick={() => setsched(false)}
-            >
-              <FontAwesomeIcon icon={faWindowClose}></FontAwesomeIcon>
-            </div>
+                className="inline cursor-pointer text-gray p-1 px-2 justify-end  bg-[#F2EFE1] rounded-t-lg"
+                onClick={() => setsched(false)}
+              >
+                <FontAwesomeIcon icon={faWindowClose}></FontAwesomeIcon>
+              </div>
             </h3>
-            
+
             <div className="grid grid-cols-3 m-3 w-fit cursor-pointer  gap-x-10 gap-y-2 font-heading items-start content-start ">
               <h4
                 className={
@@ -285,7 +326,9 @@ function Schedule({ setsched }) {
               <ul className="list-none">
                 <li className="font-[400] flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/cb8bbb70-ab92-11ec-996e-dbbf4375de2a">Inaguration</a>
+                    <a href="https://www.airmeet.com/e/cb8bbb70-ab92-11ec-996e-dbbf4375de2a">
+                      Inaguration
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     8:30 - 9:30
@@ -293,7 +336,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="font-[400] flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/4b3e5ef0-aa7f-11ec-bb37-4b6c220f21a8">PicElectric</a>
+                    <a href="https://www.airmeet.com/e/4b3e5ef0-aa7f-11ec-bb37-4b6c220f21a8">
+                      PicElectric
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     9:30 - 10:00
@@ -301,7 +346,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="font-[400] flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/9ff8f040-ab83-11ec-8821-f973751c98c5">HoneyWell Webinars</a>
+                    <a href="https://www.airmeet.com/e/9ff8f040-ab83-11ec-8821-f973751c98c5">
+                      HoneyWell Webinars
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     10:00 - 13:00
@@ -309,7 +356,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars</a>
+                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">
+                      Blend360 Webinars
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     13:30 - 14:30
@@ -317,7 +366,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/3beed070-ab9b-11ec-9b5b-ab1357253e4c">HoverRobotix Talk</a>
+                    <a href="https://www.airmeet.com/e/3beed070-ab9b-11ec-9b5b-ab1357253e4c">
+                      HoverRobotix Talk
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     15:30 - 16:00
@@ -325,7 +376,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/5f2f5c70-ab9c-11ec-8821-f973751c98c5">MentorX talk</a>
+                    <a href="https://www.airmeet.com/e/5f2f5c70-ab9c-11ec-8821-f973751c98c5">
+                      MentorX talk
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     16:30 - 17:00
@@ -333,7 +386,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/42dc5890-aa82-11ec-bb37-4b6c220f21a8">Stand Up</a>
+                    <a href="https://www.airmeet.com/e/42dc5890-aa82-11ec-bb37-4b6c220f21a8">
+                      Stand Up
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     17:00 - 18:00
@@ -341,7 +396,9 @@ function Schedule({ setsched }) {
                 </li>
                 <li className=" flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
-                    <a href="https://www.airmeet.com/e/d6da8890-aa7e-11ec-a68e-f74d24b2e40b">Breakfree</a>
+                    <a href="https://www.airmeet.com/e/d6da8890-aa7e-11ec-a68e-f74d24b2e40b">
+                      Breakfree
+                    </a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.75rem]">
                     18:00 - 19:00
