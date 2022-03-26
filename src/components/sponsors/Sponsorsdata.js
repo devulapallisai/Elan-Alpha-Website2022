@@ -210,7 +210,7 @@ const Sponsors2022 = [
       "HoverRobotix Mobility devices are the futuristic solution to the environmental pollution problem with its Hoverboards. No matter which corner of India you belong to, we try to deliver your dream wheels at the earliest.",
     Website: "https://hoverrobotix.com/",
     Image: HoverRobotix,
-    Role: "Beauty Partner",
+    Role: "Mentor partner",
   },
 
   {
@@ -224,7 +224,7 @@ const Sponsors2022 = [
   {
     Name: "Unblended",
     Image: Unblended,
-    Role: "Mentor partner",
+    Role: " Beauty Partner",
     Website: "https://unblended.in/",
     Instagram: "https://www.instagram.com/unblended_story/",
     Facebook: "https://www.facebook.com/unblended.in/",
