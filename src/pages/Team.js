@@ -492,7 +492,16 @@ function Team() {
                 contact1="7670934896"
               />
             </div>
+            <div className="grid md:grid-cols-1 mx-auto mt-12">
+                <Coordcard
+                  domainname="Finance"
+                  name1="Shashank Shanbhag"
+                  contact1="9008038827"
+                />
+            </div>
           </div>
+
+        {/* Mobile part  */}
           <div className="md:hidden overflow-hidden">
             <div className={` grid grid-cols-2 mx-auto`}>
               <div className={`flex align-center ${styles.cardcoord}`}>
@@ -716,12 +725,19 @@ function Team() {
                 />
               </div>
             </div>
-            <div className={` grid-cols-1 mx-auto flex align-center`}>
+            <div className={`grid grid-cols-2 mx-auto `}>
               <div className={`flex align-center ${styles.cardcoord}`}>
                 <Coordcard
                   domainname="Transport"
                   name1="Adithya Ram"
                   contact1="7670934896"
+                />
+              </div>
+              <div className={`flex align-center ${styles.cardcoord}`}>
+                <Coordcard
+                  domainname="Finance"
+                  name1="Shashank Shanbhag"
+                  contact1="9008038827"
                 />
               </div>
             </div>
