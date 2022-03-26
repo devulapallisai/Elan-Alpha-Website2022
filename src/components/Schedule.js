@@ -89,12 +89,16 @@ function Schedule({ setsched }) {
                 <li className="flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars</a>
 =======
                     <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">
                       Blend360 Webinars{" "}
                     </a>
 >>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
+=======
+                    <a href="https://www.airmeet.com/e/72bdd700-ab9a-11ec-a329-df7122a84c79">Blend360 Webinars </a>
+>>>>>>> parent of 1d77cf5 (links updated)
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     13:30 - 14:30
@@ -147,6 +151,7 @@ function Schedule({ setsched }) {
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/2603d9e0-aa8d-11ec-ba50-95b005c10293">
                     Paper Presentation</a>
 =======
@@ -154,6 +159,9 @@ function Schedule({ setsched }) {
                       Paper Presentation
                     </a>
 >>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
+=======
+                    Paper Presentation
+>>>>>>> parent of 1d77cf5 (links updated)
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     9:00 - 12:00
@@ -161,6 +169,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/2c8823c0-aa83-11ec-92d9-b91f60afb543">
 <<<<<<< HEAD
                     Nrityanjali</a>
@@ -168,6 +177,9 @@ function Schedule({ setsched }) {
                       Nrityanjali
                     </a>
 >>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
+=======
+                    Nrityanjali
+>>>>>>> parent of 1d77cf5 (links updated)
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     12:30 - 14:30
@@ -176,6 +188,7 @@ function Schedule({ setsched }) {
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/4ec6eca0-aa83-11ec-8884-3f88290d8ad0">
                     FilmFare Fiesta</a>
 =======
@@ -183,6 +196,9 @@ function Schedule({ setsched }) {
                       FilmFare Fiesta
                     </a>
 >>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
+=======
+                    FilmFare Fiesta
+>>>>>>> parent of 1d77cf5 (links updated)
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     15:00 - 16:00
@@ -190,6 +206,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
+<<<<<<< HEAD
                     <a href="https://www.airmeet.com/e/680ca6a0-aa83-11ec-a285-67ea79b67b95">
 <<<<<<< HEAD
                     Glitz and Glamour</a>
@@ -197,6 +214,9 @@ function Schedule({ setsched }) {
                       Glitz and Glamour
                     </a>
 >>>>>>> 7022a5c4123008c327818ad84990e83ac35ea72d
+=======
+                    Glitz and Glamour
+>>>>>>> parent of 1d77cf5 (links updated)
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     16:30 - 19:00
@@ -410,8 +430,7 @@ function Schedule({ setsched }) {
               <ul className="text-black list-none">
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                  <a href="https://www.airmeet.com/e/2603d9e0-aa8d-11ec-ba50-95b005c10293">
-                    Paper Presentation </a>
+                    Paper Presentation
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     9:00 - 12:00
@@ -419,8 +438,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                  <a href="https://www.airmeet.com/e/2c8823c0-aa83-11ec-92d9-b91f60afb543">
-                    Nrityanjali </a>
+                    Nrityanjali
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     12:30 - 14:30
@@ -428,8 +446,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                  <a href="https://www.airmeet.com/e/4ec6eca0-aa83-11ec-8884-3f88290d8ad0">
-                    FilmFare Fiesta </a>
+                    FilmFare Fiesta
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     15:00 - 16:00
@@ -437,8 +454,7 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-3">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                  <a href="https://www.airmeet.com/e/680ca6a0-aa83-11ec-a285-67ea79b67b95">
-                    Glitz and Glamour </a>
+                    Glitz and Glamour
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     16:30 - 19:00
