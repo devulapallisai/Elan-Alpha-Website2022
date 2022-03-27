@@ -209,7 +209,8 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Campus Idol
+                    <a href="https://www.airmeet.com/e/939d9ae0-aa83-11ec-aa54-85c81e78e273">
+                    Campus Idol</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     11:30 - 12:30
@@ -217,7 +218,8 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Xcubelabs Webinar
+                    <a href="https://www.airmeet.com/e/0dc6a8e0-ad43-11ec-b5e9-1b980e6f238f">
+                    Xcubelabs Webinar</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     13:00 - 14:00
@@ -225,15 +227,17 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Mr & Ms Elan
+                    <a href="https://www.airmeet.com/e/9d589dc0-ad42-11ec-996e-dbbf4375de2a">
+                    Mr & Ms Elan</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    14:30 - 15:30
+                    14:15 - 15:15
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Art Attack & Doodle Art
+                    <a href="https://www.airmeet.com/e/b62b9530-aa83-11ec-bb37-4b6c220f21a8">
+                    Art Attack & Doodle Art</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     16:00 - 17:00
@@ -241,7 +245,8 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
-                    Beat Trippers
+                    <a href="https://www.airmeet.com/e/327bcff0-aa85-11ec-aa54-85c81e78e273">
+                    Beat Trippers</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading">
                     17:00 - 18:00
@@ -453,7 +458,8 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                    Campus Idol
+                  <a href="https://www.airmeet.com/e/939d9ae0-aa83-11ec-aa54-85c81e78e273">
+                    Campus Idol</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     11:30 - 12:30
@@ -461,7 +467,8 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                    Xcubelabs Webinar
+                  <a href="https://www.airmeet.com/e/0dc6a8e0-ad43-11ec-b5e9-1b980e6f238f">
+                    Xcubelabs Webinar</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     13:00 - 14:00
@@ -469,15 +476,17 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                    Mr & Ms Elan
+                  <a href="https://www.airmeet.com/e/9d589dc0-ad42-11ec-996e-dbbf4375de2a">
+                    Mr & Ms Elan</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                    14:30 - 15:30
+                    14:15 - 15:15
                   </span>
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                    ArtAttack & DoodleArt
+                  <a href="https://www.airmeet.com/e/b62b9530-aa83-11ec-bb37-4b6c220f21a8">
+                    Art Attack & Doodle Art</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     16:00 - 17:00
@@ -485,7 +494,8 @@ function Schedule({ setsched }) {
                 </li>
                 <li className="text-black flex justify-between m-2">
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
-                    Beat Trippers
+                  <a href="https://www.airmeet.com/e/327bcff0-aa85-11ec-aa54-85c81e78e273">
+                    Beat Trippers</a>
                   </span>
                   <span className="text-[#3F4B3B] hover:text:[#7D1D3F]  font-heading text-[0.7rem]">
                     17:00 - 18:00
