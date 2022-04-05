@@ -19,7 +19,7 @@ import Vijaya from "../../images/sponsors/2022/Vijaya.png";
 import Ease from "../../images/sponsors/2022/Ease.png";
 import LogoNT from "../../images/sponsors/2022/logoNT.png";
 // import ICICI from "../../images/sponsors/2022/ICICI.png";
-import IODL from "../../images/sponsors/2022/IODL.jpg";
+import IODL from "../../images/sponsors/2022/servo-logo.jpg";
 import Wing from "../../images/sponsors/2022/wing.jpg";
 import Quert from "../../images/sponsors/2022/Quert.png";
 import Remark from "../../images/sponsors/2022/Remark.png";
