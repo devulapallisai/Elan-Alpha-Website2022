@@ -286,7 +286,7 @@ const Sponsors2022 = [
   {
     Name:"IITH Alumni ",
     Image: alumni,
-    // Role: "Booking Partner",
+    Role: "Major Sponsor",
     // Description:
     //   "EaseMyTrip is an Indian online travel company, founded in 2008 by Nishant Pitti, Rikant Pitti, and Prashant Pitti. Headquartered in New Delhi, the company provides hotel bookings, air tickets, holiday packages, bus bookings, and white-label services.",
     // Website: "https://www.easemytrip.com/",
