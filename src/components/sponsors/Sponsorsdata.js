@@ -284,7 +284,7 @@ const Sponsors2022 = [
     Instagram: "https://www.instagram.com/easemytrip/?hl=en",
   },
   {
-    Name:"IITH Alumni",
+    Name:"IITH Alumni ",
     Image: alumni,
     // Role: "Booking Partner",
     // Description:
