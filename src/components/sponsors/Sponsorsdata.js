@@ -26,6 +26,7 @@ import Remark from "../../images/sponsors/2022/Remark.png";
 import SBI from "../../images/sponsors/2022/sbi.png";
 import Canera from "../../images/sponsors/canera bank - Copy.png";
 import Indinoir from "../../images/sponsors/2022/Indinoir Logo (2).png";
+import alumni from "../../images/sponsors/2022/iith_alumni.png";
 const Sponsors2022 = [
   {
     Name: "Coca Cola",
@@ -281,6 +282,15 @@ const Sponsors2022 = [
       "EaseMyTrip is an Indian online travel company, founded in 2008 by Nishant Pitti, Rikant Pitti, and Prashant Pitti. Headquartered in New Delhi, the company provides hotel bookings, air tickets, holiday packages, bus bookings, and white-label services.",
     Website: "https://www.easemytrip.com/",
     Instagram: "https://www.instagram.com/easemytrip/?hl=en",
+  },
+  {
+    Name:"IITH Alumni",
+    Image: alumni,
+    // Role: "Booking Partner",
+    // Description:
+    //   "EaseMyTrip is an Indian online travel company, founded in 2008 by Nishant Pitti, Rikant Pitti, and Prashant Pitti. Headquartered in New Delhi, the company provides hotel bookings, air tickets, holiday packages, bus bookings, and white-label services.",
+    // Website: "https://www.easemytrip.com/",
+    // Instagram: "https://www.instagram.com/easemytrip/?hl=en",
   },
 ];
 
