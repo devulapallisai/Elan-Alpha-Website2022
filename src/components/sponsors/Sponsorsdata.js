@@ -289,18 +289,18 @@ const Sponsors2022 = [
     Image: alumni,
     Role: "Major Sponsor",
     // Description:
-    //   "EaseMyTrip is an Indian online travel company, founded in 2008 by Nishant Pitti, Rikant Pitti, and Prashant Pitti. Headquartered in New Delhi, the company provides hotel bookings, air tickets, holiday packages, bus bookings, and white-label services.",
-    // Website: "https://www.easemytrip.com/",
-    // Instagram: "https://www.instagram.com/easemytrip/?hl=en",
+   
+    // Website: 
+    // Instagram: 
   },
   {
     Name:"Cranberry Customs ",
     Image: cranberry,
     Role: "Merchandise Partner",
     // Description:
-    //   "EaseMyTrip is an Indian online travel company, founded in 2008 by Nishant Pitti, Rikant Pitti, and Prashant Pitti. Headquartered in New Delhi, the company provides hotel bookings, air tickets, holiday packages, bus bookings, and white-label services.",
+    
     Website: "https://cranberrycustoms.com/",
-    // Instagram: "https://www.instagram.com/easemytrip/?hl=en",
+    // Instagram:
   },
 ];
 
