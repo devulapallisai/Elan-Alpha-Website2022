@@ -28,6 +28,7 @@ import Canera from "../../images/sponsors/canera bank - Copy.png";
 import Indinoir from "../../images/sponsors/2022/Indinoir Logo (2).png";
 import alumni from "../../images/sponsors/2022/iith_alumni.png";
 import cranberry from "../../images/sponsors/2022/cran.png";
+import harbour from "../../images/sponsors/2022/harbour.png"
 const Sponsors2022 = [
   {
     Name: "Coca Cola",
@@ -300,6 +301,15 @@ const Sponsors2022 = [
     // Description:
     
     Website: "https://cranberrycustoms.com/",
+    // Instagram:
+  },
+  {
+    Name:" Harbour Technologies ",
+    Image: harbour,
+    Role: "Workshop Partner",
+    // Description:
+    
+    // Website: 
     // Instagram:
   },
 ];
